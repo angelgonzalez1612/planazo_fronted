@@ -1,0 +1,137 @@
+[
+  {
+    "kind": "evento",
+    "id": "ev-festival-sabor-capital-2026",
+    "slug": "festival-sabor-capital-2026",
+    "name": "Festival Sabor Capital 2026",
+    "category": "eventos",
+    "zone": "Parque Bicentenario",
+    "address": "Parque Bicentenario, Azcapotzalco, CDMX",
+    "dateLabel": "Sáb 8 y dom 9 de agosto · 12:00–22:00",
+    "startDate": "2026-08-08T12:00:00-06:00",
+    "priceLabel": "$450 MXN",
+    "price": 450,
+    "rating": 4.8,
+    "reviewCount": 1200,
+    "cover": { "seed": "planazo-festival-sabor-capital", "alt": "Festival gastronómico", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-festival-sabor-capital-hero", "alt": "Festival Sabor Capital 2026, vista general", "width": 900, "height": 506 },
+      { "seed": "planazo-festival-puestos-comida", "alt": "Puestos de comida", "width": 300, "height": 300 },
+      { "seed": "planazo-festival-escenario", "alt": "Escenario en vivo", "width": 300, "height": 300 },
+      { "seed": "planazo-festival-mesas", "alt": "Zona de mesas", "width": 300, "height": 300 },
+      { "seed": "planazo-festival-noche", "alt": "Ambiente nocturno", "width": 300, "height": 300 }
+    ],
+    "description": "Segunda edición del festival gastronómico más grande del poniente de la ciudad: más de 60 puestos de cocina mexicana y de autor, cerveza artesanal, y tres escenarios con música en vivo todo el fin de semana. Entrada general incluye acceso a la zona de food trucks; los talleres de cocina se pagan por separado en el lugar.",
+    "badge": "Destacado",
+    "tags": ["Grupos", "Música en vivo"]
+  },
+  {
+    "kind": "evento",
+    "id": "ev-cumbia-futura-en-vivo",
+    "slug": "cumbia-futura-en-vivo",
+    "name": "Cumbia Futura en vivo",
+    "category": "eventos",
+    "zone": "Foro Indie Rocks",
+    "address": "Álvaro Obregón 189, Roma Norte, CDMX",
+    "dateLabel": "Viernes · 21:00",
+    "startDate": "2026-07-31T21:00:00-06:00",
+    "weekend": { "day": "Viernes", "time": "21:00" },
+    "priceLabel": "$380 MXN",
+    "price": 380,
+    "rating": 4.7,
+    "reviewCount": 640,
+    "cover": { "seed": "planazo-cumbia-futura", "alt": "Concierto en vivo", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-finde-cumbia-dj", "alt": "Concierto de cumbia", "width": 500, "height": 650 }
+    ],
+    "description": "Sonidero contemporáneo con banda completa y pista abierta hasta las 3 am. Cumbia Futura + DJ Sonidera, viernes en Foro Indie Rocks.",
+    "tags": ["Con amigos", "Música en vivo"]
+  },
+  {
+    "kind": "evento",
+    "id": "ev-cicloton-nocturno",
+    "slug": "cicloton-nocturno",
+    "name": "Ciclotón nocturno",
+    "category": "eventos",
+    "zone": "Reforma",
+    "address": "Paseo de la Reforma, CDMX",
+    "dateLabel": "Sábado · 22:00",
+    "startDate": "2026-08-01T22:00:00-06:00",
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 4.8,
+    "reviewCount": 2100,
+    "cover": { "seed": "planazo-cicloton-nocturno", "alt": "Bici de noche", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-cicloton-nocturno-1", "alt": "Ciclistas en Reforma", "width": 300, "height": 300 }
+    ],
+    "description": "Reforma cerrada a coches para un rodada nocturna de 20 km, con acompañamiento de Policía y puestos de hidratación cada 3 km.",
+    "tags": ["Gratis", "Nocturno"]
+  },
+  {
+    "kind": "evento",
+    "id": "ev-mercado-productores-juarez",
+    "slug": "mercado-productores-juarez",
+    "name": "Mercado de productores en Colonia Juárez",
+    "category": "comer",
+    "zone": "Juárez",
+    "address": "Plaza Washington, Juárez, CDMX",
+    "dateLabel": "Sábado · 11:00",
+    "startDate": "2026-08-01T11:00:00-06:00",
+    "weekend": { "day": "Sábado", "time": "11:00" },
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 4.6,
+    "reviewCount": 190,
+    "cover": { "seed": "planazo-finde-mercado-juarez", "alt": "Mercado de productores", "width": 500, "height": 650 },
+    "gallery": [
+      { "seed": "planazo-finde-mercado-juarez", "alt": "Mercado de productores", "width": 500, "height": 650 }
+    ],
+    "description": "Cuarenta productores locales, café de olla y taller de fermentos. Entrada libre todo el sábado en Plaza Washington.",
+    "tags": ["Gratis", "Familiar"]
+  },
+  {
+    "kind": "evento",
+    "id": "ev-lucha-libre-cena-cerveza",
+    "slug": "lucha-libre-cena-cerveza",
+    "name": "Lucha libre con cena y cerveza",
+    "category": "eventos",
+    "zone": "Doctores",
+    "address": "Arena México, Doctores, CDMX",
+    "dateLabel": "Sábado · 18:30",
+    "startDate": "2026-08-01T18:30:00-06:00",
+    "weekend": { "day": "Sábado", "time": "18:30" },
+    "priceLabel": "$520 MXN",
+    "price": 520,
+    "rating": 4.6,
+    "reviewCount": 310,
+    "cover": { "seed": "planazo-finde-lucha-libre", "alt": "Lucha libre", "width": 500, "height": 650 },
+    "gallery": [
+      { "seed": "planazo-finde-lucha-libre", "alt": "Lucha libre", "width": 500, "height": 650 }
+    ],
+    "description": "Función completa en la Arena México con paquete de tacos y chelas incluido en el boleto.",
+    "tags": ["Con amigos", "Grupos"]
+  },
+  {
+    "kind": "evento",
+    "id": "ev-caminata-desierto-leones",
+    "slug": "caminata-desierto-de-los-leones",
+    "name": "Caminata y desayuno en el Desierto de los Leones",
+    "category": "aire-libre",
+    "zone": "Cuajimalpa",
+    "address": "Parque Nacional Desierto de los Leones, Cuajimalpa, CDMX",
+    "dateLabel": "Domingo · 09:00",
+    "startDate": "2026-08-02T09:00:00-06:00",
+    "weekend": { "day": "Domingo", "time": "09:00" },
+    "priceLabel": "$220 MXN",
+    "price": 220,
+    "rating": 4.7,
+    "reviewCount": 145,
+    "cover": { "seed": "planazo-finde-desierto-leones", "alt": "Caminata en el bosque", "width": 500, "height": 650 },
+    "gallery": [
+      { "seed": "planazo-finde-desierto-leones", "alt": "Caminata en el bosque", "width": 500, "height": 650 }
+    ],
+    "description": "Ruta fácil de 6 km, guía local y quesadillas al final. Punto de encuentro a las 9 am en punto.",
+    "tags": ["Familiar", "Experiencia"]
+  }
+]

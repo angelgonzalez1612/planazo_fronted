@@ -1,0 +1,9 @@
+[
+  { "id": "eventos", "label": "Eventos", "icon": "🎉" },
+  { "id": "comer", "label": "Comer", "icon": "🍔" },
+  { "id": "cafes", "label": "Cafés", "icon": "☕" },
+  { "id": "bares", "label": "Bares", "icon": "🍸" },
+  { "id": "cultura", "label": "Cultura", "icon": "🎭" },
+  { "id": "aire-libre", "label": "Aire libre", "icon": "🌳" },
+  { "id": "tecnologia", "label": "Tecnología", "icon": "💻" }
+]

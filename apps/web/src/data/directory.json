@@ -1,0 +1,9 @@
+[
+  { "label": "Restaurantes", "categoryId": "comer", "photoSeed": "planazo-dir-restaurantes", "count": 2340 },
+  { "label": "Cafés", "categoryId": "cafes", "photoSeed": "planazo-dir-cafes", "count": 860 },
+  { "label": "Museos", "categoryId": "cultura", "photoSeed": "planazo-dir-museos", "count": 178 },
+  { "label": "Bares", "categoryId": "bares", "photoSeed": "planazo-dir-bares", "count": 1120 },
+  { "label": "Terrazas", "categoryId": "bares", "photoSeed": "planazo-dir-terrazas", "count": 240 },
+  { "label": "Parques", "categoryId": "aire-libre", "photoSeed": "planazo-dir-parques", "count": 310 },
+  { "label": "Tecnología", "categoryId": "tecnologia", "photoSeed": "planazo-dir-tecnologia", "count": 145 }
+]

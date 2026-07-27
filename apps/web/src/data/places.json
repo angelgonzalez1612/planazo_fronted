@@ -1,0 +1,1282 @@
+[
+  {
+    "kind": "lugar",
+    "id": "pl-nudo-panaderia-cava",
+    "slug": "nudo-panaderia-cava",
+    "name": "Nudo Panadería & Cava",
+    "category": "comer",
+    "zone": "Roma Norte",
+    "address": "Colima 180, Roma Norte, CDMX",
+    "priceLabel": "$$ · $400 p/p",
+    "price": 400,
+    "rating": 4.9,
+    "reviewCount": 318,
+    "cover": {
+      "seed": "planazo-nudo-panaderia-cava",
+      "alt": "Nudo Panadería & Cava",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-nudo-panaderia-cava-1",
+        "alt": "Barra de la cava",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-nudo-panaderia-cava-2",
+        "alt": "Pan recién horneado",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-nudo-panaderia-cava-3",
+        "alt": "Terraza interior",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-nudo-panaderia-cava-4",
+        "alt": "Mesa servida",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Panadería de masa madre por el día, cava de vinos naturales por la noche. La misma barra sirve concha recién horneada a las 8 am y una copa de tinto a las 9 pm.",
+    "badge": "Destacado",
+    "tags": [
+      "Para trabajar",
+      "Romántico"
+    ],
+    "services": [
+      "Wifi",
+      "Terraza",
+      "Acepta reservaciones"
+    ],
+    "social": {
+      "instagram": "@nudopanaderia",
+      "whatsapp": "+52 55 1234 5678"
+    },
+    "coordinates": {
+      "lat": 19.418,
+      "lng": -99.161
+    },
+    "openingHours": [
+      {
+        "day": "Lunes a viernes",
+        "opens": "08:00",
+        "closes": "22:00"
+      },
+      {
+        "day": "Sábado y domingo",
+        "opens": "09:00",
+        "closes": "22:00"
+      }
+    ],
+    "promotions": [
+      {
+        "title": "2x1 en copa de vino",
+        "description": "Los martes de 6 a 9 pm, presentando esta ficha."
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-taller-mezcal-maiz",
+    "slug": "taller-de-mezcal-y-maiz",
+    "name": "Taller de mezcal y maíz",
+    "category": "cultura",
+    "zone": "Coyoacán",
+    "address": "Francisco Sosa 10, Coyoacán, CDMX",
+    "priceLabel": "$620 MXN",
+    "price": 620,
+    "rating": 4.9,
+    "reviewCount": 204,
+    "cover": {
+      "seed": "planazo-taller-mezcal-maiz",
+      "alt": "Taller de mezcal y maíz",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-taller-mezcal-maiz-1",
+        "alt": "Cata de mezcal",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-taller-mezcal-maiz-2",
+        "alt": "Nixtamalización",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-taller-mezcal-maiz-3",
+        "alt": "Tortillas a mano",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-taller-mezcal-maiz-4",
+        "alt": "Patio del taller",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Dos horas de cata guiada y nixtamalización a mano en un patio de Coyoacán. Sales con tres mezcales identificados y tus propias tortillas.",
+    "tags": [
+      "Experiencia",
+      "Grupos pequeños"
+    ],
+    "services": [
+      "Reservación previa",
+      "Incluye degustación"
+    ],
+    "social": {
+      "instagram": "@tallermezcalmaiz"
+    },
+    "coordinates": {
+      "lat": 19.3467,
+      "lng": -99.1618
+    },
+    "openingHours": [
+      {
+        "day": "Lunes a miércoles",
+        "opens": "",
+        "closes": "",
+        "closed": true
+      },
+      {
+        "day": "Jueves a domingo",
+        "opens": "11:00",
+        "closes": "19:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-cafe-tostado-lento",
+    "slug": "cafe-tostado-lento",
+    "name": "Café Tostado Lento",
+    "category": "cafes",
+    "zone": "Juárez",
+    "address": "Havre 15, Juárez, CDMX",
+    "priceLabel": "$ · $120 p/p",
+    "price": 120,
+    "rating": 4.6,
+    "reviewCount": 512,
+    "cover": {
+      "seed": "planazo-cafe-tostado-lento",
+      "alt": "Café Tostado Lento",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-cafe-tostado-lento-1",
+        "alt": "Barra de café",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-cafe-tostado-lento-2",
+        "alt": "Tostador visible",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-cafe-tostado-lento-3",
+        "alt": "Mesas junto a la ventana",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-cafe-tostado-lento-4",
+        "alt": "Latte art",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Tueste propio en lotes chicos, método de goteo a la vista y el tostador como protagonista de la barra. Buen wifi, mejor no abusar.",
+    "tags": [
+      "Para trabajar",
+      "Pet friendly"
+    ],
+    "services": [
+      "Wifi",
+      "Enchufes en todas las mesas",
+      "Acepta mascotas"
+    ],
+    "social": {
+      "instagram": "@tostadolento",
+      "whatsapp": "+52 55 2345 6789"
+    },
+    "coordinates": {
+      "lat": 19.427,
+      "lng": -99.165
+    },
+    "openingHours": [
+      {
+        "day": "Todos los días",
+        "opens": "07:00",
+        "closes": "21:00"
+      }
+    ],
+    "promotions": [
+      {
+        "title": "Segundo café al 50%",
+        "description": "De lunes a viernes, después de las 4 pm."
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-terraza-mirador-24",
+    "slug": "terraza-mirador-24",
+    "name": "Terraza Mirador 24",
+    "category": "bares",
+    "zone": "Centro Histórico",
+    "address": "Piso 24, Eje Central 24, Centro Histórico, CDMX",
+    "priceLabel": "$$ · $350 p/p",
+    "price": 350,
+    "rating": 4.5,
+    "reviewCount": 890,
+    "cover": {
+      "seed": "planazo-terraza-mirador-24",
+      "alt": "Terraza Mirador 24",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-terraza-mirador-24-1",
+        "alt": "Vista al Centro Histórico",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-terraza-mirador-24-2",
+        "alt": "Barra de cocteles",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-terraza-mirador-24-3",
+        "alt": "Atardecer desde la terraza",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-terraza-mirador-24-4",
+        "alt": "Mesas al aire libre",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Rooftop en el piso 24 con la mejor vista al Centro Histórico. Cocteles de autor y DJ desde las 8 pm, jueves a sábado.",
+    "tags": [
+      "Romántico",
+      "Vista panorámica"
+    ],
+    "services": [
+      "Reservaciones",
+      "Música en vivo"
+    ],
+    "social": {
+      "instagram": "@mirador24"
+    },
+    "coordinates": {
+      "lat": 19.4326,
+      "lng": -99.1332
+    },
+    "openingHours": [
+      {
+        "day": "Lunes a miércoles",
+        "opens": "",
+        "closes": "",
+        "closed": true
+      },
+      {
+        "day": "Jueves a sábado",
+        "opens": "18:00",
+        "closes": "02:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-museo-tamayo-nueva-sala",
+    "slug": "museo-tamayo-nueva-sala",
+    "name": "Museo Tamayo: nueva sala",
+    "category": "cultura",
+    "zone": "Bosque de Chapultepec",
+    "address": "Paseo de la Reforma 51, Bosque de Chapultepec, CDMX",
+    "priceLabel": "$95 MXN",
+    "price": 95,
+    "rating": 4.7,
+    "reviewCount": 1500,
+    "cover": {
+      "seed": "planazo-museo-tamayo",
+      "alt": "Museo Tamayo",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-museo-tamayo-1",
+        "alt": "Nueva sala de exhibición",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-museo-tamayo-2",
+        "alt": "Fachada del museo",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-museo-tamayo-3",
+        "alt": "Obra en exhibición",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-museo-tamayo-4",
+        "alt": "Jardín escultórico",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Nueva sala permanente de arte contemporáneo mexicano dentro del Bosque de Chapultepec. Entrada libre los domingos para residentes.",
+    "tags": [
+      "Familiar",
+      "Cultural"
+    ],
+    "services": [
+      "Accesible en silla de ruedas",
+      "Tienda de regalos"
+    ],
+    "social": {
+      "instagram": "@museotamayo"
+    },
+    "coordinates": {
+      "lat": 19.4204,
+      "lng": -99.1858
+    },
+    "openingHours": [
+      {
+        "day": "Lunes",
+        "opens": "",
+        "closes": "",
+        "closed": true
+      },
+      {
+        "day": "Martes a domingo",
+        "opens": "10:00",
+        "closes": "18:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-cine-de-autor-cineteca",
+    "slug": "cine-de-autor-cineteca",
+    "name": "Cine de autor en Cineteca",
+    "category": "cultura",
+    "zone": "Xoco",
+    "address": "Av. México Coyoacán 389, Xoco, CDMX",
+    "priceLabel": "$85 MXN",
+    "price": 85,
+    "rating": 4.7,
+    "reviewCount": 340,
+    "cover": {
+      "seed": "planazo-cine-de-autor-cineteca",
+      "alt": "Cine de autor en Cineteca",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-cine-de-autor-cineteca-1",
+        "alt": "Sala de proyección",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-cine-de-autor-cineteca-2",
+        "alt": "Explanada de la Cineteca",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Cartelera de cine independiente y clásicos restaurados, con funciones casi todas las noches. Ideal para una cita tranquila entre semana.",
+    "tags": [
+      "Romántico",
+      "Para una cita"
+    ],
+    "services": [
+      "Cafetería",
+      "Estacionamiento"
+    ],
+    "social": {
+      "instagram": "@cinetecamexico"
+    },
+    "coordinates": {
+      "lat": 19.3583,
+      "lng": -99.1611
+    },
+    "openingHours": [
+      {
+        "day": "Todos los días",
+        "opens": "12:00",
+        "closes": "23:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-papalote-museo-del-nino",
+    "slug": "papalote-museo-del-nino",
+    "name": "Papalote Museo del Niño",
+    "category": "cultura",
+    "zone": "Chapultepec",
+    "address": "Av. Constituyentes 268, Chapultepec, CDMX",
+    "priceLabel": "$260 MXN",
+    "price": 260,
+    "rating": 4.6,
+    "reviewCount": 910,
+    "cover": {
+      "seed": "planazo-papalote-museo-del-nino",
+      "alt": "Papalote Museo del Niño",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-papalote-museo-del-nino-1",
+        "alt": "Salas interactivas",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-papalote-museo-del-nino-2",
+        "alt": "Domo IMAX",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Museo interactivo pensado para niños de 2 a 12 años, con domo IMAX incluido en la entrada. Reserva horario en temporada alta.",
+    "tags": [
+      "Familiar",
+      "Con niños"
+    ],
+    "services": [
+      "Domo IMAX",
+      "Área de cafetería"
+    ],
+    "social": {
+      "instagram": "@papalotemuseo"
+    },
+    "coordinates": {
+      "lat": 19.4177,
+      "lng": -99.1934
+    },
+    "openingHours": [
+      {
+        "day": "Lunes",
+        "opens": "",
+        "closes": "",
+        "closed": true
+      },
+      {
+        "day": "Martes a domingo",
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-trajineras-xochimilco",
+    "slug": "trajineras-xochimilco",
+    "name": "Trajineras de Xochimilco",
+    "category": "aire-libre",
+    "zone": "Xochimilco",
+    "address": "Embarcadero Nuevo Nativitas, Xochimilco, CDMX",
+    "priceLabel": "$600 MXN",
+    "price": 600,
+    "rating": 4.4,
+    "reviewCount": 2200,
+    "cover": {
+      "seed": "planazo-trajineras-xochimilco",
+      "alt": "Trajineras de Xochimilco",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-trajineras-xochimilco-1",
+        "alt": "Canales de Xochimilco",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-trajineras-xochimilco-2",
+        "alt": "Trajinera decorada",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Paseo en trajinera por los canales, con trío y antojitos flotantes incluidos si los pides en el camino. Precio por trajinera, hasta 20 personas.",
+    "tags": [
+      "Familiar",
+      "Grupos grandes"
+    ],
+    "services": [
+      "Música en vivo (extra)",
+      "Servicio de alimentos a bordo"
+    ],
+    "coordinates": {
+      "lat": 19.2825,
+      "lng": -99.1032
+    },
+    "openingHours": [
+      {
+        "day": "Todos los días",
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-domingo-en-el-bosque",
+    "slug": "domingo-en-el-bosque",
+    "name": "Domingo en el Bosque",
+    "category": "aire-libre",
+    "zone": "Chapultepec",
+    "address": "Primera Sección, Bosque de Chapultepec, CDMX",
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 4.8,
+    "reviewCount": 1300,
+    "cover": {
+      "seed": "planazo-domingo-en-el-bosque",
+      "alt": "Domingo en el Bosque",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-domingo-en-el-bosque-1",
+        "alt": "Familias en el bosque",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-domingo-en-el-bosque-2",
+        "alt": "Lago de Chapultepec",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Los domingos el Bosque cierra a los coches: bicis, patines y picnic familiar en la Primera Sección todo el día, gratis.",
+    "tags": [
+      "Familiar",
+      "Gratis",
+      "Pet friendly"
+    ],
+    "services": [
+      "Renta de bicicletas",
+      "Área de picnic"
+    ],
+    "coordinates": {
+      "lat": 19.4204,
+      "lng": -99.1858
+    },
+    "openingHours": [
+      {
+        "day": "Domingo",
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-ruta-de-pulquerias",
+    "slug": "ruta-de-pulquerias",
+    "name": "Ruta de pulquerías",
+    "category": "bares",
+    "zone": "Centro",
+    "address": "Salió del Metro Garibaldi, Centro, CDMX",
+    "priceLabel": "$ · $150 p/p",
+    "price": 150,
+    "rating": 4.6,
+    "reviewCount": 410,
+    "cover": {
+      "seed": "planazo-ruta-de-pulquerias",
+      "alt": "Ruta de pulquerías",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-ruta-de-pulquerias-1",
+        "alt": "Pulquería tradicional",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-ruta-de-pulquerias-2",
+        "alt": "Curados de temporada",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Tres pulquerías históricas del Centro en una sola noche, con guía que conoce a los dueños. Curados de temporada incluidos.",
+    "tags": [
+      "Con amigos",
+      "Tradicional"
+    ],
+    "services": [
+      "Guía incluido"
+    ],
+    "coordinates": {
+      "lat": 19.44,
+      "lng": -99.14
+    },
+    "openingHours": [
+      {
+        "day": "Viernes y sábado",
+        "opens": "17:00",
+        "closes": "23:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-boliche-tacos-narvarte",
+    "slug": "boliche-tacos-narvarte",
+    "name": "Boliche + tacos en Narvarte",
+    "category": "comer",
+    "zone": "Narvarte",
+    "address": "Universidad 141, Narvarte, CDMX",
+    "priceLabel": "$$ · $300 p/p",
+    "price": 300,
+    "rating": 4.5,
+    "reviewCount": 260,
+    "cover": {
+      "seed": "planazo-boliche-tacos-narvarte",
+      "alt": "Boliche + tacos en Narvarte",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-boliche-tacos-narvarte-1",
+        "alt": "Pista de boliche",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-boliche-tacos-narvarte-2",
+        "alt": "Taquería contigua",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Boliche retro de los 80 con taquería adentro: se pide una orden de pastor entre turno y turno. Ideal para grupo de amigos.",
+    "tags": [
+      "Con amigos",
+      "Grupos"
+    ],
+    "services": [
+      "Boliche",
+      "Bar"
+    ],
+    "social": {
+      "whatsapp": "+52 55 3456 7890"
+    },
+    "coordinates": {
+      "lat": 19.3925,
+      "lng": -99.156
+    },
+    "openingHours": [
+      {
+        "day": "Todos los días",
+        "opens": "12:00",
+        "closes": "00:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-domingo-gratis-museos",
+    "slug": "domingo-gratis-en-museos",
+    "name": "Domingo gratis en museos",
+    "category": "cultura",
+    "zone": "Toda la ciudad",
+    "address": "Aplica en museos INAH e INBAL de la ciudad",
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 4.6,
+    "reviewCount": 800,
+    "cover": {
+      "seed": "planazo-domingo-gratis-museos",
+      "alt": "Domingo gratis en museos",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-domingo-gratis-museos-1",
+        "alt": "Fila de acceso libre",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-domingo-gratis-museos-2",
+        "alt": "Sala de museo",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Entrada libre en museos INAH e INBAL todos los domingos para residentes. Llega temprano, se hace fila en los más populares.",
+    "tags": [
+      "Gratis",
+      "Familiar"
+    ],
+    "services": []
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-tianguis-del-chopo",
+    "slug": "tianguis-del-chopo",
+    "name": "Tianguis del Chopo",
+    "category": "aire-libre",
+    "zone": "Buenavista",
+    "address": "Aldama s/n, Buenavista, CDMX",
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 4.7,
+    "reviewCount": 650,
+    "cover": {
+      "seed": "planazo-tianguis-del-chopo",
+      "alt": "Tianguis del Chopo",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-tianguis-del-chopo-1",
+        "alt": "Puestos de discos",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-tianguis-del-chopo-2",
+        "alt": "Ambiente rockero",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "El tianguis rockero de siempre: discos, ropa y bandas en vivo cada sábado por la mañana. Entrada libre.",
+    "tags": [
+      "Con amigos",
+      "Gratis",
+      "Cultura alternativa"
+    ],
+    "services": [],
+    "coordinates": {
+      "lat": 19.446,
+      "lng": -99.153
+    },
+    "openingHours": [
+      {
+        "day": "Sábado",
+        "opens": "10:00",
+        "closes": "16:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-jazz-en-vivo-zinco",
+    "slug": "jazz-en-vivo-zinco",
+    "name": "Jazz en vivo, Zinco",
+    "category": "bares",
+    "zone": "Centro",
+    "address": "Motolinía 20, Centro, CDMX",
+    "priceLabel": "$300 MXN",
+    "price": 300,
+    "rating": 4.8,
+    "reviewCount": 540,
+    "cover": {
+      "seed": "planazo-jazz-en-vivo-zinco",
+      "alt": "Jazz en vivo, Zinco",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-jazz-en-vivo-zinco-1",
+        "alt": "Escenario del club",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-jazz-en-vivo-zinco-2",
+        "alt": "Set en vivo",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Club de jazz clásico en un sótano del Centro. Dos sets por noche, cover incluye la primera bebida.",
+    "tags": [
+      "Romántico",
+      "Música en vivo"
+    ],
+    "services": [
+      "Reservaciones"
+    ],
+    "social": {
+      "instagram": "@zincojazzclub"
+    },
+    "coordinates": {
+      "lat": 19.434,
+      "lng": -99.14
+    },
+    "openingHours": [
+      {
+        "day": "Jueves a sábado",
+        "opens": "20:00",
+        "closes": "01:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-mercado-nocturno-doctores",
+    "slug": "mercado-nocturno-doctores",
+    "name": "Mercado nocturno Doctores",
+    "category": "comer",
+    "zone": "Doctores",
+    "address": "Dr. Lucio 100, Doctores, CDMX",
+    "priceLabel": "$ · $150 p/p",
+    "price": 150,
+    "rating": 4.4,
+    "reviewCount": 220,
+    "cover": {
+      "seed": "planazo-mercado-nocturno-doctores",
+      "alt": "Mercado nocturno Doctores",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-mercado-nocturno-doctores-1",
+        "alt": "Puestos de comida nocturna",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-mercado-nocturno-doctores-2",
+        "alt": "Mesas comunales",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Puestos de comida callejera abiertos hasta la madrugada, jueves a sábado. Mesas comunales, ambiente de barrio.",
+    "tags": [
+      "Con amigos",
+      "Nocturno"
+    ],
+    "services": [],
+    "coordinates": {
+      "lat": 19.418,
+      "lng": -99.148
+    },
+    "openingHours": [
+      {
+        "day": "Jueves a sábado",
+        "opens": "20:00",
+        "closes": "02:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-banos-de-vapor-y-te",
+    "slug": "banos-de-vapor-y-te",
+    "name": "Baños de vapor y té",
+    "category": "cultura",
+    "zone": "Escandón",
+    "address": "Av. México 45, Escandón, CDMX",
+    "priceLabel": "$$ · $450 p/p",
+    "price": 450,
+    "rating": 4.7,
+    "reviewCount": 380,
+    "cover": {
+      "seed": "planazo-banos-de-vapor-y-te",
+      "alt": "Baños de vapor y té",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-banos-de-vapor-y-te-1",
+        "alt": "Sala de vapor",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-banos-de-vapor-y-te-2",
+        "alt": "Ceremonia de té",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Circuito de vapor, temazcal ligero y ceremonia de té al final. Reserva con dos días de anticipación los fines de semana.",
+    "tags": [
+      "Relajado",
+      "Para una cita"
+    ],
+    "services": [
+      "Reservación previa",
+      "Toallas incluidas"
+    ],
+    "social": {
+      "instagram": "@vaporyte"
+    },
+    "coordinates": {
+      "lat": 19.402,
+      "lng": -99.178
+    },
+    "openingHours": [
+      {
+        "day": "Todos los días",
+        "opens": "10:00",
+        "closes": "20:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-jardin-botanico",
+    "slug": "jardin-botanico",
+    "name": "Jardín Botánico",
+    "category": "aire-libre",
+    "zone": "Coyoacán",
+    "address": "Av. Universidad 3000, Coyoacán, CDMX",
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 4.6,
+    "reviewCount": 700,
+    "cover": {
+      "seed": "planazo-jardin-botanico",
+      "alt": "Jardín Botánico",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-jardin-botanico-1",
+        "alt": "Invernadero",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-jardin-botanico-2",
+        "alt": "Senderos del jardín",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Jardín botánico de la UNAM, con invernadero de cactáceas y senderos sombreados. Entrada libre, cierra a las 5 pm.",
+    "tags": [
+      "Familiar",
+      "Gratis",
+      "Pet friendly"
+    ],
+    "services": [
+      "Recorridos guiados (fines de semana)"
+    ],
+    "coordinates": {
+      "lat": 19.33,
+      "lng": -99.173
+    },
+    "openingHours": [
+      {
+        "day": "Martes a domingo",
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-cafe-de-olla-santa-maria",
+    "slug": "cafe-de-olla-santa-maria",
+    "name": "Café de Olla Santa María",
+    "category": "cafes",
+    "zone": "Santa María la Ribera",
+    "address": "Dr. Atl 25, Santa María la Ribera, CDMX",
+    "priceLabel": "$ · $90 p/p",
+    "price": 90,
+    "rating": 4.5,
+    "reviewCount": 210,
+    "cover": { "seed": "planazo-cafe-de-olla-santa-maria", "alt": "Café de Olla Santa María", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-cafe-de-olla-santa-maria-1", "alt": "Café de olla en barro", "width": 300, "height": 300 },
+      { "seed": "planazo-cafe-de-olla-santa-maria-2", "alt": "Patio del café", "width": 300, "height": 300 }
+    ],
+    "description": "Café de olla al carbón y pan de temporada en un patio con jacarandas. Clásico de barrio, sin pretensiones.",
+    "tags": ["Tradicional", "Pet friendly"],
+    "services": ["Terraza", "Acepta mascotas"],
+    "social": { "instagram": "@cafedeollasmr" },
+    "coordinates": { "lat": 19.4436, "lng": -99.1544 },
+    "openingHours": [{ "day": "Todos los días", "opens": "08:00", "closes": "20:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-buna-cafe-de-especialidad",
+    "slug": "buna-cafe-de-especialidad",
+    "name": "Buna Café de Especialidad",
+    "category": "cafes",
+    "zone": "Condesa",
+    "address": "Ámsterdam 154, Condesa, CDMX",
+    "priceLabel": "$$ · $140 p/p",
+    "price": 140,
+    "rating": 4.8,
+    "reviewCount": 430,
+    "cover": { "seed": "planazo-buna-cafe-especialidad", "alt": "Buna Café de Especialidad", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-buna-cafe-especialidad-1", "alt": "Barra de métodos", "width": 300, "height": 300 },
+      { "seed": "planazo-buna-cafe-especialidad-2", "alt": "Terraza sobre Ámsterdam", "width": 300, "height": 300 }
+    ],
+    "description": "Métodos de filtro rotativos cada semana y granos de origen único. Terraza chica pero con la mejor vista a la glorieta.",
+    "tags": ["Para trabajar", "Especialidad"],
+    "services": ["Wifi", "Terraza"],
+    "social": { "instagram": "@bunacafemx" },
+    "coordinates": { "lat": 19.4109, "lng": -99.1723 },
+    "openingHours": [{ "day": "Todos los días", "opens": "08:00", "closes": "21:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-cantina-la-perla",
+    "slug": "cantina-la-perla",
+    "name": "Cantina La Perla",
+    "category": "bares",
+    "zone": "Centro Histórico",
+    "address": "República de Cuba 44, Centro Histórico, CDMX",
+    "priceLabel": "$ · $200 p/p",
+    "price": 200,
+    "rating": 4.6,
+    "reviewCount": 720,
+    "cover": { "seed": "planazo-cantina-la-perla", "alt": "Cantina La Perla", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-cantina-la-perla-1", "alt": "Barra de la cantina", "width": 300, "height": 300 },
+      { "seed": "planazo-cantina-la-perla-2", "alt": "Botanas de cantina", "width": 300, "height": 300 }
+    ],
+    "description": "Cantina de toda la vida con botana incluida en cada ronda y dominó los domingos por la tarde.",
+    "tags": ["Tradicional", "Con amigos"],
+    "services": ["Botana incluida"],
+    "coordinates": { "lat": 19.4382, "lng": -99.1345 },
+    "openingHours": [{ "day": "Todos los días", "opens": "13:00", "closes": "23:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-mezcaleria-la-clandestina",
+    "slug": "mezcaleria-la-clandestina",
+    "name": "Mezcalería La Clandestina",
+    "category": "bares",
+    "zone": "Roma Norte",
+    "address": "Álvaro Obregón 40, Roma Norte, CDMX",
+    "priceLabel": "$$ · $320 p/p",
+    "price": 320,
+    "rating": 4.7,
+    "reviewCount": 505,
+    "cover": { "seed": "planazo-mezcaleria-la-clandestina", "alt": "Mezcalería La Clandestina", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-mezcaleria-la-clandestina-1", "alt": "Barra de mezcales", "width": 300, "height": 300 },
+      { "seed": "planazo-mezcaleria-la-clandestina-2", "alt": "Terraza de la mezcalería", "width": 300, "height": 300 }
+    ],
+    "description": "Más de cuarenta mezcales de productores pequeños y una terraza que se llena rápido los jueves.",
+    "tags": ["Con amigos", "Mezcal"],
+    "services": ["Terraza"],
+    "social": { "instagram": "@laclandestinamx" },
+    "coordinates": { "lat": 19.4204, "lng": -99.1608 },
+    "openingHours": [{ "day": "Miércoles a sábado", "opens": "18:00", "closes": "02:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-fonda-de-la-abuela",
+    "slug": "fonda-de-la-abuela",
+    "name": "Fonda de la Abuela",
+    "category": "comer",
+    "zone": "Del Valle",
+    "address": "Providencia 320, Del Valle, CDMX",
+    "priceLabel": "$$ · $250 p/p",
+    "price": 250,
+    "rating": 4.7,
+    "reviewCount": 610,
+    "cover": { "seed": "planazo-fonda-de-la-abuela", "alt": "Fonda de la Abuela", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-fonda-de-la-abuela-1", "alt": "Comida corrida servida", "width": 300, "height": 300 },
+      { "seed": "planazo-fonda-de-la-abuela-2", "alt": "Comedor de la fonda", "width": 300, "height": 300 }
+    ],
+    "description": "Comida corrida de cuchara con guisos que cambian a diario. Siempre hay fila a la hora de la comida, vale la pena.",
+    "tags": ["Tradicional", "Comida corrida"],
+    "services": ["Menú del día"],
+    "coordinates": { "lat": 19.3833, "lng": -99.1667 },
+    "openingHours": [{ "day": "Lunes a sábado", "opens": "13:00", "closes": "18:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-marisqueria-la-ola",
+    "slug": "marisqueria-la-ola",
+    "name": "Marisquería La Ola",
+    "category": "comer",
+    "zone": "Nápoles",
+    "address": "Insurgentes Sur 800, Nápoles, CDMX",
+    "priceLabel": "$$$ · $550 p/p",
+    "price": 550,
+    "rating": 4.5,
+    "reviewCount": 480,
+    "cover": { "seed": "planazo-marisqueria-la-ola", "alt": "Marisquería La Ola", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-marisqueria-la-ola-1", "alt": "Torre de mariscos", "width": 300, "height": 300 },
+      { "seed": "planazo-marisqueria-la-ola-2", "alt": "Barra de ostiones", "width": 300, "height": 300 }
+    ],
+    "description": "Pescado zarandeado y torre de mariscos para compartir, con producto que llega dos veces por semana desde Mazatlán.",
+    "tags": ["Grupos", "Mariscos"],
+    "services": ["Estacionamiento", "Reservaciones"],
+    "social": { "instagram": "@marisquerialaola" },
+    "coordinates": { "lat": 19.3925, "lng": -99.1746 },
+    "openingHours": [{ "day": "Todos los días", "opens": "12:00", "closes": "20:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-centro-cultural-digital",
+    "slug": "centro-cultural-digital",
+    "name": "Centro Cultural Digital",
+    "category": "tecnologia",
+    "zone": "Centro Histórico",
+    "address": "Av. Juárez y Eje Central, Centro Histórico, CDMX",
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 4.6,
+    "reviewCount": 540,
+    "cover": { "seed": "planazo-centro-cultural-digital", "alt": "Centro Cultural Digital", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-centro-cultural-digital-1", "alt": "Sala de proyecciones inmersivas", "width": 300, "height": 300 },
+      { "seed": "planazo-centro-cultural-digital-2", "alt": "Instalación interactiva", "width": 300, "height": 300 }
+    ],
+    "description": "Exhibiciones de arte digital, videojuegos experimentales e instalaciones interactivas frente al Zócalo. Entrada libre casi todo el año.",
+    "tags": ["Gratis", "Interactivo"],
+    "services": ["Wifi", "Accesible en silla de ruedas"],
+    "social": { "instagram": "@centroculturaldigital" },
+    "coordinates": { "lat": 19.4338, "lng": -99.1436 },
+    "openingHours": [{ "day": "Martes a domingo", "opens": "10:00", "closes": "18:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-museo-tecnologico-cfe",
+    "slug": "museo-tecnologico-cfe",
+    "name": "Museo Tecnológico CFE",
+    "category": "tecnologia",
+    "zone": "Bosque de Chapultepec",
+    "address": "Segunda Sección, Bosque de Chapultepec, CDMX",
+    "priceLabel": "$60 MXN",
+    "price": 60,
+    "rating": 4.5,
+    "reviewCount": 380,
+    "cover": { "seed": "planazo-museo-tecnologico-cfe", "alt": "Museo Tecnológico CFE", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-museo-tecnologico-cfe-1", "alt": "Sala de energía", "width": 300, "height": 300 },
+      { "seed": "planazo-museo-tecnologico-cfe-2", "alt": "Planetario del museo", "width": 300, "height": 300 }
+    ],
+    "description": "Museo de ciencia y tecnología con planetario propio, pensado para curiosos de todas las edades. Talleres los fines de semana.",
+    "tags": ["Familiar", "Cultural"],
+    "services": ["Planetario", "Talleres"],
+    "coordinates": { "lat": 19.4093, "lng": -99.2007 },
+    "openingHours": [
+      { "day": "Lunes", "opens": "", "closes": "", "closed": true },
+      { "day": "Martes a domingo", "opens": "09:00", "closes": "17:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-lan-center-retro",
+    "slug": "lan-center-retro",
+    "name": "LAN Center Retro",
+    "category": "tecnologia",
+    "zone": "Narvarte",
+    "address": "Universidad 220, Narvarte, CDMX",
+    "priceLabel": "$ · $80 p/h",
+    "price": 80,
+    "rating": 4.7,
+    "reviewCount": 295,
+    "cover": { "seed": "planazo-lan-center-retro", "alt": "LAN Center Retro", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-lan-center-retro-1", "alt": "Setup de PCs gamer", "width": 300, "height": 300 },
+      { "seed": "planazo-lan-center-retro-2", "alt": "Zona de consolas retro", "width": 300, "height": 300 }
+    ],
+    "description": "PCs gamer de alta gama por hora y una zona aparte con consolas de los 90 para torneos casuales. Los jueves hay torneo de Smash.",
+    "tags": ["Con amigos", "Gamer"],
+    "services": ["Wifi", "Snacks y bebidas"],
+    "social": { "instagram": "@lancenterretro" },
+    "coordinates": { "lat": 19.3958, "lng": -99.1553 },
+    "openingHours": [{ "day": "Todos los días", "opens": "12:00", "closes": "23:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-fabrica-makerspace",
+    "slug": "fabrica-makerspace",
+    "name": "Fábrica Makerspace",
+    "category": "tecnologia",
+    "zone": "Condesa",
+    "address": "Tamaulipas 66, Condesa, CDMX",
+    "priceLabel": "$$ · $450 p/sesión",
+    "price": 450,
+    "rating": 4.8,
+    "reviewCount": 168,
+    "cover": { "seed": "planazo-fabrica-makerspace", "alt": "Fábrica Makerspace", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-fabrica-makerspace-1", "alt": "Impresoras 3D en fila", "width": 300, "height": 300 },
+      { "seed": "planazo-fabrica-makerspace-2", "alt": "Mesa de trabajo con herramientas", "width": 300, "height": 300 }
+    ],
+    "description": "Coworking con taller abierto: impresión 3D, corte láser y una comunidad que presta herramientas. Membresía por sesión o mensual.",
+    "tags": ["Para trabajar", "Experiencia"],
+    "services": ["Wifi", "Impresión 3D", "Corte láser"],
+    "social": { "instagram": "@fabricamakerspace" },
+    "coordinates": { "lat": 19.4126, "lng": -99.1746 },
+    "openingHours": [{ "day": "Lunes a sábado", "opens": "09:00", "closes": "21:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-plaza-de-la-tecnologia",
+    "slug": "plaza-de-la-tecnologia",
+    "name": "Plaza de la Tecnología",
+    "category": "tecnologia",
+    "zone": "Centro",
+    "address": "Eje Central Lázaro Cárdenas 100, Centro, CDMX",
+    "priceLabel": "Entrada libre",
+    "price": null,
+    "rating": 4.2,
+    "reviewCount": 920,
+    "cover": { "seed": "planazo-plaza-de-la-tecnologia", "alt": "Plaza de la Tecnología", "width": 640, "height": 480 },
+    "gallery": [
+      { "seed": "planazo-plaza-de-la-tecnologia-1", "alt": "Pasillos de locales de electrónica", "width": 300, "height": 300 },
+      { "seed": "planazo-plaza-de-la-tecnologia-2", "alt": "Puesto de refacciones", "width": 300, "height": 300 }
+    ],
+    "description": "Cientos de locales de refacciones, componentes y reparación de cómputo bajo un mismo techo. Para encontrar esa pieza que ya no se consigue en ningún otro lado.",
+    "tags": ["Compras", "Tradicional"],
+    "services": ["Reparación en sitio"],
+    "coordinates": { "lat": 19.4342, "lng": -99.1401 },
+    "openingHours": [{ "day": "Lunes a sábado", "opens": "10:00", "closes": "19:00" }]
+  }
+]

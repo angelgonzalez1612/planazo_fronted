@@ -1,0 +1,52 @@
+[
+  {
+    "id": "g1",
+    "slug": "cafeterias-bonitas-cdmx",
+    "title": "10 cafeterías bonitas en CDMX para trabajar sin culpa",
+    "description": "Wifi de verdad, enchufes que no se pelean y café que aguanta una mañana entera de laptop.",
+    "categoryLabel": "Cafés",
+    "readTime": "6 min de lectura · Actualizada en julio",
+    "cover": { "seed": "planazo-guia-cafeterias-cdmx", "alt": "Cafeterías CDMX", "width": 640, "height": 400 },
+    "placeSlugs": ["cafe-tostado-lento", "nudo-panaderia-cava"]
+  },
+  {
+    "id": "g2",
+    "slug": "coyoacan-un-dia-completo",
+    "title": "Qué hacer en Coyoacán: un día completo, a pie",
+    "description": "De la cata de mezcal al jardín botánico, sin subirte a un coche en todo el día.",
+    "categoryLabel": "Barrios",
+    "readTime": "8 min de lectura · 14 paradas",
+    "cover": { "seed": "planazo-guia-coyoacan", "alt": "Coyoacán", "width": 640, "height": 400 },
+    "placeSlugs": ["taller-de-mezcal-y-maiz", "jardin-botanico"]
+  },
+  {
+    "id": "g3",
+    "slug": "mejores-terrazas-por-presupuesto",
+    "title": "Las mejores terrazas de la ciudad, por presupuesto",
+    "description": "Rooftops, pulquerías y clubes de jazz para tomar algo con vista o con historia.",
+    "categoryLabel": "Rooftops",
+    "readTime": "5 min de lectura · 12 lugares",
+    "cover": { "seed": "planazo-guia-terrazas-presupuesto", "alt": "Terrazas por presupuesto", "width": 640, "height": 400 },
+    "placeSlugs": ["terraza-mirador-24", "jazz-en-vivo-zinco", "ruta-de-pulquerias"]
+  },
+  {
+    "id": "g4",
+    "slug": "planes-pet-friendly",
+    "title": "Planes pet friendly para salir con tu perro",
+    "description": "Cafés, parques y jardines donde tu perro entra tan a gusto como tú.",
+    "categoryLabel": "Pet friendly",
+    "readTime": "4 min de lectura · 3 lugares",
+    "cover": { "seed": "planazo-guia-pet-friendly", "alt": "Planes pet friendly", "width": 640, "height": 400 },
+    "placeSlugs": ["cafe-tostado-lento", "domingo-en-el-bosque", "jardin-botanico"]
+  },
+  {
+    "id": "g5",
+    "slug": "planes-romanticos-para-una-cita",
+    "title": "Planes románticos para una cita perfecta",
+    "description": "De una copa de vino a un temazcal para dos: opciones que no se sienten forzadas.",
+    "categoryLabel": "Citas",
+    "readTime": "5 min de lectura · 4 lugares",
+    "cover": { "seed": "planazo-guia-citas-romanticas", "alt": "Planes románticos", "width": 640, "height": 400 },
+    "placeSlugs": ["nudo-panaderia-cava", "terraza-mirador-24", "cine-de-autor-cineteca", "banos-de-vapor-y-te"]
+  }
+]

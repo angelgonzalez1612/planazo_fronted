@@ -1,0 +1,8 @@
+[
+  { "id": "cdmx", "name": "CDMX", "active": true },
+  { "id": "guadalajara", "name": "Guadalajara", "active": false },
+  { "id": "monterrey", "name": "Monterrey", "active": false },
+  { "id": "puebla", "name": "Puebla", "active": false },
+  { "id": "queretaro", "name": "Querétaro", "active": false },
+  { "id": "merida", "name": "Mérida", "active": false }
+]

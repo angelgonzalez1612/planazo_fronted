@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pareja",
+    "label": "En pareja",
+    "emoji": "❤️",
+    "suggestions": [
+      { "kind": "lugar", "slug": "nudo-panaderia-cava" },
+      { "kind": "lugar", "slug": "cine-de-autor-cineteca" },
+      { "kind": "lugar", "slug": "terraza-mirador-24" }
+    ]
+  },
+  {
+    "id": "familiar",
+    "label": "Familiar",
+    "emoji": "👨‍👩‍👧",
+    "suggestions": [
+      { "kind": "lugar", "slug": "papalote-museo-del-nino" },
+      { "kind": "lugar", "slug": "trajineras-xochimilco" },
+      { "kind": "lugar", "slug": "domingo-en-el-bosque" }
+    ]
+  },
+  {
+    "id": "amigos",
+    "label": "Con amigos",
+    "emoji": "🍻",
+    "suggestions": [
+      { "kind": "evento", "slug": "cumbia-futura-en-vivo" },
+      { "kind": "lugar", "slug": "ruta-de-pulquerias" },
+      { "kind": "lugar", "slug": "boliche-tacos-narvarte" }
+    ]
+  },
+  {
+    "id": "gratis",
+    "label": "Gratis",
+    "emoji": "💸",
+    "suggestions": [
+      { "kind": "evento", "slug": "cicloton-nocturno" },
+      { "kind": "lugar", "slug": "domingo-gratis-en-museos" },
+      { "kind": "lugar", "slug": "tianguis-del-chopo" }
+    ]
+  },
+  {
+    "id": "noche",
+    "label": "De noche",
+    "emoji": "🌙",
+    "suggestions": [
+      { "kind": "lugar", "slug": "terraza-mirador-24" },
+      { "kind": "lugar", "slug": "jazz-en-vivo-zinco" },
+      { "kind": "lugar", "slug": "mercado-nocturno-doctores" }
+    ]
+  },
+  {
+    "id": "relajado",
+    "label": "Relajado",
+    "emoji": "🌿",
+    "suggestions": [
+      { "kind": "lugar", "slug": "cafe-tostado-lento" },
+      { "kind": "lugar", "slug": "banos-de-vapor-y-te" },
+      { "kind": "lugar", "slug": "jardin-botanico" }
+    ]
+  }
+]

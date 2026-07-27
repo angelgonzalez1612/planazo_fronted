@@ -1,0 +1,35 @@
+{
+  "heroBadge": "✦ 47 planes nuevos hoy en CDMX",
+  "heroExamples": [
+    "Una cita romántica",
+    "Un restaurante italiano",
+    "Eventos este fin de semana",
+    "Planes gratis",
+    "Algo para hoy en la noche",
+    "Un plan con niños",
+    "Rooftops con buena vista",
+    "Algo al aire libre",
+    "Un lugar para desayunar",
+    "Planes baratos cerca de mí",
+    "Algo cultural este mes",
+    "Un plan de última hora"
+  ],
+  "ticker": [
+    { "label": "Ciclotón nocturno", "href": "/eventos/cicloton-nocturno" },
+    { "label": "Lucha libre CDMX", "href": "/eventos/lucha-libre-cena-cerveza" },
+    { "label": "Terrazas 2026", "href": "/guias/mejores-terrazas-por-presupuesto" },
+    { "label": "Mercado en Juárez", "href": "/eventos/mercado-productores-juarez" },
+    { "label": "Museo Tamayo", "href": "/lugares/museo-tamayo-nueva-sala" }
+  ],
+  "newsletterCount": 18400,
+  "destacadosOrder": [
+    "festival-sabor-capital-2026",
+    "nudo-panaderia-cava",
+    "cumbia-futura-en-vivo",
+    "taller-de-mezcal-y-maiz",
+    "cafe-tostado-lento",
+    "terraza-mirador-24",
+    "cicloton-nocturno",
+    "museo-tamayo-nueva-sala"
+  ]
+}
