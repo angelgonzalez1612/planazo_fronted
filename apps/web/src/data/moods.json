@@ -9,7 +9,9 @@
       { "kind": "lugar", "slug": "terraza-mirador-24" },
       { "kind": "lugar", "slug": "jazz-en-vivo-zinco" },
       { "kind": "lugar", "slug": "banos-de-vapor-y-te" },
-      { "kind": "lugar", "slug": "buna-cafe-de-especialidad" }
+      { "kind": "lugar", "slug": "buna-cafe-de-especialidad" },
+      { "kind": "lugar", "slug": "taller-de-mezcal-y-maiz" },
+      { "kind": "lugar", "slug": "fabrica-makerspace" }
     ]
   },
   {
@@ -22,7 +24,9 @@
       { "kind": "lugar", "slug": "domingo-en-el-bosque" },
       { "kind": "lugar", "slug": "museo-tamayo-nueva-sala" },
       { "kind": "lugar", "slug": "jardin-botanico" },
-      { "kind": "lugar", "slug": "caminata-desierto-de-los-leones" }
+      { "kind": "lugar", "slug": "caminata-desierto-de-los-leones" },
+      { "kind": "lugar", "slug": "museo-tecnologico-cfe" },
+      { "kind": "lugar", "slug": "fonda-de-la-abuela" }
     ]
   },
   {
@@ -35,7 +39,9 @@
       { "kind": "lugar", "slug": "boliche-tacos-narvarte" },
       { "kind": "lugar", "slug": "mezcaleria-la-clandestina" },
       { "kind": "evento", "slug": "lucha-libre-cena-cerveza" },
-      { "kind": "lugar", "slug": "lan-center-retro" }
+      { "kind": "lugar", "slug": "lan-center-retro" },
+      { "kind": "evento", "slug": "festival-sabor-capital-2026" },
+      { "kind": "lugar", "slug": "marisqueria-la-ola" }
     ]
   },
   {
@@ -48,7 +54,9 @@
       { "kind": "lugar", "slug": "tianguis-del-chopo" },
       { "kind": "lugar", "slug": "domingo-en-el-bosque" },
       { "kind": "lugar", "slug": "centro-cultural-digital" },
-      { "kind": "lugar", "slug": "mercado-productores-juarez" }
+      { "kind": "evento", "slug": "mercado-productores-juarez" },
+      { "kind": "lugar", "slug": "jardin-botanico" },
+      { "kind": "lugar", "slug": "plaza-de-la-tecnologia" }
     ]
   },
   {
@@ -61,7 +69,9 @@
       { "kind": "lugar", "slug": "mercado-nocturno-doctores" },
       { "kind": "evento", "slug": "cicloton-nocturno" },
       { "kind": "lugar", "slug": "cantina-la-perla" },
-      { "kind": "lugar", "slug": "mezcaleria-la-clandestina" }
+      { "kind": "lugar", "slug": "mezcaleria-la-clandestina" },
+      { "kind": "lugar", "slug": "lan-center-retro" },
+      { "kind": "lugar", "slug": "boliche-tacos-narvarte" }
     ]
   },
   {
@@ -74,7 +84,9 @@
       { "kind": "lugar", "slug": "jardin-botanico" },
       { "kind": "lugar", "slug": "buna-cafe-de-especialidad" },
       { "kind": "lugar", "slug": "cafe-de-olla-santa-maria" },
-      { "kind": "lugar", "slug": "domingo-en-el-bosque" }
+      { "kind": "lugar", "slug": "domingo-en-el-bosque" },
+      { "kind": "lugar", "slug": "museo-tamayo-nueva-sala" },
+      { "kind": "lugar", "slug": "fonda-de-la-abuela" }
     ]
   }
 ]
