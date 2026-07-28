@@ -5,5 +5,11 @@
   { "id": "bares", "label": "Bares", "icon": "🍸" },
   { "id": "cultura", "label": "Cultura", "icon": "🎭" },
   { "id": "aire-libre", "label": "Aire libre", "icon": "🌳" },
-  { "id": "tecnologia", "label": "Tecnología", "icon": "💻" }
+  { "id": "tecnologia", "label": "Tecnología", "icon": "💻" },
+  { "id": "gaming", "label": "Gaming", "icon": "🎮" },
+  { "id": "viajes", "label": "Viajes", "icon": "✈️" },
+  { "id": "cine-tv", "label": "Cine y TV", "icon": "🎬" },
+  { "id": "geek", "label": "Geek", "icon": "👾" },
+  { "id": "mascotas", "label": "Mascotas", "icon": "🐾" },
+  { "id": "musica", "label": "Música", "icon": "🎵" }
 ]

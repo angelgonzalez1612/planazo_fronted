@@ -11,7 +11,20 @@ type Props = { params: Promise<{ categoria: string }> };
 
 // "eventos" is its own dedicated route (/eventos) with a different card shape —
 // this route only ever serves the place categories.
-const PLACE_CATEGORIES: CategoryId[] = ["comer", "cafes", "bares", "cultura", "aire-libre", "tecnologia"];
+const PLACE_CATEGORIES: CategoryId[] = [
+  "comer",
+  "cafes",
+  "bares",
+  "cultura",
+  "aire-libre",
+  "tecnologia",
+  "gaming",
+  "viajes",
+  "cine-tv",
+  "geek",
+  "mascotas",
+  "musica",
+];
 
 export function generateStaticParams() {
   return PLACE_CATEGORIES.map((categoria) => ({ categoria }));

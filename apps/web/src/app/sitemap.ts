@@ -3,7 +3,20 @@ import { siteConfig } from "@planazo/config";
 import { getPlaces, getEvents, getGuides, categoryHref } from "@/lib/data";
 import type { CategoryId } from "@/data/types";
 
-const PLACE_CATEGORIES: CategoryId[] = ["comer", "cafes", "bares", "cultura", "aire-libre", "tecnologia"];
+const PLACE_CATEGORIES: CategoryId[] = [
+  "comer",
+  "cafes",
+  "bares",
+  "cultura",
+  "aire-libre",
+  "tecnologia",
+  "gaming",
+  "viajes",
+  "cine-tv",
+  "geek",
+  "mascotas",
+  "musica",
+];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const places = await getPlaces();

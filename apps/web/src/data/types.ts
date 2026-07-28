@@ -1,4 +1,17 @@
-export type CategoryId = "eventos" | "comer" | "cafes" | "bares" | "cultura" | "aire-libre" | "tecnologia";
+export type CategoryId =
+  | "eventos"
+  | "comer"
+  | "cafes"
+  | "bares"
+  | "cultura"
+  | "aire-libre"
+  | "tecnologia"
+  | "gaming"
+  | "viajes"
+  | "cine-tv"
+  | "geek"
+  | "mascotas"
+  | "musica";
 
 export interface Category {
   id: CategoryId;
