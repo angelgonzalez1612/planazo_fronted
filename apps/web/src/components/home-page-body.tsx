@@ -77,6 +77,10 @@ export function HomePageBody({
         <TickerBar items={site.ticker} />
       </section>
 
+      <section className="mx-auto mt-5 max-w-[1280px] px-4 md:px-10">
+        <AdSlot size="970 × 90" className="h-[90px]" />
+      </section>
+
       <LatestSpotlight featured={featuredPlans} events={weekendEvents} categoryIcon={categoryIcon} />
 
       <section className="mx-auto mt-2 max-w-[1280px] px-4 md:px-10">
