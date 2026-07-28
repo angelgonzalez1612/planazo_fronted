@@ -67,6 +67,10 @@ export function HomePageBody({
         <div className="mx-auto max-w-[1280px] px-4 pb-7 md:px-10 md:pb-11">
           <CategoryChipBar categories={categories} />
         </div>
+
+        <div className="mx-auto max-w-[1280px] px-4 pb-7 md:px-10 md:pb-11">
+          <AdSlot size="970 × 90" className="h-[90px]" />
+        </div>
       </section>
 
       <section className="mx-auto max-w-[1280px] px-4 pt-4 md:px-10">
