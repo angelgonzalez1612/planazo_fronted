@@ -157,6 +157,10 @@ export function HomePageBody({
         <DirectoryTiles tiles={directoryTiles} />
       </section>
 
+      <section className="mx-auto max-w-[1280px] px-4 pb-10 md:px-10">
+        <AdSlot size="970 × 90" className="h-[90px]" />
+      </section>
+
       <section className="bg-brand text-background">
         <div className="mx-auto max-w-[1280px] px-4 py-10 sm:py-14 md:px-10 lg:py-18">
           <h2 className="font-heading text-[clamp(26px,3.4vw,40px)] font-bold tracking-tight">

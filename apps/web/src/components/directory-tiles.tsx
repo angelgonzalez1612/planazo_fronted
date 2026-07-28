@@ -23,7 +23,9 @@ export function DirectoryTiles({ tiles }: { tiles: DirectoryTile[] }) {
             />
             <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-black/0 from-40% to-black/80 p-4 text-white">
               <span className="font-heading text-[19px] font-bold tracking-tight">{tile.label}</span>
-              <span className="text-[13px] text-[#E6DDD6]">{tile.count.toLocaleString("es-MX")} lugares</span>
+              <span className="text-[13px] text-[#E6DDD6]">
+                {tile.count > 0 ? `${tile.count.toLocaleString("es-MX")} lugares` : "Próximamente"}
+              </span>
             </div>
           </Link>
         );

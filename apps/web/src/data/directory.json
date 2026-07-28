@@ -5,5 +5,11 @@
   { "label": "Bares", "categoryId": "bares", "photoSeed": "planazo-dir-bares", "count": 1120 },
   { "label": "Terrazas", "categoryId": "bares", "photoSeed": "planazo-dir-terrazas", "count": 240 },
   { "label": "Parques", "categoryId": "aire-libre", "photoSeed": "planazo-dir-parques", "count": 310 },
-  { "label": "Tecnología", "categoryId": "tecnologia", "photoSeed": "planazo-dir-tecnologia", "count": 145 }
+  { "label": "Tecnología", "categoryId": "tecnologia", "photoSeed": "planazo-dir-tecnologia", "count": 145 },
+  { "label": "Gaming", "categoryId": "gaming", "photoSeed": "planazo-dir-gaming", "count": 0 },
+  { "label": "Viajes", "categoryId": "viajes", "photoSeed": "planazo-dir-viajes", "count": 0 },
+  { "label": "Cine", "categoryId": "cine-tv", "photoSeed": "planazo-dir-cine", "count": 0 },
+  { "label": "Geek", "categoryId": "geek", "photoSeed": "planazo-dir-geek", "count": 0 },
+  { "label": "Mascotas", "categoryId": "mascotas", "photoSeed": "planazo-dir-mascotas", "count": 0 },
+  { "label": "Música", "categoryId": "musica", "photoSeed": "planazo-dir-musica", "count": 0 }
 ]
