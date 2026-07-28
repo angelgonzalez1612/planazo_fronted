@@ -11,7 +11,8 @@
       { "kind": "lugar", "slug": "banos-de-vapor-y-te" },
       { "kind": "lugar", "slug": "buna-cafe-de-especialidad" },
       { "kind": "lugar", "slug": "taller-de-mezcal-y-maiz" },
-      { "kind": "lugar", "slug": "fabrica-makerspace" }
+      { "kind": "lugar", "slug": "fabrica-makerspace" },
+      { "kind": "lugar", "slug": "museo-tamayo-nueva-sala" }
     ]
   },
   {
@@ -26,7 +27,8 @@
       { "kind": "lugar", "slug": "jardin-botanico" },
       { "kind": "lugar", "slug": "caminata-desierto-de-los-leones" },
       { "kind": "lugar", "slug": "museo-tecnologico-cfe" },
-      { "kind": "lugar", "slug": "fonda-de-la-abuela" }
+      { "kind": "lugar", "slug": "fonda-de-la-abuela" },
+      { "kind": "lugar", "slug": "domingo-gratis-en-museos" }
     ]
   },
   {
@@ -41,7 +43,8 @@
       { "kind": "evento", "slug": "lucha-libre-cena-cerveza" },
       { "kind": "lugar", "slug": "lan-center-retro" },
       { "kind": "evento", "slug": "festival-sabor-capital-2026" },
-      { "kind": "lugar", "slug": "marisqueria-la-ola" }
+      { "kind": "lugar", "slug": "marisqueria-la-ola" },
+      { "kind": "lugar", "slug": "tianguis-del-chopo" }
     ]
   },
   {
@@ -71,7 +74,8 @@
       { "kind": "lugar", "slug": "cantina-la-perla" },
       { "kind": "lugar", "slug": "mezcaleria-la-clandestina" },
       { "kind": "lugar", "slug": "lan-center-retro" },
-      { "kind": "lugar", "slug": "boliche-tacos-narvarte" }
+      { "kind": "lugar", "slug": "boliche-tacos-narvarte" },
+      { "kind": "lugar", "slug": "ruta-de-pulquerias" }
     ]
   },
   {
@@ -86,7 +90,8 @@
       { "kind": "lugar", "slug": "cafe-de-olla-santa-maria" },
       { "kind": "lugar", "slug": "domingo-en-el-bosque" },
       { "kind": "lugar", "slug": "museo-tamayo-nueva-sala" },
-      { "kind": "lugar", "slug": "fonda-de-la-abuela" }
+      { "kind": "lugar", "slug": "fonda-de-la-abuela" },
+      { "kind": "lugar", "slug": "centro-cultural-digital" }
     ]
   }
 ]
