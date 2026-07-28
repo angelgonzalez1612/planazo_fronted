@@ -2,6 +2,7 @@ import { SiteHeader } from "@/components/site-header";
 import { HomePageBody } from "@/components/home-page-body";
 import {
   getFeaturedPlans,
+  getLatestPlaces,
   getCategories,
   getDirectoryTiles,
   getWeekendAgenda,
@@ -21,6 +22,7 @@ export default function HomePage() {
       <SiteHeader />
       <HomePageBody
         featuredPlans={getFeaturedPlans()}
+        latestPlaces={getLatestPlaces()}
         categories={getCategories()}
         directoryTiles={getDirectoryTiles()}
         weekendEvents={getWeekendAgenda()}

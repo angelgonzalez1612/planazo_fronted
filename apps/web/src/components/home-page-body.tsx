@@ -1,9 +1,10 @@
 import Link from "next/link";
-import type { Category, DirectoryTile, EventItem, Guide, Mood, Plan, SiteContent } from "@/data/types";
+import type { Category, DirectoryTile, EventItem, Guide, Mood, Place, Plan, SiteContent } from "@/data/types";
 import type { SearchSuggestion } from "@/lib/data";
 import { HeroCarousel } from "@/components/hero-carousel";
 import { HeroSearch } from "@/components/hero-search";
 import { LatestSpotlight } from "@/components/latest-spotlight";
+import { LatestArrivals } from "@/components/latest-arrivals";
 import { CategoryChipBar } from "@/components/category-chip-bar";
 import { TickerBar } from "@/components/ticker-bar";
 import { AdSlot } from "@/components/ad-slot";
@@ -17,6 +18,7 @@ import { SiteFooterFull } from "@/components/site-footer-full";
 
 export function HomePageBody({
   featuredPlans,
+  latestPlaces,
   categories,
   directoryTiles,
   weekendEvents,
@@ -27,6 +29,7 @@ export function HomePageBody({
   site,
 }: {
   featuredPlans: Plan[];
+  latestPlaces: Place[];
   categories: Category[];
   directoryTiles: DirectoryTile[];
   weekendEvents: EventItem[];
@@ -71,6 +74,8 @@ export function HomePageBody({
       </section>
 
       <LatestSpotlight featured={featuredPlans} events={weekendEvents} categoryIcon={categoryIcon} />
+
+      <LatestArrivals places={latestPlaces} categoryIcon={categoryIcon} />
 
       <section className="mx-auto mt-6 max-w-[1280px] px-4 md:px-10">
         <AdSlot size="970 × 90" className="h-[90px]" />

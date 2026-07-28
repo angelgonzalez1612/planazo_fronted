@@ -216,9 +216,9 @@ export function LatestSpotlight({
     <section id="ciudad" className="mx-auto max-w-[1280px] px-4 py-10 sm:py-14 md:px-10 lg:py-18">
       <div className="mb-6.5">
         <h2 className="font-heading text-[clamp(26px,3.4vw,40px)] font-bold tracking-tight">
-          Qué se cuece en la ciudad
+          La ciudad no para
         </h2>
-        <p className="mt-2 text-[16px] text-ink-soft">Lo más nuevo y lo que se viene, antes de que se llene.</p>
+        <p className="mt-2 text-[16px] text-ink-soft">Lo destacado de hoy y lo que se viene este fin.</p>
       </div>
 
       <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:gap-6">

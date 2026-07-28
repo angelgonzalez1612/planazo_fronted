@@ -158,6 +158,16 @@ export function getFeaturedPlans(): Plan[] {
     .filter((plan): plan is Plan => Boolean(plan));
 }
 
+/**
+ * Lugares recién sumados al directorio, distintos a los ya destacados.
+ * No hay campo de fecha en el fixture — el orden del JSON hace de proxy
+ * de "agregado más reciente" (los últimos del arreglo).
+ */
+export function getLatestPlaces(limit = 8): Place[] {
+  const featuredSlugs = new Set(getFeaturedPlans().map((p) => p.slug));
+  return [...places].reverse().filter((p) => !featuredSlugs.has(p.slug)).slice(0, limit);
+}
+
 export function getSimilarPlans(plan: Plan, limit = 12): Plan[] {
   return [...places, ...events]
     .filter((p) => p.slug !== plan.slug && p.category === plan.category)
