@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Category, DirectoryTile, EventItem, Guide, Mood, Place, Plan, SiteContent } from "@/data/types";
+import type { Category, CategoryId, DirectoryTile, EventItem, Guide, Mood, Place, Plan, SiteContent } from "@/data/types";
 import type { SearchSuggestion } from "@/lib/data";
 import { HeroCarousel } from "@/components/hero-carousel";
 import { HeroSearch } from "@/components/hero-search";
@@ -20,6 +20,7 @@ export function HomePageBody({
   featuredPlans,
   latestPlaces,
   categories,
+  categoryCounts,
   directoryTiles,
   weekendEvents,
   moods,
@@ -31,6 +32,7 @@ export function HomePageBody({
   featuredPlans: Plan[];
   latestPlaces: Place[];
   categories: Category[];
+  categoryCounts: Partial<Record<CategoryId, number>>;
   directoryTiles: DirectoryTile[];
   weekendEvents: EventItem[];
   moods: Mood[];
@@ -65,7 +67,7 @@ export function HomePageBody({
         </div>
 
         <div className="mx-auto max-w-[1280px] px-4 pb-7 md:px-10 md:pb-11">
-          <CategoryChipBar categories={categories} />
+          <CategoryChipBar categories={categories} counts={categoryCounts} />
         </div>
       </section>
 

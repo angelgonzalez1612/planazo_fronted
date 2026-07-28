@@ -93,6 +93,15 @@ export function getPlans(): Plan[] {
   return [...places, ...events];
 }
 
+/** Real count of plans per category — powers the count badge on category chips. */
+export function getCategoryCounts(): Partial<Record<CategoryId, number>> {
+  const counts: Partial<Record<CategoryId, number>> = {};
+  for (const plan of getPlans()) {
+    counts[plan.category] = (counts[plan.category] ?? 0) + 1;
+  }
+  return counts;
+}
+
 export interface TagInfo {
   label: string;
   slug: string;
