@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getPlans, getGuides, getCategories, getSiteContent } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { NewsletterCta } from "@/components/newsletter-cta";
-import { Breadcrumb } from "@/components/breadcrumb";
 
 export const metadata: Metadata = {
   title: "Quiénes somos",
@@ -43,7 +43,11 @@ export default function QuienesSomosPage() {
     <>
       <SiteHeader />
 
-      <Breadcrumb items={[{ label: "Quiénes somos" }]} />
+      <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">
+        <Link href="/" className="text-ink-soft hover:text-brand">Inicio</Link>
+        <span>/</span>
+        <span className="font-semibold text-ink">Quiénes somos</span>
+      </div>
 
       <section className="mx-auto max-w-[1280px] px-4 pt-3.5 pb-12 md:px-10 lg:pb-16">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-accent px-3 py-1.5 text-[12.5px] font-bold text-brand-deep uppercase">

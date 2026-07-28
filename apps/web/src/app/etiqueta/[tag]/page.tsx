@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { getAllTags, getTagBySlug, getPlansByTag, getCategories } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
-import { Breadcrumb } from "@/components/breadcrumb";
 
 type Props = { params: Promise<{ tag: string }> };
 
@@ -39,7 +39,11 @@ export default async function TagPage({ params }: Props) {
     <>
       <SiteHeader />
 
-      <Breadcrumb items={[{ label: tag.label }]} />
+      <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">
+        <Link href="/" className="text-ink-soft hover:text-brand">Inicio</Link>
+        <span>/</span>
+        <span className="font-semibold text-ink">{tag.label}</span>
+      </div>
 
       <div className="mx-auto max-w-[1280px] px-4 py-3.5 pb-8 md:px-10">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-accent px-3 py-1.5 text-[12.5px] font-bold text-brand-deep uppercase">

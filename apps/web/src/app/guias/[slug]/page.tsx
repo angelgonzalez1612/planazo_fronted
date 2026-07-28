@@ -1,11 +1,11 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { getGuideBySlug, getPlacesForGuide, getCategories, resolvePhoto } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanCard } from "@/components/plan-card";
-import { Breadcrumb } from "@/components/breadcrumb";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -36,7 +36,13 @@ export default async function GuidePage({ params }: Props) {
     <>
       <SiteHeader />
 
-      <Breadcrumb items={[{ label: "Guías", href: "/#guias" }, { label: guide.title }]} />
+      <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">
+        <Link href="/" className="text-ink-soft hover:text-brand">Inicio</Link>
+        <span>/</span>
+        <Link href="/#guias" className="text-ink-soft hover:text-brand">Guías</Link>
+        <span>/</span>
+        <span className="font-semibold text-ink">{guide.title}</span>
+      </div>
 
       <div className="mx-auto max-w-[880px] px-4 py-3.5 pb-12 sm:pb-16 md:px-10">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-accent px-3 py-1.5 text-[12.5px] font-bold text-brand-deep uppercase">

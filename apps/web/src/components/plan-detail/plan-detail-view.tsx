@@ -12,7 +12,6 @@ import { ShareButtons } from "@/components/plan-detail/share-buttons";
 import { CommentBox } from "@/components/plan-detail/comment-box";
 import { PlanGallery } from "@/components/plan-detail/plan-gallery";
 import { ContactCta } from "@/components/plan-detail/contact-cta";
-import { Breadcrumb } from "@/components/breadcrumb";
 
 export function PlanDetailView({
   plan,
@@ -49,7 +48,15 @@ export function PlanDetailView({
     <>
       <SiteHeader />
 
-      <Breadcrumb items={[{ label: categoryLabel, href: categoryHref(plan.category) }, { label: plan.name }]} />
+      <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">
+        <Link href="/" className="text-ink-soft hover:text-brand">Inicio</Link>
+        <span>/</span>
+        <Link href={categoryHref(plan.category)} className="text-ink-soft hover:text-brand">
+          {categoryLabel}
+        </Link>
+        <span>/</span>
+        <span className="font-semibold text-ink">{plan.name}</span>
+      </div>
 
       <div className="mx-auto max-w-[1280px] px-4 py-3.5 pb-12 sm:pb-16 md:px-10">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_320px] lg:gap-10">

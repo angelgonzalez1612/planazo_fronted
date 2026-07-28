@@ -1,9 +1,9 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { searchPlans, getCategories } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
-import { Breadcrumb } from "@/components/breadcrumb";
 
 type Props = { searchParams: Promise<{ q?: string }> };
 
@@ -25,7 +25,11 @@ export default async function SearchPage({ searchParams }: Props) {
     <>
       <SiteHeader />
 
-      <Breadcrumb items={[{ label: q ? `"${q}"` : "Búsqueda" }]} />
+      <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">
+        <Link href="/" className="text-ink-soft hover:text-brand">Inicio</Link>
+        <span>/</span>
+        <span className="font-semibold text-ink">{q ? `"${q}"` : "Búsqueda"}</span>
+      </div>
 
       <div className="mx-auto max-w-[1280px] px-4 py-3.5 pb-8 md:px-10">
         <h1 className="text-wrap-balance mt-3.5 font-heading text-[clamp(28px,4vw,44px)] leading-[1.06] font-extrabold tracking-tight">
