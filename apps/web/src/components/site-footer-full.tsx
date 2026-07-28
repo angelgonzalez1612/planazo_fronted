@@ -108,7 +108,7 @@ export function SiteFooterFull({ categories }: { categories: Category[] }) {
         <div>
           <p className="mb-3.5 font-heading text-sm font-bold tracking-wider text-white uppercase">Planazo</p>
           <div className="flex flex-col gap-2.5 text-sm">
-            <span className="cursor-default" title="Próximamente">Quiénes somos</span>
+            <Link href="/quienes-somos" className="hover:text-brand">Quiénes somos</Link>
             <Link href="/publica" className="hover:text-brand">Publica tu lugar</Link>
             <Link href="/publicidad" className="hover:text-brand">Publicidad</Link>
             <span className="cursor-default" title="Próximamente">Prensa</span>
