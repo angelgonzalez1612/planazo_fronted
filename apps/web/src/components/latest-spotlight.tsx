@@ -85,7 +85,7 @@ function SpotlightRotator({
             visible ? "opacity-100" : "opacity-0"
           }`}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/15 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/92 via-ink/35 via-40% to-transparent" />
 
         {category && (
           <span className="absolute top-4 left-4 z-10 rounded-full bg-background/94 px-3.5 py-1.5 text-xs font-bold tracking-wide">
@@ -177,15 +177,15 @@ function SpotlightMosaic({ events }: { events: EventItem[] }) {
                 sizes="(min-width:1024px) 20vw, 40vw"
                 className="object-cover transition-transform duration-300 group-hover:scale-[1.06]"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/10 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/45 via-45% to-transparent" />
 
               <span className="absolute top-2.5 left-2.5 flex flex-col items-center rounded-[9px] bg-background/95 px-2 py-1 leading-none shadow-[0_4px_10px_-4px_rgba(25,21,18,0.4)]">
                 <span className="font-mono text-[8.5px] font-bold tracking-[.04em] text-brand-deep uppercase">{day}</span>
                 {time && <span className="mt-0.5 text-[9px] font-semibold text-ink-soft">{time}</span>}
               </span>
 
-              <span className="absolute inset-x-2.5 bottom-2.5">
-                <span className="block line-clamp-2 text-[13.5px] leading-[1.2] font-bold tracking-tight text-white [text-shadow:0_1px_10px_rgba(0,0,0,0.4)]">
+              <span className="absolute inset-x-3 bottom-3">
+                <span className="line-clamp-2 text-[13.5px] leading-[1.25] font-bold tracking-tight text-white [text-shadow:0_1px_10px_rgba(0,0,0,0.5)]">
                   {event.name}
                 </span>
                 <span className="mt-1 flex items-center gap-1 text-[11px] font-semibold text-white/0 transition-[opacity] duration-200 group-hover:text-white/85">
