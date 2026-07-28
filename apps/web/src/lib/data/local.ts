@@ -1,4 +1,6 @@
 import { slugify } from "@planazo/shared";
+import { getPlaces as apiGetPlaces, getPlaceBySlug as apiGetPlaceBySlug } from "@/lib/api";
+import { adaptPlace, adaptPlaceDetail } from "./adapt-place";
 import placesData from "@/data/places.json";
 import eventsData from "@/data/events.json";
 import categoriesData from "@/data/categories.json";
@@ -44,8 +46,10 @@ export function categoryHref(id: CategoryId): string {
   return id === "eventos" ? "/eventos" : `/${id}`;
 }
 
-export function getPlacesByCategory(id: CategoryId): Place[] {
-  return places.filter((p) => p.category === id);
+/** Connected to planazo_backend — real published places for this category. */
+export async function getPlacesByCategory(id: CategoryId): Promise<Place[]> {
+  const remote = await apiGetPlaces();
+  return remote.filter((p) => p.categories.some((c) => c.slug === id)).map(adaptPlace);
 }
 
 export function getDirectoryTiles(): DirectoryTile[] {
@@ -75,8 +79,10 @@ export function getGuidesForPlace(slug: string): Guide[] {
   return getGuides().filter((g) => g.placeSlugs.includes(slug));
 }
 
-export function getPlaces(): Place[] {
-  return places;
+/** Connected to planazo_backend — every published place. */
+export async function getPlaces(): Promise<Place[]> {
+  const remote = await apiGetPlaces();
+  return remote.map(adaptPlace);
 }
 
 export function getEvents(): EventItem[] {
@@ -135,8 +141,10 @@ export function getPlanBySlug(slug: string): Plan | undefined {
   return plansBySlug.get(slug);
 }
 
-export function getPlaceBySlug(slug: string): Place | undefined {
-  return places.find((p) => p.slug === slug);
+/** Connected to planazo_backend — the real detail page for a place. */
+export async function getPlaceBySlug(slug: string): Promise<Place | undefined> {
+  const remote = await apiGetPlaceBySlug(slug);
+  return remote ? adaptPlaceDetail(remote) : undefined;
 }
 
 export function getEventBySlug(slug: string): EventItem | undefined {

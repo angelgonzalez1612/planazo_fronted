@@ -8,7 +8,7 @@ type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const place = getPlaceBySlug(slug);
+  const place = await getPlaceBySlug(slug);
   if (!place) return {};
 
   const cover = resolvePhoto(place.cover);
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function PlacePage({ params }: Props) {
   const { slug } = await params;
-  const place = getPlaceBySlug(slug);
+  const place = await getPlaceBySlug(slug);
   if (!place) notFound();
 
   const categories = getCategories();

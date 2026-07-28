@@ -14,7 +14,10 @@ export interface DirectoryTile {
 }
 
 export interface PhotoRef {
-  seed: string;
+  /** Picsum placeholder seed — used when there's no real photo yet. */
+  seed?: string;
+  /** A real uploaded photo URL (e.g. Supabase Storage) — takes priority over `seed` when present. */
+  url?: string;
   alt: string;
   width?: number;
   height?: number;

@@ -67,10 +67,14 @@ export interface Place {
   slug: string;
   name: string;
   description: string | null;
+  zone: string | null;
   latitude: string | null;
   longitude: string | null;
   address: string | null;
   priceLevel: number | null;
+  price: number | null;
+  rating: number | null;
+  reviewCount: number;
   phone: string | null;
   website: string | null;
   status: ContentStatus;

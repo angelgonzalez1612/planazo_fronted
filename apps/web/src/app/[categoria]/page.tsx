@@ -38,7 +38,7 @@ export default async function CategoryPage({ params }: Props) {
   const category = findCategory(categoria);
   if (!category) notFound();
 
-  const places = getPlacesByCategory(category.id);
+  const places = await getPlacesByCategory(category.id);
   const categories = getCategories();
   const categoryIcon = new Map([[category.id, { icon: category.icon, label: category.label }]]);
 

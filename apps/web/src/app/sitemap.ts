@@ -5,8 +5,9 @@ import type { CategoryId } from "@/data/types";
 
 const PLACE_CATEGORIES: CategoryId[] = ["comer", "cafes", "bares", "cultura", "aire-libre", "tecnologia"];
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const placeEntries: MetadataRoute.Sitemap = getPlaces().map((place) => ({
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const places = await getPlaces();
+  const placeEntries: MetadataRoute.Sitemap = places.map((place) => ({
     url: `${siteConfig.url}/lugares/${place.slug}`,
   }));
 
