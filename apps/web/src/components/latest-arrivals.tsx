@@ -6,6 +6,40 @@ import Link from "next/link";
 import type { CategoryId, Place } from "@/data/types";
 import { resolvePhoto } from "@/lib/data";
 
+function ArrivalCard({
+  place,
+  category,
+  className = "",
+}: {
+  place: Place;
+  category?: { icon: string; label: string };
+  className?: string;
+}) {
+  const cover = resolvePhoto(place.cover);
+  return (
+    <Link href={`/lugares/${place.slug}`} className={`group ${className}`}>
+      <div className="relative aspect-4/5 overflow-hidden rounded-2xl bg-secondary">
+        <Image
+          src={cover.url}
+          alt={cover.alt}
+          fill
+          sizes="(min-width:1024px) 25vw, 220px"
+          className="object-cover transition-transform duration-300 group-hover:scale-[1.06]"
+        />
+        <span className="absolute top-2.5 left-2.5 rounded-full bg-brand px-2.5 py-1 text-[10.5px] font-bold tracking-wide text-white shadow-[0_4px_10px_-2px_rgba(255,90,0,0.5)]">
+          ✨ Nuevo
+        </span>
+      </div>
+      <div className="mt-2.5">
+        <h3 className="truncate text-[14.5px] font-bold tracking-tight group-hover:text-brand">{place.name}</h3>
+        <p className="mt-0.5 flex items-center gap-1 truncate text-[12.5px] text-ink-soft">
+          {category?.icon} {place.zone}
+        </p>
+      </div>
+    </Link>
+  );
+}
+
 export function LatestArrivals({
   places,
   categoryIcon,
@@ -50,37 +84,20 @@ export function LatestArrivals({
         <p className="mt-2 text-[16px] text-ink-soft">Lo último que se sumó al directorio — todavía sin muchas reseñas.</p>
       </div>
 
-      <div className="relative">
+      {/* Mobile/tablet: horizontal scroll row — the grid below doesn't fit comfortably under lg. */}
+      <div className="relative lg:hidden">
         <div
           ref={trackRef}
           className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         >
-          {places.map((place) => {
-            const cover = resolvePhoto(place.cover);
-            const category = categoryIcon.get(place.category);
-            return (
-              <Link key={place.id} href={`/lugares/${place.slug}`} className="group w-[200px] flex-none snap-start sm:w-[220px]">
-                <div className="relative aspect-4/5 overflow-hidden rounded-2xl bg-secondary">
-                  <Image
-                    src={cover.url}
-                    alt={cover.alt}
-                    fill
-                    sizes="220px"
-                    className="object-cover transition-transform duration-300 group-hover:scale-[1.06]"
-                  />
-                  <span className="absolute top-2.5 left-2.5 rounded-full bg-brand px-2.5 py-1 text-[10.5px] font-bold tracking-wide text-white shadow-[0_4px_10px_-2px_rgba(255,90,0,0.5)]">
-                    ✨ Nuevo
-                  </span>
-                </div>
-                <div className="mt-2.5">
-                  <h3 className="truncate text-[14.5px] font-bold tracking-tight group-hover:text-brand">{place.name}</h3>
-                  <p className="mt-0.5 flex items-center gap-1 truncate text-[12.5px] text-ink-soft">
-                    {category?.icon} {place.zone}
-                  </p>
-                </div>
-              </Link>
-            );
-          })}
+          {places.map((place) => (
+            <ArrivalCard
+              key={place.id}
+              place={place}
+              category={categoryIcon.get(place.category)}
+              className="w-[200px] flex-none snap-start sm:w-[220px]"
+            />
+          ))}
         </div>
 
         {!atStart && (
@@ -109,6 +126,13 @@ export function LatestArrivals({
             </button>
           </>
         )}
+      </div>
+
+      {/* Desktop: full grid, everything visible at once — no need to scroll to see what's new. */}
+      <div className="hidden lg:grid lg:grid-cols-4 lg:gap-6">
+        {places.map((place) => (
+          <ArrivalCard key={place.id} place={place} category={categoryIcon.get(place.category)} />
+        ))}
       </div>
     </section>
   );

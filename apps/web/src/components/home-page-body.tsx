@@ -75,6 +75,10 @@ export function HomePageBody({
 
       <LatestSpotlight featured={featuredPlans} events={weekendEvents} categoryIcon={categoryIcon} />
 
+      <section className="mx-auto mt-2 max-w-[1280px] px-4 md:px-10">
+        <AdSlot size="970 × 90" className="h-[90px]" />
+      </section>
+
       <LatestArrivals places={latestPlaces} categoryIcon={categoryIcon} />
 
       <section className="mx-auto mt-6 max-w-[1280px] px-4 md:px-10">
