@@ -4,7 +4,6 @@ import {
   getFeaturedPlans,
   getLatestPlaces,
   getCategories,
-  getCategoryCounts,
   getDirectoryTiles,
   getWeekendAgenda,
   getMoods,
@@ -25,7 +24,6 @@ export default function HomePage() {
         featuredPlans={getFeaturedPlans()}
         latestPlaces={getLatestPlaces()}
         categories={getCategories()}
-        categoryCounts={getCategoryCounts()}
         directoryTiles={getDirectoryTiles()}
         weekendEvents={getWeekendAgenda()}
         moods={moods}

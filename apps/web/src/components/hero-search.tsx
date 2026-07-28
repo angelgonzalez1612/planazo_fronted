@@ -46,7 +46,7 @@ export function HeroSearch({
     if (!q) return [];
     return suggestions
       .filter((s) => normalize(s.label).includes(q) || normalize(s.sub).includes(q))
-      .slice(0, 8);
+      .slice(0, 5);
   }, [query, suggestions]);
 
   function pick(suggestion: SearchSuggestion) {
