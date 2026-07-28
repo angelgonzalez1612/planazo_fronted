@@ -1,9 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useCity, useSignupPrompt } from "@/components/providers/app-providers";
+import { NavSearchOverlay } from "@/components/nav-search-overlay";
+import { getSearchSuggestions } from "@/lib/data";
 
 const NAV_LINKS = [
   { href: "/#destacados", label: "Planes" },
@@ -22,6 +24,7 @@ export function SiteHeader() {
   const { city, setCity } = useCity();
   const { triggerAuthPrompt } = useSignupPrompt();
   const cityMenuRef = useRef<HTMLDivElement>(null);
+  const searchSuggestions = useMemo(() => getSearchSuggestions(), []);
 
   useEffect(() => {
     function onScroll() {
@@ -79,6 +82,7 @@ export function SiteHeader() {
         </nav>
 
         <div className="hidden items-center gap-3 md:ml-auto md:flex">
+          <NavSearchOverlay suggestions={searchSuggestions} />
           <div className="relative" ref={cityMenuRef}>
             <button
               type="button"
@@ -117,17 +121,23 @@ export function SiteHeader() {
           </button>
         </div>
 
-        <button
-          type="button"
-          onClick={() => setMobileOpen((v) => !v)}
-          aria-label="Abrir menú"
-          aria-expanded={mobileOpen}
-          className={`ml-auto grid size-10 place-items-center rounded-[10px] border border-border md:hidden ${
-            mobileOpen ? "bg-secondary" : "bg-card"
-          }`}
-        >
-          <span className="text-lg leading-none">{mobileOpen ? "✕" : "☰"}</span>
-        </button>
+        <div className="ml-auto flex items-center gap-2 md:hidden">
+          <NavSearchOverlay
+            suggestions={searchSuggestions}
+            className="grid size-10 flex-none place-items-center rounded-[10px] border border-border bg-card text-lg"
+          />
+          <button
+            type="button"
+            onClick={() => setMobileOpen((v) => !v)}
+            aria-label="Abrir menú"
+            aria-expanded={mobileOpen}
+            className={`grid size-10 place-items-center rounded-[10px] border border-border ${
+              mobileOpen ? "bg-secondary" : "bg-card"
+            }`}
+          >
+            <span className="text-lg leading-none">{mobileOpen ? "✕" : "☰"}</span>
+          </button>
+        </div>
       </div>
 
       <nav

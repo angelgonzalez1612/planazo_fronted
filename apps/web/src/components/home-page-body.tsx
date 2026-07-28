@@ -3,6 +3,7 @@ import type { Category, DirectoryTile, EventItem, Guide, Mood, Plan, SiteContent
 import type { SearchSuggestion } from "@/lib/data";
 import { HeroCarousel } from "@/components/hero-carousel";
 import { HeroSearch } from "@/components/hero-search";
+import { LatestSpotlight } from "@/components/latest-spotlight";
 import { CategoryChipBar } from "@/components/category-chip-bar";
 import { TickerBar } from "@/components/ticker-bar";
 import { AdSlot } from "@/components/ad-slot";
@@ -68,6 +69,8 @@ export function HomePageBody({
       <section className="mx-auto max-w-[1280px] px-4 pt-4 md:px-10">
         <TickerBar items={site.ticker} />
       </section>
+
+      <LatestSpotlight featured={featuredPlans} events={weekendEvents} categoryIcon={categoryIcon} />
 
       <section className="mx-auto mt-6 max-w-[1280px] px-4 md:px-10">
         <AdSlot size="970 × 90" className="h-[90px]" />
