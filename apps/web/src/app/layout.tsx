@@ -35,6 +35,17 @@ export const metadata: Metadata = {
   },
 };
 
+// Tells Google this domain *is* the "Planazo" entity — the single biggest
+// lever for ranking well when someone searches the brand name itself.
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: siteConfig.name,
+  url: siteConfig.url,
+  logo: `${siteConfig.url}/logo.png`,
+  sameAs: Object.values(siteConfig.social),
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -43,9 +54,20 @@ export default function RootLayout({
   const { newsletterCount } = getSiteContent();
 
   return (
-    <html lang="es-MX" className={`${sora.variable} ${dmSans.variable} h-full antialiased`}>
+    <html
+      lang="es-MX"
+      className={`${sora.variable} ${dmSans.variable} h-full antialiased`}
+    >
       <body className="min-h-full">
-        <AppProviders subscriberCount={newsletterCount}>{children}</AppProviders>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd),
+          }}
+        />
+        <AppProviders subscriberCount={newsletterCount}>
+          {children}
+        </AppProviders>
         <BackToTop />
       </body>
     </html>
