@@ -1,5 +1,15 @@
 export type ContentStatus = 'draft' | 'in_review' | 'published' | 'archived';
 
+export type UserRole = 'admin' | 'editor';
+
+export interface AuthUser {
+  id: string;
+  email: string;
+  name: string;
+  role: UserRole;
+  createdAt: string;
+}
+
 export interface Category {
   id: string;
   name: string;
@@ -111,4 +121,20 @@ export interface PlanazoEvent {
   locationName: string | null;
   place: Place | null;
   status: ContentStatus;
+}
+
+export const PLACE_CATEGORY_SLUGS = ['comer', 'cafes', 'bares', 'cultura', 'aire-libre', 'tecnologia'] as const;
+export type PlaceCategorySlug = (typeof PLACE_CATEGORY_SLUGS)[number];
+
+/** Input to POST /cms/ai/generate-place — only what a human editor already knows. */
+export interface PlaceDraftInput {
+  name: string;
+  hints?: string;
+}
+
+/** AI-generated draft — never includes address/phone/price; those are human-verified. */
+export interface PlaceDraftOutput {
+  description: string;
+  suggestedCategory: PlaceCategorySlug;
+  suggestedTags: string[];
 }
