@@ -46,9 +46,14 @@ export function categoryHref(id: CategoryId): string {
   return id === "eventos" ? "/eventos" : `/${id}`;
 }
 
-/** Connected to planazo_backend — real published places for this category. */
+/**
+ * Connected to planazo_backend — real published places for this category.
+ * Falls back to the local fixture while the backend isn't deployed yet;
+ * once it is, this starts returning real data with no code change.
+ */
 export async function getPlacesByCategory(id: CategoryId): Promise<Place[]> {
-  const remote = await apiGetPlaces();
+  const remote = await apiGetPlaces().catch(() => null);
+  if (!remote) return places.filter((p) => p.category === id);
   return remote.filter((p) => p.categories.some((c) => c.slug === id)).map(adaptPlace);
 }
 
@@ -79,10 +84,13 @@ export function getGuidesForPlace(slug: string): Guide[] {
   return getGuides().filter((g) => g.placeSlugs.includes(slug));
 }
 
-/** Connected to planazo_backend — every published place. */
+/**
+ * Connected to planazo_backend — every published place.
+ * Falls back to the local fixture while the backend isn't deployed yet.
+ */
 export async function getPlaces(): Promise<Place[]> {
-  const remote = await apiGetPlaces();
-  return remote.map(adaptPlace);
+  const remote = await apiGetPlaces().catch(() => null);
+  return remote ? remote.map(adaptPlace) : places;
 }
 
 export function getEvents(): EventItem[] {
@@ -141,10 +149,14 @@ export function getPlanBySlug(slug: string): Plan | undefined {
   return plansBySlug.get(slug);
 }
 
-/** Connected to planazo_backend — the real detail page for a place. */
+/**
+ * Connected to planazo_backend — the real detail page for a place.
+ * Falls back to the local fixture while the backend isn't deployed yet.
+ */
 export async function getPlaceBySlug(slug: string): Promise<Place | undefined> {
-  const remote = await apiGetPlaceBySlug(slug);
-  return remote ? adaptPlaceDetail(remote) : undefined;
+  const remote = await apiGetPlaceBySlug(slug).catch(() => null);
+  if (remote) return adaptPlaceDetail(remote);
+  return places.find((p) => p.slug === slug);
 }
 
 export function getEventBySlug(slug: string): EventItem | undefined {
