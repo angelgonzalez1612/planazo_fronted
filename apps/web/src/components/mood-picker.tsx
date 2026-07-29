@@ -58,14 +58,25 @@ export function MoodPicker({
           <p className="text-sm font-bold tracking-wide text-brand-deep uppercase">
             Para un plan {activeMood?.label.toLowerCase()} hoy
           </p>
-          <Link href={`/mood/${selected}`} className="text-[13px] font-bold text-brand hover:text-brand-pressed">
+          <Link
+            href={`/mood/${selected}`}
+            aria-label={`Ver todos los planes para ${activeMood?.label.toLowerCase()}`}
+            className="text-[13px] font-bold text-brand hover:text-brand-pressed"
+          >
             Ver todos →
           </Link>
         </div>
         <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
           {plans.map((plan) => {
-            const photo = resolvePhoto({ ...plan.cover, width: 128, height: 128 });
-            const href = plan.kind === "lugar" ? `/lugares/${plan.slug}` : `/eventos/${plan.slug}`;
+            const photo = resolvePhoto({
+              ...plan.cover,
+              width: 128,
+              height: 128,
+            });
+            const href =
+              plan.kind === "lugar"
+                ? `/lugares/${plan.slug}`
+                : `/eventos/${plan.slug}`;
             return (
               <Link
                 key={plan.id}
@@ -73,10 +84,18 @@ export function MoodPicker({
                 className="flex items-center gap-3 rounded-xl border border-border bg-background p-2.5 text-ink"
               >
                 <div className="relative size-16 flex-none overflow-hidden rounded-xl bg-secondary">
-                  <Image src={photo.url} alt={photo.alt} fill sizes="64px" className="object-cover" />
+                  <Image
+                    src={photo.url}
+                    alt={photo.alt}
+                    fill
+                    sizes="64px"
+                    className="object-cover"
+                  />
                 </div>
                 <div className="min-w-0">
-                  <p className="truncate font-heading text-[15px] font-bold tracking-tight">{plan.name}</p>
+                  <p className="truncate font-heading text-[15px] font-bold tracking-tight">
+                    {plan.name}
+                  </p>
                   <p className="mt-1 text-[13px] text-ink-soft">
                     {plan.zone} · {plan.priceLabel} · ★{plan.rating}
                   </p>

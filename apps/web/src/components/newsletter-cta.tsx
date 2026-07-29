@@ -2,17 +2,22 @@
 
 import { useState } from "react";
 
-export function NewsletterCta({ subscriberCount }: { subscriberCount: number }) {
+export function NewsletterCta({
+  subscriberCount,
+}: {
+  subscriberCount: number;
+}) {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <div className="relative flex flex-wrap items-center gap-8 overflow-hidden rounded-2xl bg-brand p-7 text-white sm:p-12">
+    <div className="relative flex flex-wrap items-center gap-8 overflow-hidden rounded-2xl bg-brand-deep p-7 text-white sm:p-12">
       <div className="min-w-[280px] flex-1">
         <h2 className="text-wrap-balance font-heading text-[clamp(26px,3.6vw,42px)] leading-[1.05] font-extrabold tracking-tight">
           Recibe los mejores planes cada semana
         </h2>
-        <p className="mt-3.5 max-w-[40ch] text-[17px] leading-relaxed text-[#FFE0CB]">
-          Un correo los jueves con lo que vale la pena en CDMX. Sin relleno, sin spam.
+        <p className="mt-3.5 max-w-[40ch] text-[17px] leading-relaxed text-[#FFF2E8]">
+          Un correo los jueves con lo que vale la pena en CDMX. Sin relleno, sin
+          spam.
         </p>
       </div>
       <div className="min-w-[280px] flex-1">
@@ -45,8 +50,9 @@ export function NewsletterCta({ subscriberCount }: { subscriberCount: number }) 
                 Suscribirme
               </button>
             </form>
-            <p className="mt-3 text-[13px] text-[#FFE0CB]">
-              Ya somos {subscriberCount.toLocaleString("es-MX")} personas planeando mejor.
+            <p className="mt-3 text-[13px] text-[#FFF2E8]">
+              Ya somos {subscriberCount.toLocaleString("es-MX")} personas
+              planeando mejor.
             </p>
           </>
         )}

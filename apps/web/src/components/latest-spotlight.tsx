@@ -11,7 +11,9 @@ const FADE_MS = 400;
 const RESUME_AFTER_MANUAL_MS = 7000;
 
 function planHref(plan: Plan): string {
-  return plan.kind === "lugar" ? `/lugares/${plan.slug}` : `/eventos/${plan.slug}`;
+  return plan.kind === "lugar"
+    ? `/lugares/${plan.slug}`
+    : `/eventos/${plan.slug}`;
 }
 
 const navBtnClass =
@@ -42,9 +44,12 @@ function SpotlightRotator({
     return () => clearInterval(interval);
   }, [items.length, paused]);
 
-  useEffect(() => () => {
-    if (resumeTimeout.current) clearTimeout(resumeTimeout.current);
-  }, []);
+  useEffect(
+    () => () => {
+      if (resumeTimeout.current) clearTimeout(resumeTimeout.current);
+    },
+    [],
+  );
 
   function goTo(next: number, e?: React.MouseEvent) {
     e?.preventDefault();
@@ -60,7 +65,10 @@ function SpotlightRotator({
     // A manual pick shouldn't get immediately overridden by autoplay — pause, then resume.
     setPaused(true);
     if (resumeTimeout.current) clearTimeout(resumeTimeout.current);
-    resumeTimeout.current = setTimeout(() => setPaused(false), RESUME_AFTER_MANUAL_MS);
+    resumeTimeout.current = setTimeout(
+      () => setPaused(false),
+      RESUME_AFTER_MANUAL_MS,
+    );
   }
 
   const plan = items[index];
@@ -136,11 +144,13 @@ function SpotlightRotator({
                 aria-label={`Ver ${item.name}`}
                 aria-current={i === index}
                 onClick={(e) => goTo(i, e)}
-                className="p-1"
+                className="grid size-8 place-items-center"
               >
                 <span
                   className={`block h-1.5 rounded-full transition-[width,background-color] duration-300 ${
-                    i === index ? "w-5 bg-white" : "w-1.5 bg-white/50 hover:bg-white/75"
+                    i === index
+                      ? "w-5 bg-white"
+                      : "w-1.5 bg-white/50 hover:bg-white/75"
                   }`}
                 />
               </button>
@@ -180,8 +190,14 @@ function SpotlightMosaic({ events }: { events: EventItem[] }) {
               <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/45 via-45% to-transparent" />
 
               <span className="absolute top-2.5 left-2.5 flex flex-col items-center rounded-[9px] bg-background/95 px-2 py-1 leading-none shadow-[0_4px_10px_-4px_rgba(25,21,18,0.4)]">
-                <span className="font-mono text-[8.5px] font-bold tracking-[.04em] text-brand-deep uppercase">{day}</span>
-                {time && <span className="mt-0.5 text-[9px] font-semibold text-ink-soft">{time}</span>}
+                <span className="font-mono text-[8.5px] font-bold tracking-[.04em] text-brand-deep uppercase">
+                  {day}
+                </span>
+                {time && (
+                  <span className="mt-0.5 text-[9px] font-semibold text-ink-soft">
+                    {time}
+                  </span>
+                )}
               </span>
 
               <span className="absolute inset-x-3 bottom-3">
@@ -213,12 +229,17 @@ export function LatestSpotlight({
   if (rotatorItems.length === 0 && events.length === 0) return null;
 
   return (
-    <section id="ciudad" className="mx-auto max-w-[1280px] px-4 py-10 sm:py-14 md:px-10 lg:py-18">
+    <section
+      id="ciudad"
+      className="mx-auto max-w-[1280px] px-4 py-10 sm:py-14 md:px-10 lg:py-18"
+    >
       <div className="mb-6.5">
         <h2 className="font-heading text-[clamp(26px,3.4vw,40px)] font-bold tracking-tight">
           La ciudad no para
         </h2>
-        <p className="mt-2 text-[16px] text-ink-soft">Lo destacado de hoy y lo que se viene este fin.</p>
+        <p className="mt-2 text-[16px] text-ink-soft">
+          Lo destacado de hoy y lo que se viene este fin.
+        </p>
       </div>
 
       <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:gap-6">
