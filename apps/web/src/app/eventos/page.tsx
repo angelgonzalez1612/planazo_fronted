@@ -35,6 +35,12 @@ export default function EventsPage() {
         <p className="mt-3 max-w-[60ch] text-[16px] leading-relaxed text-ink-soft">
           Festivales, conciertos, ferias y planes con fecha — {events.length} eventos activos ahora mismo.
         </p>
+        <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">
+          A diferencia de los lugares fijos del directorio, esto cambia todo el tiempo: festivales,
+          conciertos, ferias, mercados y funciones que solo pasan una vez o se repiten cada semana.
+          Actualizamos la agenda seguido para que no te enteres tarde — filtra por fecha o precio
+          para armar tu semana.
+        </p>
       </div>
 
       <div className="mx-auto max-w-[1280px] px-4 pb-16 md:px-10">
