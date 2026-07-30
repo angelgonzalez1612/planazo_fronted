@@ -99,6 +99,8 @@ export interface EventItem extends PlanBase {
   /** ISO 8601 — cuándo empieza, para poder ordenar por fecha (dateLabel es solo texto). */
   startDate: string;
   weekend?: WeekendInfo;
+  /** Días de la semana en que se repite (0 = domingo ... 6 = sábado), para la página /hoy. */
+  recurringDays?: number[];
 }
 
 export type Plan = Place | EventItem;
@@ -134,10 +136,8 @@ export interface City {
 }
 
 export interface SiteContent {
-  heroBadge: string;
   heroExamples: string[];
   ticker: Array<{ label: string; href: string }>;
-  newsletterCount: number;
   destacadosOrder: string[];
 }
 

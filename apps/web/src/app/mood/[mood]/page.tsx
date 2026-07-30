@@ -16,14 +16,44 @@ function findMood(mood: string) {
   return getMoods().find((m) => m.id === mood);
 }
 
+// Copy tuned to match how people actually search ("qué hacer gratis en cdmx",
+// "qué hacer en la noche") instead of just echoing the mood label.
+const MOOD_SEO: Partial<Record<string, { heading: string; description: string }>> = {
+  pareja: {
+    heading: "Planes para una cita en CDMX",
+    description: "Qué hacer en pareja en CDMX — planes para una cita, curados por gente que sale mucho.",
+  },
+  familiar: {
+    heading: "Qué hacer en familia en CDMX",
+    description: "Planes familiares en CDMX — qué hacer con niños, curados por gente que sale mucho.",
+  },
+  amigos: {
+    heading: "Planes para salir con amigos en CDMX",
+    description: "Qué hacer con amigos en CDMX — planes curados por gente que sale mucho.",
+  },
+  gratis: {
+    heading: "Qué hacer gratis en CDMX",
+    description: "Planes gratis en CDMX — museos, mercados y eventos sin costo, curados por gente que sale mucho.",
+  },
+  noche: {
+    heading: "Qué hacer en la noche en CDMX",
+    description: "Planes de noche en CDMX — bares, música en vivo y planes nocturnos, curados por gente que sale mucho.",
+  },
+  relajado: {
+    heading: "Planes relajados en CDMX",
+    description: "Qué hacer tranquilo en CDMX — planes relajados curados por gente que sale mucho.",
+  },
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { mood } = await params;
   const found = findMood(mood);
   if (!found) return {};
 
+  const seo = MOOD_SEO[found.id];
   return {
-    title: `Planes ${found.label.toLowerCase()}`,
-    description: `Planes para cuando vienes ${found.label.toLowerCase()} — curados por gente que sale mucho.`,
+    title: seo?.heading ?? `Planes ${found.label.toLowerCase()}`,
+    description: seo?.description ?? `Planes para cuando vienes ${found.label.toLowerCase()} — curados por gente que sale mucho.`,
   };
 }
 
@@ -35,6 +65,7 @@ export default async function MoodPage({ params }: Props) {
   const plans = resolveMoodPlans(found.id);
   const categories = getCategories();
   const categoryIcon = new Map(categories.map((c) => [c.id, { icon: c.icon, label: c.label }]));
+  const seo = MOOD_SEO[found.id];
 
   return (
     <>
@@ -51,7 +82,7 @@ export default async function MoodPage({ params }: Props) {
           {found.emoji} Mood
         </span>
         <h1 className="text-wrap-balance mt-3.5 font-heading text-[clamp(30px,4.4vw,48px)] leading-[1.06] font-extrabold tracking-tight">
-          Planes para cuando vienes {found.label.toLowerCase()}
+          {seo?.heading ?? `Planes para cuando vienes ${found.label.toLowerCase()}`}
         </h1>
         <p className="mt-3 max-w-[60ch] text-[16px] leading-relaxed text-ink-soft">
           {plans.length} {plans.length === 1 ? "plan curado" : "planes curados"} para este mood.

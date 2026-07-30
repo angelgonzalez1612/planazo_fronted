@@ -128,6 +128,32 @@ export function getPlansByTag(tagSlug: string): Plan[] {
   return getPlans().filter((plan) => (plan.tags ?? []).some((tag) => slugify(tag) === tagSlug));
 }
 
+export interface ZoneInfo {
+  label: string;
+  slug: string;
+  count: number;
+}
+
+/** Colonias/zonas reales de los lugares y eventos — base de las páginas /zona/[zone]. */
+export function getAllZones(): ZoneInfo[] {
+  const counts = new Map<string, ZoneInfo>();
+  for (const plan of getPlans()) {
+    const slug = slugify(plan.zone);
+    const existing = counts.get(slug);
+    if (existing) existing.count += 1;
+    else counts.set(slug, { label: plan.zone, slug, count: 1 });
+  }
+  return [...counts.values()].sort((a, b) => b.count - a.count);
+}
+
+export function getZoneBySlug(zoneSlug: string): ZoneInfo | undefined {
+  return getAllZones().find((z) => z.slug === zoneSlug);
+}
+
+export function getPlansByZone(zoneSlug: string): Plan[] {
+  return getPlans().filter((plan) => slugify(plan.zone) === zoneSlug);
+}
+
 export function searchPlans(query: string): Plan[] {
   const q = slugify(query);
   if (!q) return [];
@@ -203,7 +229,7 @@ export function resolveMoodPlans(moodId: string): Plan[] {
 }
 
 export interface SearchSuggestion {
-  type: "Plan" | "Categoría" | "Guía" | "Etiqueta" | "Ciudad";
+  type: "Plan" | "Categoría" | "Guía" | "Etiqueta" | "Zona" | "Ciudad";
   icon: string;
   label: string;
   sub: string;
@@ -249,6 +275,14 @@ export function getSearchSuggestions(): SearchSuggestion[] {
     href: `/etiqueta/${tag.slug}`,
   }));
 
+  const zoneSuggestions: SearchSuggestion[] = getAllZones().map((zone) => ({
+    type: "Zona",
+    icon: "📍",
+    label: zone.label,
+    sub: `${zone.count} ${zone.count === 1 ? "plan" : "planes"} en esta zona`,
+    href: `/zona/${zone.slug}`,
+  }));
+
   const citySuggestions: SearchSuggestion[] = getCities()
     .filter((c) => !c.active)
     .map((c) => ({
@@ -259,5 +293,5 @@ export function getSearchSuggestions(): SearchSuggestion[] {
       city: c.name,
     }));
 
-  return [...planSuggestions, ...categorySuggestions, ...guideSuggestions, ...tagSuggestions, ...citySuggestions];
+  return [...planSuggestions, ...categorySuggestions, ...guideSuggestions, ...tagSuggestions, ...zoneSuggestions, ...citySuggestions];
 }

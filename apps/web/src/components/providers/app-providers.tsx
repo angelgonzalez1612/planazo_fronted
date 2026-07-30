@@ -84,10 +84,8 @@ interface ModalState {
 
 export function AppProviders({
   children,
-  subscriberCount,
 }: {
   children: ReactNode;
-  subscriberCount: number;
 }) {
   const [city, setCityState] = useState("CDMX");
   const [favorites, setFavorites] = useState<Record<string, boolean>>({});
@@ -158,7 +156,6 @@ export function AppProviders({
           <SignupModal
             open={modal.open}
             onClose={closeModal}
-            subscriberCount={subscriberCount}
             title={modal.title}
             subtitle={modal.subtitle}
             successTitle={modal.successTitle}

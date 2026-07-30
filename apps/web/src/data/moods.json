@@ -4,14 +4,14 @@
     "label": "En pareja",
     "emoji": "❤️",
     "suggestions": [
-      { "kind": "lugar", "slug": "nudo-panaderia-cava" },
+      { "kind": "lugar", "slug": "panaderia-rosetta" },
       { "kind": "lugar", "slug": "cine-de-autor-cineteca" },
-      { "kind": "lugar", "slug": "terraza-mirador-24" },
-      { "kind": "lugar", "slug": "jazz-en-vivo-zinco" },
-      { "kind": "lugar", "slug": "banos-de-vapor-y-te" },
-      { "kind": "lugar", "slug": "buna-cafe-de-especialidad" },
-      { "kind": "lugar", "slug": "taller-de-mezcal-y-maiz" },
-      { "kind": "lugar", "slug": "fabrica-makerspace" },
+      { "kind": "lugar", "slug": "terraza-catedral" },
+      { "kind": "lugar", "slug": "zinco-jazz-club" },
+      { "kind": "lugar", "slug": "casa-estudio-rivera-kahlo" },
+      { "kind": "lugar", "slug": "cafebreria-el-pendulo" },
+      { "kind": "lugar", "slug": "museo-culturas-populares" },
+      { "kind": "lugar", "slug": "hacedores-makerspace" },
       { "kind": "lugar", "slug": "museo-tamayo-nueva-sala" }
     ]
   },
@@ -21,14 +21,14 @@
     "emoji": "👨‍👩‍👧",
     "suggestions": [
       { "kind": "lugar", "slug": "papalote-museo-del-nino" },
-      { "kind": "lugar", "slug": "trajineras-xochimilco" },
-      { "kind": "lugar", "slug": "domingo-en-el-bosque" },
+      { "kind": "lugar", "slug": "embarcadero-nuevo-nativitas" },
+      { "kind": "lugar", "slug": "zoologico-de-chapultepec" },
       { "kind": "lugar", "slug": "museo-tamayo-nueva-sala" },
-      { "kind": "lugar", "slug": "jardin-botanico" },
-      { "kind": "lugar", "slug": "caminata-desierto-de-los-leones" },
-      { "kind": "lugar", "slug": "museo-tecnologico-cfe" },
-      { "kind": "lugar", "slug": "fonda-de-la-abuela" },
-      { "kind": "lugar", "slug": "domingo-gratis-en-museos" }
+      { "kind": "lugar", "slug": "jardin-botanico-unam" },
+      { "kind": "lugar", "slug": "antiguedades-la-lagunilla" },
+      { "kind": "lugar", "slug": "munet" },
+      { "kind": "lugar", "slug": "el-cardenal" },
+      { "kind": "lugar", "slug": "museo-nacional-de-antropologia" }
     ]
   },
   {
@@ -36,15 +36,15 @@
     "label": "Con amigos",
     "emoji": "🍻",
     "suggestions": [
-      { "kind": "evento", "slug": "cumbia-futura-en-vivo" },
-      { "kind": "lugar", "slug": "ruta-de-pulquerias" },
-      { "kind": "lugar", "slug": "boliche-tacos-narvarte" },
-      { "kind": "lugar", "slug": "mezcaleria-la-clandestina" },
-      { "kind": "evento", "slug": "lucha-libre-cena-cerveza" },
-      { "kind": "lugar", "slug": "lan-center-retro" },
-      { "kind": "evento", "slug": "festival-sabor-capital-2026" },
-      { "kind": "lugar", "slug": "marisqueria-la-ola" },
-      { "kind": "lugar", "slug": "tianguis-del-chopo" }
+      { "kind": "evento", "slug": "salon-los-angeles-danzon" },
+      { "kind": "lugar", "slug": "pulqueria-las-duelistas" },
+      { "kind": "lugar", "slug": "taqueria-el-califa-de-leon" },
+      { "kind": "lugar", "slug": "bosforo" },
+      { "kind": "evento", "slug": "lucha-libre-arena-mexico" },
+      { "kind": "lugar", "slug": "taco-game" },
+      { "kind": "evento", "slug": "bazar-sabado-san-angel" },
+      { "kind": "lugar", "slug": "contramar" },
+      { "kind": "lugar", "slug": "tianguis-cultural-del-chopo" }
     ]
   },
   {
@@ -52,13 +52,13 @@
     "label": "Gratis",
     "emoji": "💸",
     "suggestions": [
-      { "kind": "evento", "slug": "cicloton-nocturno" },
-      { "kind": "lugar", "slug": "domingo-gratis-en-museos" },
-      { "kind": "lugar", "slug": "tianguis-del-chopo" },
-      { "kind": "lugar", "slug": "domingo-en-el-bosque" },
-      { "kind": "lugar", "slug": "centro-cultural-digital" },
-      { "kind": "evento", "slug": "mercado-productores-juarez" },
-      { "kind": "lugar", "slug": "jardin-botanico" },
+      { "kind": "evento", "slug": "cicloton-cdmx" },
+      { "kind": "lugar", "slug": "museo-nacional-de-antropologia" },
+      { "kind": "lugar", "slug": "tianguis-cultural-del-chopo" },
+      { "kind": "lugar", "slug": "zoologico-de-chapultepec" },
+      { "kind": "lugar", "slug": "centro-de-cultura-digital" },
+      { "kind": "evento", "slug": "mercado-el-100" },
+      { "kind": "lugar", "slug": "jardin-botanico-unam" },
       { "kind": "lugar", "slug": "plaza-de-la-tecnologia" }
     ]
   },
@@ -67,15 +67,15 @@
     "label": "De noche",
     "emoji": "🌙",
     "suggestions": [
-      { "kind": "lugar", "slug": "terraza-mirador-24" },
-      { "kind": "lugar", "slug": "jazz-en-vivo-zinco" },
-      { "kind": "lugar", "slug": "mercado-nocturno-doctores" },
-      { "kind": "evento", "slug": "cicloton-nocturno" },
-      { "kind": "lugar", "slug": "cantina-la-perla" },
-      { "kind": "lugar", "slug": "mezcaleria-la-clandestina" },
-      { "kind": "lugar", "slug": "lan-center-retro" },
-      { "kind": "lugar", "slug": "boliche-tacos-narvarte" },
-      { "kind": "lugar", "slug": "ruta-de-pulquerias" }
+      { "kind": "lugar", "slug": "terraza-catedral" },
+      { "kind": "lugar", "slug": "zinco-jazz-club" },
+      { "kind": "lugar", "slug": "mercado-roma" },
+      { "kind": "evento", "slug": "cicloton-cdmx" },
+      { "kind": "lugar", "slug": "la-opera-bar" },
+      { "kind": "lugar", "slug": "bosforo" },
+      { "kind": "lugar", "slug": "taco-game" },
+      { "kind": "lugar", "slug": "taqueria-el-califa-de-leon" },
+      { "kind": "lugar", "slug": "pulqueria-las-duelistas" }
     ]
   },
   {
@@ -83,15 +83,15 @@
     "label": "Relajado",
     "emoji": "🌿",
     "suggestions": [
-      { "kind": "lugar", "slug": "cafe-tostado-lento" },
-      { "kind": "lugar", "slug": "banos-de-vapor-y-te" },
-      { "kind": "lugar", "slug": "jardin-botanico" },
-      { "kind": "lugar", "slug": "buna-cafe-de-especialidad" },
-      { "kind": "lugar", "slug": "cafe-de-olla-santa-maria" },
-      { "kind": "lugar", "slug": "domingo-en-el-bosque" },
+      { "kind": "lugar", "slug": "almanegra-cafe" },
+      { "kind": "lugar", "slug": "casa-estudio-rivera-kahlo" },
+      { "kind": "lugar", "slug": "jardin-botanico-unam" },
+      { "kind": "lugar", "slug": "cafebreria-el-pendulo" },
+      { "kind": "lugar", "slug": "cafe-el-jarocho" },
+      { "kind": "lugar", "slug": "zoologico-de-chapultepec" },
       { "kind": "lugar", "slug": "museo-tamayo-nueva-sala" },
-      { "kind": "lugar", "slug": "fonda-de-la-abuela" },
-      { "kind": "lugar", "slug": "centro-cultural-digital" }
+      { "kind": "lugar", "slug": "el-cardenal" },
+      { "kind": "lugar", "slug": "centro-de-cultura-digital" }
     ]
   }
 ]

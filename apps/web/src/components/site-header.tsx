@@ -8,9 +8,10 @@ import { NavSearchOverlay } from "@/components/nav-search-overlay";
 import { getSearchSuggestions } from "@/lib/data";
 
 const NAV_LINKS = [
+  { href: "/hoy", label: "Hoy" },
   { href: "/#destacados", label: "Planes" },
   { href: "/#lugares", label: "Lugares" },
-  { href: "/#finde", label: "Este finde" },
+  { href: "/fin-de-semana", label: "Este finde" },
   { href: "/#guias", label: "Guías" },
 ];
 

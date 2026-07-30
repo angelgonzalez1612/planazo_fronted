@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Sora, DM_Sans } from "next/font/google";
 import { siteConfig } from "@planazo/config";
-import { getSiteContent } from "@/lib/data";
 import { AppProviders } from "@/components/providers/app-providers";
 import { BackToTop } from "@/components/back-to-top";
 import "./globals.css";
@@ -53,8 +52,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const { newsletterCount } = getSiteContent();
-
   return (
     <html
       lang="es-MX"
@@ -67,9 +64,7 @@ export default function RootLayout({
             __html: JSON.stringify(organizationJsonLd),
           }}
         />
-        <AppProviders subscriberCount={newsletterCount}>
-          {children}
-        </AppProviders>
+        <AppProviders>{children}</AppProviders>
         <BackToTop />
       </body>
     </html>

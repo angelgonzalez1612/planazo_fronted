@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getPlans, getGuides, getCategories, getSiteContent } from "@/lib/data";
+import { getPlans, getGuides, getCategories } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { NewsletterCta } from "@/components/newsletter-cta";
@@ -37,7 +37,6 @@ export default function QuienesSomosPage() {
   const plans = getPlans();
   const guides = getGuides();
   const categories = getCategories();
-  const site = getSiteContent();
 
   return (
     <>
@@ -91,12 +90,6 @@ export default function QuienesSomosPage() {
                 <span className="ml-1.5 text-[14px] text-ink-soft">guías temáticas</span>
               </div>
               <div>
-                <span className="font-heading text-[28px] font-extrabold tracking-tight">
-                  {site.newsletterCount.toLocaleString("es-MX")}
-                </span>
-                <span className="ml-1.5 text-[14px] text-ink-soft">personas en el boletín</span>
-              </div>
-              <div>
                 <span className="font-heading text-[28px] font-extrabold tracking-tight">{categories.length}</span>
                 <span className="ml-1.5 text-[14px] text-ink-soft">categorías, empezando por CDMX</span>
               </div>
@@ -125,7 +118,7 @@ export default function QuienesSomosPage() {
       </section>
 
       <section className="mx-auto max-w-[1280px] px-4 py-12 md:px-10 lg:py-16">
-        <NewsletterCta subscriberCount={site.newsletterCount} />
+        <NewsletterCta />
       </section>
 
       <SiteFooterFull categories={categories} />

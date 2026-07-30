@@ -7,7 +7,6 @@ const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 export function SignupModal({
   open,
   onClose,
-  subscriberCount,
   title = "No te quedes fuera del plan",
   subtitle,
   successTitle = "📩 Revisa tu correo",
@@ -16,7 +15,6 @@ export function SignupModal({
 }: {
   open: boolean;
   onClose: () => void;
-  subscriberCount: number;
   title?: string;
   subtitle?: string;
   successTitle?: string;
@@ -73,12 +71,7 @@ export function SignupModal({
           <>
             <h2 className="mt-4 font-heading text-2xl font-bold tracking-tight">{title}</h2>
             <p className="mt-2 text-[15px] text-ink-soft">
-              {subtitle ?? (
-                <>
-                  Un correo los jueves con lo que vale la pena en CDMX. Ya somos{" "}
-                  {subscriberCount.toLocaleString("es-MX")} personas planeando mejor.
-                </>
-              )}
+              {subtitle ?? "Un correo los jueves con lo que vale la pena en CDMX."}
             </p>
             <form
               onSubmit={(e) => {

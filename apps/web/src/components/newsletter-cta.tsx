@@ -2,11 +2,7 @@
 
 import { useState } from "react";
 
-export function NewsletterCta({
-  subscriberCount,
-}: {
-  subscriberCount: number;
-}) {
+export function NewsletterCta() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
@@ -50,10 +46,6 @@ export function NewsletterCta({
                 Suscribirme
               </button>
             </form>
-            <p className="mt-3 text-[13px] text-[#FFF2E8]">
-              Ya somos {subscriberCount.toLocaleString("es-MX")} personas
-              planeando mejor.
-            </p>
           </>
         )}
       </div>

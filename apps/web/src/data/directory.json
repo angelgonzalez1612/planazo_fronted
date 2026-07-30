@@ -1,15 +1,80 @@
 [
-  { "label": "Restaurantes", "categoryId": "comer", "photoSeed": "planazo-dir-restaurantes", "count": 2340 },
-  { "label": "Cafés", "categoryId": "cafes", "photoSeed": "planazo-dir-cafes", "count": 860 },
-  { "label": "Museos", "categoryId": "cultura", "photoSeed": "planazo-dir-museos", "count": 178 },
-  { "label": "Bares", "categoryId": "bares", "photoSeed": "planazo-dir-bares", "count": 1120 },
-  { "label": "Terrazas", "categoryId": "bares", "photoSeed": "planazo-dir-terrazas", "count": 240 },
-  { "label": "Parques", "categoryId": "aire-libre", "photoSeed": "planazo-dir-parques", "count": 310 },
-  { "label": "Tecnología", "categoryId": "tecnologia", "photoSeed": "planazo-dir-tecnologia", "count": 145 },
-  { "label": "Gaming", "categoryId": "gaming", "photoSeed": "planazo-dir-gaming", "count": 0 },
-  { "label": "Viajes", "categoryId": "viajes", "photoSeed": "planazo-dir-viajes", "count": 0 },
-  { "label": "Cine", "categoryId": "cine-tv", "photoSeed": "planazo-dir-cine", "count": 0 },
-  { "label": "Geek", "categoryId": "geek", "photoSeed": "planazo-dir-geek", "count": 0 },
-  { "label": "Mascotas", "categoryId": "mascotas", "photoSeed": "planazo-dir-mascotas", "count": 0 },
-  { "label": "Música", "categoryId": "musica", "photoSeed": "planazo-dir-musica", "count": 0 }
+  {
+    "label": "Restaurantes",
+    "categoryId": "comer",
+    "photoSeed": "planazo-dir-restaurantes",
+    "count": 10
+  },
+  {
+    "label": "Cafés",
+    "categoryId": "cafes",
+    "photoSeed": "planazo-dir-cafes",
+    "count": 7
+  },
+  {
+    "label": "Museos",
+    "categoryId": "cultura",
+    "photoSeed": "planazo-dir-museos",
+    "count": 9
+  },
+  {
+    "label": "Bares",
+    "categoryId": "bares",
+    "photoSeed": "planazo-dir-bares",
+    "count": 8
+  },
+  {
+    "label": "Terrazas",
+    "categoryId": "bares",
+    "photoSeed": "planazo-dir-terrazas",
+    "count": 8
+  },
+  {
+    "label": "Parques",
+    "categoryId": "aire-libre",
+    "photoSeed": "planazo-dir-parques",
+    "count": 7
+  },
+  {
+    "label": "Tecnología",
+    "categoryId": "tecnologia",
+    "photoSeed": "planazo-dir-tecnologia",
+    "count": 6
+  },
+  {
+    "label": "Gaming",
+    "categoryId": "gaming",
+    "photoSeed": "planazo-dir-gaming",
+    "count": 3
+  },
+  {
+    "label": "Viajes",
+    "categoryId": "viajes",
+    "photoSeed": "planazo-dir-viajes",
+    "count": 3
+  },
+  {
+    "label": "Cine",
+    "categoryId": "cine-tv",
+    "photoSeed": "planazo-dir-cine",
+    "count": 3
+  },
+  {
+    "label": "Geek",
+    "categoryId": "geek",
+    "photoSeed": "planazo-dir-geek",
+    "count": 3
+  },
+  {
+    "label": "Mascotas",
+    "categoryId": "mascotas",
+    "photoSeed": "planazo-dir-mascotas",
+    "count": 3
+  },
+  {
+    "label": "Música",
+    "categoryId": "musica",
+    "photoSeed": "planazo-dir-musica",
+    "count": 3
+  }
 ]

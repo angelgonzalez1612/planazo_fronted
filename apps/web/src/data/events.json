@@ -1,137 +1,190 @@
 [
   {
     "kind": "evento",
-    "id": "ev-festival-sabor-capital-2026",
-    "slug": "festival-sabor-capital-2026",
-    "name": "Festival Sabor Capital 2026",
+    "id": "ev-bazar-sabado-san-angel",
+    "slug": "bazar-sabado-san-angel",
+    "name": "El Bazar Sábado",
     "category": "eventos",
-    "zone": "Parque Bicentenario",
-    "address": "Parque Bicentenario, Azcapotzalco, CDMX",
-    "dateLabel": "Sáb 8 y dom 9 de agosto · 12:00–22:00",
-    "startDate": "2026-08-08T12:00:00-06:00",
-    "priceLabel": "$450 MXN",
-    "price": 450,
-    "rating": 4.8,
-    "reviewCount": 1200,
-    "cover": { "seed": "planazo-festival-sabor-capital", "alt": "Festival gastronómico", "width": 640, "height": 480 },
+    "zone": "San Ángel",
+    "address": "Plaza San Jacinto 11, San Ángel, CDMX",
+    "dateLabel": "Sábado · 10:00–19:00",
+    "startDate": "2026-08-01T10:00:00-06:00",
+    "weekend": {
+      "day": "Sábado",
+      "time": "10:00"
+    },
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1629218091978-f70a20a43aab?w=800&h=600&fit=crop&q=80&auto=format",
+      "alt": "Jarrón de cerámica de colores"
+    },
     "gallery": [
-      { "seed": "planazo-festival-sabor-capital-hero", "alt": "Festival Sabor Capital 2026, vista general", "width": 900, "height": 506 },
-      { "seed": "planazo-festival-puestos-comida", "alt": "Puestos de comida", "width": 300, "height": 300 },
-      { "seed": "planazo-festival-escenario", "alt": "Escenario en vivo", "width": 300, "height": 300 },
-      { "seed": "planazo-festival-mesas", "alt": "Zona de mesas", "width": 300, "height": 300 },
-      { "seed": "planazo-festival-noche", "alt": "Ambiente nocturno", "width": 300, "height": 300 }
+      {
+        "url": "https://images.unsplash.com/photo-1767039770798-89ed11c842d6?w=500&h=650&fit=crop&q=80&auto=format",
+        "alt": "Colección de vasijas de cerámica"
+      }
     ],
-    "description": "Segunda edición del festival gastronómico más grande del poniente de la ciudad: más de 60 puestos de cocina mexicana y de autor, cerveza artesanal, y tres escenarios con música en vivo todo el fin de semana. Entrada general incluye acceso a la zona de food trucks; los talleres de cocina se pagan por separado en el lugar.",
-    "badge": "Destacado",
-    "tags": ["Grupos", "Música en vivo"]
+    "description": "Bazar de artes y artesanías abierto desde 1960 en la Plaza San Jacinto de San Ángel — cientos de artesanos y artistas mexicanos con joyería, cerámica, textiles y más. Solo los sábados.",
+    "tags": ["Gratis", "Familiar"],
+    "recurringDays": [6]
   },
   {
     "kind": "evento",
-    "id": "ev-cumbia-futura-en-vivo",
-    "slug": "cumbia-futura-en-vivo",
-    "name": "Cumbia Futura en vivo",
+    "id": "ev-salon-los-angeles-danzon",
+    "slug": "salon-los-angeles-danzon",
+    "name": "Salón Los Ángeles",
     "category": "eventos",
-    "zone": "Foro Indie Rocks",
-    "address": "Álvaro Obregón 189, Roma Norte, CDMX",
-    "dateLabel": "Viernes · 21:00",
-    "startDate": "2026-07-31T21:00:00-06:00",
-    "weekend": { "day": "Viernes", "time": "21:00" },
-    "priceLabel": "$380 MXN",
-    "price": 380,
-    "rating": 4.7,
-    "reviewCount": 640,
-    "cover": { "seed": "planazo-cumbia-futura", "alt": "Concierto en vivo", "width": 640, "height": 480 },
+    "zone": "Guerrero",
+    "address": "Calle Lerdo 206, Guerrero, CDMX",
+    "dateLabel": "Domingo · 17:00–23:00",
+    "startDate": "2026-08-02T17:00:00-06:00",
+    "weekend": {
+      "day": "Domingo",
+      "time": "17:00"
+    },
+    "priceLabel": "$120 MXN cover",
+    "price": 120,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1555489401-79c274997434?w=800&h=600&fit=crop&q=80&auto=format",
+      "alt": "Pareja bailando"
+    },
     "gallery": [
-      { "seed": "planazo-finde-cumbia-dj", "alt": "Concierto de cumbia", "width": 500, "height": 650 }
+      {
+        "url": "https://images.unsplash.com/photo-1575448913281-98e9e5d3f193?w=500&h=650&fit=crop&q=80&auto=format",
+        "alt": "Pareja bailando en salón"
+      }
     ],
-    "description": "Sonidero contemporáneo con banda completa y pista abierta hasta las 3 am. Cumbia Futura + DJ Sonidera, viernes en Foro Indie Rocks.",
-    "tags": ["Con amigos", "Música en vivo"]
+    "description": "El salón de baile más famoso de la ciudad, abierto desde 1937. Orquesta en vivo tocando danzón, cumbia y swing — abre martes y domingos, con clases de baile antes de la función.",
+    "tags": ["Música en vivo", "Tradicional"],
+    "recurringDays": [2, 0]
   },
   {
     "kind": "evento",
-    "id": "ev-cicloton-nocturno",
-    "slug": "cicloton-nocturno",
-    "name": "Ciclotón nocturno",
-    "category": "eventos",
+    "id": "ev-cicloton-cdmx",
+    "slug": "cicloton-cdmx",
+    "name": "Ciclotón CDMX",
+    "category": "aire-libre",
     "zone": "Reforma",
     "address": "Paseo de la Reforma, CDMX",
-    "dateLabel": "Sábado · 22:00",
-    "startDate": "2026-08-01T22:00:00-06:00",
+    "dateLabel": "Último domingo del mes · 08:00–14:00",
+    "startDate": "2026-08-30T08:00:00-06:00",
     "priceLabel": "Gratis",
     "price": null,
-    "rating": 4.8,
-    "reviewCount": 2100,
-    "cover": { "seed": "planazo-cicloton-nocturno", "alt": "Bici de noche", "width": 640, "height": 480 },
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1499871435582-a1d4ff236842?w=800&h=600&fit=crop&q=80&auto=format",
+      "alt": "Ciclistas en movimiento en la ciudad"
+    },
     "gallery": [
-      { "seed": "planazo-cicloton-nocturno-1", "alt": "Ciclistas en Reforma", "width": 300, "height": 300 }
+      {
+        "url": "https://images.unsplash.com/photo-1610913855122-e4e14f4e2b8b?w=500&h=650&fit=crop&q=80&auto=format",
+        "alt": "Grupo de ciclistas en la calle"
+      }
     ],
-    "description": "Reforma cerrada a coches para un rodada nocturna de 20 km, con acompañamiento de Policía y puestos de hidratación cada 3 km.",
-    "tags": ["Gratis", "Nocturno"]
+    "description": "El último domingo de cada mes, Reforma y otras vialidades de 6 alcaldías se cierran a los autos para ciclistas, patinadores y caminantes. Organizado por el InDeporte, gratuito y para todas las edades.",
+    "tags": ["Gratis", "Familiar"],
+    "recurringDays": [0]
   },
   {
     "kind": "evento",
-    "id": "ev-mercado-productores-juarez",
-    "slug": "mercado-productores-juarez",
-    "name": "Mercado de productores en Colonia Juárez",
+    "id": "ev-mercado-el-100",
+    "slug": "mercado-el-100",
+    "name": "Mercado El 100",
     "category": "comer",
-    "zone": "Juárez",
-    "address": "Plaza Washington, Juárez, CDMX",
-    "dateLabel": "Sábado · 11:00",
-    "startDate": "2026-08-01T11:00:00-06:00",
-    "weekend": { "day": "Sábado", "time": "11:00" },
+    "zone": "Roma Sur",
+    "address": "Plaza del Lanzador, Roma Sur, CDMX",
+    "dateLabel": "Domingo · 09:30–14:30",
+    "startDate": "2026-08-02T09:30:00-06:00",
+    "weekend": {
+      "day": "Domingo",
+      "time": "09:30"
+    },
     "priceLabel": "Gratis",
     "price": null,
-    "rating": 4.6,
-    "reviewCount": 190,
-    "cover": { "seed": "planazo-finde-mercado-juarez", "alt": "Mercado de productores", "width": 500, "height": 650 },
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1526399743290-f73cb4022f48?w=800&h=600&fit=crop&q=80&auto=format",
+      "alt": "Personas junto a mesas con productos frescos"
+    },
     "gallery": [
-      { "seed": "planazo-finde-mercado-juarez", "alt": "Mercado de productores", "width": 500, "height": 650 }
+      {
+        "url": "https://images.unsplash.com/photo-1591586116988-62fe65164f8d?w=500&h=650&fit=crop&q=80&auto=format",
+        "alt": "Verduras frescas sobre mesa de madera"
+      }
     ],
-    "description": "Cuarenta productores locales, café de olla y taller de fermentos. Entrada libre todo el sábado en Plaza Washington.",
-    "tags": ["Gratis", "Familiar"]
+    "description": "El primer mercado de productores orgánicos de la ciudad, con vendedores de un radio de 160 km: frutas, verduras, quesos artesanales, pan, café y puestos de comida preparada.",
+    "tags": ["Gratis", "Familiar"],
+    "recurringDays": [0]
   },
   {
     "kind": "evento",
-    "id": "ev-lucha-libre-cena-cerveza",
-    "slug": "lucha-libre-cena-cerveza",
-    "name": "Lucha libre con cena y cerveza",
+    "id": "ev-lucha-libre-arena-mexico",
+    "slug": "lucha-libre-arena-mexico",
+    "name": "Lucha Libre CMLL — Arena México",
     "category": "eventos",
     "zone": "Doctores",
-    "address": "Arena México, Doctores, CDMX",
-    "dateLabel": "Sábado · 18:30",
-    "startDate": "2026-08-01T18:30:00-06:00",
-    "weekend": { "day": "Sábado", "time": "18:30" },
-    "priceLabel": "$520 MXN",
-    "price": 520,
-    "rating": 4.6,
-    "reviewCount": 310,
-    "cover": { "seed": "planazo-finde-lucha-libre", "alt": "Lucha libre", "width": 500, "height": 650 },
+    "address": "Dr. Lavista 189, Doctores, CDMX",
+    "dateLabel": "Viernes · 20:30",
+    "startDate": "2026-07-31T20:30:00-06:00",
+    "weekend": {
+      "day": "Viernes",
+      "time": "20:30"
+    },
+    "priceLabel": "Desde $50 MXN",
+    "price": 50,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1657672825833-7b2ad6fae220?w=800&h=600&fit=crop&q=80&auto=format",
+      "alt": "Luchadores en el aire durante combate"
+    },
     "gallery": [
-      { "seed": "planazo-finde-lucha-libre", "alt": "Lucha libre", "width": 500, "height": 650 }
+      {
+        "url": "https://images.unsplash.com/photo-1715149721511-8e48fc0cb2f4?w=500&h=650&fit=crop&q=80&auto=format",
+        "alt": "Luchadores en el ring"
+      }
     ],
-    "description": "Función completa en la Arena México con paquete de tacos y chelas incluido en el boleto.",
-    "tags": ["Con amigos", "Grupos"]
+    "description": "Función regular del CMLL en la Arena México — Viernes Espectacular, 20:30. También hay funciones los martes (19:30) y domingos (17:00, Domingo Familiar).",
+    "tags": ["Con amigos", "Grupos"],
+    "recurringDays": [2, 5, 0]
   },
   {
     "kind": "evento",
-    "id": "ev-caminata-desierto-leones",
-    "slug": "caminata-desierto-de-los-leones",
-    "name": "Caminata y desayuno en el Desierto de los Leones",
-    "category": "aire-libre",
-    "zone": "Cuajimalpa",
-    "address": "Parque Nacional Desierto de los Leones, Cuajimalpa, CDMX",
-    "dateLabel": "Domingo · 09:00",
+    "id": "ev-antiguedades-la-lagunilla",
+    "slug": "antiguedades-la-lagunilla",
+    "name": "Mercado de Antigüedades La Lagunilla",
+    "category": "eventos",
+    "zone": "Centro",
+    "address": "Calles Comonfort, Jaime Nunó y Matamoros, Centro, CDMX",
+    "dateLabel": "Domingo · 09:00–15:00",
     "startDate": "2026-08-02T09:00:00-06:00",
-    "weekend": { "day": "Domingo", "time": "09:00" },
-    "priceLabel": "$220 MXN",
-    "price": 220,
-    "rating": 4.7,
-    "reviewCount": 145,
-    "cover": { "seed": "planazo-finde-desierto-leones", "alt": "Caminata en el bosque", "width": 500, "height": 650 },
+    "weekend": {
+      "day": "Domingo",
+      "time": "09:00"
+    },
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1560697043-f880bb028f1e?w=800&h=600&fit=crop&q=80&auto=format",
+      "alt": "Colección de objetos antiguos"
+    },
     "gallery": [
-      { "seed": "planazo-finde-desierto-leones", "alt": "Caminata en el bosque", "width": 500, "height": 650 }
+      {
+        "url": "https://images.unsplash.com/photo-1780775119716-ad6b86847f77?w=500&h=650&fit=crop&q=80&auto=format",
+        "alt": "Personas viendo puestos de mercado al aire libre"
+      }
     ],
-    "description": "Ruta fácil de 6 km, guía local y quesadillas al final. Punto de encuentro a las 9 am en punto.",
-    "tags": ["Familiar", "Experiencia"]
+    "description": "Cada domingo, un laberinto de puestos con muebles antiguos, vinilos, cámaras, juguetes de colección y reliquias del pasado, a unas cuadras de Garibaldi. Llega temprano para lo mejor.",
+    "tags": ["Tradicional", "Cultura alternativa"],
+    "recurringDays": [0]
   }
 ]

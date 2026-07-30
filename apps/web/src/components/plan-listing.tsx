@@ -21,8 +21,10 @@ function sortPlans(plans: Plan[], sort: SortId): Plan[] {
   const sorted = [...plans];
   if (sort === "fecha") {
     sorted.sort((a, b) => {
-      const aTime = a.kind === "evento" ? new Date(a.startDate).getTime() : Infinity;
-      const bTime = b.kind === "evento" ? new Date(b.startDate).getTime() : Infinity;
+      const aTime =
+        a.kind === "evento" ? new Date(a.startDate).getTime() : Infinity;
+      const bTime =
+        b.kind === "evento" ? new Date(b.startDate).getTime() : Infinity;
       return aTime - bTime;
     });
   } else if (sort === "precio") {
@@ -56,7 +58,9 @@ export function PlanListing({
             onClick={() => setView("cards")}
             aria-pressed={view === "cards"}
             className={`flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-[13.5px] font-bold transition-colors ${
-              view === "cards" ? "bg-card text-brand-deep shadow-sm" : "text-ink-soft"
+              view === "cards"
+                ? "bg-card text-brand-deep shadow-sm"
+                : "text-ink-soft"
             }`}
           >
             ▦ Cards
@@ -66,7 +70,9 @@ export function PlanListing({
             onClick={() => setView("list")}
             aria-pressed={view === "list"}
             className={`flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-[13.5px] font-bold transition-colors ${
-              view === "list" ? "bg-card text-brand-deep shadow-sm" : "text-ink-soft"
+              view === "list"
+                ? "bg-card text-brand-deep shadow-sm"
+                : "text-ink-soft"
             }`}
           >
             ☰ Lista
@@ -102,7 +108,14 @@ export function PlanListing({
             );
             // Un anuncio cada 5 tarjetas, como en un feed.
             if ((i + 1) % 5 === 0) {
-              return [card, <AdSlot key={`ad-${plan.id}`} size="300 × 250" className="aspect-4/3 rounded-xl" />];
+              return [
+                card,
+                <AdSlot
+                  key={`ad-${plan.id}`}
+                  size="300 × 250"
+                  className="aspect-4/3 rounded-xl"
+                />,
+              ];
             }
             return [card];
           })}
@@ -110,8 +123,15 @@ export function PlanListing({
       ) : (
         <div className="flex flex-col gap-3">
           {sorted.flatMap((plan, i) => {
-            const href = plan.kind === "lugar" ? `/lugares/${plan.slug}` : `/eventos/${plan.slug}`;
-            const photo = resolvePhoto({ ...plan.cover, width: 160, height: 160 });
+            const href =
+              plan.kind === "lugar"
+                ? `/lugares/${plan.slug}`
+                : `/eventos/${plan.slug}`;
+            const photo = resolvePhoto({
+              ...plan.cover,
+              width: 160,
+              height: 160,
+            });
             const row = (
               <Link
                 key={plan.id}
@@ -119,31 +139,53 @@ export function PlanListing({
                 className="flex items-center gap-4 rounded-xl border border-border bg-card p-3.5 transition-colors hover:border-peach"
               >
                 <div className="relative size-20 flex-none overflow-hidden rounded-lg bg-secondary">
-                  <Image src={photo.url} alt={photo.alt} fill sizes="80px" className="object-cover" />
+                  <Image
+                    src={photo.url}
+                    alt={photo.alt}
+                    fill
+                    sizes="80px"
+                    className="object-cover"
+                  />
                 </div>
                 <div className="min-w-0 flex-1">
                   <span className="text-[12.5px] font-bold text-brand-deep uppercase">
-                    {categoryIcon.get(plan.category)?.icon} {categoryIcon.get(plan.category)?.label}
+                    {categoryIcon.get(plan.category)?.icon}{" "}
+                    {categoryIcon.get(plan.category)?.label}
                   </span>
-                  <h3 className="truncate font-heading text-[17px] font-bold tracking-tight">{plan.name}</h3>
+                  <h3 className="truncate font-heading text-[17px] font-bold tracking-tight">
+                    {plan.name}
+                  </h3>
                   <p className="mt-0.5 truncate text-[13.5px] text-ink-soft">
                     📍 {plan.zone}
                     {plan.kind === "evento" && <> · 📅 {plan.dateLabel}</>}
                   </p>
                 </div>
                 <div className="flex flex-none flex-col items-end gap-1 text-right">
-                  <span className="text-[15px] font-bold">{plan.priceLabel}</span>
-                  <span className="flex items-center gap-1 text-[13px] font-semibold text-ink-soft">
-                    <span className="text-brand">★</span>
-                    {plan.rating}
-                    <span className="font-normal text-[#B5ADA6]">({formatReviewCount(plan.reviewCount)})</span>
+                  <span className="text-[15px] font-bold">
+                    {plan.priceLabel}
                   </span>
+                  {plan.reviewCount > 0 && (
+                    <span className="flex items-center gap-1 text-[13px] font-semibold text-ink-soft">
+                      <span className="text-brand">★</span>
+                      {plan.rating}
+                      <span className="font-normal text-[#B5ADA6]">
+                        ({formatReviewCount(plan.reviewCount)})
+                      </span>
+                    </span>
+                  )}
                 </div>
               </Link>
             );
             // Un anuncio cada 3 filas, en el mismo formato de lista.
             if ((i + 1) % 3 === 0) {
-              return [row, <AdSlot key={`ad-${plan.id}`} size="728 × 90" className="h-[90px]" />];
+              return [
+                row,
+                <AdSlot
+                  key={`ad-${plan.id}`}
+                  size="728 × 90"
+                  className="h-[90px]"
+                />,
+              ];
             }
             return [row];
           })}

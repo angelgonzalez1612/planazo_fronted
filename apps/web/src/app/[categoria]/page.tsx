@@ -35,14 +35,40 @@ function findCategory(categoria: string) {
   return getCategories().find((c) => c.id === categoria);
 }
 
+// Copy tuned to match how people actually search ("dónde comer en cdmx",
+// "dónde ir de copas") instead of just echoing the category label.
+const CATEGORY_SEO: Partial<Record<CategoryId, { heading: string; description: string }>> = {
+  comer: {
+    heading: "Dónde comer en CDMX",
+    description: "Dónde comer en CDMX — restaurantes, antojitos y taquerías curados por gente que sale mucho.",
+  },
+  cafes: {
+    heading: "Dónde tomar café en CDMX",
+    description: "Dónde tomar café en CDMX — cafeterías de especialidad y clásicas, curadas por gente que sale mucho.",
+  },
+  bares: {
+    heading: "Dónde ir de copas en CDMX",
+    description: "Dónde ir de copas en CDMX — bares, rooftops y cantinas curados por gente que sale mucho.",
+  },
+  cultura: {
+    heading: "Qué hacer en CDMX: cultura y museos",
+    description: "Qué hacer en CDMX si buscas planes de cultura — museos, exposiciones y centros culturales.",
+  },
+  "aire-libre": {
+    heading: "Planes al aire libre en CDMX",
+    description: "Qué hacer al aire libre en CDMX — parques, jardines y planes fuera de techo.",
+  },
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { categoria } = await params;
   const category = findCategory(categoria);
   if (!category) return {};
 
+  const seo = CATEGORY_SEO[category.id];
   return {
-    title: category.label,
-    description: `${category.label} en CDMX — el directorio completo, curado por gente que sale mucho.`,
+    title: seo?.heading ?? `${category.label} en CDMX`,
+    description: seo?.description ?? `${category.label} en CDMX — el directorio completo, curado por gente que sale mucho.`,
   };
 }
 
@@ -54,6 +80,7 @@ export default async function CategoryPage({ params }: Props) {
   const places = await getPlacesByCategory(category.id);
   const categories = getCategories();
   const categoryIcon = new Map([[category.id, { icon: category.icon, label: category.label }]]);
+  const seo = CATEGORY_SEO[category.id];
 
   return (
     <>
@@ -70,7 +97,7 @@ export default async function CategoryPage({ params }: Props) {
           {category.icon} Directorio
         </span>
         <h1 className="text-wrap-balance mt-3.5 font-heading text-[clamp(30px,4.4vw,48px)] leading-[1.06] font-extrabold tracking-tight">
-          {category.label} en CDMX
+          {seo?.heading ?? `${category.label} en CDMX`}
         </h1>
         <p className="mt-3 max-w-[60ch] text-[16px] leading-relaxed text-ink-soft">
           El directorio completo, curado por gente que sale mucho — {places.length}{" "}

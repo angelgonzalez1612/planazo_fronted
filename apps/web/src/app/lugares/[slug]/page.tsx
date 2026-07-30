@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const cover = resolvePhoto(place.cover);
   return {
-    title: place.name,
+    title: `${place.name} — ${place.zone}, CDMX`,
     description: place.description,
     openGraph: { images: [cover.url] },
   };

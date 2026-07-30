@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@planazo/config";
-import { getPlaces, getEvents, getGuides, categoryHref } from "@/lib/data";
+import { getPlaces, getEvents, getGuides, getAllZones, categoryHref } from "@/lib/data";
 import type { CategoryId } from "@/data/types";
 
 const PLACE_CATEGORIES: CategoryId[] = [
@@ -38,6 +38,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${siteConfig.url}/guias/${guide.slug}`,
   }));
 
+  const zoneEntries: MetadataRoute.Sitemap = getAllZones().map((zone) => ({
+    url: `${siteConfig.url}/zona/${zone.slug}`,
+    changeFrequency: "weekly",
+  }));
+
   return [
     {
       url: siteConfig.url,
@@ -45,10 +50,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "daily",
       priority: 1,
     },
-    { url: `${siteConfig.url}/eventos`, changeFrequency: "daily", priority: 0.9 },
+    {
+      url: `${siteConfig.url}/eventos`,
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
+    { url: `${siteConfig.url}/hoy`, changeFrequency: "daily", priority: 0.9 },
+    {
+      url: `${siteConfig.url}/fin-de-semana`,
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
     ...categoryEntries,
     ...placeEntries,
     ...eventEntries,
     ...guideEntries,
+    ...zoneEntries,
   ];
 }

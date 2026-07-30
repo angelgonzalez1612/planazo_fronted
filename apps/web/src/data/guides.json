@@ -5,29 +5,61 @@
     "title": "10 cafeterías bonitas en CDMX para trabajar sin culpa",
     "description": "Wifi de verdad, enchufes que no se pelean y café que aguanta una mañana entera de laptop.",
     "categoryLabel": "Cafés",
-    "readTime": "6 min de lectura · Actualizada en julio",
-    "cover": { "seed": "planazo-guia-cafeterias-cdmx", "alt": "Cafeterías CDMX", "width": 640, "height": 400 },
-    "placeSlugs": ["cafe-tostado-lento", "nudo-panaderia-cava"]
+    "readTime": "6 min de lectura · 7 lugares",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1777893340498-eaf1e37e39d3?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Interior de cafetería moderna con plantas"
+    },
+    "placeSlugs": [
+      "almanegra-cafe",
+      "cafe-el-jarocho",
+      "cafebreria-el-pendulo",
+      "cafe-avellaneda",
+      "buna",
+      "cardinal-casa-de-cafe",
+      "chiquitito-cafe"
+    ]
   },
   {
     "id": "g2",
     "slug": "coyoacan-un-dia-completo",
     "title": "Qué hacer en Coyoacán: un día completo, a pie",
-    "description": "De la cata de mezcal al jardín botánico, sin subirte a un coche en todo el día.",
+    "description": "De la Casa Azul al jardín botánico, sin subirte a un coche en todo el día.",
     "categoryLabel": "Barrios",
-    "readTime": "8 min de lectura · 14 paradas",
-    "cover": { "seed": "planazo-guia-coyoacan", "alt": "Coyoacán", "width": 640, "height": 400 },
-    "placeSlugs": ["taller-de-mezcal-y-maiz", "jardin-botanico"]
+    "readTime": "8 min de lectura · 6 paradas",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1579116317002-fd0cedb52425?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Calle colonial empedrada entre edificios"
+    },
+    "placeSlugs": [
+      "museo-frida-kahlo",
+      "museo-culturas-populares",
+      "jardin-botanico-unam",
+      "cafe-el-jarocho",
+      "cafe-avellaneda",
+      "universum"
+    ]
   },
   {
     "id": "g3",
     "slug": "mejores-terrazas-por-presupuesto",
-    "title": "Las mejores terrazas de la ciudad, por presupuesto",
-    "description": "Rooftops, pulquerías y clubes de jazz para tomar algo con vista o con historia.",
+    "title": "Las mejores terrazas y bares de la ciudad, por presupuesto",
+    "description": "Rooftops, pulquerías y clubes de jazz para tomar algo con vista o con historia — desde $120 hasta $450 por persona.",
     "categoryLabel": "Rooftops",
-    "readTime": "5 min de lectura · 12 lugares",
-    "cover": { "seed": "planazo-guia-terrazas-presupuesto", "alt": "Terrazas por presupuesto", "width": 640, "height": 400 },
-    "placeSlugs": ["terraza-mirador-24", "jazz-en-vivo-zinco", "ruta-de-pulquerias"]
+    "readTime": "6 min de lectura · 7 lugares",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1621275471769-e6aa344546d5?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Mesas y sillas en terraza al aire libre"
+    },
+    "placeSlugs": [
+      "pulqueria-las-duelistas",
+      "bosforo",
+      "zinco-jazz-club",
+      "terraza-catedral",
+      "baltra-bar",
+      "licoreria-limantour",
+      "handshake-speakeasy"
+    ]
   },
   {
     "id": "g4",
@@ -35,18 +67,123 @@
     "title": "Planes pet friendly para salir con tu perro",
     "description": "Cafés, parques y jardines donde tu perro entra tan a gusto como tú.",
     "categoryLabel": "Pet friendly",
-    "readTime": "4 min de lectura · 3 lugares",
-    "cover": { "seed": "planazo-guia-pet-friendly", "alt": "Planes pet friendly", "width": 640, "height": 400 },
-    "placeSlugs": ["cafe-tostado-lento", "domingo-en-el-bosque", "jardin-botanico"]
+    "readTime": "4 min de lectura · 5 lugares",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1628105122995-972f14d650f9?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Perro corriendo en el pasto de un parque"
+    },
+    "placeSlugs": [
+      "almanegra-cafe",
+      "zoologico-de-chapultepec",
+      "jardin-botanico-unam",
+      "parque-mexico",
+      "bosque-de-tlalpan"
+    ]
   },
   {
     "id": "g5",
     "slug": "planes-romanticos-para-una-cita",
     "title": "Planes románticos para una cita perfecta",
-    "description": "De una copa de vino a un temazcal para dos: opciones que no se sienten forzadas.",
+    "description": "De una copa de vino a una marisquería con estrella Michelin: opciones que no se sienten forzadas.",
     "categoryLabel": "Citas",
+    "readTime": "6 min de lectura · 6 lugares",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1688437307687-fe226bddfab1?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Mesa puesta con velas y platillos"
+    },
+    "placeSlugs": [
+      "panaderia-rosetta",
+      "contramar",
+      "terraza-catedral",
+      "handshake-speakeasy",
+      "cine-de-autor-cineteca",
+      "casa-estudio-rivera-kahlo"
+    ]
+  },
+  {
+    "id": "g6",
+    "slug": "restaurantes-estrella-michelin-cdmx",
+    "title": "Restaurantes con estrella Michelin en CDMX",
+    "description": "De la taquería de banqueta a la mesa de autor: los cuatro restaurantes de la ciudad reconocidos por la Guía Michelin.",
+    "categoryLabel": "Alta cocina",
     "readTime": "5 min de lectura · 4 lugares",
-    "cover": { "seed": "planazo-guia-citas-romanticas", "alt": "Planes románticos", "width": 640, "height": 400 },
-    "placeSlugs": ["nudo-panaderia-cava", "terraza-mirador-24", "cine-de-autor-cineteca", "banos-de-vapor-y-te"]
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1663530761401-15eefb544889?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Chef sirviendo salsa sobre platillo emplatado"
+    },
+    "placeSlugs": [
+      "pujol",
+      "quintonil",
+      "contramar",
+      "taqueria-el-califa-de-leon"
+    ]
+  },
+  {
+    "id": "g7",
+    "slug": "mejores-bares-para-salir-de-copas",
+    "title": "Los mejores bares para salir de copas",
+    "description": "Del bar número uno del mundo a la mezcalería escondida en un sótano: la coctelería más premiada de la ciudad.",
+    "categoryLabel": "Bares",
+    "readTime": "5 min de lectura · 5 lugares",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1778104959469-0861d423de46?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Coctel con rodaja de naranja y canela"
+    },
+    "placeSlugs": [
+      "handshake-speakeasy",
+      "licoreria-limantour",
+      "baltra-bar",
+      "bosforo",
+      "zinco-jazz-club"
+    ]
+  },
+  {
+    "id": "g8",
+    "slug": "escapadas-de-un-dia-cerca-de-cdmx",
+    "title": "Qué hacer en un puente cerca de CDMX",
+    "description": "Dos Pueblos Mágicos y una zona arqueológica a una hora o menos de tres — para cuando el fin de semana se estira y quieres salir de la ciudad sin complicarte.",
+    "categoryLabel": "Escapadas",
+    "readTime": "5 min de lectura · 3 lugares",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1568402102990-bc541580b59f?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Pirámides prehispánicas de Teotihuacán al atardecer"
+    },
+    "placeSlugs": ["teotihuacan", "tepoztlan", "valle-de-bravo"]
+  },
+  {
+    "id": "g9",
+    "slug": "que-hacer-en-cdmx-en-dia-de-muertos",
+    "title": "Qué hacer en CDMX en Día de Muertos",
+    "description": "Coyoacán se llena de ofrendas y cempasúchil a finales de octubre — estos son los museos que vale la pena combinar con la caminata.",
+    "categoryLabel": "Temporada",
+    "readTime": "4 min de lectura · 4 lugares",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1536266305399-b367feb671f9?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Vasijas de barro de colores en exhibición"
+    },
+    "placeSlugs": [
+      "museo-culturas-populares",
+      "museo-frida-kahlo",
+      "casa-estudio-rivera-kahlo",
+      "museo-nacional-de-antropologia"
+    ]
+  },
+  {
+    "id": "g10",
+    "slug": "planes-para-diciembre-en-cdmx",
+    "title": "Planes para diciembre en CDMX",
+    "description": "Terrazas para cerrar el año, cafés para el frío y parques para caminar entre posadas — planes para el mes más ocupado del calendario.",
+    "categoryLabel": "Temporada",
+    "readTime": "4 min de lectura · 4 lugares",
+    "cover": {
+      "url": "https://images.unsplash.com/photo-1621275471769-e6aa344546d5?w=800&h=500&fit=crop&q=80&auto=format",
+      "alt": "Terraza con mesas y vista de la ciudad"
+    },
+    "placeSlugs": [
+      "terraza-catedral",
+      "cafebreria-el-pendulo",
+      "parque-mexico",
+      "bosque-de-tlalpan"
+    ]
   }
 ]

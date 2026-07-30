@@ -9,7 +9,7 @@ import type {
   Plan,
   SiteContent,
 } from "@/data/types";
-import type { SearchSuggestion } from "@/lib/data";
+import type { SearchSuggestion, ZoneInfo } from "@/lib/data";
 import { HeroCarousel } from "@/components/hero-carousel";
 import { HeroSearch } from "@/components/hero-search";
 import { LatestSpotlight } from "@/components/latest-spotlight";
@@ -36,6 +36,8 @@ export function HomePageBody({
   guides,
   searchSuggestions,
   site,
+  planCount,
+  zones,
 }: {
   featuredPlans: Plan[];
   latestPlaces: Place[];
@@ -47,6 +49,8 @@ export function HomePageBody({
   guides: Guide[];
   searchSuggestions: SearchSuggestion[];
   site: SiteContent;
+  planCount: number;
+  zones: ZoneInfo[];
 }) {
   const categoryIcon = new Map(
     categories.map((c) => [c.id, { icon: c.icon, label: c.label }]),
@@ -59,7 +63,7 @@ export function HomePageBody({
           <div className="mx-auto flex max-w-[1280px] flex-wrap items-center gap-8 px-4 py-10 sm:py-16 md:px-10 lg:gap-16">
             <div className="min-w-[300px] flex-1 basis-[460px]">
               <span className="inline-flex items-center gap-2 rounded-full border border-peach bg-card px-3.5 py-1.5 text-[13px] font-bold text-brand-deep">
-                {site.heroBadge}
+                ✦ {planCount} planes curados en CDMX
               </span>
               <h1 className="text-wrap-balance mt-4.5 font-heading text-[clamp(40px,6.4vw,76px)] leading-[0.98] font-extrabold tracking-tight">
                 Encuentra tu
@@ -196,6 +200,26 @@ export function HomePageBody({
         </section>
 
         <section className="mx-auto max-w-[1280px] px-4 pb-10 md:px-10">
+          <h2 className="font-heading text-[clamp(24px,3vw,32px)] font-bold tracking-tight">
+            Explora por zona
+          </h2>
+          <p className="mt-2 mb-5 text-[16px] text-ink-soft">
+            Qué hacer, colonia por colonia.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {zones.map((zone) => (
+              <Link
+                key={zone.slug}
+                href={`/zona/${zone.slug}`}
+                className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-3.5 py-2 text-[13.5px] font-semibold text-ink transition-colors hover:border-peach hover:text-brand-deep"
+              >
+                📍 {zone.label}
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-[1280px] px-4 pb-10 md:px-10">
           <AdSlot size="970 × 90" className="h-[90px]" />
         </section>
 
@@ -230,7 +254,7 @@ export function HomePageBody({
 
         <section className="px-4 pb-10 sm:pb-14 md:px-10 lg:pb-18">
           <div className="mx-auto max-w-[1280px]">
-            <NewsletterCta subscriberCount={site.newsletterCount} />
+            <NewsletterCta />
           </div>
         </section>
 

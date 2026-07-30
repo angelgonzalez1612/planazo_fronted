@@ -11,6 +11,8 @@ import {
   getGuides,
   getSearchSuggestions,
   getSiteContent,
+  getPlans,
+  getAllZones,
 } from "@/lib/data";
 
 export default function HomePage() {
@@ -31,6 +33,8 @@ export default function HomePage() {
         guides={getGuides()}
         searchSuggestions={getSearchSuggestions()}
         site={getSiteContent()}
+        planCount={getPlans().length}
+        zones={getAllZones().slice(0, 12)}
       />
     </>
   );

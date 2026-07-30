@@ -3,6 +3,7 @@ import { slugify } from "@planazo/shared";
 import type { Category, Comment, Guide, Plan } from "@/data/types";
 import { categoryHref } from "@/lib/data";
 import { formatReviewCount } from "@/lib/format";
+import { buildPlanJsonLd } from "@/lib/structured-data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { AdSlot } from "@/components/ad-slot";
@@ -35,23 +36,48 @@ export function PlanDetailView({
   // Planazo publica, no vende ni reserva — el CTA principal debe ser el canal
   // de contacto real que el propio lugar/evento publicó, no una promesa falsa.
   const contactAction = plan.social?.whatsapp
-    ? { label: "Contactar por WhatsApp", href: `https://wa.me/${plan.social.whatsapp.replace(/[^0-9]/g, "")}` }
+    ? {
+        label: "Contactar por WhatsApp",
+        href: `https://wa.me/${plan.social.whatsapp.replace(/[^0-9]/g, "")}`,
+      }
     : plan.social?.instagram
-      ? { label: "Ver en Instagram", href: `https://instagram.com/${plan.social.instagram.replace("@", "")}` }
+      ? {
+          label: "Ver en Instagram",
+          href: `https://instagram.com/${plan.social.instagram.replace("@", "")}`,
+        }
       : undefined;
 
   const mapsHref = place?.coordinates
     ? `https://www.google.com/maps/search/?api=1&query=${place.coordinates.lat},${place.coordinates.lng}`
     : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(plan.address)}`;
 
+  // Embedded map only when we have real coordinates + a Maps API key —
+  // otherwise fall back to the "open in Google Maps" link below.
+  const mapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+  const mapsEmbedSrc =
+    place?.coordinates && mapsApiKey
+      ? `https://www.google.com/maps/embed/v1/place?key=${mapsApiKey}&q=${place.coordinates.lat},${place.coordinates.lng}&zoom=15`
+      : undefined;
+
+  const jsonLd = buildPlanJsonLd(plan);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <SiteHeader />
 
       <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">
-        <Link href="/" className="text-ink-soft hover:text-brand">Inicio</Link>
+        <Link href="/" className="text-ink-soft hover:text-brand">
+          Inicio
+        </Link>
         <span>/</span>
-        <Link href={categoryHref(plan.category)} className="text-ink-soft hover:text-brand">
+        <Link
+          href={categoryHref(plan.category)}
+          className="text-ink-soft hover:text-brand"
+        >
           {categoryLabel}
         </Link>
         <span>/</span>
@@ -71,6 +97,12 @@ export function PlanDetailView({
               <span>📍 {plan.address}</span>
               {dateLabel && <span>📅 {dateLabel}</span>}
             </p>
+            <Link
+              href={`/zona/${slugify(plan.zone)}`}
+              className="mt-1.5 inline-flex items-center gap-1 text-[13.5px] font-semibold text-brand hover:underline"
+            >
+              Ver más planes en {plan.zone} →
+            </Link>
 
             {plan.tags && plan.tags.length > 0 && (
               <div className="mt-3 flex flex-wrap gap-2">
@@ -91,7 +123,10 @@ export function PlanDetailView({
                 Aparece en:
                 {guides.map((guide, i) => (
                   <span key={guide.id}>
-                    <Link href={`/guias/${guide.slug}`} className="font-semibold text-brand hover:underline">
+                    <Link
+                      href={`/guias/${guide.slug}`}
+                      className="font-semibold text-brand hover:underline"
+                    >
                       {guide.categoryLabel}
                     </Link>
                     {i < guides.length - 1 && ","}
@@ -104,19 +139,30 @@ export function PlanDetailView({
 
             <ShareButtons title={plan.name} />
 
-            <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">Sobre el plan</h2>
-            <p className="max-w-[68ch] text-base leading-relaxed text-[#3A332E]">{plan.description}</p>
+            <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">
+              Sobre el plan
+            </h2>
+            <p className="max-w-[68ch] text-base leading-relaxed text-[#3A332E]">
+              {plan.description}
+            </p>
 
             <AdSlot size="728 × 90" className="mt-6 h-[90px]" />
 
             {place?.openingHours && place.openingHours.length > 0 && (
               <>
-                <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">Horario</h2>
+                <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">
+                  Horario
+                </h2>
                 <ul className="flex flex-col gap-1.5 text-[15px]">
                   {place.openingHours.map((h) => (
-                    <li key={h.day} className="flex items-center justify-between gap-4 border-b border-[#F2EEEA] py-2">
+                    <li
+                      key={h.day}
+                      className="flex items-center justify-between gap-4 border-b border-[#F2EEEA] py-2"
+                    >
                       <span className="text-ink-soft">{h.day}</span>
-                      <span className="font-semibold">{h.closed ? "Cerrado" : `${h.opens} – ${h.closes}`}</span>
+                      <span className="font-semibold">
+                        {h.closed ? "Cerrado" : `${h.opens} – ${h.closes}`}
+                      </span>
                     </li>
                   ))}
                 </ul>
@@ -125,10 +171,15 @@ export function PlanDetailView({
 
             {place?.services && place.services.length > 0 && (
               <>
-                <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">Servicios</h2>
+                <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">
+                  Servicios
+                </h2>
                 <div className="grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-2">
                   {place.services.map((service) => (
-                    <span key={service} className="flex items-center gap-2 text-[15px]">
+                    <span
+                      key={service}
+                      className="flex items-center gap-2 text-[15px]"
+                    >
                       <span className="text-positive">✓</span>
                       {service}
                     </span>
@@ -139,7 +190,9 @@ export function PlanDetailView({
 
             {place?.promotions && place.promotions.length > 0 && (
               <>
-                <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">Promociones</h2>
+                <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">
+                  Promociones
+                </h2>
                 <div className="flex flex-col gap-3">
                   {place.promotions.map((promo) => (
                     <div
@@ -151,7 +204,9 @@ export function PlanDetailView({
                         <p className="font-heading text-[15px] font-bold tracking-tight text-brand-deep">
                           {promo.title}
                         </p>
-                        <p className="mt-1 text-sm text-[#3A332E]">{promo.description}</p>
+                        <p className="mt-1 text-sm text-[#3A332E]">
+                          {promo.description}
+                        </p>
                       </div>
                     </div>
                   ))}
@@ -159,74 +214,140 @@ export function PlanDetailView({
               </>
             )}
 
-            <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">Cómo llegar</h2>
-            <div className="relative flex aspect-[16/6] flex-col items-center justify-center gap-3 rounded-2xl bg-gradient-to-br from-peach to-cream p-4 text-center">
-              <span className="text-xs font-semibold text-brand-deep">Mapa: {plan.address}</span>
-              <a
-                href={mapsHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 rounded-full bg-ink px-4 py-2 text-[13px] font-bold text-white hover:bg-brand"
-              >
-                📍 Ver en Google Maps
-              </a>
-            </div>
+            <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">
+              Cómo llegar
+            </h2>
+            {mapsEmbedSrc ? (
+              <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-border sm:aspect-[16/6]">
+                <iframe
+                  src={mapsEmbedSrc}
+                  className="absolute inset-0 size-full"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title={`Mapa de ${plan.name}`}
+                />
+              </div>
+            ) : (
+              <div className="relative flex aspect-[16/6] flex-col items-center justify-center gap-3 rounded-2xl bg-gradient-to-br from-peach to-cream p-4 text-center">
+                <span className="text-xs font-semibold text-brand-deep">
+                  Mapa: {plan.address}
+                </span>
+                <a
+                  href={mapsHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded-full bg-ink px-4 py-2 text-[13px] font-bold text-white hover:bg-brand"
+                >
+                  📍 Ver en Google Maps
+                </a>
+              </div>
+            )}
 
-            <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">Opiniones</h2>
+            <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">
+              Opiniones
+            </h2>
             <CommentBox initialComments={comments} />
           </div>
 
           <aside className="flex flex-col gap-4">
             <div className="sticky top-[88px] rounded-2xl border border-border p-5">
-              <p className="text-[13px] font-bold tracking-wide text-ink-soft uppercase">Precio</p>
+              <p className="text-[13px] font-bold tracking-wide text-ink-soft uppercase">
+                Precio
+              </p>
               <p className="mt-1.5 font-heading text-[26px] font-extrabold tracking-tight">
                 {plan.price !== null ? (
                   <>
-                    ${plan.price} <span className="text-[15px] font-semibold text-ink-soft">MXN</span>
+                    ${plan.price}{" "}
+                    <span className="text-[15px] font-semibold text-ink-soft">
+                      MXN
+                    </span>
                   </>
                 ) : (
                   "Gratis"
                 )}
               </p>
-              <p className="mt-2.5 flex items-center gap-1.5 text-sm text-ink-soft">
-                <span className="text-brand">★</span>
-                {plan.rating} <span className="text-[#B5ADA6]">({formatReviewCount(plan.reviewCount)} reseñas)</span>
-              </p>
-
-              {plan.social && (plan.social.instagram || plan.social.whatsapp) && (
-                <div className="mt-3.5 flex items-center gap-2 border-t border-[#F2EEEA] pt-3.5">
-                  {plan.social.instagram && (
-                    <a
-                      href={`https://instagram.com/${plan.social.instagram.replace("@", "")}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-[13.5px] font-semibold text-ink-soft hover:text-brand"
-                    >
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden>
-                        <rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" strokeWidth="2" />
-                        <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="2" />
-                        <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" />
-                      </svg>
-                      {plan.social.instagram}
-                    </a>
-                  )}
-                  {plan.social.whatsapp && (
-                    <a
-                      href={`https://wa.me/${plan.social.whatsapp.replace(/[^0-9]/g, "")}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-[13.5px] font-semibold text-ink-soft hover:text-positive"
-                    >
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-                        <path d="M12 2a10 10 0 0 0-8.6 15.02L2 22l5.12-1.35A10 10 0 1 0 12 2Z" />
-                      </svg>
-                      WhatsApp
-                    </a>
-                  )}
-                </div>
+              {plan.reviewCount > 0 && (
+                <p className="mt-2.5 flex items-center gap-1.5 text-sm text-ink-soft">
+                  <span className="text-brand">★</span>
+                  {plan.rating}{" "}
+                  <span className="text-[#B5ADA6]">
+                    ({formatReviewCount(plan.reviewCount)} reseñas)
+                  </span>
+                </p>
               )}
 
-              {contactAction && <ContactCta label={contactAction.label} href={contactAction.href} />}
+              {plan.social &&
+                (plan.social.instagram || plan.social.whatsapp) && (
+                  <div className="mt-3.5 flex items-center gap-2 border-t border-[#F2EEEA] pt-3.5">
+                    {plan.social.instagram && (
+                      <a
+                        href={`https://instagram.com/${plan.social.instagram.replace("@", "")}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1.5 text-[13.5px] font-semibold text-ink-soft hover:text-brand"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          aria-hidden
+                        >
+                          <rect
+                            x="2"
+                            y="2"
+                            width="20"
+                            height="20"
+                            rx="6"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                          />
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="5"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                          />
+                          <circle
+                            cx="17.5"
+                            cy="6.5"
+                            r="1.2"
+                            fill="currentColor"
+                          />
+                        </svg>
+                        {plan.social.instagram}
+                      </a>
+                    )}
+                    {plan.social.whatsapp && (
+                      <a
+                        href={`https://wa.me/${plan.social.whatsapp.replace(/[^0-9]/g, "")}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1.5 text-[13.5px] font-semibold text-ink-soft hover:text-positive"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden
+                        >
+                          <path d="M12 2a10 10 0 0 0-8.6 15.02L2 22l5.12-1.35A10 10 0 1 0 12 2Z" />
+                        </svg>
+                        WhatsApp
+                      </a>
+                    )}
+                  </div>
+                )}
+
+              {contactAction && (
+                <ContactCta
+                  label={contactAction.label}
+                  href={contactAction.href}
+                />
+              )}
               <SaveButton planId={plan.id} />
             </div>
             <AdSlot size="300 × 400" className="aspect-[3/4]" />
@@ -236,8 +357,14 @@ export function PlanDetailView({
 
         {similar.length > 0 && (
           <>
-            <h2 className="mt-12 mb-4.5 font-heading text-2xl font-bold tracking-tight">Planes parecidos</h2>
-            <PlanCardCarousel plans={similar} icon={categoryIcon} categoryLabel={categoryLabel} />
+            <h2 className="mt-12 mb-4.5 font-heading text-2xl font-bold tracking-tight">
+              Planes parecidos
+            </h2>
+            <PlanCardCarousel
+              plans={similar}
+              icon={categoryIcon}
+              categoryLabel={categoryLabel}
+            />
           </>
         )}
       </div>
