@@ -64,7 +64,7 @@ export function HomePageBody({
               <h1 className="text-wrap-balance mt-4.5 font-heading text-[clamp(40px,6.4vw,76px)] leading-[0.98] font-extrabold tracking-tight">
                 Encuentra tu
                 <br />
-                próximo <span className="text-brand">plan</span>
+                próximo <span className="text-brand">plan</span> en CDMX
               </h1>
               <p className="mt-4.5 mb-7 max-w-[34ch] text-[clamp(16px,1.6vw,20px)] leading-relaxed text-ink-soft">
                 Eventos, lugares y experiencias para disfrutar México.
