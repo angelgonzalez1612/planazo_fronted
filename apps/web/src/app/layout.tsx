@@ -37,13 +37,15 @@ export const metadata: Metadata = {
 
 // Tells Google this domain *is* the "Planazo" entity — the single biggest
 // lever for ranking well when someone searches the brand name itself.
+// No sameAs yet — the social handles in siteConfig aren't confirmed as
+// actually belonging to this brand (e.g. the Instagram one turned out to
+// already be someone else's account). Add it once those are verified/live.
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: siteConfig.name,
   url: siteConfig.url,
   logo: `${siteConfig.url}/logo.png`,
-  sameAs: Object.values(siteConfig.social),
 };
 
 export default function RootLayout({
