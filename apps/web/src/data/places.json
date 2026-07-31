@@ -25,9 +25,12 @@
         "alt": "Rebanadas de pan horneado"
       }
     ],
-    "description": "Panadería fundada por la chef Elena Reygadas, conocida por sus conchas de guayaba y sus panes de fermentación lenta. Una parada clásica de Roma Norte para desayunar o comprar pan para llevar.",
+    "description": "La panadería de Elena Reygadas, la misma chef detrás del restaurante Rosetta, abrió en 2012 como extensión de esa cocina hacia el pan. Aquí manda la fermentación lenta: panes de inspiración europea que conviven con el pan dulce mexicano de toda la vida, concha y pan de muerto incluidos. La pieza que la volvió famosa es el rol de guayaba, un giro sobre el clásico ate con queso que se agota casi todos los días. Es una de las razones por las que Roma Norte se volvió un destino gastronómico, y sigue siendo parada obligada para desayunar con café o llevarse pan fresco a casa, aunque haya que hacer fila en la puerta.",
     "badge": "Destacado",
-    "tags": ["Panadería", "Para llevar"],
+    "tags": [
+      "Panadería",
+      "Para llevar"
+    ],
     "coordinates": {
       "lat": 19.4179,
       "lng": -99.1612
@@ -66,8 +69,11 @@
         "alt": "Tazones de colores"
       }
     ],
-    "description": "Museo dedicado a las tradiciones y expresiones populares de México — artesanía, gastronomía y fiestas — en una casona de Coyoacán. Entrada libre los domingos.",
-    "tags": ["Tradicional", "Familiar"],
+    "description": "Ocupa una casona colonial de Coyoacán que hasta 1734 fue propiedad de la parroquia de San Juan Bautista, antes de pasar al Estado con las Leyes de Reforma. El museo nació en 1982 por impulso del antropólogo Guillermo Bonfil Batalla, pensado como un espacio serio (no folclórico) para documentar la diversidad étnica y regional de México. No tiene salas permanentes: todo es exposición temporal, así que cada visita cambia — desde textiles y gastronomía hasta fiestas patronales. Una pieza que casi siempre sorprende es \"El Árbol de la Vida\", una escultura de barro de cinco metros hecha en 1992 por José Alfonso Soteno Fernández. Entrada libre los domingos.",
+    "tags": [
+      "Tradicional",
+      "Familiar"
+    ],
     "coordinates": {
       "lat": 19.3487,
       "lng": -99.1602
@@ -111,8 +117,10 @@
         "alt": "Persona sosteniendo una taza de café"
       }
     ],
-    "description": "Café de especialidad con grano mexicano tostado propio. Carta corta pero cuidada, entre método clásico y espresso — de las direcciones de referencia para quienes buscan una taza seria en Roma Norte.",
-    "tags": ["Café de especialidad"],
+    "description": "Zacatecas 180 lleva más de una década siendo parada obligada para quien toma en serio el café en la Roma Norte. Nació como un proyecto de tueste propio con grano ético de origen mexicano (Oaxaca, entre otros), y ahí sigue: barra de La Marzocco para el espresso y una selección corta de métodos —V60, Chemex, Delter— para quien prefiere ir más despacio. El espacio es minimalista, casi de laboratorio, sin la vibra de cafetería para selfies; se nota que el foco está en la taza. No es lugar para desayuno fuerte ni para quedarse toda la tarde con la laptop: es más bien un alto rápido y bien hecho en medio del recorrido por la colonia.",
+    "tags": [
+      "Café de especialidad"
+    ],
     "social": {
       "instagram": "@almanegracafe"
     },
@@ -154,8 +162,11 @@
         "alt": "Silla junto a ventanal"
       }
     ],
-    "description": "Terraza sobre el Hostel Mundo Joven Catedral, con vista directa al Zócalo y a la Catedral Metropolitana. Mezcla de mesas cubiertas y al aire libre, cocteles y comida mexicana ligera.",
-    "tags": ["Vista panorámica", "Con amigos"],
+    "description": "Esta terraza vive arriba del Hostel Mundo Joven, justo enfrente del Zócalo, y la vista es la razón de ser del lugar: la Catedral Metropolitana casi a la mano, el Palacio Nacional de fondo. La onda es informal —mesas techadas y otras al aire libre, cerveza fría o un coctel sencillo, algo de botana mexicana o una hamburguesa— y entre semana se llena de viajeros de medio mundo que se conocen ahí mismo. Los fines de semana meten DJs invitados y el ambiente sube de tono hasta la 1 am. No es el lugar para coctelería fina, es para sentarte con amigos, tomar algo accesible y ver la ciudad vieja desde arriba.",
+    "tags": [
+      "Vista panorámica",
+      "Con amigos"
+    ],
     "coordinates": {
       "lat": 19.4342,
       "lng": -99.1332
@@ -205,9 +216,15 @@
         "height": 300
       }
     ],
-    "description": "Nueva sala permanente de arte contemporáneo mexicano dentro del Bosque de Chapultepec. Entrada libre los domingos para residentes.",
-    "tags": ["Familiar", "Arte"],
-    "services": ["Accesible en silla de ruedas", "Tienda de regalos"],
+    "description": "El edificio en sí ya es una pieza de colección: Rufino Tamayo convocó a los arquitectos Teodoro González de León y Abraham Zabludovsky para diseñarlo, con una forma piramidal que dialoga con la herencia prehispánica del Bosque de Chapultepec. Abrió en 1981 y ganó el Premio Nacional de Ciencias y Artes al año siguiente. La colección permanente reúne alrededor de 315 obras que Olga y Rufino Tamayo juntaron a lo largo de su vida, representativas del arte de la segunda mitad del siglo XX. La nueva sala amplía ese recorrido con arte contemporáneo mexicano, en un espacio que se siente más íntimo que monumental pese a estar en pleno bosque. Entrada libre los domingos para residentes.",
+    "tags": [
+      "Familiar",
+      "Arte"
+    ],
+    "services": [
+      "Accesible en silla de ruedas",
+      "Tienda de regalos"
+    ],
     "social": {
       "instagram": "@museotamayo"
     },
@@ -261,9 +278,15 @@
         "height": 300
       }
     ],
-    "description": "Cartelera de cine independiente y clásicos restaurados, con funciones casi todas las noches. Ideal para una cita tranquila entre semana.",
-    "tags": ["Romántico", "Romántico"],
-    "services": ["Cafetería", "Estacionamiento"],
+    "description": "La Cineteca Nacional abrió en 1974 para preservar y difundir el cine mexicano, pero en 1982 un incendio destruyó buena parte del archivo original — se perdieron miles de negativos. Se reconstruyó en Xoco y reabrió en 1984 con apenas cuatro salas; hoy son diez, más un foro al aire libre y un centro de consulta. La programación de cine de autor mezcla clásicos restaurados con lo mejor del cine independiente contemporáneo, casi siempre con funciones entre semana. El ambiente es tranquilo, sin el bullicio de un multiplex de centro comercial, con cafetería y librería alrededor — de los pocos lugares donde ir al cine entre semana se siente un plan en sí mismo, no solo un pretexto para la cita.",
+    "tags": [
+      "Romántico",
+      "Romántico"
+    ],
+    "services": [
+      "Cafetería",
+      "Estacionamiento"
+    ],
     "social": {
       "instagram": "@cinetecamexico"
     },
@@ -311,9 +334,15 @@
         "height": 300
       }
     ],
-    "description": "Museo interactivo pensado para niños de 2 a 12 años, con domo IMAX incluido en la entrada. Reserva horario en temporada alta.",
-    "tags": ["Familiar", "Familiar"],
-    "services": ["Domo IMAX", "Área de cafetería"],
+    "description": "Abrió en 1993 en la segunda sección de Chapultepec, y durante 30 años su Megapantalla IMAX (primero en formato 70mm, luego en 3D) fue parte central de la experiencia; cerró de manera definitiva en 2023 al terminar el contrato con IMAX, y ese domo hoy funciona como sala digital. El resto del museo conserva seis áreas pensadas para niños de 2 a 12 años — acercamiento a seres vivos, ecosistemas mexicanos, espacio exterior y zonas de trabajo manual — junto con clásicos como la cama de clavos y las burbujas gigantes. Es de los pocos museos de la ciudad realmente diseñado para que los niños toquen y experimenten. En temporada alta conviene reservar horario con anticipación.",
+    "tags": [
+      "Familiar",
+      "Familiar"
+    ],
+    "services": [
+      "Domo IMAX",
+      "Área de cafetería"
+    ],
     "social": {
       "instagram": "@papalotemuseo"
     },
@@ -361,8 +390,11 @@
         "alt": "Botes flotando sobre el agua"
       }
     ],
-    "description": "Uno de los embarcaderos principales para recorrer los canales de Xochimilco, Patrimonio de la Humanidad por la UNESCO, en trajinera. Cuenta con estacionamiento, restaurantes y mercado de artesanías.",
-    "tags": ["Familiar", "Grupos grandes"],
+    "description": "Xochimilco es Patrimonio de la Humanidad por sus canales y chinampas, un sistema que los pueblos originarios empezaron a construir desde el siglo XIV para cultivar sobre el agua. Nuevo Nativitas es uno de los embarcaderos grandes de la zona, con más de doscientas trajineras pintadas de colores y bautizadas con nombres de mujer (la más común, \"Lupita\", por la Virgen de Guadalupe). Ahí rentas la barca por hora, subes con tu grupo, cargas hielera y comida, y navegas entre chinamperos que venden flores, elotes y hasta música desde otras trajineras. Tiene estacionamiento, restaurantes y mercado de artesanías a la entrada. Mejor ir temprano entre semana, evitando el gentío del fin de semana.",
+    "tags": [
+      "Familiar",
+      "Grupos grandes"
+    ],
     "coordinates": {
       "lat": 19.2725,
       "lng": -99.1097
@@ -401,8 +433,11 @@
         "alt": "Panda entre pasto y bambú"
       }
     ],
-    "description": "Zoológico gratuito dentro del Bosque de Chapultepec, conocido por su programa de conservación de pandas. Entrada libre por torniquetes, cierra los lunes.",
-    "tags": ["Familiar", "Gratis"],
+    "description": "Nació en 1924 por iniciativa del biólogo Alfonso L. Herrera, con apenas un puñado de bisontes y cachorros de león; hoy es de los zoológicos más visitados de Latinoamérica y la entrada sigue siendo gratis. Su fama internacional llegó con los pandas: desde que llegaron Ying Ying y Pe Pe en 1975, aquí nacieron los primeros pandas gigantes fuera de China, empezando por Tohuí en 1980. Se dice que la altitud de la ciudad, parecida a la de Sichuan, ayudó a ese éxito reproductivo. Está dentro del Bosque de Chapultepec, así que puedes combinar la visita con el resto del parque. Cierra los lunes; conviene llegar apenas abren para evitar las filas, sobre todo en fin de semana.",
+    "tags": [
+      "Familiar",
+      "Gratis"
+    ],
     "coordinates": {
       "lat": 19.4233,
       "lng": -99.1857
@@ -441,8 +476,11 @@
         "alt": "Arco de madera azul y café"
       }
     ],
-    "description": "Pulquería abierta desde 1902, una de las más antiguas y conocidas del Centro Histórico. Más de 45 sabores de curados rotativos — avena, apio, guayaba — en un ambiente de barrio sin pretensiones.",
-    "tags": ["Tradicional", "Con amigos"],
+    "description": "Abrió en octubre de 1902 y sigue siendo una de las pulquerías más queridas del Centro. El pulque llega fresco de San Isidro Nanacamilpa, en Tlaxcala, y ahí mismo preparan los curados cada mañana: avena, apio, guayaba y lo que se le ocurra al encargado en turno, casi siempre más de cuarenta sabores rotando. Desde que Arturo Garrido la rescató a mediados de los 2000, las paredes y el techo están cubiertos por un mural de Guillermo Carreño con Mayahuel y simbología prehispánica, así que tomar ahí se siente casi como estar en un museo de barrio. Sin pretensiones, mesas compartidas, música de sonidero: pulque de verdad, como se bebe en esa esquina desde hace más de un siglo.",
+    "tags": [
+      "Tradicional",
+      "Con amigos"
+    ],
     "coordinates": {
       "lat": 19.4356,
       "lng": -99.1401
@@ -481,8 +519,11 @@
         "alt": "Ventanilla con letrero de tacos"
       }
     ],
-    "description": "El primer puesto de tacos en recibir una estrella Michelin en el mundo. Carta mínima — bistec, chuleta, costilla y poco más — servida sobre tortilla hecha en el momento, sin adornos.",
-    "tags": ["Tacos", "Callejero"],
+    "description": "Changarro de la colonia San Rafael, abierto desde 1968, que en 2024 se convirtió en la primera taquería del mundo en ganar una estrella Michelin —y la ha mantenido desde entonces. No hay truco ni menú largo: cuatro cortes nada más, bistec, costilla, chuleta y la gaonera, un filete delgado marinado que rinde tributo al torero Rodolfo Gaona, todo a la plancha con sal gruesa, limón y tortillas de maíz hechas a mano al momento. Sin salsas de adorno, sin decoración, sin mesas para sentarse con calma. Es la prueba de que la alta cocina no necesita mantel largo, solo consistencia y años de repetir lo mismo sin bajar la guardia.",
+    "tags": [
+      "Tacos",
+      "Callejero"
+    ],
     "coordinates": {
       "lat": 19.4439,
       "lng": -99.1553
@@ -521,8 +562,11 @@
         "alt": "Piedra tallada con grabados"
       }
     ],
-    "description": "El museo más visitado de México, con las piezas arqueológicas más importantes de las culturas prehispánicas, incluida la Piedra del Sol. Entrada libre los domingos para residentes en México.",
-    "tags": ["Gratis los domingos", "Familiar"],
+    "description": "Es el museo más visitado del país, inaugurado en 1964 y diseñado por Pedro Ramírez Vázquez junto con Rafael Mijares y Jorge Campuzano, quienes tomaron como referencia el Cuadrángulo de las Monjas de Uxmal para organizar las salas alrededor de un patio central con el famoso \"paraguas\" de concreto y su fuente. El proyecto ganó la medalla de oro en la Bienal de Arquitectura de São Paulo en 1965. Adentro está la colección arqueológica más importante de las culturas prehispánicas de México, con la Piedra del Sol como pieza estelar en la Sala Mexica — un monolito de 24 toneladas que por sí solo justifica la visita. Hace falta más de una tarde para recorrerlo bien. Entrada libre los domingos para residentes.",
+    "tags": [
+      "Gratis los domingos",
+      "Familiar"
+    ],
     "coordinates": {
       "lat": 19.426,
       "lng": -99.1863
@@ -561,8 +605,11 @@
         "alt": "Persona viendo discos en puesto callejero"
       }
     ],
-    "description": "Mercado alternativo declarado Patrimonio Cultural Inmaterial de la Ciudad de México. Vinilos, ropa importada y mercancía musical especializada, todos los sábados desde hace más de cuatro décadas.",
-    "tags": ["Gratis", "Cultura alternativa"],
+    "description": "Cada sábado desde el 4 de octubre de 1980, cuando los hermanos Jorge y Toño Pantoja lo armaron dentro del Museo Universitario del Chopo como espacio de trueque de discos de todos los géneros, no solo rock. Con los años se volvió el epicentro de la contracultura, el metal, el punk y el rock mexicano: generaciones de melómanos han comprado ahí vinilos raros, chamarras de piel, fanzines y mercancía que no encuentras en ningún otro lado. En 2023, tras más de cuatro décadas, el gobierno capitalino lo declaró Patrimonio Cultural Inmaterial de la Ciudad. Es gratis, se disfruta mejor caminando sin prisa entre puestos, y el ambiente es tan parte del plan como lo que compras.",
+    "tags": [
+      "Gratis",
+      "Cultura alternativa"
+    ],
     "coordinates": {
       "lat": 19.449,
       "lng": -99.152
@@ -601,8 +648,11 @@
         "alt": "Baterista tocando en vivo"
       }
     ],
-    "description": "Club de jazz en el sótano de lo que fueron las bóvedas subterráneas del Banco de México. Programación en vivo de miércoles a sábado con algunos de los músicos de jazz más reconocidos de la ciudad.",
-    "tags": ["Música en vivo", "Romántico"],
+    "description": "Zinco vive en el sótano de Motolinia 20, en lo que antes fueron las bóvedas subterráneas de un banco: todavía se ven las puertas de acero y los cerrojos enormes en el pasillo de entrada, que le dan ese aire de club clandestino neoyorquino que buscaban desde que abrió en 2005 (el nombre es un guiño al legendario Zinc de Nueva York). De miércoles a sábado hay jazz en vivo con algunos de los músicos más sólidos de la escena local, en un espacio pequeño e íntimo donde realmente se escucha la música. En 2023, DownBeat lo reconoció como el único club mexicano entre los 106 mejores clubes de jazz del mundo, algo que aquí nadie presume pero que se nota en la calidad del cartel.",
+    "tags": [
+      "Música en vivo",
+      "Romántico"
+    ],
     "social": {
       "instagram": "@zincojazzclub"
     },
@@ -644,8 +694,11 @@
         "alt": "Pasillo de mercado con visitantes"
       }
     ],
-    "description": "Mercado gastronómico de varios niveles con puestos de cocina mexicana, italiana, japonesa y más, además de un jardín cervecero en la azotea. Buena opción para ir en grupo cuando no todos quieren comer lo mismo.",
-    "tags": ["Mercado", "Grupos"],
+    "description": "Mercado gastronómico de tres niveles construido donde antes estaba el Bar Gran León, con diseño de Rojkind Arquitectos que mezcla líneas futuristas con detalles más clásicos, como los pisos de pasta. Abajo, puestos de comida callejera y de mercado que van de la torta al caviar; arriba, restaurantes más formales; y en la azotea, el Biergarten Roma, una terraza al aire libre que recrea el espíritu de los jardines cerveceros alemanes con cerveza artesanal mexicana. Es de los pocos lugares en la Roma donde un grupo grande puede sentarse junto y cada quien pedir algo distinto, del pozole al sushi, sin que nadie tenga que ceder.",
+    "tags": [
+      "Mercado",
+      "Grupos"
+    ],
     "coordinates": {
       "lat": 19.4183,
       "lng": -99.1622
@@ -677,8 +730,11 @@
         "alt": "Edificio de concreto en escala de grises"
       }
     ],
-    "description": "Las casas-estudio donde vivieron Diego Rivera y Frida Kahlo, diseñadas por Juan O'Gorman en 1931 — un hito de la arquitectura funcionalista mexicana. Entrada libre los domingos.",
-    "tags": ["Arte", "Arquitectura"],
+    "description": "Juan O'Gorman diseñó este conjunto en 1931, uno de los primeros ejemplos de arquitectura funcionalista en América Latina: dos bloques de concreto — uno rojo y blanco para Diego, uno azul para Frida — unidos solo por un puente en la azotea, cada uno con entrada y vida independiente. La pareja se mudó ahí en 1934, y en ese estudio Frida pintó obras como \"Lo que el agua me dio\" antes de irse a la Casa Azul en 1941; Diego, en cambio, trabajó ahí hasta su muerte en 1957. El museo abrió en 1986 y conserva los talleres casi como los dejaron, con caballetes, pinceles y objetos de arte popular que Rivera fue acumulando. Entrada libre los domingos.",
+    "tags": [
+      "Arte",
+      "Arquitectura"
+    ],
     "coordinates": {
       "lat": 19.3453,
       "lng": -99.1889
@@ -717,8 +773,11 @@
         "alt": "Plátanos y vegetación tropical"
       }
     ],
-    "description": "Jardín botánico del Instituto de Biología de la UNAM, dentro de Ciudad Universitaria. Entrada gratuita, cerrado en periodos vacacionales de la universidad.",
-    "tags": ["Familiar", "Gratis"],
+    "description": "Fundado en 1959 por el Instituto de Biología, es el segundo jardín botánico más antiguo del país y alberga la colección de plantas vivas más grande de México: más de 6,900 ejemplares y 1,200 especies mexicanas repartidas en quince colecciones, desde cactáceas, agaves y orquídeas hasta un jardín de plantas medicinales y otro dedicado a la evolución. Está metido dentro de Ciudad Universitaria, sobre terreno de pedregal volcánico, así que además de ver plantas caminas por un pedazo de la reserva ecológica de CU. Entrada gratuita, ideal para una tarde tranquila; eso sí, cierra en los periodos vacacionales de la universidad, conviene checar antes de ir.",
+    "tags": [
+      "Familiar",
+      "Gratis"
+    ],
     "coordinates": {
       "lat": 19.3257,
       "lng": -99.1802
@@ -762,8 +821,11 @@
         "alt": "Sirviendo café en vaso"
       }
     ],
-    "description": "Cafetería fundada en 1953 en el corazón de Coyoacán, hoy con varias sucursales atendidas por la familia fundadora. Café de olla y tortas para llevar en vaso o bolsa, para tomar caminando por el barrio.",
-    "tags": ["Tradicional", "Para llevar"],
+    "description": "Desde 1953 este rincón de Cuauhtémoc y Allende es sinónimo de Coyoacán: lo abrieron Bertha Paredes y Gil Romero con un changarro de productos veracruzanos que terminó definiéndose por el café. Más de setenta años después lo siguen llevando los hijos de los fundadores, ya con varias sucursales repartidas por la ciudad, aunque esta original sigue siendo la de peregrinaje obligado. Aquí no hay mesas ni pretensión: pides tu café de olla o capuchino en vaso, tu torta envuelta en papel, y sigues caminando hacia el Jardín Centenario. Es café para tomar de pie o de banqueta, parte del ritual de domingo en el barrio más que una experiencia de cafetería.",
+    "tags": [
+      "Tradicional",
+      "Para llevar"
+    ],
     "coordinates": {
       "lat": 19.3467,
       "lng": -99.1627
@@ -802,8 +864,11 @@
         "alt": "Salón lleno de libros y mobiliario"
       }
     ],
-    "description": "Café y librería bajo el mismo techo, con terraza y programación cultural regular (música en vivo, presentaciones de libros). Una de las sucursales más conocidas de esta cadena en Condesa.",
-    "tags": ["Café", "Librería"],
+    "description": "Más que una cafetería, El Péndulo es de esos lugares que uno agenda para pasar la tarde: nació en 1993 con la idea de armar un centro cultural de barrio que mezclara librería, café y programación en vivo, y esta sucursal de Nuevo León es una de las que mejor conserva ese espíritu. Entre anaqueles de literatura, arte y humanidades hay terraza, conciertos ocasionales, presentaciones de libros y un servicio que ya va de desayuno a cena (con barra en algunas sucursales de la cadena). Es el lugar para llegar sin prisa, hojear algo que no pensabas comprar y quedarte más tiempo del planeado con un café con leche grande.",
+    "tags": [
+      "Café",
+      "Librería"
+    ],
     "coordinates": {
       "lat": 19.4115,
       "lng": -99.1735
@@ -847,8 +912,11 @@
         "alt": "Fachada de bar tradicional"
       }
     ],
-    "description": "Cantina abierta desde 1895, con decoración Art Nouveau, techos dorados y una icónica barra importada de Nueva Orleans. Fue punto de reunión de la élite política e intelectual del siglo XX en el Centro Histórico.",
-    "tags": ["Tradicional", "Histórico"],
+    "description": "Cantina desde 1895 en la esquina de 5 de Mayo y Filomeno Mata, con techos dorados, molduras Art Nouveau y una barra de nogal maciza que mandaron traer de Nueva Orleans; todo se conserva casi intacto después de más de un siglo. La historia que todos cuentan —y que ahí siguen señalando en el techo— es la del balazo de Pancho Villa: el 6 de diciembre de 1914, recién entrado a la ciudad con sus tropas, sacó la pistola y disparó al plafón porque sintió que nadie le hacía caso. Fue punto de reunión de políticos e intelectuales durante buena parte del siglo XX y sigue funcionando como cantina de mantel largo, con mesero de corbata, no como bar de banqueta.",
+    "tags": [
+      "Tradicional",
+      "Histórico"
+    ],
     "coordinates": {
       "lat": 19.4339,
       "lng": -99.1379
@@ -892,8 +960,11 @@
         "alt": "Botella de mezcal sobre mesa de madera"
       }
     ],
-    "description": "Mezcalería íntima y en penumbra en pleno Centro, con una extensa selección de mezcales artesanales oaxaqueños y una carta corta de cocina mexicana contemporánea.",
-    "tags": ["Mezcal", "Con amigos"],
+    "description": "Bósforo empezó casi clandestino en el Centro y todavía se siente así: un espacio chico, en penumbra, con una barra y un entrepiso de madera que se llena rápido. La lista no es carta fija sino pizarrón, con los mezcales artesanales que hayan llegado esa semana directo de productores en Oaxaca, Guerrero, Michoacán o Durango —suelen manejar unas cuarenta etiquetas en rotación—. Hay algo de cocina mexicana breve para acompañar, pero el protagonista es el mezcal y la plática. La música va del jazz experimental a ritmos de otras partes del mundo, y el ambiente hipnótico hace que la idea de \"una copa nada más\" rara vez se cumpla.",
+    "tags": [
+      "Mezcal",
+      "Con amigos"
+    ],
     "coordinates": {
       "lat": 19.4331,
       "lng": -99.1425
@@ -925,8 +996,11 @@
         "alt": "Mesa servida con condimentos"
       }
     ],
-    "description": "Institución del desayuno y la comida mexicana tradicional, dentro de una casona antigua en Av. de la Paz. Conocido por sus chilaquiles, el pan dulce recién horneado y el chocolate de metate.",
-    "tags": ["Tradicional", "Desayunos"],
+    "description": "Institución del desayuno capitalino, abierta desde 1969 por Oliva Garizurieta y Jesús Briz con la idea de traer a la mesa la cocina de Veracruz y Michoacán. La sucursal de San Ángel, en Av. de la Paz, abrió en 2011 y la inauguró Gabriel García Márquez. La casa mantiene un rancho propio en Zumpango de donde sale la nata, el mole, el chocolate y las mermeladas que sirven, y eso se nota en los chilaquiles veracruzanos, la torta de huevo con flor de maguey y el chocolate caliente acompañado de pan recién horneado. Manteles, meseros de guayabera y ritmo pausado: el lugar perfecto para un desayuno largo de fin de semana.",
+    "tags": [
+      "Tradicional",
+      "Desayunos"
+    ],
     "coordinates": {
       "lat": 19.3453,
       "lng": -99.1907
@@ -970,8 +1044,11 @@
         "alt": "Camarones cocinados con vegetales"
       }
     ],
-    "description": "Marisquería de la chef Gabriela Cámara, abierta desde 1998 y reconocida con una estrella Michelin. El pescado a la talla y las tostadas de atún son los platillos por los que hacen fila.",
-    "tags": ["Mariscos", "Alta cocina"],
+    "description": "La marisquería de Gabriela Cámara lleva abierta en la Roma desde 1998 y sigue siendo de las mesas más disputadas de la ciudad. El pescado a la talla, bañado mitad en salsa roja y mitad en salsa verde de perejil, es el mismo platillo con el que abrió el menú hace más de veinticinco años; las tostadas de atún, con mayonesa de chipotle y poro frito, se volvieron tan icónicas que medio CDMX las copia. Cámara y el restaurante fueron protagonistas del documental de Netflix \"A Tale of Two Kitchens\", y en la guía Michelin México 2025 los reconocieron con un Bib Gourmand, distinción a la buena cocina con precio justo.",
+    "tags": [
+      "Mariscos",
+      "Alta cocina"
+    ],
     "coordinates": {
       "lat": 19.4211,
       "lng": -99.1657
@@ -1020,8 +1097,11 @@
         "alt": "Visitantes en sala oscura de exhibición"
       }
     ],
-    "description": "Espacio dedicado a la producción y reflexión sobre cultura digital y nuevas tecnologías, con exhibiciones interactivas y entrada gratuita para todo público.",
-    "tags": ["Gratis", "Interactivo"],
+    "description": "Está literal debajo de la Estela de Luz, sobre Reforma, y es de las mejores gangas culturales de la ciudad porque todo es gratis: exposiciones, talleres y hasta los conciertos. La apuesta es puro arte digital y nuevas tecnologías, con un muro interactivo de luz que atrapa a cualquiera que pase caminando. Adentro hay una sala de cine con capacidad para 120 personas donde la Cineteca Nacional proyecta varios días a la semana, además de talleres rotativos de arte sonoro con dispositivos caseros, fotografía y robótica. Abre de martes a domingo. Es un espacio chico pero con una curaduría que se siente más de laboratorio experimental que de museo tradicional.",
+    "tags": [
+      "Gratis",
+      "Interactivo"
+    ],
     "coordinates": {
       "lat": 19.4285,
       "lng": -99.1568
@@ -1060,8 +1140,11 @@
         "alt": "Visitantes junto a instalación luminosa"
       }
     ],
-    "description": "Museo de ciencia de nueva generación inaugurado en 2026 en el Bosque de Chapultepec, sucesor del antiguo Museo Tecnológico de la CFE. Experiencias inmersivas sobre energía y tecnología, con apoyo de CFE.",
-    "tags": ["Familiar", "Interactivo"],
+    "description": "Es el museo nuevo de Chapultepec: abrió en 2026 sobre el terreno donde antes estaba el viejo Museo Tecnológico de la CFE, en la segunda sección del bosque. El proyecto arquitectónico y museográfico se decidió por concurso entre arquitectos mexicanos, y ganó la propuesta de Enrique Norten en colaboración con el estudio de Ralph Appelbaum (el mismo detrás de museos como el del Holocausto en Washington). La idea es un museo de ciencia de nueva generación centrado en energía y tecnología, pensado para despertar vocaciones científicas en los más jóvenes. Como es tan reciente, todavía está en fase de apertura por etapas, así que vale la pena checar antes qué salas están abiertas el día que vayas.",
+    "tags": [
+      "Familiar",
+      "Interactivo"
+    ],
     "coordinates": {
       "lat": 19.4207,
       "lng": -99.1963
@@ -1100,8 +1183,11 @@
         "alt": "Gabinete de arcade retro"
       }
     ],
-    "description": "Restaurante gamer con consolas y máquinas arcade de acceso libre con el consumo de alimentos o bebidas. Tacos, alitas y hamburguesas mientras juegas con amigos.",
-    "tags": ["Gamer", "Con amigos"],
+    "description": "En esta sucursal de Narvarte (Uxmal 161) nació la idea: cuenta la historia que el dueño, Julio, jugaba en su consola mientras esperaba clientes en un puesto de tacos, hasta que alguien le pidió jugar también. De ahí salió el concepto: consume algo de comer o tomar y el rato de juego —control, consola y más de mil títulos, desde Pac-Man y Street Fighter hasta lanzamientos recientes— va incluido. Es un lugar sencillo, pensado para ir en bola de amigos a jugar Mario Kart o Smash mientras llegan las alitas o las hamburguesas. Nada elegante, pero ambiente muy relajado y gamer de verdad, no de decoración nada más.",
+    "tags": [
+      "Gamer",
+      "Con amigos"
+    ],
     "coordinates": {
       "lat": 19.398,
       "lng": -99.152
@@ -1133,8 +1219,11 @@
         "alt": "Impresora 3D de escritorio"
       }
     ],
-    "description": "El primer makerspace del Centro Histórico, detrás de la Catedral. Taller colaborativo de fabricación digital: impresión 3D, corte láser y electrónica, con talleres abiertos al público.",
-    "tags": ["Para trabajar", "Experiencia"],
+    "description": "Fue el primer makerspace del Centro Histórico, metido en un edificio de oficinas justo detrás de la Catedral (Guatemala 10, interior 402). Es un taller colaborativo de fabricación digital: tiene impresoras 3D, cortadoras láser y router CNC, además de herramienta clásica de carpintería y electrónica para quien prefiere hacer las cosas a mano. Funciona por membresías —las máquinas digitales sí tienen límite de horas según el plan que saques— y también da talleres abiertos al público para quien solo quiere probar sin comprometerse. Abre de lunes a viernes de 9 a 8 de la noche y sábados hasta las 6. Ideal si traes una idea o un prototipo y necesitas máquinas que no tienes en casa.",
+    "tags": [
+      "Para trabajar",
+      "Experiencia"
+    ],
     "coordinates": {
       "lat": 19.4351,
       "lng": -99.1332
@@ -1178,8 +1267,11 @@
         "alt": "Detalle macro de tarjeta de circuito"
       }
     ],
-    "description": "Plaza comercial de varios niveles especializada en tecnología — celulares, computadoras, accesorios y servicios de reparación — sobre Eje Central, en el Centro Histórico.",
-    "tags": ["Compras", "Tecnología"],
+    "description": "Es el mercado de tecnología de toda la vida en el Centro: lleva operando desde los años 80 sobre Eje Central, a unos pasos del metro San Juan de Letrán. Adentro hay casi 800 locales apretaditos en varios niveles y pasillos, vendiendo celulares nuevos, usados y reacondicionados de cualquier marca, laptops, componentes para armar tu propia PC y toda clase de accesorios. También es el lugar clásico para reparar celular, computadora o impresora: como hay tantos locales uno junto a otro, puedes comparar precios y garantías caminando unos metros. Entrada libre, y lo mejor es ir con calma para regatear.",
+    "tags": [
+      "Compras",
+      "Tecnología"
+    ],
     "coordinates": {
       "lat": 19.4327,
       "lng": -99.1417
@@ -1211,8 +1303,11 @@
         "alt": "Plato de pescado con vegetales"
       }
     ],
-    "description": "Restaurante del chef Enrique Olvera, con dos estrellas Michelin. Su identidad gira en torno al maíz y al trabajo con productores locales de temporada. Uno de los dos únicos restaurantes de México con esa distinción.",
-    "tags": ["Alta cocina", "Experiencia"],
+    "description": "El restaurante de Enrique Olvera abrió en Polanco en el año 2000 y hoy tiene dos estrellas Michelin. Todo gira alrededor del maíz —variedades criollas, tortillas hechas al momento— y de un platillo que se volvió su firma: el Mole Madre, Mole Nuevo, dos moles servidos en círculos concéntricos, uno recién hecho y otro que lleva fermentando y añejándose desde hace más de mil días. Es cocina mexicana llevada a un registro de alta gastronomía, con menú de degustación y trabajo directo con productores y pescadores del país. Uno de los dos únicos restaurantes en México con dos estrellas Michelin, y de los nombres mexicanos más citados en las listas globales de gastronomía.",
+    "tags": [
+      "Alta cocina",
+      "Experiencia"
+    ],
     "coordinates": {
       "lat": 19.4324,
       "lng": -99.1962
@@ -1244,8 +1339,11 @@
         "alt": "Cubiertos sobre plato blanco"
       }
     ],
-    "description": "Liderado por Alejandra Flores y Jorge Vallejo, con dos estrellas Michelin y en el top 3 de The World's 50 Best Restaurants. Cocina de ingredientes mexicanos con visión personal.",
-    "tags": ["Alta cocina", "Experiencia"],
+    "description": "Cocina de Jorge Vallejo y Alejandra Flores, su esposa y socia, que abrieron el restaurante en 2012 en una casa de Polanco después de que ambos pasaran por la cocina de Pujol. Hoy tiene dos estrellas Michelin y en 2025 apareció en el puesto 3 de The World's 50 Best Restaurants, además de ser nombrado el mejor restaurante de México. Casi todo lo que llega a la mesa —ingredientes, vinos— es mexicano, con el caviar, el pescado y el aceite de oliva como las únicas excepciones declaradas. Cocina de temporada con identidad muy marcada, servida con el tipo de anfitrionía cálida que Flores construyó con años de oficio hotelero.",
+    "tags": [
+      "Alta cocina",
+      "Experiencia"
+    ],
     "coordinates": {
       "lat": 19.4325,
       "lng": -99.1954
@@ -1277,8 +1375,11 @@
         "alt": "Mesa de madera en restaurante"
       }
     ],
-    "description": "Bistrot de mercado con menú que cambia según temporada, reconocido en la Guía Michelin. Ambiente cálido e informal en Roma Norte.",
-    "tags": ["Bistrot", "De temporada"],
+    "description": "Eduardo García y su esposa Gabriela López abrieron Máximo Bistrot el 30 de noviembre de 2011, después de que García pasara por la cocina de Pujol con Enrique Olvera. Empezó como un bistrot pequeño de muebles de segunda mano en una calle de la Roma, con una filosofía sencilla: cocinar lo que traiga el mercado ese día, con técnica francesa y sin ostentación. La receta funcionó — con los años llegó el reconocimiento con una estrella Michelin y una mención en la lista 50 Best Discovery. El menú cambia constantemente según lo que llega de su red de pequeños productores, pescadores y recolectores, y el ambiente sigue siendo el de un bistrot de barrio, cálido e informal.",
+    "tags": [
+      "Bistrot",
+      "De temporada"
+    ],
     "coordinates": {
       "lat": 19.4159,
       "lng": -99.158
@@ -1310,8 +1411,11 @@
         "alt": "Entrada arqueada con plantas"
       }
     ],
-    "description": "Del chef Ricardo Muñoz Zurita, en el patio central de un palacio colonial del siglo XVII. Cocina mexicana tradicional de las distintas regiones del país.",
-    "tags": ["Tradicional", "Histórico"],
+    "description": "Del chef Ricardo Muñoz Zurita, investigador de la cocina mexicana con varios libros publicados, este restaurante ocupa el patio central de un palacio colonial del siglo XVII que perteneció al Conde de Miravalle, hoy parte del hotel Downtown Mexico. Abrió en 2012 y desde entonces sirve cocina mexicana tradicional de distintas regiones del país, con ese cuidado casi de archivo que caracteriza el trabajo de Muñoz Zurita. Comer bajo los arcos del patio, entre cantera y plantas, con el bullicio del Centro Histórico de fondo, es de esas experiencias que combinan historia y mesa sin que ninguna de las dos se sienta impostada.",
+    "tags": [
+      "Tradicional",
+      "Histórico"
+    ],
     "coordinates": {
       "lat": 19.4331,
       "lng": -99.1367
@@ -1350,8 +1454,11 @@
         "alt": "Letrero de neón de tacos"
       }
     ],
-    "description": "Taquería callejera con más de 50 años de historia, abierta las 24 horas los 365 días del año. Al pastor, suadero y otros clásicos del Centro Histórico.",
-    "tags": ["Tacos", "24 horas"],
+    "description": "Taquería de banqueta en la calle Bolívar, en pleno Centro Histórico, con más de 50 años sirviendo tacos las 24 horas del día, los 365 días del año. El nombre viene de los cocuyos, esos insectos que brillan de noche, y aquí la parrilla nunca se apaga. La especialidad es el suadero, pero la carta callejera incluye longaniza, campechano y todo tipo de interiores —lengua, ojo, cachete, sesos, tripa— para quien se anime. Se volvió parada obligada internacional después de que Anthony Bourdain la visitara en uno de sus programas, pero sigue siendo, sobre todo, el lugar al que un chilango entra a las tres de la mañana sin pensarlo dos veces.",
+    "tags": [
+      "Tacos",
+      "24 horas"
+    ],
     "coordinates": {
       "lat": 19.4321,
       "lng": -99.1385
@@ -1390,8 +1497,10 @@
         "alt": "Vaso de vidrio con café"
       }
     ],
-    "description": "Café de especialidad pequeño y escondido en Coyoacán, inspirado en un personaje de \"La tregua\" de Benedetti. En vez de menú, ofrece una ficha técnica de cada método de extracción.",
-    "tags": ["Café de especialidad"],
+    "description": "Un local minúsculo en Higuera, con paredes turquesa y una ardilla pintada en la fachada, que lleva desde 2010 haciendo culto silencioso al café de especialidad en Coyoacán. El nombre es un guiño literario: Avellaneda por Laura Avellaneda, personaje de \"La tregua\" de Mario Benedetti. Adentro caben apenas cinco bancos de barra, dos mesas dobles y una banca a la entrada, así que muchas veces se toma de pie o se espera turno. En vez de un menú convencional, te explican la ficha técnica de cada método —Kalita, V60, Chemex— y del origen del grano. Perfecto para quien busca conversación de barista y no ruido de cafetería de cadena.",
+    "tags": [
+      "Café de especialidad"
+    ],
     "coordinates": {
       "lat": 19.3467,
       "lng": -99.1633
@@ -1423,8 +1532,11 @@
         "alt": "Café tostado en grano"
       }
     ],
-    "description": "Café de especialidad en Roma Norte enfocado en sostenibilidad, con grano tostado y seleccionado por ellos mismos.",
-    "tags": ["Café de especialidad", "Sustentable"],
+    "description": "Buna nació en 2012 con una premisa clara: café mexicano, de productores mexicanos, tostado cerca de donde se sirve. En su local de Roma Norte tuestan en un espacio contiguo y trabajan directo con caficultores de distintas regiones del país, con una lógica de sustentabilidad que va más allá del discurso de moda —de ahí que se le mencione junto a las pocas cafeterías con iniciativas zero waste reales en la ciudad. Tiene mesas al aire libre que lo hacen buena opción para sentarse un rato largo, no solo para pedir para llevar. Buen punto medio entre la cafetería de especialidad seria y el lugar donde de verdad se puede pasar la mañana.",
+    "tags": [
+      "Café de especialidad",
+      "Sustentable"
+    ],
     "coordinates": {
       "lat": 19.4172,
       "lng": -99.1625
@@ -1456,8 +1568,11 @@
         "alt": "Figura de cerámica sobre granos de café"
       }
     ],
-    "description": "Uno de los pioneros del café de especialidad en la CDMX, con su propio tueste en la colonia Roma.",
-    "tags": ["Café de especialidad", "Tostador"],
+    "description": "Cardinal es de los proyectos que ayudaron a poner a la Roma en el mapa del café de especialidad: lo fundaron Alex Martínez, Paul Torres y Edilberto \"Shak\" Zapata a inicios de la década de 2010, ninguno con background cafetalero pero con la idea clara de recuperar la cafetería como espacio de plática y sobremesa, no de paso rápido. Trabajan grano de origen mexicano —de Chiapas, Guerrero, Nayarit, Oaxaca, Veracruz— con métodos artesanales y buena repostería; el Latte Rex y el croissant de coco tienen fama entre habituales. El ambiente es de casa vieja reconvertida, con ese encanto medio vintage que no se siente impostado.",
+    "tags": [
+      "Café de especialidad",
+      "Tostador"
+    ],
     "coordinates": {
       "lat": 19.4213,
       "lng": -99.1668
@@ -1489,8 +1604,11 @@
         "alt": "Detalle de gota sobre plato"
       }
     ],
-    "description": "Café pequeño con varias sucursales en la ciudad, conocido por sus bebidas acompañadas de pan recién hecho.",
-    "tags": ["Café", "Para desayunar"],
+    "description": "Chiquitito tiene varias sucursales en la ciudad (ésta en Prado Norte, Lomas) y en todas se repite la misma fórmula: ambiente tranquilo, música baja, gente leyendo o trabajando despacio, y baristas que si vas seguido ya te saludan por tu nombre. El pan recién hecho es la seña de identidad —conviene pedirlo con lo que sea que estés tomando— y entre lo más pedido están el flat white, el matcha latte, el chai y el chia pudding para quien busca algo más ligero. No es cafetería para reuniones ruidosas ni trabajo urgente; es más bien el lugar al que llegas cuando quieres que la mañana se estire un poco.",
+    "tags": [
+      "Café",
+      "Para desayunar"
+    ],
     "coordinates": {
       "lat": 19.4283,
       "lng": -99.2087
@@ -1522,8 +1640,11 @@
         "alt": "Barra moderna de mármol"
       }
     ],
-    "description": "Nombrado el mejor bar del mundo por The World's 50 Best Bars 2024. Entrada discreta en Amberes 65, colonia Juárez — coctelería de autor de altísimo nivel.",
-    "tags": ["Coctelería", "Premiado"],
+    "description": "Detrás de una puerta discreta en Amberes 65, sin letrero, está el bar que en octubre de 2024 se convirtió en el primero de México —y de Latinoamérica— en ser nombrado Mejor Bar del Mundo por The World's 50 Best Bars. Ahí dentro manda Eric Van Beek, que combina coctelería clásica con técnica de laboratorio propio: destilados vintage, procesos poco comunes en la barra promedio y una puesta en escena pensada para sorprender trago a trago. Es coctelería de autor en el sentido más literal, cara y sin prisa, pensada para quien quiere ver de cerca por qué tanto ruido internacional. Reservar con anticipación es casi obligatorio.",
+    "tags": [
+      "Coctelería",
+      "Premiado"
+    ],
     "coordinates": {
       "lat": 19.4276,
       "lng": -99.1636
@@ -1555,8 +1676,11 @@
         "alt": "Botellas de licor en barra"
       }
     ],
-    "description": "Uno de los bares mexicanos habituales en The World's 50 Best Bars. Coctelería de autor sobre Álvaro Obregón, en el corazón de Roma Norte.",
-    "tags": ["Coctelería", "Premiado"],
+    "description": "Sobre Álvaro Obregón, en pleno Roma Norte, Limantour abrió en 2011 y fue de los bares que le enseñaron a la Ciudad de México a tomarse la coctelería en serio. Desde entonces ha aparecido año tras año en The World's 50 Best Bars —llegó a estar entre los diez primeros del mundo en 2019 y 2021— sin perder la mano. La Margarita al Pastor, con un toque de taco al pastor en la mezcla, es la que todos piden primero, seguida del Mr. Pink de gin, romero y toronja. El espacio, de dos pisos con aire art déco, mezcla clásicos y creaciones de temporada, y sigue tan lleno entre semana como en fin de semana.",
+    "tags": [
+      "Coctelería",
+      "Premiado"
+    ],
     "coordinates": {
       "lat": 19.4177,
       "lng": -99.1636
@@ -1588,8 +1712,11 @@
         "alt": "Botellas y copa en barra"
       }
     ],
-    "description": "Bar hermano de Licorería Limantour, con ambiente más relajado, servicio cercano y una carta de temporada. En pleno Condesa.",
-    "tags": ["Coctelería", "Relajado"],
+    "description": "Baltra lo abrió parte del mismo equipo de Limantour —Adrián Borgaro entre ellos— así que hereda la solidez de la coctelería pero con otra personalidad: la decoración recuerda el viaje de Darwin a las islas Galápagos, de donde toma el nombre, con guiños marítimos en la barra y las etiquetas. En Iztaccíhuatl, a unas cuadras del parque España, el ambiente es más relajado que el de su hermano mayor, con trato cercano y una carta que cambia según temporada. Buena opción si quieres coctelería con oficio real pero sin la formalidad ni la espera de los bares más premiados de la ciudad.",
+    "tags": [
+      "Coctelería",
+      "Relajado"
+    ],
     "coordinates": {
       "lat": 19.4095,
       "lng": -99.1689
@@ -1621,8 +1748,11 @@
         "alt": "Camino en medio del bosque"
       }
     ],
-    "description": "Área natural protegida de 253 hectáreas sobre el Pedregal, con senderos, pista de atletismo y zonas recreativas. Entrada gratuita.",
-    "tags": ["Gratis", "Naturaleza"],
+    "description": "Estás parado sobre lava: todo este bosque de 253 hectáreas creció sobre el pedregal que dejó la erupción del volcán Xitle hace casi dos mil años. A mediados del siglo XIX aquí operó una fábrica de papel, y fue Alberto Lenz, un inmigrante alemán que llegó en 1890, quien impulsó la reforestación que le dio su cara actual; se abrió al público en 1970 y en 1997 se declaró área natural protegida. Tiene cinco circuitos de distinta dificultad, del más corto y plano al Circuito de la Montaña, de casi seis kilómetros, popular entre corredores de trail. También hay pista de atletismo y zonas de picnic. Entrada gratis, buena opción para desconectarte sin salir de la ciudad.",
+    "tags": [
+      "Gratis",
+      "Naturaleza"
+    ],
     "coordinates": {
       "lat": 19.2917,
       "lng": -99.1783
@@ -1661,8 +1791,11 @@
         "alt": "Persona sentada en una banca del parque"
       }
     ],
-    "description": "El parque más emblemático de la Condesa, construido sobre el antiguo hipódromo. Ideal para correr, pasear al perro o solo sentarse bajo los árboles.",
-    "tags": ["Gratis", "Pet friendly"],
+    "description": "Antes de ser parque, este óvalo era la pista del hipódromo del Jockey Club, y cuando la colonia Hipódromo se trazó en 1927 sobre la antigua hacienda de la Condesa de Miravalle, decidieron conservar esa forma elíptica para el parque y las calles de alrededor. Lo diseñaron el arquitecto Leonardo Noriega y el ingeniero Javier Stávoli en art déco, y ahí sigue el Foro Lindbergh, la pérgola serpenteante y la torre-reloj que desde 1927 transmitía radio al vecindario. Es el corazón de la Condesa: gente corriendo, señoras paseando perros, parejas en bancas bajo los árboles. Gratis y pet friendly de verdad, con ambiente relajado casi cualquier hora del día.",
+    "tags": [
+      "Gratis",
+      "Pet friendly"
+    ],
     "coordinates": {
       "lat": 19.4113,
       "lng": -99.1719
@@ -1694,8 +1827,11 @@
         "alt": "Fuente entre árboles"
       }
     ],
-    "description": "El parque público más antiguo de América, junto al Palacio de Bellas Artes. Fuentes, esculturas y áreas verdes en pleno Centro Histórico.",
-    "tags": ["Gratis", "Histórico"],
+    "description": "Se fundó en enero de 1592, por orden del virrey Luis de Velasco, sobre el terreno de un tianguis indígena; le sembraron mil álamos ese mismo año, de ahí el nombre. Se le considera el primer parque público de América, con más de cuatro siglos viendo pasar la vida social de la ciudad. Hoy tiene doce fuentes, ocho esculturas y el Hemiciclo a Juárez, y está justo a un costado del Palacio de Bellas Artes, así que se presta para combinar ambas visitas. Es un buen respiro verde en pleno Centro Histórico, con bancas bajo árboles centenarios; ve temprano si quieres disfrutarla sin el gentío del mediodía.",
+    "tags": [
+      "Gratis",
+      "Histórico"
+    ],
     "coordinates": {
       "lat": 19.4359,
       "lng": -99.1439
@@ -1727,8 +1863,11 @@
         "alt": "Sala con exhibiciones interactivas"
       }
     ],
-    "description": "Museo de ciencias de la UNAM dentro de Ciudad Universitaria, con exhibiciones interactivas sobre física, biología y tecnología.",
-    "tags": ["Interactivo", "Familiar"],
+    "description": "Es el museo de ciencias de la UNAM dentro de Ciudad Universitaria, abierto desde el 12 de diciembre de 1992 con 550 módulos interactivos sobre física, astronomía, matemáticas, biología y ecología. Ya lleva más de tres décadas y sigue renovándose: además de las salas permanentes tiene un planetario y ha traído exposiciones temporales memorables, como Body Worlds (los cuerpos humanos disecados) en 2010 o muestras de dinosaurios gigantes. Abre de miércoles a domingo de 10 a 17 horas y la entrada general cuesta 90 pesos, con descuento para estudiantes, maestros e INAPAM. Es de los mejores planes familiares de la ciudad, y como está en CU, se puede combinar con una caminata por el campus.",
+    "tags": [
+      "Interactivo",
+      "Familiar"
+    ],
     "coordinates": {
       "lat": 19.3251,
       "lng": -99.1836
@@ -1767,8 +1906,11 @@
         "alt": "Patio con fuente y plantas"
       }
     ],
-    "description": "La casa donde nació y vivió Frida Kahlo, convertida en museo en 1958. Uno de los museos más visitados de la ciudad — se recomienda comprar boleto con anticipación en línea.",
-    "tags": ["Arte", "Imperdible"],
+    "description": "La casa la construyó en 1904 Guillermo Kahlo, el papá de Frida, y ahí nació y murió la pintora. Cuando ella vivió aquí con Diego Rivera a partir de 1929, se volvió punto de reunión de intelectuales como Trotsky, André Breton y Pablo Neruda. Se convirtió en museo en 1958, cuatro años después de su muerte, y conserva su recámara, sus corsés ortopédicos, su colección de mariposas, vestidos, la cocina de azulejo amarillo y azul, y objetos de arte popular y prehispánico que ella y Diego fueron juntando. Es de los museos más visitados de la ciudad — conviene comprar boleto con horario en línea con varios días de anticipación o simplemente no entras.",
+    "tags": [
+      "Arte",
+      "Imperdible"
+    ],
     "coordinates": {
       "lat": 19.355,
       "lng": -99.1624
@@ -1800,8 +1942,11 @@
         "alt": "Interior de teatro con balcones dorados"
       }
     ],
-    "description": "Recinto Art Nouveau y Art Déco junto a la Alameda Central, sede de murales de Rivera, Orozco y Siqueiros, ópera, danza y exposiciones temporales.",
-    "tags": ["Arte", "Arquitectura"],
+    "description": "El gobierno contrató al arquitecto italiano Adamo Boari en 1904 para construirlo, mezclando Art Nouveau por fuera y Art Déco por dentro, con mármol traído de Italia. El edificio empezó a hundirse desde 1907 por el subsuelo blando del centro, y la Revolución detuvo la obra por años — Boari dejó el país en 1916 sin verlo terminado; lo concluyó Federico Mariscal y abrió hasta 1934. Adentro está el telón de cristal hecho por los talleres Tiffany de Nueva York, armado con más de un millón de piezas de vidrio opalescente que forman un paisaje del Valle de México, además de murales de Rivera, Orozco, Siqueiros y Tamayo en los pisos superiores. También hay ópera, danza y exposiciones temporales.",
+    "tags": [
+      "Arte",
+      "Arquitectura"
+    ],
     "coordinates": {
       "lat": 19.4352,
       "lng": -99.1412
@@ -1833,8 +1978,11 @@
         "alt": "Cuadros enmarcados en pared"
       }
     ],
-    "description": "Museo dedicado a la colección de arte y objetos de la cultura popular reunida por el cronista Carlos Monsiváis. Entrada libre los domingos.",
-    "tags": ["Arte", "Cultura popular"],
+    "description": "Está en el edificio conocido como \"La Esmeralda\", que a finales del siglo XIX fue una joyería de lujo en la esquina de Isabel la Católica y Madero, en pleno Centro. El museo abrió en 2006 para albergar la colección del cronista Carlos Monsiváis: más de 20,000 piezas entre fotografías, caricaturas, pinturas, documentos, partituras y objetos que él fue acumulando durante décadas por puro amor a la cultura popular mexicana. El nombre viene de los \"estanquillos\", esas tiendas de barrio de antes donde se conseguía de todo. Las exposiciones cambian seguido y suelen cruzar cine, cómics, política y crónica urbana con el ojo irónico que hizo famoso a Monsiváis. Entrada libre los domingos.",
+    "tags": [
+      "Arte",
+      "Cultura popular"
+    ],
     "coordinates": {
       "lat": 19.434,
       "lng": -99.1373
@@ -1862,8 +2010,11 @@
         "alt": "Persona jugando un juego de mesa"
       }
     ],
-    "description": "Café con más de 300 juegos de mesa para elegir. Consumo mínimo para jugar sin límite de tiempo, martes a domingo.",
-    "tags": ["Juegos de mesa", "Con amigos"],
+    "description": "En el corazón de la Roma Norte, Tláloc es de esos cafés donde llegas a jugar \"nomás una partida\" y terminas ahí toda la tarde. Manejan un catálogo de más de 300 juegos de mesa, de los clásicos de toda la vida a algún título que seguro no conoces, y con el consumo mínimo puedes quedarte las horas que quieras sin que corra un reloj sobre tu cabeza. Abren de martes a domingo, buena opción tanto para un plan entre semana como para el fin de semana con amigos. Perfecto si van en grupo, no traen ningún juego bajo el brazo y quieren que alguien más decida qué se juega esa noche.",
+    "tags": [
+      "Juegos de mesa",
+      "Con amigos"
+    ],
     "coordinates": {
       "lat": 19.4172,
       "lng": -99.1637
@@ -1891,8 +2042,11 @@
         "alt": "Control de videojuegos"
       }
     ],
-    "description": "Tienda de videojuegos nuevos, usados y de colección, con varias sucursales en la ciudad. Consolas, accesorios y figuras.",
-    "tags": ["Videojuegos", "Compras"],
+    "description": "Gameplanet es de esas cadenas que cualquier gamer chilango conoce: además de esta sucursal en Del Valle, tienen tiendas en varios centros comerciales de la ciudad, como Plaza Valle y Santa Fe. Aquí encuentras de todo —videojuegos nuevos y usados, títulos de colección que ya no se consiguen fácil, consolas, accesorios y figuras de tus personajes favoritos—. Es de las opciones más confiables si buscas un juego específico, quieres vender los que ya no usas o simplemente te gusta ir a hojear vitrinas un sábado sin prisa. Entrada libre, así que puedes darte una vuelta nomás por curiosear, sin compromiso de comprar nada.",
+    "tags": [
+      "Videojuegos",
+      "Compras"
+    ],
     "coordinates": {
       "lat": 19.3833,
       "lng": -99.1633
@@ -1927,8 +2081,11 @@
         "alt": "Persona sentada jugando un juego de mesa"
       }
     ],
-    "description": "Café de juegos de mesa junto al Parque México, abierto desde las 8 am todos los días.",
-    "tags": ["Juegos de mesa", "Café"],
+    "description": "El Ocho está justo frente al Parque México, y es de los pocos lugares en la Condesa donde el juego no se queda solo en la caja: en las mesas te esperan hojas para jugar gato, timbiriche o basta, y hay un librero enorme con más de 120 juegos de mesa —tomas el que quieras y dejas una identificación de garantía—. El menú también le entra a la broma: hamburguesas con dona en vez de pan, crema de frijol con una partida de gato dibujada encima. Es pet-friendly de a de veras, hasta tienen algo para que tu perro pida lo suyo. Abren desde las 8 de la mañana hasta la medianoche, todos los días.",
+    "tags": [
+      "Juegos de mesa",
+      "Café"
+    ],
     "coordinates": {
       "lat": 19.4113,
       "lng": -99.1721
@@ -1956,8 +2113,11 @@
         "alt": "Multitud con las manos arriba en concierto"
       }
     ],
-    "description": "Foro de conciertos independiente en Roma Norte, con programación constante de bandas nacionales e internacionales.",
-    "tags": ["Música en vivo", "Con amigos"],
+    "description": "El Foro Indie Rocks! es de los templos indies más queridos de Roma Norte, montado en una antigua nave industrial sobre Zacatecas. Adentro caben unas 600 personas repartidas en dos escenarios, y si sumas el patio trasero la cifra sube hasta 1,200, que es cuando se pone bueno el ambiente en época de festival. Llevan más de una década metiendo bandas nacionales e internacionales casi todas las semanas, entre rock alternativo, electrónica y pop indie, y desde 2017 organizan el IR Week, cinco días seguidos de shows. Es de esos lugares donde vas sin agenda fija, revisas la cartelera de la semana y seguro hay algo que valga la pena, cerveza en mano y el ambiente de barrio de la Roma alrededor.",
+    "tags": [
+      "Música en vivo",
+      "Con amigos"
+    ],
     "coordinates": {
       "lat": 19.4177,
       "lng": -99.1608
@@ -1985,8 +2145,11 @@
         "alt": "Escenario con público en teatro oscuro"
       }
     ],
-    "description": "Recinto íntimo dentro del Auditorio Nacional, conocido por conciertos multigénero en un ambiente más cercano.",
-    "tags": ["Música en vivo", "Experiencia"],
+    "description": "El Lunario es el hermano chico e íntimo del Auditorio Nacional, pegado al edificio grande pero con otra vibra: aquí caben entre 500 personas en formato de mesas, tipo cabaret, y hasta 1,200 de pie, así que hasta un artista grande se siente cerca. El escenario y la acústica están pensados justo para eso, para que no se sienta como estadio. La cartelera brinca de jazz a electrónica, de rock a música romántica, con el bar Eclipse a un lado del escenario para la previa o el intermedio. Si quieres ver a alguien conocido sin perderte entre miles de personas, el Lunario suele ser la apuesta segura en Polanco, con Reforma y el Campo Marte como vecinos.",
+    "tags": [
+      "Música en vivo",
+      "Experiencia"
+    ],
     "coordinates": {
       "lat": 19.4257,
       "lng": -99.1927
@@ -2014,8 +2177,11 @@
         "alt": "Reflectores iluminando techo de estadio"
       }
     ],
-    "description": "Recinto para conciertos y eventos masivos junto al World Trade Center, con cartelera constante de artistas nacionales e internacionales.",
-    "tags": ["Música en vivo", "Grupos"],
+    "description": "El Pepsi Center WTC lleva desde 2012 llenándose de conciertos y eventos grandes justo detrás del World Trade Center, sobre Dakota; ahí debutó el recinto con un concierto de Alejandro Fernández. Es un foro que se adapta: con las gradas movibles se puede armar para 3,000 personas en formato más cerrado o abrir hasta 7,500 cuando el show lo amerita, así que la sensación cambia bastante según quién toque. Por su escenario han pasado desde pop y urbano hasta rock y jazz, y entre concierto y concierto también sirve para exposiciones y eventos deportivos. Si vas, calcula tráfico extra por la zona de Nápoles y el WTC, que se complica cuando hay función.",
+    "tags": [
+      "Música en vivo",
+      "Grupos"
+    ],
     "coordinates": {
       "lat": 19.3959,
       "lng": -99.1697
@@ -2043,8 +2209,11 @@
         "alt": "Butaca roja de cine"
       }
     ],
-    "description": "Cine independiente, bar y foro cultural en Roma Sur — cartelera de cine de autor, documentales y funciones especiales.",
-    "tags": ["Cine independiente", "Cultura alternativa"],
+    "description": "En Tonalá 261, a media Roma Sur, este espacio nació como escuela de actuación y terminó convertido en uno de los puntos más queridos del circuito alternativo capitalino. La decoración es puro carácter: butacas y sillones recuperados de los años 80, ambiente entre cine europeo de autor y cabaret nocturno. La cartelera prioriza documentales, cine independiente y funciones especiales que no vas a encontrar en las cadenas comerciales, y antes o después de la función se puede parar en el bar-restaurante de pizzas al horno de leña. Con $90 la entrada, es de los boletos más accesibles de la ciudad para ver algo distinto a lo comercial.",
+    "tags": [
+      "Cine independiente",
+      "Cultura alternativa"
+    ],
     "coordinates": {
       "lat": 19.4103,
       "lng": -99.1587
@@ -2072,8 +2241,11 @@
         "alt": "Butacas de auditorio en contraste de colores"
       }
     ],
-    "description": "Cine clásico sobre Paseo de la Reforma, uno de los complejos más conocidos de la ciudad para estrenos comerciales.",
-    "tags": ["Cine", "Tradicional"],
+    "description": "El edificio sobre Reforma 423 no es un multicine cualquiera: se inauguró en 1962 como Cine Diana, obra del arquitecto Leopoldo Gout, con casi 1,850 butacas y un mural de Manuel Felguérez en el vestíbulo (hoy resguardado en el MUAC). A finales de los 90 lo vendieron y lo dividieron en varias salas para operarlo como Cinépolis, pero conserva ese peso de cine de otra época, justo junto a la Diana Cazadora. Buena opción para estrenos comerciales entre semana, con boletos desde $110. Si vas, vale la pena levantar la vista al llegar: el exterior todavía delata el cine de barrio que fue.",
+    "tags": [
+      "Cine",
+      "Tradicional"
+    ],
     "coordinates": {
       "lat": 19.4247,
       "lng": -99.1687
@@ -2101,8 +2273,11 @@
         "alt": "Edificio de autocinema de noche"
       }
     ],
-    "description": "Autocinema con pantalla LED 4K en Coapa, ambiente pet friendly. El precio es por auto, no por persona.",
-    "tags": ["Autocinema", "Pet friendly"],
+    "description": "Autocinema sobre Calz. del Hueso, en Coapa: pantalla LED 4K gigante y un estacionamiento amplio donde puedes llevar a tu perro sin problema. El precio, $190, es por auto y no por persona, así que conviene ir entre varios para que salga a cuenta. Hay servicio a la ventanilla con hot dogs, nachos y demás clásicos de dulcería, aunque no dejan entrar comida de fuera. También rentan el lugar para funciones privadas si buscas algo distinto para un cumpleaños o evento. Buena opción para una noche relajada dentro del coche, sobre todo si vas acompañado.",
+    "tags": [
+      "Autocinema",
+      "Pet friendly"
+    ],
     "coordinates": {
       "lat": 19.3103,
       "lng": -99.1319
@@ -2130,8 +2305,11 @@
         "alt": "Cómics apilados"
       }
     ],
-    "description": "Tienda de cómics de Marvel, DC e independientes, en Roma Norte.",
-    "tags": ["Cómics", "Compras"],
+    "description": "En San Luis Potosí, a unas cuadras del corazón de la Roma Norte, Global Cómics es una de las pocas tiendas de la ciudad enfocada de verdad en cómic europeo —línea clara, autores franco-belgas, ediciones que no vas a encontrar en las cadenas grandes—, además de manga y cómic mexicano independiente. Se anuncian como \"noveno arte\" y tienen una cafetería adentro para hojear tranquilo antes de decidirte. También hacen envíos si buscas algo puntual. Es parada obligada si te gusta el cómic de autor y no solo el superhéroe de Marvel o DC.",
+    "tags": [
+      "Cómics",
+      "Compras"
+    ],
     "coordinates": {
       "lat": 19.4147,
       "lng": -99.1608
@@ -2159,8 +2337,11 @@
         "alt": "Controles de videojuegos"
       }
     ],
-    "description": "Tienda geek con cómics, figuras coleccionables y videojuegos, con sucursales en Condesa y Coyoacán.",
-    "tags": ["Cómics", "Figuras"],
+    "description": "Sobre avenida Tamaulipas, en pleno Condesa, esta sucursal de The Limited Company es una de las paradas clásicas para coleccionismo geek en la ciudad: figuras de marcas como Hot Toys, Sideshow, Funko, Bandai y Neca conviven en anaqueles con cómics y piezas de edición limitada. Tienen otra sucursal en Coyoacán y tienda en línea, así que si algo se agota en una sucursal, vale la pena preguntar en la otra o revisar el sitio. Es de esas tiendas donde entras \"nada más a ver\" y sales con una figura que no sabías que necesitabas.",
+    "tags": [
+      "Cómics",
+      "Figuras"
+    ],
     "coordinates": {
       "lat": 19.4117,
       "lng": -99.1755
@@ -2188,8 +2369,11 @@
         "alt": "Personas en un mercado durante el día"
       }
     ],
-    "description": "Plaza comercial dedicada por completo a la cultura geek: cómics, figuras, videojuegos y coleccionables, en varios locales del Centro Histórico.",
-    "tags": ["Compras", "Cultura alternativa"],
+    "description": "Frikiplaza es un edificio completo de tres pisos sobre Eje Central, con más de 250 locales dedicados a la cultura geek: cómics, figuras, videojuegos, cartas coleccionables, manga, ropa de anime y hasta dulces japoneses, todo mezclado en pasillos angostos donde cada changarro tiene su especialidad. Abrió en 2003 como \"Bazar del Entretenimiento y el Videojuego\" antes de adoptar su nombre actual. Los fines de semana se llena —hasta 5 mil visitantes— y no es raro toparte con cosplayers, torneos de cartas o algún mini concierto entre locales. Si buscas algo muy específico de una franquicia rara, aquí es más probable encontrarlo que en cualquier tienda departamental.",
+    "tags": [
+      "Compras",
+      "Cultura alternativa"
+    ],
     "coordinates": {
       "lat": 19.4339,
       "lng": -99.1403
@@ -2217,8 +2401,11 @@
         "alt": "Dos corgis corriendo felices en un parque"
       }
     ],
-    "description": "Café con jardín grande donde los perros pueden jugar sueltos entre ellos mientras tú desayunas o tomas algo.",
-    "tags": ["Pet friendly", "Café"],
+    "description": "En Atlixco 13, en plena Condesa, este café tiene un patio y jardín donde tu perro puede andar suelto sin correa mientras tú desayunas o abres la laptop. El menú es de comida saludable y vegana, con café de especialidad, jugos y postres, y cada semana tienen un día dedicado a los perrhijos en el que regalan galleta a quien llegue con su mascota. A diferencia de otros lugares pet friendly de la zona, aquí no se trata de tolerar al perro bajo la mesa: hay pasto, sombra y espacio real para que corra y socialice con otros peludos mientras el ambiente se mantiene tranquilo, ideal para trabajar o platicar sin prisa.",
+    "tags": [
+      "Pet friendly",
+      "Café"
+    ],
     "coordinates": {
       "lat": 19.4108,
       "lng": -99.1728
@@ -2246,8 +2433,11 @@
         "alt": "Perro corgi caminando sobre pasto"
       }
     ],
-    "description": "Café pet friendly con espacio de juego para perros; incluye galleta y agua de cortesía para tu mascota al llegar.",
-    "tags": ["Pet friendly", "Café"],
+    "description": "En esta cafetería de especialidad de la Condesa el protagonista es tu perro, no el café. Apenas llegas, le dan una camita para que se relaje y una galleta de cortesía; también hay agua fresca sin que tengas que pedirla. El café es orgánico y de comercio justo, y además del menú para humanos manejan una carta pensada para mascotas, con helados y galletas hechas con ingredientes seguros para ellos. Aceptan perros, gatos, conejos y hasta hurones, siempre que se porten bien según las reglas que ponen en el menú. Es de los pocos cafés donde sientes que diseñaron el lugar pensando primero en la mascota y después en ti.",
+    "tags": [
+      "Pet friendly",
+      "Café"
+    ],
     "coordinates": {
       "lat": 19.4103,
       "lng": -99.1731
@@ -2275,8 +2465,11 @@
         "alt": "Personas caminando en un parque"
       }
     ],
-    "description": "Parque emblemático de Polanco, pet friendly, con áreas verdes, fuentes y un aviario.",
-    "tags": ["Pet friendly", "Gratis"],
+    "description": "Uno de los parques más queridos de Polanco, inaugurado en 1938 por Lázaro Cárdenas. Al centro hay una estatua de Abraham Lincoln rodeada de espejos de agua donde, los domingos, todavía se ven barquitos a control remoto navegando. La Torre del Reloj, que empezó como palomar en los años 30, hoy es una galería de arte y sigue marcando las horas sobre el parque. Del otro lado está el Aviario Abraham Lincoln, un santuario donde reubican aves rescatadas del tráfico de especies: hospeda unas 25 especies distintas y se puede visitar por una cuota simbólica. Es un parque grande, con banquetas anchas y sombra, perfecto para caminar al perro entre semana sin las multitudes del fin de semana.",
+    "tags": [
+      "Pet friendly",
+      "Gratis"
+    ],
     "coordinates": {
       "lat": 19.4324,
       "lng": -99.1955
@@ -2304,8 +2497,11 @@
         "alt": "Grupo de personas frente a una pirámide"
       }
     ],
-    "description": "Ciudad prehispánica con las pirámides del Sol y la Luna, a una hora de CDMX. $105 MXN con residencia en México.",
-    "tags": ["Escapada", "Arqueología"],
+    "description": "Teotihuacán fue, hace más de 1500 años, una de las ciudades más grandes del mundo antiguo: en su apogeo pudo tener hasta 100,000 habitantes, mucho antes de que llegaran los mexicas (quienes la encontraron ya en ruinas y le dieron el nombre que conocemos, \"el lugar donde los dioses se crearon\"). Camina la Calzada de los Muertos, el eje de cinco kilómetros que conecta la Pirámide del Sol —de casi 65 metros, una de las más grandes de Mesoamérica— con la Pirámide de la Luna. Sube si tus rodillas aguantan la inclinación, y no dejes de asomarte al Palacio de Quetzalpapálotl, con sus columnas talladas. Ve temprano para ganarle al sol y a los grupos grandes; hay quien prefiere verla desde un globo aerostático al amanecer.",
+    "tags": [
+      "Escapada",
+      "Arqueología"
+    ],
     "coordinates": {
       "lat": 19.6925,
       "lng": -98.8438
@@ -2340,8 +2536,11 @@
         "alt": "Iglesia blanca en calle empedrada"
       }
     ],
-    "description": "Pueblo Mágico rodeado de montañas, mercado de artesanías y el cerro del Tepozteco. Entrada al pueblo libre; se paga por atracciones específicas.",
-    "tags": ["Escapada", "Pueblo Mágico"],
+    "description": "Tepoztlán está encajonado entre cerros escarpados que le dan ese aire casi mágico apenas se asoma el pueblo. La subida al Tepozteco —empinada, de escalones de piedra irregulares, como una hora larga si vas a buen paso— vale la pena: arriba te espera una pequeña pirámide prehispánica dedicada a Tepoztécatl, el dios del pulque, con una vista que abarca todo el valle de Morelos. Ya abajo, el mercado de fin de semana es el verdadero corazón del pueblo: itacates, cecina, dulces de amaranto, textiles bordados y puestos de herbolaria se mezclan entre el ruido y el olor a comida recién hecha. El pueblo también tiene fama —merecida o no— de lugar de energías y retiros espirituales, con temazcales por todos lados.",
+    "tags": [
+      "Escapada",
+      "Pueblo Mágico"
+    ],
     "coordinates": {
       "lat": 18.9847,
       "lng": -99.094
@@ -2369,8 +2568,11 @@
         "alt": "Estela de lancha en el lago con pueblo al fondo"
       }
     ],
-    "description": "Pueblo Mágico con lago artificial, centro colonial y deportes acuáticos. Entrada al pueblo libre; se paga por actividades específicas.",
-    "tags": ["Escapada", "Pueblo Mágico"],
+    "description": "El lago de Valle de Bravo no es natural: es una presa terminada en los años cuarenta como parte del sistema hidroeléctrico Miguel Alemán, pero lleva tanto tiempo ahí que es imposible imaginar el pueblo sin él. Alrededor se acomoda un centro colonial de calles empedradas y casas de teja, mientras en el agua se navega en velero, kayak o lancha. Lo que de verdad pone a Valle de Bravo en el mapa mundial es el parapente: por sus corrientes térmicas se le considera uno de los mejores sitios del planeta para volar, y ver las alas de colores despegar desde el Cerro de la Cruz sobre el lago es un espectáculo en sí mismo. Cerca, en Avándaro, hay cascadas como el Velo de Novia para completar el día.",
+    "tags": [
+      "Escapada",
+      "Pueblo Mágico"
+    ],
     "coordinates": {
       "lat": 19.1947,
       "lng": -100.1314

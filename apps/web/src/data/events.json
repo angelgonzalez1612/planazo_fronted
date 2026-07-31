@@ -27,9 +27,14 @@
         "alt": "Colección de vasijas de cerámica"
       }
     ],
-    "description": "Bazar de artes y artesanías abierto desde 1960 en la Plaza San Jacinto de San Ángel — cientos de artesanos y artistas mexicanos con joyería, cerámica, textiles y más. Solo los sábados.",
-    "tags": ["Gratis", "Familiar"],
-    "recurringDays": [6]
+    "description": "El Bazar Sábado nació en 1960 en la calle Doctor Gálvez, en San Ángel, cuando Wendell Riggs y su esposa Cynthia Sargent tuvieron la idea de juntar artesanos mexicanos en un solo lugar — empezaron con apenas 15. En 1965 se mudaron a la casona colonial de Plaza San Jacinto 11, remodelada por el arquitecto Manuel Parra y por Ruth Rivera, hija de Diego Rivera. Hoy reúne a cientos de artesanos y artistas con joyería de autor, cerámica, textiles, moda y hasta un restaurante en el patio. Es un clásico de San Ángel: llega temprano, camina el jardín del Carmen de al lado y date tiempo para perderte entre los puestos. Solo abre los sábados, así que no hay margen de error si quieres ir.",
+    "tags": [
+      "Gratis",
+      "Familiar"
+    ],
+    "recurringDays": [
+      6
+    ]
   },
   {
     "kind": "evento",
@@ -59,9 +64,15 @@
         "alt": "Pareja bailando en salón"
       }
     ],
-    "description": "El salón de baile más famoso de la ciudad, abierto desde 1937. Orquesta en vivo tocando danzón, cumbia y swing — abre martes y domingos, con clases de baile antes de la función.",
-    "tags": ["Música en vivo", "Tradicional"],
-    "recurringDays": [2, 0]
+    "description": "Abrió el 29 de julio de 1937 en un local que antes era bodega de camiones y costales de carbón, en la colonia Guerrero. Casi 90 años después sigue en pie y nunca ha cerrado sus puertas — por eso es Patrimonio Inmaterial de la Ciudad de México. Por su pista han pasado orquestas legendarias como la Sonora Santanera y Dámaso Pérez Prado, el rey del mambo. La frase que lo volvió mito la acuñó un cronista hace décadas: \"quien no conoce Los Ángeles, no conoce México\". Abre martes y domingo, con clases de baile antes de que arranque la orquesta en vivo — llegas sin saber bailar danzón y sales medio sabiendo, rodeado de parejas que lo han hecho toda la vida.",
+    "tags": [
+      "Música en vivo",
+      "Tradicional"
+    ],
+    "recurringDays": [
+      2,
+      0
+    ]
   },
   {
     "kind": "evento",
@@ -87,9 +98,14 @@
         "alt": "Grupo de ciclistas en la calle"
       }
     ],
-    "description": "El último domingo de cada mes, Reforma y otras vialidades de 6 alcaldías se cierran a los autos para ciclistas, patinadores y caminantes. Organizado por el InDeporte, gratuito y para todas las edades.",
-    "tags": ["Gratis", "Familiar"],
-    "recurringDays": [0]
+    "description": "Cada último domingo de mes, Reforma y otras avenidas de seis alcaldías se cierran a los coches y se llenan de bicicletas, patines y gente caminando — lo organiza el INDEPORTE y es completamente gratis. La ruta cambia según el mes: a veces son más de 40 kilómetros desde Calzada de Guadalupe hasta el Circuito Interior, otras veces se acorta por algún evento especial en la ciudad. En el camino hay puntos de hidratación, asistencia mecánica y hasta módulos de fisioterapia para las piernas cansadas. Se suspendió durante la pandemia y volvió en 2021. Es de las pocas veces al mes que puedes rodar por el centro de la ciudad sin un camión encima — funciona para toda la familia, del ciclista serio al que solo quiere pasear.",
+    "tags": [
+      "Gratis",
+      "Familiar"
+    ],
+    "recurringDays": [
+      0
+    ]
   },
   {
     "kind": "evento",
@@ -119,9 +135,14 @@
         "alt": "Verduras frescas sobre mesa de madera"
       }
     ],
-    "description": "El primer mercado de productores orgánicos de la ciudad, con vendedores de un radio de 160 km: frutas, verduras, quesos artesanales, pan, café y puestos de comida preparada.",
-    "tags": ["Gratis", "Familiar"],
-    "recurringDays": [0]
+    "description": "Abrió el 31 de octubre de 2010 en la Plaza Río de Janeiro, con apenas 12 productores, tras dos años de investigación de quienes lo armaron. Hoy, ya instalado en la Plaza del Lanzador de la Roma Sur, reúne a decenas de productores —todos dentro de un radio de 160 km, de ahí el nombre \"El 100\"— con Certificación Orgánica Participativa reconocida por SAGARPA-SENASICA. Se rige por cinco valores que repiten sus organizadores: local, sano, rico, justo y limpio. Vas a encontrar verduras y fruta de temporada, quesos artesanales, café, pan de manos que sí conoces, y puestos de comida para desayunar ahí mismo. Es cita de domingo para quien quiere saber quién cultivó lo que se está comiendo.",
+    "tags": [
+      "Gratis",
+      "Familiar"
+    ],
+    "recurringDays": [
+      0
+    ]
   },
   {
     "kind": "evento",
@@ -151,9 +172,16 @@
         "alt": "Luchadores en el ring"
       }
     ],
-    "description": "Función regular del CMLL en la Arena México — Viernes Espectacular, 20:30. También hay funciones los martes (19:30) y domingos (17:00, Domingo Familiar).",
-    "tags": ["Con amigos", "Grupos"],
-    "recurringDays": [2, 5, 0]
+    "description": "La Arena México es la \"Catedral de la Lucha Libre\": ahí vive el CMLL, la empresa de lucha libre en activo más antigua del mundo, fundada en 1933. El Viernes Espectacular es su función insignia — cada viernes a las 20:30, salvo cuando hay una cartelera especial de aniversario con luchas de apuestas donde se arriesgan máscaras y cabelleras. También hay funciones los martes por la noche y los domingos por la tarde, pensadas como Domingo Familiar. No hace falta saber de lucha para engancharte: el ambiente de la arena, la gente gritándole a los rudos y técnicos, y las máscaras son parte del espectáculo tanto como lo que pasa arriba del ring.",
+    "tags": [
+      "Con amigos",
+      "Grupos"
+    ],
+    "recurringDays": [
+      2,
+      5,
+      0
+    ]
   },
   {
     "kind": "evento",
@@ -183,8 +211,13 @@
         "alt": "Personas viendo puestos de mercado al aire libre"
       }
     ],
-    "description": "Cada domingo, un laberinto de puestos con muebles antiguos, vinilos, cámaras, juguetes de colección y reliquias del pasado, a unas cuadras de Garibaldi. Llega temprano para lo mejor.",
-    "tags": ["Tradicional", "Cultura alternativa"],
-    "recurringDays": [0]
+    "description": "La Lagunilla ya era zona de comercio desde antes de la Conquista, cuando aquí había una laguna que se conectaba con el Lago de Texcoco por canales — de ahí el nombre. Con los siglos se volvió mercado y hoy, cada domingo, las calles Comonfort, Jaime Nunó y Matamoros —a unas cuadras de Garibaldi— se llenan de puestos con espadas, monedas y billetes viejos, discos de vinil, cámaras análogas, juguetes de otras décadas y muebles que ya nadie hace así. Es un mercado para hurgar, no para ir con prisa: los mejores hallazgos se los llevan los que llegan temprano y saben regatear.",
+    "tags": [
+      "Tradicional",
+      "Cultura alternativa"
+    ],
+    "recurringDays": [
+      0
+    ]
   }
 ]
