@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useCity, useSignupPrompt } from "@/components/providers/app-providers";
+import { useCity } from "@/components/providers/app-providers";
 import { NavSearchOverlay } from "@/components/nav-search-overlay";
 import { getSearchSuggestions } from "@/lib/data";
 
@@ -30,7 +30,6 @@ export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [cityMenuOpen, setCityMenuOpen] = useState(false);
   const { city, setCity } = useCity();
-  const { triggerAuthPrompt } = useSignupPrompt();
   const cityMenuRef = useRef<HTMLDivElement>(null);
   const searchSuggestions = useMemo(() => getSearchSuggestions(), []);
 
@@ -135,13 +134,6 @@ export function SiteHeader() {
               </div>
             )}
           </div>
-          <button
-            type="button"
-            onClick={() => triggerAuthPrompt("cuenta")}
-            className="inline-flex items-center gap-1.5 rounded-full bg-brand-deep px-5 py-2.5 text-sm font-bold text-white shadow-[0_6px_18px_rgba(255,90,0,0.28)] transition-[transform,box-shadow,background-color] hover:-translate-y-px hover:bg-brand-pressed hover:shadow-[0_10px_22px_rgba(255,90,0,0.36)]"
-          >
-            Regístrate
-          </button>
         </div>
 
         <div className="ml-auto flex items-center gap-2 md:hidden">
@@ -191,16 +183,6 @@ export function SiteHeader() {
           className="border-b border-border/60 py-3 text-left text-[15.5px] font-semibold"
         >
           📍 Cambiar de ciudad ({city})
-        </button>
-        <button
-          type="button"
-          onClick={() => {
-            setMobileOpen(false);
-            triggerAuthPrompt("cuenta");
-          }}
-          className="py-3 text-left text-[15.5px] font-bold text-brand"
-        >
-          Regístrate →
         </button>
       </nav>
 

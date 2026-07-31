@@ -6,10 +6,7 @@ import { slugify } from "@planazo/shared";
 import type { Plan } from "@/data/types";
 import { resolvePhoto } from "@/lib/data";
 import { formatReviewCount } from "@/lib/format";
-import {
-  useFavorites,
-  useSignupPrompt,
-} from "@/components/providers/app-providers";
+import { useFavorites } from "@/components/providers/app-providers";
 
 export function PlanCard({
   plan,
@@ -21,7 +18,6 @@ export function PlanCard({
   categoryLabel: string;
 }) {
   const { isFavorite, toggleFavorite } = useFavorites();
-  const { triggerAuthPrompt } = useSignupPrompt();
   const href =
     plan.kind === "lugar" ? `/lugares/${plan.slug}` : `/eventos/${plan.slug}`;
   const cover = resolvePhoto(plan.cover);
@@ -44,9 +40,7 @@ export function PlanCard({
           <button
             type="button"
             title="Guardar"
-            onClick={() =>
-              triggerAuthPrompt("guardar", () => toggleFavorite(plan.id))
-            }
+            onClick={() => toggleFavorite(plan.id)}
             className={`grid size-[38px] place-items-center rounded-full bg-background/94 text-lg leading-none ${
               saved ? "text-brand" : "text-ink"
             }`}

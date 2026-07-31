@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { slugify } from "@planazo/shared";
-import type { Category, Comment, Guide, Plan } from "@/data/types";
+import type { Category, Guide, Plan } from "@/data/types";
 import { categoryHref } from "@/lib/data";
 import { formatReviewCount } from "@/lib/format";
 import { buildPlanJsonLd } from "@/lib/structured-data";
@@ -10,7 +10,6 @@ import { AdSlot } from "@/components/ad-slot";
 import { PlanCardCarousel } from "@/components/plan-card-carousel";
 import { SaveButton } from "@/components/plan-detail/save-button";
 import { ShareButtons } from "@/components/plan-detail/share-buttons";
-import { CommentBox } from "@/components/plan-detail/comment-box";
 import { PlanGallery } from "@/components/plan-detail/plan-gallery";
 import { ContactCta } from "@/components/plan-detail/contact-cta";
 
@@ -19,7 +18,6 @@ export function PlanDetailView({
   categoryIcon,
   categoryLabel,
   categories,
-  comments,
   similar,
   guides,
 }: {
@@ -27,7 +25,6 @@ export function PlanDetailView({
   categoryIcon: string;
   categoryLabel: string;
   categories: Category[];
-  comments: Comment[];
   similar: Plan[];
   guides: Guide[];
 }) {
@@ -243,11 +240,6 @@ export function PlanDetailView({
                 </a>
               </div>
             )}
-
-            <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">
-              Opiniones
-            </h2>
-            <CommentBox initialComments={comments} />
           </div>
 
           <aside className="flex flex-col gap-4">

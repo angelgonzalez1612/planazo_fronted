@@ -3,7 +3,6 @@ import Link from "next/link";
 import { getPlans, getGuides, getCategories } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
-import { NewsletterCta } from "@/components/newsletter-cta";
 
 export const metadata: Metadata = {
   title: "Quiénes somos",
@@ -115,10 +114,6 @@ export default function QuienesSomosPage() {
             ))}
           </div>
         </div>
-      </section>
-
-      <section className="mx-auto max-w-[1280px] px-4 py-12 md:px-10 lg:py-16">
-        <NewsletterCta />
       </section>
 
       <SiteFooterFull categories={categories} />

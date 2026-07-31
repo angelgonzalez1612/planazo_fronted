@@ -8,7 +8,6 @@ import directoryData from "@/data/directory.json";
 import citiesData from "@/data/cities.json";
 import guidesData from "@/data/guides.json";
 import moodsData from "@/data/moods.json";
-import commentsData from "@/data/comments.json";
 import siteData from "@/data/site.json";
 import type {
   Place,
@@ -20,13 +19,11 @@ import type {
   City,
   Guide,
   Mood,
-  Comment,
   SiteContent,
 } from "@/data/types";
 
 const places = placesData as Place[];
 const events = eventsData as EventItem[];
-const comments = commentsData as Record<string, Comment[]>;
 
 const plansBySlug = new Map<string, Plan>([
   ...places.map((p): [string, Plan] => [p.slug, p]),
@@ -210,10 +207,6 @@ export function getSimilarPlans(plan: Plan, limit = 12): Plan[] {
   return [...places, ...events]
     .filter((p) => p.slug !== plan.slug && p.category === plan.category)
     .slice(0, limit);
-}
-
-export function getComments(slug: string): Comment[] {
-  return comments[slug] ?? [];
 }
 
 export function getMoods(): Mood[] {

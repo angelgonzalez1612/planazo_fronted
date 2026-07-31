@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getEventBySlug, getCategories, getComments, getSimilarPlans, resolvePhoto } from "@/lib/data";
+import { getEventBySlug, getCategories, getSimilarPlans, resolvePhoto } from "@/lib/data";
 import { PlanDetailView } from "@/components/plan-detail/plan-detail-view";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -32,7 +32,6 @@ export default async function EventPage({ params }: Props) {
       categoryIcon={category?.icon ?? "🎉"}
       categoryLabel={category?.label ?? ""}
       categories={categories}
-      comments={getComments(event.slug)}
       similar={getSimilarPlans(event)}
       guides={[]}
     />

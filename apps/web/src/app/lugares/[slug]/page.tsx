@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getPlaceBySlug, getCategories, getComments, getSimilarPlans, getGuidesForPlace } from "@/lib/data";
+import { getPlaceBySlug, getCategories, getSimilarPlans, getGuidesForPlace } from "@/lib/data";
 import { resolvePhoto } from "@/lib/data";
 import { PlanDetailView } from "@/components/plan-detail/plan-detail-view";
 
@@ -33,7 +33,6 @@ export default async function PlacePage({ params }: Props) {
       categoryIcon={category?.icon ?? "📍"}
       categoryLabel={category?.label ?? ""}
       categories={categories}
-      comments={getComments(place.slug)}
       similar={getSimilarPlans(place)}
       guides={getGuidesForPlace(place.slug)}
     />

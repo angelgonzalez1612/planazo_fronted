@@ -22,7 +22,6 @@ import { WeekendAgenda } from "@/components/weekend-agenda";
 import { DirectoryTiles } from "@/components/directory-tiles";
 import { MoodPicker } from "@/components/mood-picker";
 import { GuidesSection } from "@/components/guides-section";
-import { NewsletterCta } from "@/components/newsletter-cta";
 import { SiteFooterFull } from "@/components/site-footer-full";
 
 export function HomePageBody({
@@ -251,12 +250,6 @@ export function HomePageBody({
             </div>
           </div>
           <GuidesSection guides={guides} />
-        </section>
-
-        <section className="px-4 pb-10 sm:pb-14 md:px-10 lg:pb-18">
-          <div className="mx-auto max-w-[1280px]">
-            <NewsletterCta />
-          </div>
         </section>
 
         <section className="mx-auto max-w-[1280px] px-4 pb-8 md:px-10 lg:pb-12">

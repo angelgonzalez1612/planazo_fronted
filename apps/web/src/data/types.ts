@@ -140,9 +140,3 @@ export interface SiteContent {
   ticker: Array<{ label: string; href: string }>;
   destacadosOrder: string[];
 }
-
-export interface Comment {
-  name: string;
-  timeAgo: string;
-  text: string;
-}
