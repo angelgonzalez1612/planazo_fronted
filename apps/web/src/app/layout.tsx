@@ -4,6 +4,7 @@ import { siteConfig } from "@planazo/config";
 import { AppProviders } from "@/components/providers/app-providers";
 import { BackToTop } from "@/components/back-to-top";
 import { Clarity } from "@/components/clarity";
+import { GoogleAnalytics } from "@/components/google-analytics";
 import "./globals.css";
 
 const sora = Sora({
@@ -68,6 +69,7 @@ export default function RootLayout({
         <AppProviders>{children}</AppProviders>
         <BackToTop />
         <Clarity />
+        <GoogleAnalytics />
       </body>
     </html>
   );
