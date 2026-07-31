@@ -156,6 +156,7 @@ export function HomePageBody({
                     key={`ad-${plan.id}`}
                     size="300 × 250"
                     className="aspect-4/3 rounded-xl"
+                    type="feed"
                   />,
                 ];
               }
