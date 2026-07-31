@@ -5,6 +5,7 @@ import { AppProviders } from "@/components/providers/app-providers";
 import { BackToTop } from "@/components/back-to-top";
 import { Clarity } from "@/components/clarity";
 import { GoogleAnalytics } from "@/components/google-analytics";
+import { AdSense } from "@/components/adsense";
 import "./globals.css";
 
 const sora = Sora({
@@ -70,6 +71,7 @@ export default function RootLayout({
         <BackToTop />
         <Clarity />
         <GoogleAnalytics />
+        <AdSense />
       </body>
     </html>
   );
