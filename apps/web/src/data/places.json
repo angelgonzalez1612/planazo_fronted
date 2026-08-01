@@ -170,7 +170,24 @@
     "coordinates": {
       "lat": 19.4342,
       "lng": -99.1332
-    }
+    },
+    "openingHours": [
+      {
+        "day": "Domingo a jueves",
+        "opens": "13:00",
+        "closes": "23:00"
+      },
+      {
+        "day": "Viernes y sábado",
+        "opens": "13:00",
+        "closes": "00:00"
+      }
+    ],
+    "services": [
+      "Terraza",
+      "Reservaciones",
+      "Vista panorámica"
+    ]
   },
   {
     "kind": "lugar",
@@ -280,7 +297,7 @@
     ],
     "description": "La Cineteca Nacional abrió en 1974 para preservar y difundir el cine mexicano, pero en 1982 un incendio destruyó buena parte del archivo original — se perdieron miles de negativos. Se reconstruyó en Xoco y reabrió en 1984 con apenas cuatro salas; hoy son diez, más un foro al aire libre y un centro de consulta. La programación de cine de autor mezcla clásicos restaurados con lo mejor del cine independiente contemporáneo, casi siempre con funciones entre semana. El ambiente es tranquilo, sin el bullicio de un multiplex de centro comercial, con cafetería y librería alrededor — de los pocos lugares donde ir al cine entre semana se siente un plan en sí mismo, no solo un pretexto para la cita.",
     "tags": [
-      "Romántico",
+      "Cine de autor",
       "Romántico"
     ],
     "services": [
@@ -337,7 +354,7 @@
     "description": "Abrió en 1993 en la segunda sección de Chapultepec, y durante 30 años su Megapantalla IMAX (primero en formato 70mm, luego en 3D) fue parte central de la experiencia; cerró de manera definitiva en 2023 al terminar el contrato con IMAX, y ese domo hoy funciona como sala digital. El resto del museo conserva seis áreas pensadas para niños de 2 a 12 años — acercamiento a seres vivos, ecosistemas mexicanos, espacio exterior y zonas de trabajo manual — junto con clásicos como la cama de clavos y las burbujas gigantes. Es de los pocos museos de la ciudad realmente diseñado para que los niños toquen y experimenten. En temporada alta conviene reservar horario con anticipación.",
     "tags": [
       "Familiar",
-      "Familiar"
+      "Interactivo"
     ],
     "services": [
       "Domo IMAX",
@@ -968,7 +985,34 @@
     "coordinates": {
       "lat": 19.4331,
       "lng": -99.1425
-    }
+    },
+    "openingHours": [
+      {
+        "day": "Lunes",
+        "opens": "",
+        "closes": "",
+        "closed": true
+      },
+      {
+        "day": "Domingo",
+        "opens": "",
+        "closes": "",
+        "closed": true
+      },
+      {
+        "day": "Martes y miércoles",
+        "opens": "18:00",
+        "closes": "01:30"
+      },
+      {
+        "day": "Jueves a sábado",
+        "opens": "18:00",
+        "closes": "02:30"
+      }
+    ],
+    "services": [
+      "Acepta tarjeta"
+    ]
   },
   {
     "kind": "lugar",
@@ -1648,7 +1692,28 @@
     "coordinates": {
       "lat": 19.4276,
       "lng": -99.1636
-    }
+    },
+    "openingHours": [
+      {
+        "day": "Domingo",
+        "opens": "18:00",
+        "closes": "00:00"
+      },
+      {
+        "day": "Lunes a jueves",
+        "opens": "18:00",
+        "closes": "01:00"
+      },
+      {
+        "day": "Viernes y sábado",
+        "opens": "18:00",
+        "closes": "02:00"
+      }
+    ],
+    "services": [
+      "Reservaciones",
+      "Código de vestimenta"
+    ]
   },
   {
     "kind": "lugar",
@@ -1684,7 +1749,34 @@
     "coordinates": {
       "lat": 19.4177,
       "lng": -99.1636
-    }
+    },
+    "openingHours": [
+      {
+        "day": "Lunes a miércoles",
+        "opens": "18:00",
+        "closes": "00:00"
+      },
+      {
+        "day": "Jueves",
+        "opens": "18:00",
+        "closes": "02:00"
+      },
+      {
+        "day": "Viernes y sábado",
+        "opens": "15:00",
+        "closes": "02:00"
+      },
+      {
+        "day": "Domingo",
+        "opens": "15:00",
+        "closes": "00:00"
+      }
+    ],
+    "services": [
+      "Reservaciones",
+      "Terraza",
+      "Wifi gratis"
+    ]
   },
   {
     "kind": "lugar",
@@ -1720,7 +1812,23 @@
     "coordinates": {
       "lat": 19.4095,
       "lng": -99.1689
-    }
+    },
+    "openingHours": [
+      {
+        "day": "Domingo a miércoles",
+        "opens": "18:00",
+        "closes": "00:00"
+      },
+      {
+        "day": "Jueves a sábado",
+        "opens": "18:00",
+        "closes": "02:00"
+      }
+    ],
+    "services": [
+      "Reservaciones",
+      "Terraza"
+    ]
   },
   {
     "kind": "lugar",
