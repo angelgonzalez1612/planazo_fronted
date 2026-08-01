@@ -114,6 +114,7 @@ export interface Mood {
   id: string;
   label: string;
   emoji: string;
+  intro?: string;
   suggestions: MoodSuggestionRef[];
 }
 
@@ -122,6 +123,8 @@ export interface Guide {
   slug: string;
   title: string;
   description: string;
+  /** Longer body paragraph shown on the guide page — description stays short for meta/subtitle use. */
+  intro?: string;
   categoryLabel: string;
   readTime: string;
   cover: PhotoRef;

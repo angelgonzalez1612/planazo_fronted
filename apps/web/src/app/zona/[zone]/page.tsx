@@ -5,6 +5,7 @@ import { getAllZones, getZoneBySlug, getPlansByZone, getCategories } from "@/lib
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
+import zoneIntros from "@/data/zone-intros.json";
 
 type Props = { params: Promise<{ zone: string }> };
 
@@ -29,6 +30,7 @@ export default async function ZonePage({ params }: Props) {
   if (!zone) notFound();
 
   const plans = getPlansByZone(zone.slug);
+  const intro = (zoneIntros as Record<string, string>)[zone.slug];
   const categories = getCategories();
   const categoryIcon = new Map(categories.map((c) => [c.id, { icon: c.icon, label: c.label }]));
   const sortIds = plans.some((p) => p.kind === "evento")
@@ -55,6 +57,9 @@ export default async function ZonePage({ params }: Props) {
         <p className="mt-3 max-w-[60ch] text-[16px] leading-relaxed text-ink-soft">
           {plans.length} {plans.length === 1 ? "plan curado" : "planes curados"} en esta zona.
         </p>
+        {intro && (
+          <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">{intro}</p>
+        )}
       </div>
 
       <div className="mx-auto max-w-[1280px] px-4 pb-16 md:px-10">

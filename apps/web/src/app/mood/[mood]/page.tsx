@@ -87,6 +87,9 @@ export default async function MoodPage({ params }: Props) {
         <p className="mt-3 max-w-[60ch] text-[16px] leading-relaxed text-ink-soft">
           {plans.length} {plans.length === 1 ? "plan curado" : "planes curados"} para este mood.
         </p>
+        {found.intro && (
+          <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">{found.intro}</p>
+        )}
       </div>
 
       <div className="mx-auto max-w-[1280px] px-4 pb-16 md:px-10">

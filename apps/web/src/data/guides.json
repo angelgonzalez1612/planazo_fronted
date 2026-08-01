@@ -4,6 +4,7 @@
     "slug": "cafeterias-bonitas-cdmx",
     "title": "10 cafeterías bonitas en CDMX para trabajar sin culpa",
     "description": "Wifi de verdad, enchufes que no se pelean y café que aguanta una mañana entera de laptop.",
+    "intro": "Elegimos estos cafés por una razón práctica: que se pueda trabajar ahí sin sentir que estorbas. La lista mezcla cafeterías de especialidad serias —Almanegra, Buna, Cardinal, Avellaneda— con un clásico de barrio como El Jarocho, para cuando el plan es cambiar de escritorio por un rato largo, no solo tomarte un café rápido de pie.",
     "categoryLabel": "Cafés",
     "readTime": "6 min de lectura · 7 lugares",
     "cover": {
@@ -25,6 +26,7 @@
     "slug": "coyoacan-un-dia-completo",
     "title": "Qué hacer en Coyoacán: un día completo, a pie",
     "description": "De la Casa Azul al jardín botánico, sin subirte a un coche en todo el día.",
+    "intro": "Coyoacán se camina fácil si sabes el orden: empieza por la Casa Azul temprano, antes de que se forme la fila, sigue por el Museo de Culturas Populares y una parada de café en El Jarocho o Avellaneda, y cierra con el Jardín Botánico de la UNAM o el Universum antes de que caiga la tarde. Es una ruta pensada para no repetir camino ni depender de un coche — todo queda a pie o a una caminata corta.",
     "categoryLabel": "Barrios",
     "readTime": "8 min de lectura · 6 paradas",
     "cover": {
@@ -45,6 +47,7 @@
     "slug": "mejores-terrazas-por-presupuesto",
     "title": "Las mejores terrazas y bares de la ciudad, por presupuesto",
     "description": "Rooftops, pulquerías y clubes de jazz para tomar algo con vista o con historia — desde $120 hasta $450 por persona.",
+    "intro": "De los 120 pesos de una pulquería centenaria a los 450 de una terraza con vista al Zócalo, esta lista está ordenada por lo que de verdad vas a gastar, no por moda. Incluye desde jazz en vivo en el sótano de un antiguo banco hasta rooftops clásicos — la idea es que sepas qué esperar de tu bolsillo antes de llegar.",
     "categoryLabel": "Rooftops",
     "readTime": "6 min de lectura · 7 lugares",
     "cover": {
@@ -66,6 +69,7 @@
     "slug": "planes-pet-friendly",
     "title": "Planes pet friendly para salir con tu perro",
     "description": "Cafés, parques y jardines donde tu perro entra tan a gusto como tú.",
+    "intro": "No basta con que \"dejen entrar perros\" — estos lugares están pensados para ellos: jardines donde correr sueltos, galleta de cortesía, agua sin que la pidas. De cafés en Condesa a parques abiertos como el Bosque de Tlalpan, la selección prioriza espacio real, no solo tolerancia bajo la mesa.",
     "categoryLabel": "Pet friendly",
     "readTime": "4 min de lectura · 5 lugares",
     "cover": {
@@ -85,6 +89,7 @@
     "slug": "planes-romanticos-para-una-cita",
     "title": "Planes románticos para una cita perfecta",
     "description": "De una copa de vino a una marisquería con estrella Michelin: opciones que no se sienten forzadas.",
+    "intro": "Ni todo tiene que ser una cena cara ni todo tiene que sentirse forzado. Esta lista mezcla presupuestos y planes — de un cine de autor entre semana a una marisquería con estrella Michelin, pasando por un museo tranquilo en San Ángel — para que la cita se sienta genuina y no como un guion que ya sabes cómo termina.",
     "categoryLabel": "Citas",
     "readTime": "6 min de lectura · 6 lugares",
     "cover": {
@@ -105,6 +110,7 @@
     "slug": "restaurantes-estrella-michelin-cdmx",
     "title": "Restaurantes con estrella Michelin en CDMX",
     "description": "De la taquería de banqueta a la mesa de autor: los cuatro restaurantes de la ciudad reconocidos por la Guía Michelin.",
+    "intro": "CDMX tiene cuatro restaurantes reconocidos por la Guía Michelin, y no todos cuestan ni se sienten igual: desde una taquería de banqueta con una estrella hasta las dos estrellas de Pujol y Quintonil. Esta lista los reúne para que compares antes de reservar — o de hacer fila, en el caso de la taquería.",
     "categoryLabel": "Alta cocina",
     "readTime": "5 min de lectura · 4 lugares",
     "cover": {
@@ -123,6 +129,7 @@
     "slug": "mejores-bares-para-salir-de-copas",
     "title": "Los mejores bares para salir de copas",
     "description": "Del bar número uno del mundo a la mezcalería escondida en un sótano: la coctelería más premiada de la ciudad.",
+    "intro": "De Handshake, nombrado el mejor bar del mundo por The World's 50 Best Bars en 2024, a Bósforo, la mezcalería en penumbra que casi nadie encuentra a la primera: esta selección cubre la coctelería más premiada de la ciudad sin quedarse solo en los nombres obvios.",
     "categoryLabel": "Bares",
     "readTime": "5 min de lectura · 5 lugares",
     "cover": {
@@ -142,6 +149,7 @@
     "slug": "escapadas-de-un-dia-cerca-de-cdmx",
     "title": "Qué hacer en un puente cerca de CDMX",
     "description": "Dos Pueblos Mágicos y una zona arqueológica a una hora o menos de tres — para cuando el fin de semana se estira y quieres salir de la ciudad sin complicarte.",
+    "intro": "Los tres se pueden hacer de ida y vuelta en el día, sin quedarte a dormir: Teotihuacán a una hora, Tepoztlán a hora y media, Valle de Bravo a dos horas y media. Cada uno tiene una razón distinta para ir — arqueología, montaña o lago — así que elige según el plan que traigas, no solo la distancia.",
     "categoryLabel": "Escapadas",
     "readTime": "5 min de lectura · 3 lugares",
     "cover": {
@@ -155,6 +163,7 @@
     "slug": "que-hacer-en-cdmx-en-dia-de-muertos",
     "title": "Qué hacer en CDMX en Día de Muertos",
     "description": "Coyoacán se llena de ofrendas y cempasúchil a finales de octubre — estos son los museos que vale la pena combinar con la caminata.",
+    "intro": "Coyoacán concentra buena parte del ambiente de la temporada, así que la ruta empieza ahí: el Museo de Culturas Populares, la Casa Azul y la Casa Estudio de Rivera y Kahlo quedan a poca distancia caminando entre sí. El Museo Nacional de Antropología, en Chapultepec, suele sumarse con programación propia — vale la pena combinarlo si tienes el día completo.",
     "categoryLabel": "Temporada",
     "readTime": "4 min de lectura · 4 lugares",
     "cover": {
@@ -173,6 +182,7 @@
     "slug": "planes-para-diciembre-en-cdmx",
     "title": "Planes para diciembre en CDMX",
     "description": "Terrazas para cerrar el año, cafés para el frío y parques para caminar entre posadas — planes para el mes más ocupado del calendario.",
+    "intro": "Diciembre en CDMX es de contrastes: hace frío de verdad por las noches, pero de día el sol sigue pegando fuerte. Esta lista mezcla una terraza con vista al Zócalo para las noches de fin de año, un café-librería para refugiarte del frío, y dos parques —uno en la Condesa, otro sobre pedregal volcánico en Tlalpan— para las caminatas de sobremesa.",
     "categoryLabel": "Temporada",
     "readTime": "4 min de lectura · 4 lugares",
     "cover": {

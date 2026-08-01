@@ -3,6 +3,7 @@
     "id": "pareja",
     "label": "En pareja",
     "emoji": "❤️",
+    "intro": "Cuando el plan es impresionar sin que se note el esfuerzo: lugares con ambiente pero sin ser ruidosos, donde se puede platicar y no solo compartir mesa. De un rooftop con vista a un museo tranquilo entre semana, pensados para ir despacio.",
     "suggestions": [
       { "kind": "lugar", "slug": "panaderia-rosetta" },
       { "kind": "lugar", "slug": "cine-de-autor-cineteca" },
@@ -19,6 +20,7 @@
     "id": "familiar",
     "label": "Familiar",
     "emoji": "👨‍👩‍👧",
+    "intro": "Espacios donde los niños pueden tocar, correr o hacer ruido sin que nadie voltee a verte feo — museos interactivos, parques abiertos y planes con entrada gratuita para que la salida no se sienta como gasto extra.",
     "suggestions": [
       { "kind": "lugar", "slug": "papalote-museo-del-nino" },
       { "kind": "lugar", "slug": "embarcadero-nuevo-nativitas" },
@@ -35,6 +37,7 @@
     "id": "amigos",
     "label": "Con amigos",
     "emoji": "🍻",
+    "intro": "Planes para ir en grupo sin que nadie se aburra: lucha libre, mercados de fin de semana, tacos hasta tarde y bares donde caben más de cuatro personas sin pelear por lugar.",
     "suggestions": [
       { "kind": "evento", "slug": "salon-los-angeles-danzon" },
       { "kind": "lugar", "slug": "pulqueria-las-duelistas" },
@@ -51,6 +54,7 @@
     "id": "gratis",
     "label": "Gratis",
     "emoji": "💸",
+    "intro": "Museos con entrada libre los domingos, mercados al aire libre y parques — planes que no le pegan a la cartera pero tampoco se sienten de relleno.",
     "suggestions": [
       { "kind": "evento", "slug": "cicloton-cdmx" },
       { "kind": "lugar", "slug": "museo-nacional-de-antropologia" },
@@ -66,6 +70,7 @@
     "id": "noche",
     "label": "De noche",
     "emoji": "🌙",
+    "intro": "De cantinas centenarias a terrazas con vista, para cuando el plan empieza después de las nueve y no tiene por qué terminar temprano.",
     "suggestions": [
       { "kind": "lugar", "slug": "terraza-catedral" },
       { "kind": "lugar", "slug": "zinco-jazz-club" },
@@ -82,6 +87,7 @@
     "id": "relajado",
     "label": "Relajado",
     "emoji": "🌿",
+    "intro": "Sin prisa, sin fila, sin agenda apretada: cafés para quedarte horas, jardines para caminar despacio y museos que se disfrutan mejor entre semana.",
     "suggestions": [
       { "kind": "lugar", "slug": "almanegra-cafe" },
       { "kind": "lugar", "slug": "casa-estudio-rivera-kahlo" },

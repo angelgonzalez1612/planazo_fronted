@@ -57,6 +57,10 @@ export default async function GuidePage({ params }: Props) {
         <div className="relative mt-5.5 aspect-video overflow-hidden rounded-2xl bg-secondary">
           <Image src={cover.url} alt={cover.alt} fill priority sizes="880px" className="object-cover" />
         </div>
+
+        {guide.intro && (
+          <p className="mt-5.5 text-[15.5px] leading-relaxed text-ink-soft">{guide.intro}</p>
+        )}
       </div>
 
       <div className="mx-auto max-w-[1280px] px-4 pb-16 md:px-10">
