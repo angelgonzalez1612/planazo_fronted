@@ -3,7 +3,7 @@
     "id": "pareja",
     "label": "En pareja",
     "emoji": "❤️",
-    "intro": "Cuando el plan es impresionar sin que se note el esfuerzo: lugares con ambiente pero sin ser ruidosos, donde se puede platicar y no solo compartir mesa. De un rooftop con vista a un museo tranquilo entre semana, pensados para ir despacio.",
+    "intro": "Cuando el plan es impresionar sin que se note el esfuerzo: lugares con ambiente pero sin ser ruidosos, donde se puede platicar y no solo compartir mesa. De un rooftop con vista a un museo tranquilo entre semana, pensados para ir despacio.\n\nLa Casa Estudio Diego Rivera y Frida Kahlo, en San Ángel, resume bien esa idea de cercanía sin invadir el espacio del otro: Juan O'Gorman diseñó en 1931 dos casas independientes, una roja para Rivera y otra azul para Kahlo, unidas solo por un puente en la azotea. La separación no fue casualidad, sino un reflejo arquitectónico de la propia relación de la pareja — cada quien con su estudio, conectados pero no fundidos en uno solo.",
     "suggestions": [
       { "kind": "lugar", "slug": "panaderia-rosetta" },
       { "kind": "lugar", "slug": "cine-de-autor-cineteca" },
@@ -20,7 +20,7 @@
     "id": "familiar",
     "label": "Familiar",
     "emoji": "👨‍👩‍👧",
-    "intro": "Espacios donde los niños pueden tocar, correr o hacer ruido sin que nadie voltee a verte feo — museos interactivos, parques abiertos y planes con entrada gratuita para que la salida no se sienta como gasto extra.",
+    "intro": "Espacios donde los niños pueden tocar, correr o hacer ruido sin que nadie voltee a verte feo — museos interactivos, parques abiertos y planes con entrada gratuita para que la salida no se sienta como gasto extra.\n\nEl Zoológico de Chapultepec tiene su propio capítulo en la historia mundial de los pandas: los primeros ejemplares, Ying Ying y Pe Pe, llegaron en 1975 como regalo del gobierno chino, y en 1980 ahí nació Xen Li, el primer panda gigante concebido fuera de China, aunque no sobrevivió. Un año después nació Tohuí, que sí sobrevivió, y convirtió a Chapultepec en pionero mundial de la reproducción de pandas en cautiverio — un dato que sorprende a cualquier familia que hoy visita el zoológico sin saber que ahí se hizo historia científica.",
     "suggestions": [
       { "kind": "lugar", "slug": "papalote-museo-del-nino" },
       { "kind": "lugar", "slug": "embarcadero-nuevo-nativitas" },
@@ -37,7 +37,7 @@
     "id": "amigos",
     "label": "Con amigos",
     "emoji": "🍻",
-    "intro": "Planes para ir en grupo sin que nadie se aburra: lucha libre, mercados de fin de semana, tacos hasta tarde y bares donde caben más de cuatro personas sin pelear por lugar.",
+    "intro": "Planes para ir en grupo sin que nadie se aburra: lucha libre, mercados de fin de semana, tacos hasta tarde y bares donde caben más de cuatro personas sin pelear por lugar.\n\nEntre esos planes está Taquería El Califa de León, que en 2024 se convirtió en la única taquería del mundo con estrella Michelin, después de más de 70 años de historia en la colonia San Rafael sirviendo su taco insignia, el gaonera. El local no tiene mesas ni sillas, solo una barra metálica para apoyar el plato — la prueba de que ni el reconocimiento más alto de la gastronomía mundial cambió su forma de ser una taquería de banqueta.",
     "suggestions": [
       { "kind": "evento", "slug": "salon-los-angeles-danzon" },
       { "kind": "lugar", "slug": "pulqueria-las-duelistas" },
@@ -54,7 +54,7 @@
     "id": "gratis",
     "label": "Gratis",
     "emoji": "💸",
-    "intro": "Museos con entrada libre los domingos, mercados al aire libre y parques — planes que no le pegan a la cartera pero tampoco se sienten de relleno.",
+    "intro": "Museos con entrada libre los domingos, mercados al aire libre y parques — planes que no le pegan a la cartera pero tampoco se sienten de relleno.\n\nEl Ciclotón, uno de los planes gratuitos más populares de la ciudad, arrancó el 14 de mayo de 2007 con un recorrido de apenas 10 kilómetros entre Reforma y el Centro Histórico y una asistencia promedio de 7 mil personas. Se fue ampliando por etapas —dos kilómetros más en 2009— hasta alcanzar los 24 kilómetros en 2010, cuando llegó hasta Gustavo A. Madero; hoy cierra buena parte de la ciudad a los coches cada domingo por la mañana para que cualquiera la recorra en bici, patines o caminando, sin costo alguno.",
     "suggestions": [
       { "kind": "evento", "slug": "cicloton-cdmx" },
       { "kind": "lugar", "slug": "museo-nacional-de-antropologia" },
@@ -70,7 +70,7 @@
     "id": "noche",
     "label": "De noche",
     "emoji": "🌙",
-    "intro": "De cantinas centenarias a terrazas con vista, para cuando el plan empieza después de las nueve y no tiene por qué terminar temprano.",
+    "intro": "De cantinas centenarias a terrazas con vista, para cuando el plan empieza después de las nueve y no tiene por qué terminar temprano.\n\nLugares como Las Duelistas mantienen viva una bebida que los aztecas consideraban sagrada y reservada a los sacerdotes: el pulque, documentado desde el periodo Preclásico en murales como el de 'Los Bebedores' en Cholula. Llegó a tener más de mil pulquerías solo en la Ciudad de México a finales del siglo XIX, pero la llegada de la cerveza industrializada en los sesenta y setenta las redujo a apenas medio centenar; los murales de inspiración prehispánica que decoran las que sobreviven son, de cierta forma, lo único que no cambió en un siglo.",
     "suggestions": [
       { "kind": "lugar", "slug": "terraza-catedral" },
       { "kind": "lugar", "slug": "zinco-jazz-club" },
@@ -87,7 +87,7 @@
     "id": "relajado",
     "label": "Relajado",
     "emoji": "🌿",
-    "intro": "Sin prisa, sin fila, sin agenda apretada: cafés para quedarte horas, jardines para caminar despacio y museos que se disfrutan mejor entre semana.",
+    "intro": "Sin prisa, sin fila, sin agenda apretada: cafés para quedarte horas, jardines para caminar despacio y museos que se disfrutan mejor entre semana.\n\nAunque el nombre invite a tomarlo con calma, Café El Jarocho en Coyoacán suele tener fila en la puerta desde que Bertha Paredes y Gil Romero lo abrieron en 1953 como una tiendita de productos veracruzanos —frutas, pepitas, semillas— en la calle Aguayo. Con los años el café fue ganando protagonismo hasta convertirse en la seña de identidad del negocio, y hoy, con nueve sucursales manejadas por los hijos de los fundadores, sigue siendo de los pocos lugares de la ciudad donde vale la pena hacer una fila con calma.",
     "suggestions": [
       { "kind": "lugar", "slug": "almanegra-cafe" },
       { "kind": "lugar", "slug": "casa-estudio-rivera-kahlo" },
