@@ -70,10 +70,11 @@ export function getGuideBySlug(slug: string): Guide | undefined {
   return getGuides().find((g) => g.slug === slug);
 }
 
-export function getPlacesForGuide(guide: Guide): Place[] {
+/** Guides can curate places or events, by slug — look up both, not just places.json. */
+export function getPlansForGuide(guide: Guide): Plan[] {
   return guide.placeSlugs
-    .map((slug) => places.find((p) => p.slug === slug))
-    .filter((p): p is Place => Boolean(p));
+    .map((slug) => plansBySlug.get(slug))
+    .filter((p): p is Plan => Boolean(p));
 }
 
 /** Reverse lookup for a place's detail page — which collections it's curated into. */

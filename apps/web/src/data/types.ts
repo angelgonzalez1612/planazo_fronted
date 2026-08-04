@@ -55,10 +55,22 @@ interface PlanBase {
   cover: PhotoRef;
   gallery: PhotoRef[];
   description: string;
+  /** Extra paragraph(s) shown on the detail page, below `description` — never fed to meta/JSON-LD. */
+  descriptionLong?: string;
+  /** Short callouts ("Qué pedir", "Cómo llegar") — real findings only, never filler. */
+  highlights?: ContentSection[];
   badge?: string;
   /** Descriptive labels ("Pet friendly", "Para trabajar") — what a collection filters by. */
   tags?: string[];
   social?: SocialLinks;
+}
+
+/** A titled block of body text — one or more paragraphs separated by \n\n. */
+export interface ContentSection {
+  heading: string;
+  body: string;
+  /** Only meaningful in Guide.sections — links the section to its place card. */
+  placeSlug?: string;
 }
 
 export interface OpeningHour {
@@ -123,8 +135,10 @@ export interface Guide {
   slug: string;
   title: string;
   description: string;
-  /** Longer body paragraph shown on the guide page — description stays short for meta/subtitle use. */
+  /** Opening paragraph(s) shown on the guide page — description stays short for meta/subtitle use. */
   intro?: string;
+  /** Structured body — one section per stop/theme, rendered after intro. */
+  sections?: ContentSection[];
   categoryLabel: string;
   readTime: string;
   cover: PhotoRef;

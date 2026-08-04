@@ -13,6 +13,7 @@ import type { CategoryId } from "@/data/types";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
+import { Prose } from "@/components/prose";
 import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ alcaldia: string; categoria: string }> };
@@ -189,7 +190,7 @@ export default async function AlcaldiaCategoryPage({ params }: Props) {
         <p className="mt-3 max-w-[60ch] text-[16px] leading-relaxed text-ink-soft">
           {plans.length} {plans.length === 1 ? "lugar" : "lugares"}, curados por gente que sale mucho.
         </p>
-        <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">{seo.intro}</p>
+        <Prose text={seo.intro} className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft" />
       </div>
 
       <div className="mx-auto max-w-[1280px] px-4 pb-16 md:px-10">

@@ -7,6 +7,7 @@ import type { CategoryId } from "@/data/types";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
+import { Prose } from "@/components/prose";
 import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ categoria: string }> };
@@ -175,9 +176,7 @@ export default async function CategoryPage({ params }: Props) {
           {places.length === 1 ? "lugar" : "lugares"}.
         </p>
         {seo?.intro && (
-          <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">
-            {seo.intro}
-          </p>
+          <Prose text={seo.intro} className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft" />
         )}
       </div>
 

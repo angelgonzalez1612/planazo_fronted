@@ -3,11 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { siteConfig } from "@planazo/config";
-import { getGuides, getGuideBySlug, getPlacesForGuide, getCategories, resolvePhoto } from "@/lib/data";
+import { getGuides, getGuideBySlug, getPlansForGuide, getCategories, resolvePhoto } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanCard } from "@/components/plan-card";
 import { AdSlot } from "@/components/ad-slot";
+import { Prose } from "@/components/prose";
 import { buildBreadcrumbJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -34,7 +35,8 @@ export default async function GuidePage({ params }: Props) {
   const guide = getGuideBySlug(slug);
   if (!guide) notFound();
 
-  const places = getPlacesForGuide(guide);
+  const places = getPlansForGuide(guide);
+  const placesBySlug = new Map(places.map((p) => [p.slug, p]));
   const categories = getCategories();
   const categoryIcon = new Map(categories.map((c) => [c.id, { icon: c.icon, label: c.label }]));
   const cover = resolvePhoto(guide.cover);
@@ -88,8 +90,26 @@ export default async function GuidePage({ params }: Props) {
         </div>
 
         {guide.intro && (
-          <p className="mt-5.5 text-[15.5px] leading-relaxed text-ink-soft">{guide.intro}</p>
+          <Prose text={guide.intro} className="mt-5.5 text-[15.5px] leading-relaxed text-ink-soft" />
         )}
+
+        {guide.sections?.map((section, i) => {
+          const linkedPlace = section.placeSlug ? placesBySlug.get(section.placeSlug) : undefined;
+          return (
+            <div key={i} className="mt-7">
+              <h2 className="font-heading text-[21px] font-bold tracking-tight">{section.heading}</h2>
+              <Prose text={section.body} className="mt-2 text-[15.5px] leading-relaxed text-ink-soft" />
+              {linkedPlace && (
+                <Link
+                  href={linkedPlace.kind === "evento" ? `/eventos/${linkedPlace.slug}` : `/lugares/${linkedPlace.slug}`}
+                  className="mt-2 inline-flex items-center gap-1 text-[13.5px] font-semibold text-brand hover:underline"
+                >
+                  Ver {linkedPlace.name} →
+                </Link>
+              )}
+            </div>
+          );
+        })}
 
         <AdSlot size="728 × 90" className="mt-6 h-[90px]" />
       </div>

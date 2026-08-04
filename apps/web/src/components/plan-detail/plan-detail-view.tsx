@@ -9,6 +9,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { AdSlot } from "@/components/ad-slot";
 import { PlanCardCarousel } from "@/components/plan-card-carousel";
+import { Prose } from "@/components/prose";
 import { SaveButton } from "@/components/plan-detail/save-button";
 import { ShareButtons } from "@/components/plan-detail/share-buttons";
 import { PlanGallery } from "@/components/plan-detail/plan-gallery";
@@ -149,9 +150,27 @@ export function PlanDetailView({
             <h2 className="mt-8 mb-3 font-heading text-[22px] font-bold tracking-tight">
               Sobre el plan
             </h2>
-            <p className="max-w-[68ch] text-base leading-relaxed text-[#3A332E]">
-              {plan.description}
-            </p>
+            <Prose text={plan.description} className="max-w-[68ch] text-base leading-relaxed text-[#3A332E]" />
+
+            {plan.descriptionLong && (
+              <Prose
+                text={plan.descriptionLong}
+                className="mt-3 max-w-[68ch] text-base leading-relaxed text-[#3A332E]"
+              />
+            )}
+
+            {plan.highlights && plan.highlights.length > 0 && (
+              <div className="mt-5 flex flex-col gap-4">
+                {plan.highlights.map((highlight, i) => (
+                  <div key={i} className="rounded-xl border border-[#F2EEEA] p-4">
+                    <h3 className="text-[13px] font-bold tracking-wide text-brand uppercase">
+                      {highlight.heading}
+                    </h3>
+                    <Prose text={highlight.body} className="mt-1.5 max-w-[68ch] text-[15px] leading-relaxed text-[#3A332E]" />
+                  </div>
+                ))}
+              </div>
+            )}
 
             <AdSlot size="728 × 90" className="mt-6 h-[90px]" />
 

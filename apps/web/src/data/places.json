@@ -389,8 +389,8 @@
     "category": "aire-libre",
     "zone": "Xochimilco",
     "address": "Av. Hermenegildo Galeana s/n esq. Calle del Mercado, San Jerónimo, Xochimilco, CDMX",
-    "priceLabel": "$600 MXN por trajinera/hora",
-    "price": 600,
+    "priceLabel": "$750 MXN por trajinera/hora",
+    "price": 750,
     "rating": 0,
     "reviewCount": 0,
     "cover": {
@@ -1998,8 +1998,8 @@
     "category": "cultura",
     "zone": "Coyoacán",
     "address": "Londres 247, Coyoacán, CDMX",
-    "priceLabel": "$250 MXN",
-    "price": 250,
+    "priceLabel": "$160 MXN nacional · $350 extranjero",
+    "price": 160,
     "cover": {
       "url": "https://images.unsplash.com/photo-1780221593143-6629bf5ccfd4?w=800&h=600&fit=crop&q=80&auto=format",
       "alt": "Callejón entre edificios de color azul intenso"

@@ -6,6 +6,7 @@ import { getMoods, resolveMoodPlans, getCategories } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanCard } from "@/components/plan-card";
+import { Prose } from "@/components/prose";
 import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ mood: string }> };
@@ -103,7 +104,7 @@ export default async function MoodPage({ params }: Props) {
           {plans.length} {plans.length === 1 ? "plan curado" : "planes curados"} para este mood.
         </p>
         {found.intro && (
-          <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">{found.intro}</p>
+          <Prose text={found.intro} className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft" />
         )}
       </div>
 

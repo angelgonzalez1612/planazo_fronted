@@ -6,6 +6,7 @@ import { getAllZones, getZoneBySlug, getPlansByZone, getCategories, getAlcaldiaF
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
+import { Prose } from "@/components/prose";
 import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 import zoneIntros from "@/data/zone-intros.json";
 
@@ -74,7 +75,7 @@ export default async function ZonePage({ params }: Props) {
           {plans.length} {plans.length === 1 ? "plan curado" : "planes curados"} en esta zona.
         </p>
         {intro && (
-          <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">{intro}</p>
+          <Prose text={intro} className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft" />
         )}
         {alcaldia && (
           <Link

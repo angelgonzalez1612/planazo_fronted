@@ -12,6 +12,7 @@ import {
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
+import { Prose } from "@/components/prose";
 import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ alcaldia: string }> };
@@ -104,7 +105,7 @@ export default async function AlcaldiaPage({ params }: Props) {
           {plans.length} {plans.length === 1 ? "plan curado" : "planes curados"} en esta alcaldía.
         </p>
         {seo?.intro && (
-          <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">{seo.intro}</p>
+          <Prose text={seo.intro} className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft" />
         )}
 
         {categoryCounts.length > 0 && (
