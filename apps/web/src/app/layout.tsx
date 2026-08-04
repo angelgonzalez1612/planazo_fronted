@@ -50,6 +50,20 @@ const organizationJsonLd = {
   logo: `${siteConfig.url}/logo.png`,
 };
 
+// Enables Google's sitelinks searchbox (a search field directly in the
+// search result for the brand name) by declaring how our search page works.
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: siteConfig.name,
+  url: siteConfig.url,
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${siteConfig.url}/buscar?q={search_term_string}`,
+    "query-input": "required name=search_term_string",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -65,6 +79,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(organizationJsonLd),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteJsonLd),
           }}
         />
         <AppProviders>{children}</AppProviders>

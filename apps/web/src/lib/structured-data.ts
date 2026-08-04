@@ -96,3 +96,30 @@ export function buildEventJsonLd(plan: Extract<Plan, { kind: "evento" }>) {
 export function buildPlanJsonLd(plan: Plan) {
   return plan.kind === "lugar" ? buildPlaceJsonLd(plan) : buildEventJsonLd(plan);
 }
+
+/** JSON-LD breadcrumb trail — mirrors the visual "Inicio / X / Y" breadcrumbs on every listing/detail page. */
+export function buildBreadcrumbJsonLd(items: { name: string; url: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}
+
+/** JSON-LD item list for listing pages (zona, categoría, mood, etiqueta) — tells Google what the page catalogs. */
+export function buildItemListJsonLd(plans: Plan[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: plans.map((plan, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${siteConfig.url}/${plan.kind === "evento" ? "eventos" : "lugares"}/${plan.slug}`,
+    })),
+  };
+}

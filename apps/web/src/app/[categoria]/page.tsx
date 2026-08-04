@@ -1,11 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { siteConfig } from "@planazo/config";
 import { getCategories, getPlacesByCategory } from "@/lib/data";
 import type { CategoryId } from "@/data/types";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
+import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ categoria: string }> };
 
@@ -137,9 +139,22 @@ export default async function CategoryPage({ params }: Props) {
   const categories = getCategories();
   const categoryIcon = new Map([[category.id, { icon: category.icon, label: category.label }]]);
   const seo = CATEGORY_SEO[category.id];
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Inicio", url: siteConfig.url },
+    { name: category.label, url: `${siteConfig.url}/${category.id}` },
+  ]);
+  const itemListJsonLd = buildItemListJsonLd(places);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <SiteHeader />
 
       <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">

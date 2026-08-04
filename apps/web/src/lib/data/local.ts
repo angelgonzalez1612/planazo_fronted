@@ -151,6 +151,96 @@ export function getPlansByZone(zoneSlug: string): Plan[] {
   return getPlans().filter((plan) => slugify(plan.zone) === zoneSlug);
 }
 
+// Colonia/zona -> alcaldía real de CDMX. Solo cubre las colonias que aparecen
+// en los datos; una alcaldía sin entrada aquí simplemente no tiene página propia.
+const ALCALDIA_BY_ZONE: Record<string, string> = {
+  "Centro Histórico": "Cuauhtémoc",
+  Centro: "Cuauhtémoc",
+  "Roma Norte": "Cuauhtémoc",
+  "Roma Sur": "Cuauhtémoc",
+  Roma: "Cuauhtémoc",
+  Condesa: "Cuauhtémoc",
+  Juárez: "Cuauhtémoc",
+  Doctores: "Cuauhtémoc",
+  Guerrero: "Cuauhtémoc",
+  Buenavista: "Cuauhtémoc",
+  Cuauhtémoc: "Cuauhtémoc",
+  Reforma: "Cuauhtémoc",
+  "San Rafael": "Cuauhtémoc",
+  Polanco: "Miguel Hidalgo",
+  Chapultepec: "Miguel Hidalgo",
+  "Bosque de Chapultepec": "Miguel Hidalgo",
+  "Lomas de Chapultepec": "Miguel Hidalgo",
+  "Del Valle": "Benito Juárez",
+  Nápoles: "Benito Juárez",
+  Narvarte: "Benito Juárez",
+  Xoco: "Benito Juárez",
+  Coyoacán: "Coyoacán",
+  Coapa: "Tlalpan",
+  "San Ángel": "Álvaro Obregón",
+  Tlalpan: "Tlalpan",
+  Xochimilco: "Xochimilco",
+};
+
+// De las alcaldías reales, solo estas dos juntan suficiente contenido para que
+// una página propia (y sus combinaciones por categoría) no salga delgada o
+// duplicada de una zona que ya existe — ver auditoría de contenido.
+const ALCALDIAS_CON_PAGINA = ["Cuauhtémoc", "Miguel Hidalgo"];
+
+export interface AlcaldiaInfo {
+  label: string;
+  slug: string;
+  count: number;
+}
+
+export function getAllAlcaldias(): AlcaldiaInfo[] {
+  const counts = new Map<string, number>();
+  for (const plan of getPlans()) {
+    const alcaldia = ALCALDIA_BY_ZONE[plan.zone];
+    if (!alcaldia || !ALCALDIAS_CON_PAGINA.includes(alcaldia)) continue;
+    counts.set(alcaldia, (counts.get(alcaldia) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([label, count]) => ({ label, slug: slugify(label), count }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getAlcaldiaBySlug(alcaldiaSlug: string): AlcaldiaInfo | undefined {
+  return getAllAlcaldias().find((a) => a.slug === alcaldiaSlug);
+}
+
+export function getPlansByAlcaldia(alcaldiaSlug: string): Plan[] {
+  return getPlans().filter((plan) => slugify(ALCALDIA_BY_ZONE[plan.zone] ?? "") === alcaldiaSlug);
+}
+
+export interface AlcaldiaCategoryCount {
+  category: CategoryId;
+  count: number;
+}
+
+/** Combinaciones alcaldía×categoría con suficiente contenido real para tener su propia página. */
+export function getAlcaldiaCategoryCounts(alcaldiaSlug: string): AlcaldiaCategoryCount[] {
+  const counts = new Map<CategoryId, number>();
+  for (const plan of getPlansByAlcaldia(alcaldiaSlug)) {
+    counts.set(plan.category, (counts.get(plan.category) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([category, count]) => ({ category, count }))
+    .filter((c) => c.count >= 2)
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getPlansByAlcaldiaAndCategory(alcaldiaSlug: string, category: CategoryId): Plan[] {
+  return getPlansByAlcaldia(alcaldiaSlug).filter((plan) => plan.category === category);
+}
+
+/** La alcaldía de una zona, solo si tiene página propia — para el cruce zona -> alcaldía. */
+export function getAlcaldiaForZone(zoneLabel: string): AlcaldiaInfo | undefined {
+  const alcaldia = ALCALDIA_BY_ZONE[zoneLabel];
+  if (!alcaldia || !ALCALDIAS_CON_PAGINA.includes(alcaldia)) return undefined;
+  return getAllAlcaldias().find((a) => a.label === alcaldia);
+}
+
 export function searchPlans(query: string): Plan[] {
   const q = slugify(query);
   if (!q) return [];

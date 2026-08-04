@@ -1,6 +1,16 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@planazo/config";
-import { getPlaces, getEvents, getGuides, getAllZones, categoryHref } from "@/lib/data";
+import {
+  getPlaces,
+  getEvents,
+  getGuides,
+  getAllZones,
+  getMoods,
+  getAllTags,
+  getAllAlcaldias,
+  getAlcaldiaCategoryCounts,
+  categoryHref,
+} from "@/lib/data";
 import type { CategoryId } from "@/data/types";
 
 const PLACE_CATEGORIES: CategoryId[] = [
@@ -43,6 +53,31 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "weekly",
   }));
 
+  const moodEntries: MetadataRoute.Sitemap = getMoods().map((mood) => ({
+    url: `${siteConfig.url}/mood/${mood.id}`,
+    changeFrequency: "weekly",
+  }));
+
+  const tagEntries: MetadataRoute.Sitemap = getAllTags().map((tag) => ({
+    url: `${siteConfig.url}/etiqueta/${tag.slug}`,
+    changeFrequency: "weekly",
+  }));
+
+  const alcaldias = getAllAlcaldias();
+  const alcaldiaEntries: MetadataRoute.Sitemap = alcaldias.map((alcaldia) => ({
+    url: `${siteConfig.url}/alcaldia/${alcaldia.slug}`,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
+  const alcaldiaCategoryEntries: MetadataRoute.Sitemap = alcaldias.flatMap((alcaldia) =>
+    getAlcaldiaCategoryCounts(alcaldia.slug).map(({ category }) => ({
+      url: `${siteConfig.url}/alcaldia/${alcaldia.slug}/${category}`,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
+  );
+
   return [
     {
       url: siteConfig.url,
@@ -65,10 +100,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${siteConfig.url}/terminos`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteConfig.url}/publicidad`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteConfig.url}/contacto`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${siteConfig.url}/quienes-somos`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${siteConfig.url}/planes`, changeFrequency: "daily", priority: 0.7 },
     ...categoryEntries,
     ...placeEntries,
     ...eventEntries,
     ...guideEntries,
     ...zoneEntries,
+    ...moodEntries,
+    ...tagEntries,
+    ...alcaldiaEntries,
+    ...alcaldiaCategoryEntries,
   ];
 }

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { SiteHeader } from "@/components/site-header";
 import { HomePageBody } from "@/components/home-page-body";
 import {
@@ -14,6 +15,12 @@ import {
   getPlans,
   getAllZones,
 } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "Qué hacer hoy en CDMX",
+  description:
+    "Qué hacer hoy y este finde en CDMX: restaurantes, bares, cultura y planes por zona, curados por gente que sale seguido. Sin reseñas genéricas, sin datos inventados.",
+};
 
 export default function HomePage() {
   const moods = getMoods();

@@ -36,7 +36,6 @@ export function NavSearchOverlay({
       document.removeEventListener("keydown", onKeyDown);
       document.body.style.overflow = previousOverflow;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
 
   const matches = useMemo(() => {

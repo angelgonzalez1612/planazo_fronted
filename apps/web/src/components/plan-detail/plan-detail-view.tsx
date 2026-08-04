@@ -3,7 +3,8 @@ import { slugify } from "@planazo/shared";
 import type { Category, Guide, Plan } from "@/data/types";
 import { categoryHref } from "@/lib/data";
 import { formatReviewCount } from "@/lib/format";
-import { buildPlanJsonLd } from "@/lib/structured-data";
+import { siteConfig } from "@planazo/config";
+import { buildPlanJsonLd, buildBreadcrumbJsonLd } from "@/lib/structured-data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { AdSlot } from "@/components/ad-slot";
@@ -57,12 +58,21 @@ export function PlanDetailView({
       : undefined;
 
   const jsonLd = buildPlanJsonLd(plan);
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Inicio", url: siteConfig.url },
+    { name: categoryLabel, url: `${siteConfig.url}${categoryHref(plan.category)}` },
+    { name: plan.name, url: `${siteConfig.url}/${plan.kind === "evento" ? "eventos" : "lugares"}/${plan.slug}` },
+  ]);
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <SiteHeader />
 

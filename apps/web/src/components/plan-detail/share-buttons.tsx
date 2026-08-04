@@ -1,20 +1,24 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
 import { siteConfig } from "@planazo/config";
 
+const noopSubscribe = () => () => {};
+const getCanNativeShare = () => typeof navigator.share === "function";
+const getServerCanNativeShare = () => false;
+
 export function ShareButtons({ title }: { title: string }) {
   const [copied, setCopied] = useState(false);
-  const [canNativeShare, setCanNativeShare] = useState(false);
+  const canNativeShare = useSyncExternalStore(
+    noopSubscribe,
+    getCanNativeShare,
+    getServerCanNativeShare,
+  );
   // Built from the route, not window.location — identical on server and client,
   // so it doesn't cause a hydration mismatch.
   const pathname = usePathname();
   const shareUrl = `${siteConfig.url}${pathname}`;
-
-  useEffect(() => {
-    setCanNativeShare(typeof navigator.share === "function");
-  }, []);
 
   async function copyLink() {
     try {

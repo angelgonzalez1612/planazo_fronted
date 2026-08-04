@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { siteConfig } from "@planazo/config";
 import { getMoods, resolveMoodPlans, getCategories } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanCard } from "@/components/plan-card";
+import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ mood: string }> };
 
@@ -66,9 +68,22 @@ export default async function MoodPage({ params }: Props) {
   const categories = getCategories();
   const categoryIcon = new Map(categories.map((c) => [c.id, { icon: c.icon, label: c.label }]));
   const seo = MOOD_SEO[found.id];
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Inicio", url: siteConfig.url },
+    { name: found.label, url: `${siteConfig.url}/mood/${found.id}` },
+  ]);
+  const itemListJsonLd = buildItemListJsonLd(plans);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <SiteHeader />
 
       <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">

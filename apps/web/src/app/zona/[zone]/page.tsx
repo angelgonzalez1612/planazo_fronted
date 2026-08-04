@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getAllZones, getZoneBySlug, getPlansByZone, getCategories } from "@/lib/data";
+import { siteConfig } from "@planazo/config";
+import { getAllZones, getZoneBySlug, getPlansByZone, getCategories, getAlcaldiaForZone } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanListing } from "@/components/plan-listing";
+import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 import zoneIntros from "@/data/zone-intros.json";
 
 type Props = { params: Promise<{ zone: string }> };
@@ -31,14 +33,28 @@ export default async function ZonePage({ params }: Props) {
 
   const plans = getPlansByZone(zone.slug);
   const intro = (zoneIntros as Record<string, string>)[zone.slug];
+  const alcaldia = getAlcaldiaForZone(zone.label);
   const categories = getCategories();
   const categoryIcon = new Map(categories.map((c) => [c.id, { icon: c.icon, label: c.label }]));
   const sortIds = plans.some((p) => p.kind === "evento")
     ? (["fecha", "precio", "rating"] as const)
     : (["precio", "rating"] as const);
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Inicio", url: siteConfig.url },
+    { name: zone.label, url: `${siteConfig.url}/zona/${zone.slug}` },
+  ]);
+  const itemListJsonLd = buildItemListJsonLd(plans);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <SiteHeader />
 
       <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">
@@ -59,6 +75,14 @@ export default async function ZonePage({ params }: Props) {
         </p>
         {intro && (
           <p className="mt-3 max-w-[75ch] text-[15px] leading-relaxed text-ink-soft">{intro}</p>
+        )}
+        {alcaldia && (
+          <Link
+            href={`/alcaldia/${alcaldia.slug}`}
+            className="mt-4 inline-flex items-center gap-1 text-[13.5px] font-semibold text-brand hover:underline"
+          >
+            Ver todo en la alcaldía {alcaldia.label} →
+          </Link>
         )}
       </div>
 

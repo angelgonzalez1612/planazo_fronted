@@ -11,7 +11,10 @@ export async function generateMetadata({
   searchParams,
 }: Props): Promise<Metadata> {
   const { q } = await searchParams;
-  return { title: q ? `Resultados para "${q}"` : "Buscar" };
+  return {
+    title: q ? `Resultados para "${q}"` : "Buscar",
+    robots: { index: false, follow: true },
+  };
 }
 
 export default async function SearchPage({ searchParams }: Props) {

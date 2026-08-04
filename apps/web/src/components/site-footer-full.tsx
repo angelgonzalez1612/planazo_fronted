@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Category } from "@/data/types";
-import { categoryHref } from "@/lib/data";
+import { categoryHref, getAllZones, getMoods, getAllAlcaldias } from "@/lib/data";
 import { useCity } from "@/components/providers/app-providers";
 
 const CITIES = ["CDMX", "Guadalajara", "Monterrey", "Puebla", "Querétaro", "Mérida"];
@@ -14,6 +14,9 @@ const CITIES = ["CDMX", "Guadalajara", "Monterrey", "Puebla", "Querétaro", "Mé
 
 export function SiteFooterFull({ categories }: { categories: Category[] }) {
   const { city, setCity } = useCity();
+  const topZones = getAllZones().slice(0, 10);
+  const moods = getMoods();
+  const alcaldias = getAllAlcaldias();
 
   return (
     <footer className="bg-ink font-sans text-[#CFC7C1]">
@@ -63,7 +66,7 @@ export function SiteFooterFull({ categories }: { categories: Category[] }) {
           <p className="mb-3.5 font-heading text-sm font-bold tracking-wider text-white uppercase">Planazo</p>
           <div className="flex flex-col gap-2.5 text-sm">
             <Link href="/quienes-somos" className="hover:text-brand">Quiénes somos</Link>
-            <Link href="/publica" className="hover:text-brand">Publica tu lugar</Link>
+            <Link href="/contacto" className="hover:text-brand">Publica tu lugar</Link>
             <Link href="/publicidad" className="hover:text-brand">Publicidad</Link>
             <span className="cursor-default" title="Próximamente">Prensa</span>
             <span className="cursor-default" title="Próximamente">Trabaja con nosotros</span>
@@ -76,10 +79,32 @@ export function SiteFooterFull({ categories }: { categories: Category[] }) {
             <Link href="/contacto" className="hover:text-brand">Centro de ayuda</Link>
             <Link href="/contacto" className="hover:text-brand">Contacto</Link>
             <Link href="/contacto" className="hover:text-brand">Reportar un lugar</Link>
-            <Link href="/publica" className="hover:text-brand">Sugerir un plan</Link>
+            <Link href="/contacto" className="hover:text-brand">Sugerir un plan</Link>
           </div>
         </div>
       </div>
+
+      <div className="mx-auto max-w-[1280px] border-t border-border-dark px-4 py-6 md:px-10">
+        <p className="mb-3 text-[13px] font-bold tracking-wider text-white uppercase">Zonas populares</p>
+        <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+          {topZones.map((zone) => (
+            <Link key={zone.slug} href={`/zona/${zone.slug}`} className="text-[#CFC7C1] hover:text-brand">
+              {zone.label}
+            </Link>
+          ))}
+          {moods.map((mood) => (
+            <Link key={mood.id} href={`/mood/${mood.id}`} className="text-[#CFC7C1] hover:text-brand">
+              {mood.label}
+            </Link>
+          ))}
+          {alcaldias.map((alcaldia) => (
+            <Link key={alcaldia.slug} href={`/alcaldia/${alcaldia.slug}`} className="text-[#CFC7C1] hover:text-brand">
+              Alcaldía {alcaldia.label}
+            </Link>
+          ))}
+        </div>
+      </div>
+
       <div className="mx-auto flex max-w-[1280px] flex-wrap justify-between gap-4 border-t border-border-dark px-4 py-5 text-[13px] text-[#8C837C] md:px-10">
         <span>© 2026 Planazo</span>
         <div className="flex flex-wrap gap-4.5">
