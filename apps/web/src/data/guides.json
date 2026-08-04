@@ -69,9 +69,9 @@
     "slug": "planes-pet-friendly",
     "title": "Planes pet friendly para salir con tu perro",
     "description": "Cafés, parques y jardines donde tu perro entra tan a gusto como tú.",
-    "intro": "No basta con que \"dejen entrar perros\" — estos lugares están pensados para ellos: jardines donde correr sueltos, galleta de cortesía, agua sin que la pidas. De cafés en Condesa a parques abiertos como el Bosque de Tlalpan, la selección prioriza espacio real, no solo tolerancia bajo la mesa.",
+    "intro": "No basta con que \"dejen entrar perros\" — estos lugares están pensados para ellos: jardines donde correr sueltos, galleta de cortesía, agua sin que la pidas. En Condesa, Enhorabuena Café tiene patio y jardín donde tu perro anda suelto sin correa, y Latte Pelitos recibe con camita y galleta de cortesía apenas llegas, además de una carta pensada primero en la mascota y después en ti. De esos cafés a parques abiertos como el Bosque de Tlalpan, la selección prioriza espacio real, no solo tolerancia bajo la mesa.",
     "categoryLabel": "Pet friendly",
-    "readTime": "4 min de lectura · 5 lugares",
+    "readTime": "5 min de lectura · 7 lugares",
     "cover": {
       "url": "https://images.unsplash.com/photo-1628105122995-972f14d650f9?w=800&h=500&fit=crop&q=80&auto=format",
       "alt": "Perro corriendo en el pasto de un parque"
@@ -81,7 +81,9 @@
       "zoologico-de-chapultepec",
       "jardin-botanico-unam",
       "parque-mexico",
-      "bosque-de-tlalpan"
+      "bosque-de-tlalpan",
+      "enhorabuena-cafe",
+      "latte-pelitos"
     ]
   },
   {
@@ -148,15 +150,15 @@
     "id": "g8",
     "slug": "escapadas-de-un-dia-cerca-de-cdmx",
     "title": "Qué hacer en un puente cerca de CDMX",
-    "description": "Dos Pueblos Mágicos y una zona arqueológica a una hora o menos de tres — para cuando el fin de semana se estira y quieres salir de la ciudad sin complicarte.",
-    "intro": "Los tres se pueden hacer de ida y vuelta en el día, sin quedarte a dormir: Teotihuacán a una hora, Tepoztlán a hora y media, Valle de Bravo a dos horas y media. Cada uno tiene una razón distinta para ir — arqueología, montaña o lago — así que elige según el plan que traigas, no solo la distancia.",
+    "description": "Tres Pueblos Mágicos y una zona arqueológica a una hora o menos de tres — para cuando el fin de semana se estira y quieres salir de la ciudad sin complicarte.",
+    "intro": "Los cuatro se pueden hacer de ida y vuelta en el día, sin quedarte a dormir: Tepotzotlán y Teotihuacán a una hora, Tepoztlán a hora y media, Valle de Bravo a dos horas y media. Cada uno tiene una razón distinta para ir —arte virreinal, arqueología, montaña o lago— así que elige según el plan que traigas, no solo la distancia. Tepotzotlán, el más cercano, hasta se puede hacer en Tren Suburbano desde Buenavista.",
     "categoryLabel": "Escapadas",
-    "readTime": "5 min de lectura · 3 lugares",
+    "readTime": "6 min de lectura · 4 lugares",
     "cover": {
       "url": "https://images.unsplash.com/photo-1568402102990-bc541580b59f?w=800&h=500&fit=crop&q=80&auto=format",
       "alt": "Pirámides prehispánicas de Teotihuacán al atardecer"
     },
-    "placeSlugs": ["teotihuacan", "tepoztlan", "valle-de-bravo"]
+    "placeSlugs": ["tepotzotlan", "teotihuacan", "tepoztlan", "valle-de-bravo"]
   },
   {
     "id": "g9",
@@ -195,5 +197,177 @@
       "parque-mexico",
       "bosque-de-tlalpan"
     ]
+  },
+  {
+    "id": "g11",
+    "slug": "que-hacer-gratis-en-cdmx",
+    "title": "Qué hacer gratis en CDMX",
+    "description": "Del zoológico con pandas al tianguis del Chopo: ocho planes que no cuestan nada, para cuando la quincena no da para más.",
+    "intro": "Gratis no significa aburrido: aquí caben desde pandas hasta punk. El Zoológico de Chapultepec no cobra entrada desde que abrió en 1924 y fue el primer lugar fuera de China en lograr que nacieran pandas gigantes. A unas cuadras, el Parque Lincoln y la Alameda Central —el parque público más antiguo de América, fundado en 1592— son la opción de caminar en verde sin gastar un peso. Si el plan es de sábado, el Tianguis Cultural del Chopo lleva más de cuatro décadas siendo el templo de la contracultura y ya es Patrimonio Cultural Inmaterial de la ciudad, y El Bazar Sábado en San Ángel reúne artesanos desde 1960. El último domingo de mes, el Ciclotón cierra Reforma a los coches para recorrer la ciudad en bici, y si domingo te da hambre, el Mercado El 100 en la Roma Sur no cobra entrada aunque sí te vas a antojar de algo. En el Centro de Cultura Digital, hasta el cine y los talleres son gratuitos.",
+    "categoryLabel": "Gratis",
+    "readTime": "6 min de lectura · 8 lugares",
+    "cover": {
+      "seed": "planazo-guia-gratis-cdmx",
+      "alt": "Qué hacer gratis en CDMX",
+      "width": 800,
+      "height": 450
+    },
+    "placeSlugs": [
+      "zoologico-de-chapultepec",
+      "parque-lincoln",
+      "alameda-central",
+      "tianguis-cultural-del-chopo",
+      "centro-de-cultura-digital",
+      "bazar-sabado-san-angel",
+      "cicloton-cdmx",
+      "mercado-el-100"
+    ]
+  },
+  {
+    "id": "g12",
+    "slug": "un-dia-en-la-roma-norte",
+    "title": "Un día en la Roma Norte, a pie",
+    "description": "Café por la mañana, mercado gastronómico al mediodía, jazz indie y bistrot Michelin por la noche — todo a menos de diez cuadras.",
+    "intro": "La Roma Norte se camina fácil si sabes el orden. Empieza el día con café en Almanegra, y para el mediodía cruza a Mercado Roma, el edificio de tres niveles de Rojkind Arquitectos que fue antes el Bar Gran León — abajo hay comida callejera, arriba restaurantes formales, y en la azotea el Biergarten Roma para una cerveza con vista. A media tarde, dos rutas según el plan: Global Cómics si buscas cómic europeo y manga, o Tláloc si el plan es quedarte jugando de su catálogo de más de 300 juegos de mesa con consumo mínimo. Para la noche, revisa la cartelera del Foro Indie Rocks! —templo indie en una nave industrial con capacidad para 1,200 personas en época de festival— o, si el presupuesto da para más, cierra el día en Máximo Bistrot, el bistrot con estrella Michelin de Eduardo García que cambia el menú según lo que trae el mercado ese día.",
+    "categoryLabel": "Barrios",
+    "readTime": "7 min de lectura · 6 paradas",
+    "cover": {
+      "seed": "planazo-guia-roma-norte",
+      "alt": "Un día en la Roma Norte",
+      "width": 800,
+      "height": 450
+    },
+    "placeSlugs": [
+      "almanegra-cafe",
+      "mercado-roma",
+      "global-comics",
+      "tlaloc-juegos-de-mesa",
+      "foro-indie-rocks",
+      "maximo-bistrot"
+    ]
+  },
+  {
+    "id": "g13",
+    "slug": "centro-historico-en-un-dia",
+    "title": "Centro Histórico en un día: qué ver, comer y tomar",
+    "description": "De la Alameda al balazo de Pancho Villa marcado en el techo de una cantina: un recorrido a pie por el corazón de la ciudad.",
+    "intro": "Arranca temprano en la Alameda Central, el parque público más viejo de América, fundado en 1592, y cruza a un costado al Palacio de Bellas Artes, con el telón de cristal de los talleres Tiffany y murales de Rivera, Orozco y Siqueiros arriba. Para la comida, dos velocidades: si el plan es rápido y sin mesa, Los Cocuyos lleva más de 50 años sirviendo tacos de suadero las 24 horas en Bolívar 56 —Anthony Bourdain incluido—; si prefieres sentarte, el patio colonial de Azul Histórico, del chef Ricardo Muñoz Zurita, ocupa un palacio del siglo XVII. A media tarde, el Museo del Estanquillo guarda la colección de Carlos Monsiváis en el edificio de una joyería del siglo XIX, con entrada libre los domingos. Para cerrar, dos opciones de noche: La Ópera Bar, cantina desde 1895 con el balazo de Pancho Villa todavía marcado en el techo dorado, o Zinco Jazz Club, en el sótano de un banco reconvertido, reconocido por DownBeat entre los 106 mejores clubes de jazz del mundo.",
+    "categoryLabel": "Barrios",
+    "readTime": "7 min de lectura · 7 paradas",
+    "cover": {
+      "seed": "planazo-guia-centro-historico",
+      "alt": "Centro Histórico en un día",
+      "width": 800,
+      "height": 450
+    },
+    "placeSlugs": [
+      "alameda-central",
+      "palacio-de-bellas-artes",
+      "los-cocuyos",
+      "azul-historico",
+      "museo-del-estanquillo",
+      "la-opera-bar",
+      "zinco-jazz-club"
+    ]
+  },
+  {
+    "id": "g14",
+    "slug": "donde-ver-un-concierto-en-cdmx",
+    "title": "Dónde ver un concierto en CDMX: del foro chico al estadio",
+    "description": "De un sótano de jazz reconocido a nivel mundial a un recinto para 7,500 personas — la escena de música en vivo de la ciudad, por tamaño de escenario.",
+    "intro": "Si quieres ver música en vivo cerca, sin perderte entre miles de personas, empieza chico: Zinco Jazz Club vive en el sótano de un antiguo banco en el Centro y en 2023 DownBeat lo nombró el único club mexicano entre los 106 mejores del mundo. Para algo más tradicional, el Salón Los Ángeles abrió en 1937 y nunca ha cerrado sus puertas —ahí tocaron Pérez Prado y la Sonora Santanera, y la frase \"quien no conoce Los Ángeles, no conoce México\" nació ahí mismo. Un escalón arriba en capacidad está el Foro Indie Rocks! en Roma Norte, con hasta 1,200 personas en su patio en época de festival. El Lunario del Auditorio Nacional, en formato cabaret para 500 a 1,200 personas, es la apuesta segura si quieres ver a alguien conocido sin sentir estadio. Y si el show sí es de estadio, el Pepsi Center WTC ajusta sus gradas movibles entre 3,000 y 7,500 lugares según quién toque.",
+    "categoryLabel": "Música",
+    "readTime": "5 min de lectura · 5 foros",
+    "cover": {
+      "seed": "planazo-guia-conciertos-cdmx",
+      "alt": "Dónde ver un concierto en CDMX",
+      "width": 800,
+      "height": 450
+    },
+    "placeSlugs": [
+      "zinco-jazz-club",
+      "salon-los-angeles-danzon",
+      "foro-indie-rocks",
+      "lunario-auditorio-nacional",
+      "pepsi-center-wtc"
+    ]
+  },
+  {
+    "id": "g15",
+    "slug": "que-hacer-con-ninos-en-cdmx",
+    "title": "Qué hacer con niños en CDMX",
+    "description": "Museos que sí se pueden tocar, un zoológico gratis con pandas y trajineras en Xochimilco — planes familiares que sobreviven un sábado completo.",
+    "intro": "Papalote Museo del Niño sigue siendo la apuesta más segura para niños de 2 a 12 años, con seis áreas pensadas para que toquen y experimenten, desde ecosistemas mexicanos hasta la clásica cama de clavos — en temporada alta conviene reservar horario. A un lado del bosque, el Museo Tamayo tiene entrada libre los domingos para residentes y su nueva sala de arte contemporáneo es más manejable para una visita corta que un museo gigante. El recién inaugurado MUNET —el museo de energía y tecnología que ganó Enrique Norten por concurso— todavía está abriendo por etapas, así que vale la pena checar qué salas están disponibles antes de ir. Si el plan es al aire libre y gratis, el Zoológico de Chapultepec no cobra entrada desde 1924 y ahí nacieron los primeros pandas gigantes fuera de China. Y para un plan de medio día distinto, las trajineras del Embarcadero Nuevo Nativitas navegan los canales de Xochimilco, Patrimonio de la Humanidad — mejor ir temprano entre semana.",
+    "categoryLabel": "Familiar",
+    "readTime": "6 min de lectura · 5 lugares",
+    "cover": {
+      "seed": "planazo-guia-ninos-cdmx",
+      "alt": "Qué hacer con niños en CDMX",
+      "width": 800,
+      "height": 450
+    },
+    "placeSlugs": [
+      "papalote-museo-del-nino",
+      "museo-tamayo-nueva-sala",
+      "zoologico-de-chapultepec",
+      "munet",
+      "embarcadero-nuevo-nativitas"
+    ]
+  },
+  {
+    "id": "g16",
+    "slug": "donde-ver-una-pelicula-en-cdmx",
+    "title": "Dónde ver una película en CDMX",
+    "description": "Del cine de barrio de 1962 al autocinema donde puedes llevar a tu perro: tres formas distintas de ver una película en la ciudad.",
+    "intro": "Cinépolis Diana ocupa el edificio del antiguo Cine Diana, inaugurado en 1962 sobre Reforma con casi 1,850 butacas y un mural de Manuel Felguérez que hoy vive en el MUAC — buena opción de cine comercial con ese peso de otra época todavía visible por fuera. Si buscas algo distinto al circuito de estrenos, Cine Tonalá, en la Roma Sur, proyecta documentales y cine independiente entre butacas y sillones recuperados de los años 80, con boleto en $90, de los más baratos de la ciudad. Y si el plan es quedarte en el coche, Drive Cinema MX, en Coapa, tiene pantalla LED 4K y deja entrar a tu perro al estacionamiento — el precio, $190, es por auto, así que conviene ir entre varios.",
+    "categoryLabel": "Cine",
+    "readTime": "4 min de lectura · 3 lugares",
+    "cover": {
+      "seed": "planazo-guia-cine-cdmx",
+      "alt": "Dónde ver una película en CDMX",
+      "width": 800,
+      "height": 450
+    },
+    "placeSlugs": ["cine-tonala", "cinepolis-diana", "drive-cinema-mx"]
+  },
+  {
+    "id": "g17",
+    "slug": "planes-gamer-geek-tecnologia-cdmx",
+    "title": "Planes gamer, geek y de tecnología en CDMX",
+    "description": "De un puesto de tacos que nació como sala de videojuegos a un edificio de tres pisos dedicado a la cultura geek — planes para pasar la tarde entre la Condesa y el Centro.",
+    "intro": "Taco Game, en Narvarte, nació porque el dueño jugaba en su consola mientras esperaba clientes en su puesto de tacos: hoy consumes algo y el rato de juego —control, consola y más de mil títulos— va incluido. Si el plan es en grupo y con tablero, El Ocho, frente al Parque México, tiene más de 120 juegos de mesa para tomar de su librero y hasta menú pet friendly; Gameplanet, en Del Valle, es la cadena de confianza si buscas un videojuego específico, nuevo o usado, o quieres vender los que ya no usas. Para coleccionismo, The Limited Company, en Condesa, surte figuras de Hot Toys, Funko y Bandai, y Frikiplaza —tres pisos sobre Eje Central, con hasta 5 mil visitantes en fin de semana— es la apuesta si buscas algo de una franquicia rara. Y si el plan es de hardware, la Plaza de la Tecnología lleva desde los años 80 vendiendo y reparando celulares y componentes en el Centro, a unos pasos de Hacedores Makerspace, el primer taller de fabricación digital de la zona, con impresoras 3D y cortadora láser para quien trae un proyecto entre manos.",
+    "categoryLabel": "Gamer y geek",
+    "readTime": "7 min de lectura · 7 lugares",
+    "cover": {
+      "seed": "planazo-guia-gamer-geek-cdmx",
+      "alt": "Planes gamer y geek en CDMX",
+      "width": 800,
+      "height": 450
+    },
+    "placeSlugs": [
+      "taco-game",
+      "el-ocho-juegos-de-mesa",
+      "gameplanet-del-valle",
+      "limited-company-geek-store",
+      "frikiplaza",
+      "plaza-de-la-tecnologia",
+      "hacedores-makerspace"
+    ]
+  },
+  {
+    "id": "g18",
+    "slug": "planes-tradicionales-cdmx",
+    "title": "Planes bien mexicanos: lucha libre, danzón y antigüedades",
+    "description": "La Catedral de la Lucha Libre, el salón de baile que nunca ha cerrado desde 1937 y el mercado dominical donde se regatea desde antes de la Conquista.",
+    "intro": "La Arena México es la \"Catedral de la Lucha Libre\": ahí opera el CMLL desde 1933, la empresa de lucha libre en activo más antigua del mundo, con función insignia cada viernes a las 20:30 y Domingo Familiar por las tardes — no hace falta saber de lucha para engancharte con el ambiente. Para otro tipo de pista, el Salón Los Ángeles abrió en 1937 en la colonia Guerrero y nunca ha cerrado sus puertas: por ahí pasaron Pérez Prado y la Sonora Santanera, y todavía dan clases de baile antes de que arranque la orquesta en vivo. Y si domingo prefieres caminar entre puestos, el Mercado de Antigüedades de La Lagunilla ocupa terreno que ya era zona de comercio antes de la Conquista — hoy con espadas, vinilos, cámaras análogas y muebles de otras décadas, para quien sepa llegar temprano y regatear.",
+    "categoryLabel": "Tradición",
+    "readTime": "5 min de lectura · 3 lugares",
+    "cover": {
+      "seed": "planazo-guia-tradicion-cdmx",
+      "alt": "Planes tradicionales en CDMX",
+      "width": 800,
+      "height": 450
+    },
+    "placeSlugs": ["lucha-libre-arena-mexico", "salon-los-angeles-danzon", "antiguedades-la-lagunilla"]
   }
 ]

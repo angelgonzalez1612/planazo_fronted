@@ -195,7 +195,7 @@
     "slug": "museo-tamayo-nueva-sala",
     "name": "Museo Tamayo: nueva sala",
     "category": "cultura",
-    "zone": "Bosque de Chapultepec",
+    "zone": "Chapultepec",
     "address": "Paseo de la Reforma 51, Bosque de Chapultepec, CDMX",
     "priceLabel": "$95 MXN",
     "price": 95,
@@ -1594,8 +1594,8 @@
     "slug": "cardinal-casa-de-cafe",
     "name": "Cardinal Casa de Café",
     "category": "cafes",
-    "zone": "Roma",
-    "address": "Sinaloa 10, Roma, CDMX",
+    "zone": "Roma Norte",
+    "address": "Sinaloa 10, Roma Norte, CDMX",
     "priceLabel": "$ · $140 p/p",
     "price": 140,
     "cover": {
@@ -2685,5 +2685,1412 @@
       "lat": 19.1947,
       "lng": -100.1314
     }
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-lardo",
+    "slug": "lardo",
+    "name": "Lardo",
+    "category": "comer",
+    "zone": "Condesa",
+    "address": "Agustín Melgar 6, Condesa, CDMX",
+    "priceLabel": "$$ · $400 p/p",
+    "price": 400,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-lardo",
+      "alt": "Lardo",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-lardo-1",
+        "alt": "Mesa de brunch con pan horneado",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-lardo-2",
+        "alt": "Interior del restaurante",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-lardo-3",
+        "alt": "Pizza de masa madre recién horneada",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Lardo es el segundo proyecto de Elena Reygadas en la Condesa, hermano de la panadería Rosetta a unas calles de aquí. Fusiona lo mediterráneo con lo mexicano en un menú que brilla sobre todo en el desayuno y el brunch, con pan horneado en casa y pizzas de masa madre que cambian según la temporada. No aceptan reservación más que en la barra, así que conviene llegar temprano si el plan es de fin de semana.",
+    "tags": ["Brunch", "Mediterráneo"],
+    "openingHours": [
+      { "day": "Lunes a sábado", "opens": "07:30", "closes": "23:00" },
+      { "day": "Domingo", "opens": "07:30", "closes": "17:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-azul-condesa",
+    "slug": "azul-condesa",
+    "name": "Azul Condesa",
+    "category": "comer",
+    "zone": "Condesa",
+    "address": "Av. Nuevo León 68, Condesa, CDMX",
+    "priceLabel": "$$$ · $650 p/p",
+    "price": 650,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-azul-condesa",
+      "alt": "Azul Condesa",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-azul-condesa-1",
+        "alt": "Platillo de cocina mexicana emplatado",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-azul-condesa-2",
+        "alt": "Comedor del restaurante",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Del chef Ricardo Muñoz Zurita —el mismo detrás de Azul Histórico, en el Centro— este restaurante en la Condesa trae la misma cocina mexicana de investigación en festivales de temporada dedicados a un ingrediente o región distinta del país. En junio de 2026 recibió la visita de Ronaldinho durante el Mundial, aunque la reputación del lugar viene de antes: menú de degustación en $895 y platos a la carta que rondan entre $600 y $700 por persona.",
+    "tags": ["Tradicional", "Alta cocina"],
+    "openingHours": [
+      { "day": "Desayuno: miércoles a domingo", "opens": "09:00", "closes": "12:00" },
+      { "day": "Comida y cena: todos los días", "opens": "13:00", "closes": "23:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-la-clandestina",
+    "slug": "la-clandestina",
+    "name": "La Clandestina",
+    "category": "bares",
+    "zone": "Condesa",
+    "address": "Av. Álvaro Obregón 298, Condesa, CDMX",
+    "priceLabel": "$$ · $250 p/p",
+    "price": 250,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-la-clandestina",
+      "alt": "La Clandestina",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-la-clandestina-1",
+        "alt": "Botellas de mezcal en barra",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-la-clandestina-2",
+        "alt": "Interior de la mezcalería",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Desde 2009, La Clandestina es de los templos clásicos del mezcal en la Condesa: más de 25 etiquetas, casi todas de Oaxaca, servidas por copeo junto con cocina inspirada en la misma región —chalupitas, esquites, quesos fundidos, guacamole con chapulines—. Los cócteles rondan los 200 pesos. Abre de lunes a sábado por la tarde-noche, en un local pequeño que se llena rápido los fines de semana.",
+    "tags": ["Mezcal", "Cantina"],
+    "openingHours": [
+      { "day": "Lunes a miércoles", "opens": "18:30", "closes": "00:00" },
+      { "day": "Jueves a sábado", "opens": "18:30", "closes": "02:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-gin-gin-condesa",
+    "slug": "gin-gin-condesa",
+    "name": "Gin Gin Condesa",
+    "category": "bares",
+    "zone": "Condesa",
+    "address": "Av. Tamaulipas 55B, Condesa, CDMX",
+    "priceLabel": "$$ · $300 p/p",
+    "price": 300,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-gin-gin-condesa",
+      "alt": "Gin Gin Condesa",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-gin-gin-condesa-1",
+        "alt": "Coctel de ginebra servido en barra",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-gin-gin-condesa-2",
+        "alt": "Ambiente de bar por la noche",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Gin Gin abrió en 2014 especializado en coctelería de ginebra, con más de 30 etiquetas de todo el mundo y música de DJ en vivo que le da ambiente de fiesta más que de bar tranquilo. Es una cadena con varias sucursales en la ciudad, pero esta, sobre Tamaulipas, fue de las primeras. Los cócteles rondan los 300 pesos; abre los siete días de la semana hasta las 2 de la mañana.",
+    "tags": ["Coctelería", "Con amigos"],
+    "openingHours": [{ "day": "Todos los días", "opens": "13:00", "closes": "02:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-el-turix",
+    "slug": "el-turix",
+    "name": "El Turix",
+    "category": "comer",
+    "zone": "Polanco",
+    "address": "Av. Emilio Castelar 212, Polanco, CDMX",
+    "priceLabel": "$ · $150 p/p",
+    "price": 150,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-el-turix",
+      "alt": "El Turix",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-el-turix-1",
+        "alt": "Tacos de cochinita pibil servidos en plato",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-el-turix-2",
+        "alt": "Local pequeño de taquería",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Desde los años ochenta, El Turix sirve cochinita pibil y especialidades yucatecas en un local pequeño y sin pretensiones sobre Emilio Castelar — de las pocas opciones verdaderamente económicas en Polanco. TasteAtlas lo ha señalado entre los mejores lugares de cochinita pibil de la ciudad. Solo aceptan efectivo, y conviene ir con tiempo porque se hace fila en hora pico.",
+    "tags": ["Tacos", "Yucateca"],
+    "openingHours": [{ "day": "Martes a domingo", "opens": "11:00", "closes": "22:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-toulo-cafe",
+    "slug": "toulo-cafe",
+    "name": "Touló Café",
+    "category": "cafes",
+    "zone": "Polanco",
+    "address": "Av. Emilio Castelar 185, Polanco, CDMX",
+    "priceLabel": "$$ · $280 p/p",
+    "price": 280,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-toulo-cafe",
+      "alt": "Touló Café",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-toulo-cafe-1",
+        "alt": "Repostería francesa en vitrina",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-toulo-cafe-2",
+        "alt": "Interior cálido de cafetería",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "A unas puertas de El Turix, sobre la misma calle Emilio Castelar y a un costado del Parque Lincoln, Touló es un café-patisserie de inspiración parisina fuerte en desayunos franceses y repostería de casa. No aceptan reservación —todo es por orden de llegada— y la cuenta suele rondar los 250 a 300 pesos por persona.",
+    "tags": ["Café de especialidad", "Repostería"]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-licoreria-limantour-polanco",
+    "slug": "licoreria-limantour-polanco",
+    "name": "Licorería Limantour Polanco",
+    "category": "bares",
+    "zone": "Polanco",
+    "address": "Oscar Wilde 9, Polanco, CDMX",
+    "priceLabel": "$$$ · $400 p/p",
+    "price": 400,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-limantour-polanco",
+      "alt": "Licorería Limantour Polanco",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-limantour-polanco-1",
+        "alt": "Coctel de autor servido en barra",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-limantour-polanco-2",
+        "alt": "Interior del bar",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "La segunda sucursal de Limantour, el bar que ayudó a poner a México en el mapa mundial de la coctelería y que ha aparecido año tras año en la lista de los World's 50 Best Bars, está entre Masaryk y el Parque Lincoln, a unos pasos del Pasaje Polanco. Mismo menú de cócteles de autor que la sede original de la Roma, en un espacio propio pensado para esta zona.",
+    "tags": ["Coctelería", "Premiado"],
+    "openingHours": [
+      { "day": "Lunes", "opens": "17:00", "closes": "23:00" },
+      { "day": "Martes", "opens": "17:00", "closes": "00:00" },
+      { "day": "Miércoles a viernes", "opens": "16:00", "closes": "02:00" },
+      { "day": "Sábado", "opens": "14:00", "closes": "02:00" },
+      { "day": "Domingo", "opens": "14:00", "closes": "23:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-bistro-chapultepec",
+    "slug": "bistro-chapultepec",
+    "name": "Bistró Chapultepec",
+    "category": "comer",
+    "zone": "Chapultepec",
+    "address": "Calle Lago Mayor s/n, 2ª Sección del Bosque de Chapultepec, CDMX",
+    "priceLabel": "$$ · $494 p/p",
+    "price": 494,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-bistro-chapultepec",
+      "alt": "Bistró Chapultepec",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-bistro-chapultepec-1",
+        "alt": "Mesas al aire libre junto al lago",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-bistro-chapultepec-2",
+        "alt": "Desayuno buffet servido",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Con mesas al aire libre justo junto al Lago Mayor, en la Segunda Sección del bosque, este bistró de ambiente campestre es de los pocos restaurantes de verdad dentro del parque. El fuerte es el buffet dominical ($494 adulto, $394 niños de 4 a 12 años), aunque también hay opción a la carta —chilaquiles, enchiladas, omelettes, crepas— entre semana. Es pet friendly, así que puedes llevar al perro a la mesa.",
+    "tags": ["Pet friendly", "Vista al lago"],
+    "openingHours": [
+      { "day": "Lunes a viernes", "opens": "07:00", "closes": "19:00" },
+      { "day": "Sábado", "opens": "08:00", "closes": "19:00" },
+      { "day": "Domingo", "opens": "08:00", "closes": "18:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-sala-gastronomica",
+    "slug": "sala-gastronomica",
+    "name": "Sala Gastronómica",
+    "category": "comer",
+    "zone": "Chapultepec",
+    "address": "Av. Paseo de la Reforma y Calzada Gandhi s/n, Bosque de Chapultepec, CDMX",
+    "priceLabel": "$$ · $450 p/p",
+    "price": 450,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-sala-gastronomica",
+      "alt": "Sala Gastronómica",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-sala-gastronomica-1",
+        "alt": "Platillo de cocina mexicana regional",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-sala-gastronomica-2",
+        "alt": "Terraza subterránea del restaurante",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Dentro del Museo Nacional de Antropología, en una terraza semi-subterránea, Sala Gastronómica sirve cocina mexicana organizada por regiones —Baja California, el norte, el centro, el Pacífico, el sur y la península maya— con festivales de temporada dedicados a un estado distinto. Es un plan que se combina fácil con la visita al museo, aunque la entrada a este último se paga aparte.",
+    "tags": ["Cocina regional", "Dentro de museo"],
+    "openingHours": [{ "day": "Martes a domingo", "opens": "09:00", "closes": "18:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-mexico-arte-sabor",
+    "slug": "mexico-arte-sabor",
+    "name": "México Arte & Sabor",
+    "category": "cafes",
+    "zone": "Chapultepec",
+    "address": "Casa del Lago, 1ª Sección del Bosque de Chapultepec, CDMX",
+    "priceLabel": "$ · $50 p/p",
+    "price": 50,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-mexico-arte-sabor",
+      "alt": "México Arte & Sabor",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-mexico-arte-sabor-1",
+        "alt": "Café servido en terraza junto al lago",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-mexico-arte-sabor-2",
+        "alt": "Casa del Lago rodeada de árboles",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Dentro de Casa del Lago, el centro cultural de la UNAM en la Primera Sección del bosque, esta cafetería acompaña su café y repostería con la programación cultural del recinto —presentaciones, exposiciones, a veces música en vivo—. El ticket promedio es de apenas $50 por persona, de los más accesibles del parque.",
+    "tags": ["Café", "Cultura"],
+    "openingHours": [{ "day": "Miércoles a domingo", "opens": "11:00", "closes": "17:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-los-danzantes",
+    "slug": "los-danzantes",
+    "name": "Los Danzantes",
+    "category": "comer",
+    "zone": "Coyoacán",
+    "address": "Parque Centenario 12, Coyoacán, CDMX",
+    "priceLabel": "$$$ · $500 p/p",
+    "price": 500,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-los-danzantes",
+      "alt": "Los Danzantes",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-los-danzantes-1",
+        "alt": "Terraza con vista al Jardín Centenario",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-los-danzantes-2",
+        "alt": "Platillo de cocina oaxaqueña",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Sobre el Jardín Centenario, Los Danzantes lleva desde 1995 siendo parada casi obligada de Coyoacán: cocina mexicana contemporánea con fuerte acento oaxaqueño, reconocido en la Guía Michelin. El consumo mínimo es de $500 por persona, así que conviene reservar y llegar con el plan de quedarse un rato en su terraza con vista a la plaza.",
+    "tags": ["Oaxaqueña", "Alta cocina"],
+    "openingHours": [
+      { "day": "Lunes", "opens": "12:30", "closes": "22:00" },
+      { "day": "Martes y miércoles", "opens": "12:30", "closes": "23:00" },
+      { "day": "Jueves", "opens": "09:00", "closes": "23:00" },
+      { "day": "Viernes y sábado", "opens": "09:00", "closes": "00:00" },
+      { "day": "Domingo", "opens": "09:00", "closes": "22:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-tostadas-coyoacan",
+    "slug": "tostadas-coyoacan",
+    "name": "Tostadas Coyoacán Las Originales",
+    "category": "comer",
+    "zone": "Coyoacán",
+    "address": "Mercado de Coyoacán, Ignacio Allende s/n, Del Carmen, CDMX",
+    "priceLabel": "$ · $200 p/p",
+    "price": 200,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-tostadas-coyoacan",
+      "alt": "Tostadas Coyoacán Las Originales",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-tostadas-coyoacan-1",
+        "alt": "Tostadas de tinga y pollo servidas",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-tostadas-coyoacan-2",
+        "alt": "Puesto dentro del mercado",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Dentro del Mercado de Coyoacán, este puesto lleva más de sesenta años sirviendo tostadas de tinga, pollo, ceviche y demás guisados clásicos a unos 30 pesos cada una. Es la versión barata y rápida de comer en Coyoacán, de pie o en las bancas del mercado, y contrasta con los restaurantes de la plaza a unos metros.",
+    "tags": ["Tostadas", "Mercado"],
+    "openingHours": [{ "day": "Lunes a domingo", "opens": "11:00", "closes": "18:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-la-coyoacana",
+    "slug": "la-coyoacana",
+    "name": "La Coyoacana",
+    "category": "bares",
+    "zone": "Coyoacán",
+    "address": "Higuera 14, Barrio de la Concepción, Coyoacán, CDMX",
+    "priceLabel": "$$ · $300 p/p",
+    "price": 300,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-la-coyoacana",
+      "alt": "La Coyoacana",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-la-coyoacana-1",
+        "alt": "Interior de cantina con mesas de madera",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-la-coyoacana-2",
+        "alt": "Botanas y cervezas en mesa",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "En Higuera 14, en el mismo local que ocupó la histórica Cantina La Guadalupana desde 1928 —punto de reunión frecuente de Frida Kahlo y Diego Rivera—, La Coyoacana mantiene la tradición cantinera del barrio con mariachi en vivo y botana incluida en el consumo de alcohol. El gasto promedio ronda los 300 pesos por persona, con cerveza a 40 pesos.",
+    "tags": ["Cantina", "Mariachi"],
+    "openingHours": [
+      { "day": "Lunes", "opens": "13:00", "closes": "23:30" },
+      { "day": "Martes y miércoles", "opens": "13:00", "closes": "00:30" },
+      { "day": "Jueves a sábado", "opens": "13:00", "closes": "01:30" },
+      { "day": "Domingo", "opens": "12:00", "closes": "23:30" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-san-angel-inn",
+    "slug": "san-angel-inn",
+    "name": "San Ángel Inn",
+    "category": "comer",
+    "zone": "San Ángel",
+    "address": "Diego Rivera 50, San Ángel Inn, CDMX",
+    "priceLabel": "$$$$ · $1000 p/p",
+    "price": 1000,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-san-angel-inn",
+      "alt": "San Ángel Inn",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-san-angel-inn-1",
+        "alt": "Jardín colonial del restaurante",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-san-angel-inn-2",
+        "alt": "Platillo de cocina mexicana elegante",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Antigua hacienda convertida en restaurante desde 1963, con jardines y arquitectura colonial que explican por qué es lugar favorito de políticos y figuras públicas para comer en la ciudad. La carta mezcla cocina mexicana e internacional —escamoles, chiles en nogada, mole— con una cuenta que suele ir de los 800 a los 1,500 pesos por persona entre alimentos y bebida.",
+    "tags": ["Histórico", "Alta cocina"],
+    "openingHours": [
+      { "day": "Lunes a viernes", "opens": "07:00", "closes": "01:00" },
+      { "day": "Sábado", "opens": "08:30", "closes": "01:00" },
+      { "day": "Domingo", "opens": "08:30", "closes": "22:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-cafe-de-las-artes",
+    "slug": "cafe-de-las-artes",
+    "name": "Café de las Artes",
+    "category": "cafes",
+    "zone": "San Ángel",
+    "address": "Plaza San Jacinto 16, San Ángel, CDMX",
+    "priceLabel": "$$ · $220 p/p",
+    "price": 220,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-cafe-de-las-artes",
+      "alt": "Café de las Artes",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-cafe-de-las-artes-1",
+        "alt": "Mesa con chilaquiles y café",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-cafe-de-las-artes-2",
+        "alt": "Terraza con vista a la plaza",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "En una esquina de la Plaza San Jacinto, este café es parada clásica de San Ángel para desayunar chilaquiles, molletes o crepas con un café de calidad. Entre semana, de 11 a 4, hay promoción de panini o quiche con agua del día incluida.",
+    "tags": ["Café de especialidad", "Desayunos"],
+    "openingHours": [{ "day": "Lunes a domingo", "opens": "09:00", "closes": "21:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-cafe-nin",
+    "slug": "cafe-nin",
+    "name": "Café Nin",
+    "category": "cafes",
+    "zone": "Juárez",
+    "address": "Havre 73, Juárez, CDMX",
+    "priceLabel": "$$ · $400 p/p",
+    "price": 400,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-cafe-nin",
+      "alt": "Café Nin",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-cafe-nin-1",
+        "alt": "Interior de café estilo literario",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-cafe-nin-2",
+        "alt": "Pan y repostería en vitrina",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "El tercer proyecto de Elena Reygadas en la ciudad —después de Rosetta en la Roma y Lardo en la Condesa— está inspirado en los cafés literarios del siglo veinte, pensado para quedarte horas leyendo, trabajando o platicando. El pan y la repostería vienen de Panadería Rosetta, y el ticket promedio ronda entre 300 y 500 pesos.",
+    "tags": ["Café de especialidad", "Brunch"],
+    "openingHours": [
+      { "day": "Lunes a miércoles", "opens": "07:00", "closes": "21:00" },
+      { "day": "Jueves a sábado", "opens": "07:00", "closes": "22:00" },
+      { "day": "Domingo", "opens": "07:00", "closes": "18:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-museo-nacional-de-arte",
+    "slug": "museo-nacional-de-arte",
+    "name": "Museo Nacional de Arte (MUNAL)",
+    "category": "cultura",
+    "zone": "Centro Histórico",
+    "address": "Tacuba 8, Centro Histórico, CDMX",
+    "priceLabel": "$95 MXN",
+    "price": 95,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-munal",
+      "alt": "Museo Nacional de Arte",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-munal-1",
+        "alt": "Sala de pintura mexicana del museo",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-munal-2",
+        "alt": "Fachada del edificio porfiriano",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "El edificio de Tacuba 8 fue sede de la Secretaría de Comunicaciones porfiriana antes de convertirse, en 1982, en el museo que reúne la colección más completa de arte mexicano del siglo XVI al XX: pintura virreinal, paisajistas del XIX y muralistas. Entrada libre los domingos, y también para menores de 13, estudiantes, maestros y adultos mayores con credencial vigente.",
+    "tags": ["Arte", "Museo"],
+    "openingHours": [{ "day": "Martes a domingo", "opens": "10:00", "closes": "18:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-museo-templo-mayor",
+    "slug": "museo-templo-mayor",
+    "name": "Museo del Templo Mayor",
+    "category": "cultura",
+    "zone": "Centro Histórico",
+    "address": "Seminario 8, Centro Histórico, CDMX",
+    "priceLabel": "$100 MXN",
+    "price": 100,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-templo-mayor",
+      "alt": "Museo del Templo Mayor",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-templo-mayor-1",
+        "alt": "Zona arqueológica junto al museo",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-templo-mayor-2",
+        "alt": "Pieza prehispánica en exhibición",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Construido sobre las ruinas del recinto sagrado de Tenochtitlan, descubierto por accidente en 1978 cuando trabajadores de la CFE toparon con el monolito de Coyolxauhqui, el museo exhibe miles de piezas encontradas en las excavaciones junto a la zona arqueológica misma, a un lado de la Catedral. Entrada libre los domingos para nacionales y residentes.",
+    "tags": ["Arqueología", "Histórico"],
+    "openingHours": [{ "day": "Martes a domingo", "opens": "09:00", "closes": "17:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-museo-arte-moderno",
+    "slug": "museo-arte-moderno",
+    "name": "Museo de Arte Moderno",
+    "category": "cultura",
+    "zone": "Chapultepec",
+    "address": "Paseo de la Reforma s/n, Bosque de Chapultepec, CDMX",
+    "priceLabel": "$90 MXN",
+    "price": 90,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-museo-arte-moderno",
+      "alt": "Museo de Arte Moderno",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-museo-arte-moderno-1",
+        "alt": "Sala de arte del siglo XX",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-museo-arte-moderno-2",
+        "alt": "Jardín escultórico del museo",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "En la Primera Sección del Bosque de Chapultepec, el MAM reúne arte mexicano del siglo XX —Frida Kahlo, Rufino Tamayo, Remedios Varo— en un edificio circular de Pedro Ramírez Vázquez inaugurado en 1964, con jardín escultórico propio. Entrada libre los domingos.",
+    "tags": ["Arte", "Museo"],
+    "openingHours": [{ "day": "Martes a domingo", "opens": "10:15", "closes": "17:30" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-museo-soumaya",
+    "slug": "museo-soumaya",
+    "name": "Museo Soumaya",
+    "category": "cultura",
+    "zone": "Polanco",
+    "address": "Blvd. Miguel de Cervantes Saavedra esq. Presa Falcón, Ampliación Granada, CDMX",
+    "priceLabel": "Gratis",
+    "price": 0,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-museo-soumaya",
+      "alt": "Museo Soumaya",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-museo-soumaya-1",
+        "alt": "Fachada de aluminio del edificio",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-museo-soumaya-2",
+        "alt": "Esculturas en exhibición",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "El edificio de aluminio con forma de reloj de arena, obra de Fernando Romero, es tan parte de la visita como la colección de más de 66,000 piezas que Carlos Slim ha reunido —incluida la mayor colección de esculturas de Rodin fuera de Francia—. La entrada es gratuita todos los días, sin excepción.",
+    "tags": ["Arte", "Gratis"],
+    "openingHours": [{ "day": "Todos los días", "opens": "10:30", "closes": "18:30" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-museo-dolores-olmedo",
+    "slug": "museo-dolores-olmedo",
+    "name": "Museo Dolores Olmedo",
+    "category": "cultura",
+    "zone": "Xochimilco",
+    "address": "Av. México 5843, La Noria, Xochimilco, CDMX",
+    "priceLabel": "$162 MXN",
+    "price": 162,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-museo-dolores-olmedo",
+      "alt": "Museo Dolores Olmedo",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-museo-dolores-olmedo-1",
+        "alt": "Jardines de la hacienda con pavorreales",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-museo-dolores-olmedo-2",
+        "alt": "Pintura de Frida Kahlo en exhibición",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "En una hacienda del siglo XVI en La Noria, este museo guarda la colección privada más grande de obra de Frida Kahlo —25 pinturas— además de piezas de Diego Rivera y arte popular mexicano, todo alrededor de jardines con pavorreales y xoloitzcuintles sueltos. Se llega en Tren Ligero, bajando en la estación La Noria.",
+    "tags": ["Arte", "Familiar"],
+    "openingHours": [{ "day": "Martes a domingo", "opens": "10:00", "closes": "18:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-cafe-c",
+    "slug": "cafe-c",
+    "name": "Café C",
+    "category": "cafes",
+    "zone": "Del Valle",
+    "address": "Agustín González de Cossío 231, Del Valle, CDMX",
+    "priceLabel": "$$ · $200 p/p",
+    "price": 200,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-cafe-c",
+      "alt": "Café C",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-cafe-c-1",
+        "alt": "Café con arte 3D en la espuma",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-cafe-c-2",
+        "alt": "Chilaquiles servidos para desayuno",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "En la esquina de Agustín González de Cossío y Eugenia, este café se volvió conocido por su arte 3D sobre el café con leche —unos 40 pesos extra sobre el precio de tu bebida— además de un menú de desayuno completo: chilaquiles, molletes, huevos al gusto y avocado toast. Abre desde las 7:30 entre semana, ideal para un desayuno antes de la oficina.",
+    "tags": ["Café de especialidad", "Desayunos"],
+    "openingHours": [
+      { "day": "Lunes a viernes", "opens": "07:30", "closes": "18:00" },
+      { "day": "Sábado y domingo", "opens": "09:00", "closes": "16:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-nagaoka",
+    "slug": "nagaoka",
+    "name": "Nagaoka",
+    "category": "comer",
+    "zone": "Nápoles",
+    "address": "Arkansas 38, Nápoles, CDMX",
+    "priceLabel": "$$ · $300 p/p",
+    "price": 300,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-nagaoka",
+      "alt": "Nagaoka",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-nagaoka-1",
+        "alt": "Platillo tradicional japonés servido",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-nagaoka-2",
+        "alt": "Interior de restaurante estilo casa",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Desde 1985, la familia Nagaoka sirve cocina tradicional japonesa en esta casa-restaurante de Arkansas 38, de las favoritas de la comunidad japonesa en la ciudad. El menú de degustación de cinco tiempos ronda los 300 pesos por persona. Cierra los lunes.",
+    "tags": ["Japonesa", "Tradicional"],
+    "openingHours": [
+      { "day": "Martes a sábado", "opens": "13:00", "closes": "22:30" },
+      { "day": "Domingo", "opens": "13:00", "closes": "19:30" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-boludo-parrilla-urbana",
+    "slug": "boludo-parrilla-urbana",
+    "name": "Boludo Parrilla Urbana",
+    "category": "comer",
+    "zone": "Nápoles",
+    "address": "Altadena 59, Nápoles, CDMX",
+    "priceLabel": "$$$ · $500 p/p",
+    "price": 500,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-boludo-parrilla",
+      "alt": "Boludo Parrilla Urbana",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-boludo-parrilla-1",
+        "alt": "Corte de carne asado a la parrilla",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-boludo-parrilla-2",
+        "alt": "Mesa servida con cortes argentinos",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Parrilla argentina con toque mexicano en Altadena 59: cortes como rib eye y picaña que van de 340 a más de 1,400 pesos, aunque de lunes a miércoles hay taco libre de carne por 300 pesos fijos. Abre los siete días, con horario más largo de jueves a sábado.",
+    "tags": ["Argentina", "Cortes"],
+    "openingHours": [
+      { "day": "Lunes", "opens": "13:00", "closes": "20:00" },
+      { "day": "Martes y miércoles", "opens": "13:00", "closes": "22:00" },
+      { "day": "Jueves a sábado", "opens": "13:00", "closes": "23:00" },
+      { "day": "Domingo", "opens": "13:00", "closes": "21:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-beer-bros",
+    "slug": "beer-bros",
+    "name": "Beer Bros",
+    "category": "bares",
+    "zone": "Narvarte",
+    "address": "Luz Saviñón esq. Sánchez Azcona, Narvarte, CDMX",
+    "priceLabel": "$$ · $180 p/p",
+    "price": 180,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-beer-bros",
+      "alt": "Beer Bros",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-beer-bros-1",
+        "alt": "Grifos de cerveza artesanal en barra",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-beer-bros-2",
+        "alt": "Refrigerador con etiquetas de cerveza",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "En la esquina de Luz Saviñón y Sánchez Azcona, esta cervecería tiene 12 líneas de barril y más de 200 etiquetas nacionales e importadas en refrigerador —de las rutas cerveceras más completas de la Narvarte—. Cierra los lunes; viernes y sábado abre hasta las 2 de la mañana.",
+    "tags": ["Cerveza artesanal", "Con amigos"],
+    "openingHours": [
+      { "day": "Martes a jueves y domingo", "opens": "14:00", "closes": "22:00" },
+      { "day": "Viernes y sábado", "opens": "14:00", "closes": "02:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-marea-alta",
+    "slug": "marea-alta",
+    "name": "Marea Alta",
+    "category": "comer",
+    "zone": "Narvarte",
+    "address": "Mitla 71, Narvarte, CDMX",
+    "priceLabel": "$$ · $300 p/p",
+    "price": 300,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-marea-alta",
+      "alt": "Marea Alta",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-marea-alta-1",
+        "alt": "Ceviche servido en tostada",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-marea-alta-2",
+        "alt": "Aguachile con camarones",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Cevichería y aguachilería en Mitla 71, en el corazón de la Narvarte, con ambiente casual y mariscos frescos que rondan entre 200 y 400 pesos por persona.",
+    "tags": ["Mariscos", "Casual"]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-mimbre",
+    "slug": "mimbre",
+    "name": "Mimbre",
+    "category": "cafes",
+    "zone": "San Rafael",
+    "address": "Serapio Rendón 61, San Rafael, CDMX",
+    "priceLabel": "$$ · $200 p/p",
+    "price": 200,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-mimbre",
+      "alt": "Mimbre",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-mimbre-1",
+        "alt": "Pan de masa madre recién horneado",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-mimbre-2",
+        "alt": "Mesa de desayuno en espacio porfiriano",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "En La Privada Roja, uno de los rincones porfirianos más especiales de la San Rafael, Mimbre es panadería y restaurante a la vez: pan de masa madre horneado en casa, café y desayunos como molletes de cuatro quesos o chilaquiles, en un espacio tranquilo con mucha luz natural. Abre de martes a domingo, con cuenta que ronda entre 150 y 250 pesos.",
+    "tags": ["Panadería", "Desayunos"],
+    "openingHours": [
+      { "day": "Martes a sábado", "opens": "09:00", "closes": "20:00" },
+      { "day": "Domingo", "opens": "09:00", "closes": "13:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-ennea",
+    "slug": "ennea",
+    "name": "Ennea",
+    "category": "comer",
+    "zone": "Lomas de Chapultepec",
+    "address": "Monte Líbano 915, Lomas de Chapultepec, CDMX",
+    "priceLabel": "$$$$ · $1000 p/p",
+    "price": 1000,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-ennea",
+      "alt": "Ennea",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-ennea-1",
+        "alt": "Platillo mediterráneo emplatado",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-ennea-2",
+        "alt": "Patio íntimo del restaurante",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "El noveno restaurante del grupo Ikigai —de ahí su nombre, \"nueve\" en griego— trae cocina mediterránea y del Egeo a un local pequeño y sobrio de Lomas de Chapultepec. La decoración discreta y las mesas limitadas hacen que convenga reservar. El ticket promedio ronda entre 800 y 1,200 pesos por persona.",
+    "tags": ["Mediterránea", "Alta cocina"],
+    "openingHours": [
+      { "day": "Lunes a sábado", "opens": "09:00", "closes": "22:30" },
+      { "day": "Domingo", "opens": "09:00", "closes": "20:30" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-antigua-hacienda-tlalpan",
+    "slug": "antigua-hacienda-de-tlalpan",
+    "name": "Antigua Hacienda de Tlalpan",
+    "category": "comer",
+    "zone": "Tlalpan",
+    "address": "Calzada de Tlalpan 4619, Tlalpan, CDMX",
+    "priceLabel": "$$$ · $650 p/p",
+    "price": 650,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-antigua-hacienda-tlalpan",
+      "alt": "Antigua Hacienda de Tlalpan",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-antigua-hacienda-tlalpan-1",
+        "alt": "Jardines coloniales de la hacienda",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-antigua-hacienda-tlalpan-2",
+        "alt": "Comedor con arquitectura del siglo XIX",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Construida en 1837 en la esquina de Calzada de Tlalpan y Allende, esta hacienda es uno de los restaurantes más prestigiados y longevos de la ciudad, con jardines coloniales y cocina mexicana e internacional. Es la joya gastronómica del Tlalpan histórico, a pasos de la plaza del pueblo.",
+    "tags": ["Histórico", "Jardines"],
+    "openingHours": [
+      { "day": "Lunes a sábado", "opens": "12:00", "closes": "01:00" },
+      { "day": "Domingo", "opens": "12:00", "closes": "19:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-jardin-pushkin",
+    "slug": "jardin-pushkin",
+    "name": "Jardín Pushkin",
+    "category": "mascotas",
+    "zone": "Roma Norte",
+    "address": "Av. Cuauhtémoc 104, Roma Norte, CDMX",
+    "priceLabel": "Gratis",
+    "price": 0,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-jardin-pushkin",
+      "alt": "Jardín Pushkin",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-jardin-pushkin-1",
+        "alt": "Perros jugando en área canina",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-jardin-pushkin-2",
+        "alt": "Jardín con bancas y árboles",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Sobre Avenida Cuauhtémoc, este jardín abierto las 24 horas tiene una explanada canina donde caben hasta 35 perros al mismo tiempo, con piso de arcilla, bebederos y un túnel recreativo. De lunes a viernes de 9 a 3 de la tarde, además, hay una clínica veterinaria gratuita instalada ahí mismo. Entrada libre, todo el día.",
+    "tags": ["Pet friendly", "Gratis"],
+    "openingHours": [{ "day": "Todos los días", "opens": "00:00", "closes": "23:59" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-bartola",
+    "slug": "bartola",
+    "name": "Bartola",
+    "category": "comer",
+    "zone": "Roma Norte",
+    "address": "Tabasco 189, Roma Norte, CDMX",
+    "priceLabel": "$$ · $350 p/p",
+    "price": 350,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-bartola",
+      "alt": "Bartola",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-bartola-1",
+        "alt": "Milanesa de pollo para compartir",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-bartola-2",
+        "alt": "Mesa con pastas italianas",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Restaurante ítalo-americano en Tabasco 189 que se volvió viral por sus porciones gigantes —la milanesa de pollo, pensada para compartir entre 2 o 3 personas, cuesta 550 pesos— y por la visita de Tyler, The Creator en marzo de 2026. Es pet friendly y siempre está lleno, así que hay que reservar.",
+    "tags": ["Italiana", "Pet friendly"],
+    "openingHours": [
+      { "day": "Martes a sábado", "opens": "12:00", "closes": "00:00" },
+      { "day": "Domingo", "opens": "12:00", "closes": "22:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-la-caravana",
+    "slug": "la-caravana",
+    "name": "La Caravana",
+    "category": "gaming",
+    "zone": "Del Valle",
+    "address": "Fresas 59, Del Valle, CDMX",
+    "priceLabel": "$ · $50 p/p",
+    "price": 50,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-la-caravana",
+      "alt": "La Caravana",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-la-caravana-1",
+        "alt": "Estantería con cientos de juegos de mesa",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-la-caravana-2",
+        "alt": "Grupo de amigos jugando en mesa",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Con 50 pesos por persona y sin límite de tiempo, La Caravana da acceso a más de 700 juegos de mesa, de los clásicos a los más complejos —comida y bebida se cobran aparte, pero no es obligatorio consumir—. Es de los pocos planes de la ciudad que abre desde el lunes, con otra sucursal frente al Metrobús División del Norte.",
+    "tags": ["Juegos de mesa", "Con amigos"],
+    "openingHours": [
+      { "day": "Lunes a jueves", "opens": "15:00", "closes": "22:00" },
+      { "day": "Viernes", "opens": "15:00", "closes": "23:00" },
+      { "day": "Sábado", "opens": "12:00", "closes": "23:00" },
+      { "day": "Domingo", "opens": "12:00", "closes": "21:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-tepotzotlan",
+    "slug": "tepotzotlan",
+    "name": "Museo Nacional del Virreinato",
+    "category": "viajes",
+    "zone": "Estado de México · ~1 h de CDMX",
+    "address": "Plaza Hidalgo 99, Tepotzotlán, Edo. Méx.",
+    "priceLabel": "$105 MXN",
+    "price": 105,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-tepotzotlan",
+      "alt": "Museo Nacional del Virreinato",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-tepotzotlan-1",
+        "alt": "Fachada del antiguo colegio jesuita",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-tepotzotlan-2",
+        "alt": "Acueducto de Tepotzotlán",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "El Museo Nacional del Virreinato ocupa el antiguo Colegio de San Francisco Javier, de los jesuitas, en Tepotzotlán —el Pueblo Mágico más cercano a la ciudad, a unos 40 km por la autopista México-Querétaro—. Guarda más de 34,000 piezas de arte virreinal de los siglos XVI al XIX, y a unos pasos está el acueducto del pueblo, de 43 arcos. Domingos gratis para mexicanos. Se llega en Tren Suburbano desde Buenavista hasta Cuautitlán, y de ahí un tramo corto a la plaza.",
+    "tags": ["Arte virreinal", "Escapada"],
+    "openingHours": [{ "day": "Martes a domingo", "opens": "09:00", "closes": "18:00" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-biblioteca-vasconcelos",
+    "slug": "biblioteca-vasconcelos",
+    "name": "Biblioteca Vasconcelos",
+    "category": "cultura",
+    "zone": "Buenavista",
+    "address": "Eje 1 Norte Mosqueta s/n esq. Aldama, Buenavista, CDMX",
+    "priceLabel": "Gratis",
+    "price": 0,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-biblioteca-vasconcelos",
+      "alt": "Biblioteca Vasconcelos",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-biblioteca-vasconcelos-1",
+        "alt": "Estanterías suspendidas de la biblioteca",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-biblioteca-vasconcelos-2",
+        "alt": "Interior con luz natural entre libreros",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "A un costado de la antigua estación de ferrocarriles de Buenavista, esta es la biblioteca más grande de México: diseño de Alberto Kalach con estanterías suspendidas que parecen flotar, más de 600,000 ejemplares, ludoteca infantil y una colección de instrumentos musicales que se pueden tocar ahí mismo. Entrada y todas las actividades son gratuitas, los siete días de la semana.",
+    "tags": ["Gratis", "Arquitectura"],
+    "openingHours": [{ "day": "Todos los días", "opens": "08:30", "closes": "19:30" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-estadio-azteca-tour",
+    "slug": "estadio-azteca-tour",
+    "name": "Tour Estadio Azteca",
+    "category": "cultura",
+    "zone": "Coapa",
+    "address": "Calzada de Tlalpan 3465, Santa Úrsula Coapa, CDMX",
+    "priceLabel": "$150 MXN",
+    "price": 150,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-estadio-azteca-tour",
+      "alt": "Tour Estadio Azteca",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-estadio-azteca-tour-1",
+        "alt": "Cancha del estadio vista desde las gradas",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-estadio-azteca-tour-2",
+        "alt": "Túnel de acceso a vestidores",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "El tour por el Estadio Azteca recorre el campo de juego, los vestidores, la sala de prensa y los palcos del coloso de Santa Úrsula Coapa, sede de dos finales de Copa del Mundo. Se compra directo en taquilla, entrando por la Puerta 1.",
+    "tags": ["Histórico", "Deportes"],
+    "openingHours": [
+      { "day": "Lunes a viernes", "opens": "10:00", "closes": "17:00" },
+      { "day": "Sábado y domingo", "opens": "09:00", "closes": "14:00" }
+    ]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-cinemania-loreto",
+    "slug": "cinemania-loreto",
+    "name": "Cinemanía Loreto",
+    "category": "cine-tv",
+    "zone": "San Ángel",
+    "address": "Av. Revolución esq. Río Magdalena, San Ángel, CDMX",
+    "priceLabel": "$65 MXN",
+    "price": 65,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-cinemania-loreto",
+      "alt": "Cinemanía Loreto",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-cinemania-loreto-1",
+        "alt": "Sala de cine con proyección digital",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-cinemania-loreto-2",
+        "alt": "Vestíbulo de cine de arte",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Desde 1994, Cinemanía en Plaza Loreto exhibe cine de arte, clásicos mexicanos y cine de género en sus cuatro salas digitales —boleto general en 65 pesos, o pase de permanencia voluntaria por 90 pesos para ver todas las funciones que quieras en un día.",
+    "tags": ["Cine de arte", "Independiente"],
+    "openingHours": [{ "day": "Todos los días", "opens": "12:00", "closes": "21:45" }]
+  },
+  {
+    "kind": "lugar",
+    "id": "pl-limited-company-coyoacan",
+    "slug": "limited-company-coyoacan",
+    "name": "The Limited Company Geek Store — Coyoacán",
+    "category": "geek",
+    "zone": "Coyoacán",
+    "address": "Av. Miguel Ángel de Quevedo 247, Coyoacán, CDMX",
+    "priceLabel": "Entrada libre",
+    "price": 0,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-limited-company-coyoacan",
+      "alt": "The Limited Company Geek Store Coyoacán",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-limited-company-coyoacan-1",
+        "alt": "Anaqueles con figuras de colección",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "seed": "planazo-limited-company-coyoacan-2",
+        "alt": "Vitrina de figuras de edición limitada",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "La sucursal de Coyoacán de The Limited Company, sobre Miguel Ángel de Quevedo, tiene el mismo catálogo de figuras de colección —Hot Toys, Sideshow, Funko, Bandai, Neca— que la sucursal de Condesa. Entrada libre para ir nomás a ver.",
+    "tags": ["Cómics", "Figuras"]
   }
 ]

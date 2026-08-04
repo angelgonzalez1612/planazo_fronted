@@ -219,5 +219,105 @@
     "recurringDays": [
       0
     ]
+  },
+  {
+    "kind": "evento",
+    "id": "ev-tianguis-condesa",
+    "slug": "tianguis-condesa",
+    "name": "Tianguis de Condesa",
+    "category": "comer",
+    "zone": "Condesa",
+    "address": "Calle Pachuca, entre Veracruz y Juan de la Barrera, Condesa, CDMX",
+    "dateLabel": "Martes · 10:00–17:00",
+    "startDate": "2026-08-04T10:00:00-06:00",
+    "priceLabel": "Gratis",
+    "price": null,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-tianguis-condesa",
+      "alt": "Tianguis de Condesa",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-tianguis-condesa-1",
+        "alt": "Puestos de fruta y verdura en la calle",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Cada martes, tres cuadras de la calle Pachuca, en la Condesa, se cierran a los coches para instalar un tianguis clásico de barrio: fruta y verdura de temporada, ropa, cosméticos y artículos para el hogar, entre camellones arbolados. Corre de Veracruz a Juan de la Barrera, de 10 de la mañana a 5 de la tarde, y es de los pocos tianguis genuinos que quedan en una zona cada vez más gentrificada.",
+    "tags": ["Gratis", "Mercado"],
+    "recurringDays": [2]
+  },
+  {
+    "kind": "evento",
+    "id": "ev-bar-comedy-foro-shakespeare",
+    "slug": "microfono-abierto-foro-shakespeare",
+    "name": "Micrófono Abierto — Foro Shakespeare",
+    "category": "eventos",
+    "zone": "Condesa",
+    "address": "Zamora 7, Condesa, CDMX",
+    "dateLabel": "Jueves · 21:00",
+    "startDate": "2026-08-06T21:00:00-06:00",
+    "priceLabel": "Entrada libre",
+    "price": null,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-bar-comedy-foro-shakespeare",
+      "alt": "Micrófono abierto en Foro Shakespeare",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-bar-comedy-foro-shakespeare-1",
+        "alt": "Escenario pequeño de stand-up",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "Los jueves, el escenario chico de Foro Shakespeare se abre para micrófono abierto de stand-up: comediantes en formación —y algunos ya conocidos probando material nuevo— se turnan frente a un público que solo paga su consumo. Es la puerta de entrada más accesible a la escena de comedia en vivo de la Condesa, sin el boletaje de los shows de fin de semana del mismo foro.",
+    "tags": ["Gratis", "Comedia"],
+    "recurringDays": [4]
+  },
+  {
+    "kind": "evento",
+    "id": "ev-casa-franca-jazz",
+    "slug": "casa-franca-jazz",
+    "name": "Jazz en vivo — Casa Franca",
+    "category": "musica",
+    "zone": "Roma Norte",
+    "address": "Mérida 109, Roma Norte, CDMX",
+    "dateLabel": "Martes a sábado · 21:30",
+    "startDate": "2026-08-04T21:30:00-06:00",
+    "weekend": {
+      "day": "Sábado",
+      "time": "21:30"
+    },
+    "priceLabel": "$100-150 MXN cover",
+    "price": 150,
+    "rating": 0,
+    "reviewCount": 0,
+    "cover": {
+      "seed": "planazo-casa-franca-jazz",
+      "alt": "Jazz en vivo en Casa Franca",
+      "width": 640,
+      "height": 480
+    },
+    "gallery": [
+      {
+        "seed": "planazo-casa-franca-jazz-1",
+        "alt": "Músicos de jazz en escenario íntimo",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "description": "En un bar de ambiente vintage sobre Mérida, en la Roma Norte, Casa Franca mete músicos en vivo de martes a sábado a las 9:30 de la noche, con cover de 100 pesos los martes y 150 el resto de la semana —después de medianoche no se cobra entrada—. La terraza tampoco tiene cover. Es de las apuestas más consistentes de la ciudad para encontrar jazz en vivo casi cualquier noche entre semana.",
+    "tags": ["Música en vivo", "Jazz"],
+    "recurringDays": [2, 3, 4, 5, 6]
   }
 ]
