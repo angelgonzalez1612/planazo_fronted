@@ -1,22 +1,38 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { siteConfig } from "@planazo/config";
 import { getPlans, getCategories } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanCard } from "@/components/plan-card";
+import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Todos los planes",
   description: "Lugares y eventos en CDMX — el directorio completo, curado por gente que sale mucho.",
+  alternates: { canonical: "/planes" },
 };
 
 export default function PlanesPage() {
   const plans = getPlans();
   const categories = getCategories();
   const categoryIcon = new Map(categories.map((c) => [c.id, { icon: c.icon, label: c.label }]));
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Inicio", url: siteConfig.url },
+    { name: "Todos los planes", url: `${siteConfig.url}/planes` },
+  ]);
+  const itemListJsonLd = buildItemListJsonLd(plans);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <SiteHeader />
 
       <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">

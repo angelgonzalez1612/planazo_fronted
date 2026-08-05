@@ -7,6 +7,7 @@ import { SiteFooterFull } from "@/components/site-footer-full";
 export const metadata: Metadata = {
   title: "Quiénes somos",
   description: "Planazo es un directorio de planes en CDMX curado por gente que sale mucho — no por un algoritmo.",
+  alternates: { canonical: "/quienes-somos" },
 };
 
 const PRINCIPLES = [

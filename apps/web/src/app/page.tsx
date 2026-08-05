@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   title: "Qué hacer hoy en CDMX",
   description:
     "Qué hacer hoy y este finde en CDMX: restaurantes, bares, cultura y planes por zona, curados por gente que sale seguido. Sin reseñas genéricas, sin datos inventados.",
+  alternates: { canonical: "/" },
 };
 
 export default function HomePage() {

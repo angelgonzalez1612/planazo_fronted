@@ -38,6 +38,13 @@ export function getCategories(): Category[] {
   return categoriesData as Category[];
 }
 
+/** All categories except "eventos", which has its own dedicated /eventos route. */
+export function getPlaceCategories(): CategoryId[] {
+  return getCategories()
+    .map((c) => c.id)
+    .filter((id) => id !== "eventos");
+}
+
 /** Where "see everything in this category" leads — /eventos for events, /[categoria] otherwise. */
 export function categoryHref(id: CategoryId): string {
   return id === "eventos" ? "/eventos" : `/${id}`;

@@ -57,6 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: seo?.heading ?? `Planes ${found.label.toLowerCase()}`,
     description: seo?.description ?? `Planes para cuando vienes ${found.label.toLowerCase()} — curados por gente que sale mucho.`,
+    alternates: { canonical: `/mood/${mood}` },
   };
 }
 

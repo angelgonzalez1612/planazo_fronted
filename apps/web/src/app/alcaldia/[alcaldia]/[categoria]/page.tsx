@@ -129,7 +129,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const seo = ALCALDIA_CATEGORY_SEO[`${alcaldiaSlug}|${categoria}`];
   if (!seo) return {};
 
-  return { title: seo.heading, description: seo.description };
+  return {
+    title: seo.heading,
+    description: seo.description,
+    alternates: { canonical: `/alcaldia/${alcaldiaSlug}/${categoria}` },
+  };
 }
 
 export default async function AlcaldiaCategoryPage({ params }: Props) {

@@ -7,6 +7,7 @@ import { SiteFooterFull } from "@/components/site-footer-full";
 export const metadata: Metadata = {
   title: "Publicidad",
   description: "Cómo se financia Planazo y cómo anunciar tu negocio en el directorio.",
+  alternates: { canonical: "/publicidad" },
 };
 
 export default function PublicidadPage() {

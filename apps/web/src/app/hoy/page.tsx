@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { siteConfig } from "@planazo/config";
 import {
   getEvents,
   getWeekendAgenda,
@@ -11,6 +12,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanCard } from "@/components/plan-card";
 import { mexicoCityNow, formatMexicoDay } from "@/lib/date";
+import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 // "Hoy" only changes once a day — no need to recompute on every request.
 export const revalidate = 3600;
@@ -27,6 +29,7 @@ export function generateMetadata(): Metadata {
   return {
     title: `Qué hacer hoy en CDMX — ${label}`,
     description: `Planes, eventos y lugares recomendados para hoy, ${label}, en Ciudad de México.`,
+    alternates: { canonical: "/hoy" },
   };
 }
 
@@ -53,9 +56,23 @@ export default function HoyPage() {
   const startOfYear = new Date(today.getFullYear(), 0, 0).getTime();
   const dayOfYear = Math.floor((today.getTime() - startOfYear) / 86_400_000);
   const spotlight = plans[dayOfYear % plans.length];
+  const shownEvents = todayEvents.length > 0 ? todayEvents : upcomingEvents;
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Inicio", url: siteConfig.url },
+    { name: "Hoy", url: `${siteConfig.url}/hoy` },
+  ]);
+  const itemListJsonLd = buildItemListJsonLd([...shownEvents, spotlight]);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <SiteHeader />
 
       <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">
@@ -87,16 +104,14 @@ export default function HoyPage() {
               : "Hoy no hay nada de esto, pero se viene"}
           </h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
-            {(todayEvents.length > 0 ? todayEvents : upcomingEvents).map(
-              (event) => (
-                <PlanCard
-                  key={event.id}
-                  plan={event}
-                  icon={categoryIcon.get(event.category)?.icon ?? "📍"}
-                  categoryLabel={categoryIcon.get(event.category)?.label ?? ""}
-                />
-              ),
-            )}
+            {shownEvents.map((event) => (
+              <PlanCard
+                key={event.id}
+                plan={event}
+                icon={categoryIcon.get(event.category)?.icon ?? "📍"}
+                categoryLabel={categoryIcon.get(event.category)?.label ?? ""}
+              />
+            ))}
           </div>
         </div>
       )}

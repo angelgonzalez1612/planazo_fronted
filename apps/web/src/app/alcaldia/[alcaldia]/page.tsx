@@ -52,6 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description:
       seo?.description ??
       `Qué hacer en la alcaldía ${alcaldia.label}, CDMX — curado por gente que sale mucho.`,
+    alternates: { canonical: `/alcaldia/${alcaldiaSlug}` },
   };
 }
 

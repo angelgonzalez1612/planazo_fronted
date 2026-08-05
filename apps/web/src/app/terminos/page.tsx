@@ -7,6 +7,7 @@ import { SiteFooterFull } from "@/components/site-footer-full";
 export const metadata: Metadata = {
   title: "Términos de uso",
   description: "Condiciones de uso del directorio Planazo: qué es, qué no es, y los límites de responsabilidad sobre la información publicada.",
+  alternates: { canonical: "/terminos" },
 };
 
 export default function TerminosPage() {

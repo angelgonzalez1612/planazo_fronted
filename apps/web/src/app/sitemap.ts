@@ -9,32 +9,19 @@ import {
   getAllTags,
   getAllAlcaldias,
   getAlcaldiaCategoryCounts,
+  getPlaceCategories,
   categoryHref,
 } from "@/lib/data";
-import type { CategoryId } from "@/data/types";
-
-const PLACE_CATEGORIES: CategoryId[] = [
-  "comer",
-  "cafes",
-  "bares",
-  "cultura",
-  "aire-libre",
-  "tecnologia",
-  "gaming",
-  "viajes",
-  "cine-tv",
-  "geek",
-  "mascotas",
-  "musica",
-];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const places = await getPlaces();
   const placeEntries: MetadataRoute.Sitemap = places.map((place) => ({
     url: `${siteConfig.url}/lugares/${place.slug}`,
+    changeFrequency: "monthly",
+    priority: 0.6,
   }));
 
-  const categoryEntries: MetadataRoute.Sitemap = PLACE_CATEGORIES.map((id) => ({
+  const categoryEntries: MetadataRoute.Sitemap = getPlaceCategories().map((id) => ({
     url: `${siteConfig.url}${categoryHref(id)}`,
     changeFrequency: "weekly",
     priority: 0.8,
@@ -42,10 +29,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const eventEntries: MetadataRoute.Sitemap = getEvents().map((event) => ({
     url: `${siteConfig.url}/eventos/${event.slug}`,
+    changeFrequency: "weekly",
+    priority: 0.6,
   }));
 
   const guideEntries: MetadataRoute.Sitemap = getGuides().map((guide) => ({
     url: `${siteConfig.url}/guias/${guide.slug}`,
+    changeFrequency: "monthly",
+    priority: 0.6,
   }));
 
   const zoneEntries: MetadataRoute.Sitemap = getAllZones().map((zone) => ({
@@ -102,6 +93,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${siteConfig.url}/contacto`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteConfig.url}/quienes-somos`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteConfig.url}/planes`, changeFrequency: "daily", priority: 0.7 },
+    { url: `${siteConfig.url}/guias`, changeFrequency: "weekly", priority: 0.7 },
     ...categoryEntries,
     ...placeEntries,
     ...eventEntries,

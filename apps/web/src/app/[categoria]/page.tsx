@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { siteConfig } from "@planazo/config";
-import { getCategories, getPlacesByCategory } from "@/lib/data";
+import { getCategories, getPlaceCategories, getPlacesByCategory } from "@/lib/data";
 import type { CategoryId } from "@/data/types";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
@@ -12,29 +12,12 @@ import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-dat
 
 type Props = { params: Promise<{ categoria: string }> };
 
-// "eventos" is its own dedicated route (/eventos) with a different card shape —
-// this route only ever serves the place categories.
-const PLACE_CATEGORIES: CategoryId[] = [
-  "comer",
-  "cafes",
-  "bares",
-  "cultura",
-  "aire-libre",
-  "tecnologia",
-  "gaming",
-  "viajes",
-  "cine-tv",
-  "geek",
-  "mascotas",
-  "musica",
-];
-
 export function generateStaticParams() {
-  return PLACE_CATEGORIES.map((categoria) => ({ categoria }));
+  return getPlaceCategories().map((categoria) => ({ categoria }));
 }
 
 function findCategory(categoria: string) {
-  if (!PLACE_CATEGORIES.includes(categoria as CategoryId)) return undefined;
+  if (!getPlaceCategories().includes(categoria as CategoryId)) return undefined;
   return getCategories().find((c) => c.id === categoria);
 }
 
@@ -128,6 +111,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: seo?.heading ?? `${category.label} en CDMX`,
     description: seo?.description ?? `${category.label} en CDMX — el directorio completo, curado por gente que sale mucho.`,
+    alternates: { canonical: `/${categoria}` },
   };
 }
 

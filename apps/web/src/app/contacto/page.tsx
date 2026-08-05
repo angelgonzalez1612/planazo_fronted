@@ -7,6 +7,7 @@ import { SiteFooterFull } from "@/components/site-footer-full";
 export const metadata: Metadata = {
   title: "Contacto",
   description: "Escríbenos para reportar un lugar, resolver una duda o hablar de publicidad en Planazo.",
+  alternates: { canonical: "/contacto" },
 };
 
 const REASONS = [

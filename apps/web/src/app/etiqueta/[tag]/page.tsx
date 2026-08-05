@@ -22,6 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: tag.label,
     description: `Lugares y eventos en CDMX con la etiqueta "${tag.label}" — curados por gente que sale mucho.`,
+    alternates: { canonical: `/etiqueta/${tagSlug}` },
   };
 }
 

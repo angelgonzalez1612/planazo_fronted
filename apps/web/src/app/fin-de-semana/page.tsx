@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { siteConfig } from "@planazo/config";
 import { getWeekendAgenda, getCategories, categoryHref } from "@/lib/data";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooterFull } from "@/components/site-footer-full";
 import { PlanCard } from "@/components/plan-card";
 import { mexicoCityNow } from "@/lib/date";
+import { buildBreadcrumbJsonLd, buildItemListJsonLd } from "@/lib/structured-data";
 
 // Same reasoning as /hoy — the weekend only changes once a day, no need to
 // recompute this on every request.
@@ -44,6 +46,7 @@ export function generateMetadata(): Metadata {
   return {
     title: `Qué hacer este fin de semana en CDMX — ${label}`,
     description: `Planes, eventos y lugares recomendados para este fin de semana, ${label}, en Ciudad de México.`,
+    alternates: { canonical: "/fin-de-semana" },
   };
 }
 
@@ -56,9 +59,22 @@ export default function FinDeSemanaPage() {
   const categoryIcon = new Map(
     categories.map((c) => [c.id, { icon: c.icon, label: c.label }]),
   );
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Inicio", url: siteConfig.url },
+    { name: "Este fin de semana", url: `${siteConfig.url}/fin-de-semana` },
+  ]);
+  const itemListJsonLd = buildItemListJsonLd(weekendEvents);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <SiteHeader />
 
       <div className="mx-auto flex flex-wrap gap-2 px-4 pt-4.5 text-[13.5px] text-ink-soft md:px-10">

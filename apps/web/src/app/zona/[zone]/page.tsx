@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Qué hacer en ${zone.label}`,
     description: `Qué hacer en ${zone.label}, CDMX — restaurantes, bares, cultura y planes curados por gente que sale mucho.`,
+    alternates: { canonical: `/zona/${zoneSlug}` },
   };
 }
 

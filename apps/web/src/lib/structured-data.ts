@@ -1,8 +1,9 @@
 import { siteConfig } from "@planazo/config";
-import type { CategoryId, Plan } from "@/data/types";
+import type { CategoryId, Guide, Plan } from "@/data/types";
 import { resolvePhoto } from "@/lib/data/photo";
 import { mexicoCityNow } from "@/lib/date";
 import { nextEventOccurrence } from "@/lib/event-schedule";
+import { buildOpeningHoursSpecification } from "@/lib/opening-hours";
 
 // Maps our categories to the closest schema.org type Google actually keys
 // rich results off of for "dónde comer / tomar algo" style local searches.
@@ -26,6 +27,7 @@ const SCHEMA_TYPE_BY_CATEGORY: Record<CategoryId, string> = {
 export function buildPlaceJsonLd(plan: Extract<Plan, { kind: "lugar" }>) {
   const cover = resolvePhoto(plan.cover);
   const url = `${siteConfig.url}/lugares/${plan.slug}`;
+  const openingHoursSpecification = buildOpeningHoursSpecification(plan.openingHours);
 
   return {
     "@context": "https://schema.org",
@@ -56,6 +58,7 @@ export function buildPlaceJsonLd(plan: Extract<Plan, { kind: "lugar" }>) {
         reviewCount: plan.reviewCount,
       },
     }),
+    ...(openingHoursSpecification && { openingHoursSpecification }),
   };
 }
 
@@ -142,6 +145,19 @@ export function buildItemListJsonLd(plans: Plan[]) {
       "@type": "ListItem",
       position: index + 1,
       url: `${siteConfig.url}/${plan.kind === "evento" ? "eventos" : "lugares"}/${plan.slug}`,
+    })),
+  };
+}
+
+/** Same idea as buildItemListJsonLd but for the /guias index — guides aren't Plans. */
+export function buildGuideListJsonLd(guides: Guide[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: guides.map((guide, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${siteConfig.url}/guias/${guide.slug}`,
     })),
   };
 }

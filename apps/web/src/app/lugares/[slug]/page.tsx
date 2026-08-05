@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${place.name} — ${place.zone}, CDMX`,
     description: place.description,
     openGraph: { images: [cover.url] },
+    alternates: { canonical: `/lugares/${slug}` },
   };
 }
 

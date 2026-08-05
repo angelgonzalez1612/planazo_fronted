@@ -7,6 +7,7 @@ import { SiteFooterFull } from "@/components/site-footer-full";
 export const metadata: Metadata = {
   title: "Aviso de privacidad",
   description: "Cómo Planazo recaba y usa tus datos: qué información recopilamos, con qué fin, y cómo ejercer tus derechos ARCO.",
+  alternates: { canonical: "/privacidad" },
 };
 
 export default function PrivacidadPage() {
