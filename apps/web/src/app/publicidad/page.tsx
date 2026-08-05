@@ -51,14 +51,32 @@ export default function PublicidadPage() {
           </section>
 
           <section>
-            <h2 className="mb-2 font-heading text-[19px] font-bold tracking-tight text-ink">¿Tienes un negocio y quieres anunciarte?</h2>
+            <h2 className="mb-2 font-heading text-[19px] font-bold tracking-tight text-ink">Lugar Patrocinado</h2>
             <p>
-              Si buscas otra forma de aparecer en Planazo — más allá de los anuncios de Google — escríbenos a{" "}
+              Si tu negocio ya está en el directorio, puedes destacarlo con la insignia{" "}
+              <span className="inline-flex items-center gap-1 rounded-full bg-brand-deep px-2.5 py-1 text-[12px] font-bold text-white">
+                📣 Patrocinado
+              </span>{" "}
+              — aparece en su tarjeta y en su página, en todas las vistas donde ese lugar sale de forma natural (su
+              zona, su categoría, su alcaldía, cualquier etiqueta). No cambia cómo lo describimos ni le da mejor
+              trato editorial — solo lo hace más visible.
+            </p>
+            <ul className="mt-3 flex flex-col gap-1.5">
+              <li>💰 <strong>$699 MXN al mes</strong>, sin permanencia forzada — cancelas cuando quieras.</li>
+              <li>🎯 <strong>Cupo limitado por categoría</strong>, para que la insignia siga significando algo y no se sature: por ejemplo, máximo 4 lugares patrocinados en Comer a la vez, o solo 1 en categorías chicas como Música o Gaming.</li>
+              <li>✅ Tu negocio ya tiene que estar en el directorio — la curaduría sigue siendo independiente de la publicidad.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="mb-2 font-heading text-[19px] font-bold tracking-tight text-ink">¿Cómo lo contrato?</h2>
+            <p>
+              Escríbenos a{" "}
               <a href="mailto:edangel.gonzalez.cruz@gmail.com" className="font-semibold text-brand hover:underline">
                 edangel.gonzalez.cruz@gmail.com
               </a>{" "}
-              contándonos tu negocio. Todavía no tenemos un paquete o tarifa fija publicada — lo estamos armando —
-              pero respondemos cada correo.
+              contándonos tu negocio y en qué categoría está. Si buscas otra forma de anunciarte más allá de esto o
+              de los anuncios de Google, también escríbenos — respondemos cada correo.
             </p>
           </section>
         </div>

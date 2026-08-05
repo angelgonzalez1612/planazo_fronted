@@ -95,9 +95,16 @@ export function PlanDetailView({
       <div className="mx-auto max-w-[1280px] px-4 py-3.5 pb-12 sm:pb-16 md:px-10">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_320px] lg:gap-10">
           <div>
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-accent px-3 py-1.5 text-[12.5px] font-bold text-brand-deep">
-              {categoryIcon} {categoryLabel}
-            </span>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-accent px-3 py-1.5 text-[12.5px] font-bold text-brand-deep">
+                {categoryIcon} {categoryLabel}
+              </span>
+              {plan.badge && (
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-deep px-3 py-1.5 text-[12.5px] font-bold text-white shadow-[0_4px_10px_-2px_rgba(255,90,0,0.5)]">
+                  📣 {plan.badge}
+                </span>
+              )}
+            </div>
             <h1 className="text-wrap-balance mt-3.5 font-heading text-[clamp(28px,4vw,44px)] leading-[1.06] font-extrabold tracking-tight">
               {plan.name}
             </h1>

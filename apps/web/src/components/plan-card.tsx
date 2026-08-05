@@ -34,9 +34,16 @@ export function PlanCard({
           className="object-cover"
         />
         <div className="absolute inset-0 flex items-start justify-between p-3">
-          <span className="rounded-full bg-background/94 px-3 py-1.5 text-xs font-bold tracking-wide">
-            {icon} {categoryLabel}
-          </span>
+          <div className="flex flex-col items-start gap-1.5">
+            <span className="rounded-full bg-background/94 px-3 py-1.5 text-xs font-bold tracking-wide">
+              {icon} {categoryLabel}
+            </span>
+            {plan.badge && (
+              <span className="rounded-full bg-brand-deep px-2.5 py-1 text-[10.5px] font-bold tracking-wide text-white shadow-[0_4px_10px_-2px_rgba(255,90,0,0.5)]">
+                📣 {plan.badge}
+              </span>
+            )}
+          </div>
           <button
             type="button"
             title="Guardar"

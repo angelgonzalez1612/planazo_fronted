@@ -59,6 +59,7 @@ interface PlanBase {
   descriptionLong?: string;
   /** Short callouts ("Qué pedir", "Cómo llegar") — real findings only, never filler. */
   highlights?: ContentSection[];
+  /** Paid sponsored placement label (e.g. "Patrocinado") — rendered as a solid brand-color pill, distinct from editorial content. Never used for curation signals; see /publicidad's promise that ads and curation stay separate. */
   badge?: string;
   /** Descriptive labels ("Pet friendly", "Para trabajar") — what a collection filters by. */
   tags?: string[];
