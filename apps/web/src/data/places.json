@@ -26,6 +26,7 @@
       }
     ],
     "description": "La panadería de Elena Reygadas, la misma chef detrás del restaurante Rosetta, abrió en 2012 como extensión de esa cocina hacia el pan. Aquí manda la fermentación lenta: panes de inspiración europea que conviven con el pan dulce mexicano de toda la vida, concha y pan de muerto incluidos. La pieza que la volvió famosa es el rol de guayaba, un giro sobre el clásico ate con queso que se agota casi todos los días. Es una de las razones por las que Roma Norte se volvió un destino gastronómico, y sigue siendo parada obligada para desayunar con café o llevarse pan fresco a casa, aunque haya que hacer fila en la puerta.",
+    "descriptionLong": "En 2023, Reygadas fue nombrada World's Best Female Chef por The World's 50 Best Restaurants, un reconocimiento votado por más de mil expertos culinarios de 27 regiones del mundo y auditado por Deloitte. Ya la habían nombrado mejor chef mujer de América Latina en 2014, pero el premio de 2023 la consolidó como una de las figuras más importantes de la gastronomía mexicana — y detrás de ese reconocimiento sigue estando, entre otras cosas, el rol de guayaba que se agota cada mañana en esta panadería.",
     "badge": "Destacado",
     "tags": [
       "Panadería",
@@ -70,6 +71,7 @@
       }
     ],
     "description": "Ocupa una casona colonial de Coyoacán que hasta 1734 fue propiedad de la parroquia de San Juan Bautista, antes de pasar al Estado con las Leyes de Reforma. El museo nació en 1982 por impulso del antropólogo Guillermo Bonfil Batalla, pensado como un espacio serio (no folclórico) para documentar la diversidad étnica y regional de México. No tiene salas permanentes: todo es exposición temporal, así que cada visita cambia — desde textiles y gastronomía hasta fiestas patronales. Una pieza que casi siempre sorprende es \"El Árbol de la Vida\", una escultura de barro de cinco metros hecha en 1992 por José Alfonso Soteno Fernández. Entrada libre los domingos.",
+    "descriptionLong": "Bonfil Batalla, el antropólogo que impulsó el museo, publicó en 1987 su libro más influyente, 'México profundo: una civilización negada', donde plantea que la cultura indígena no es un vestigio del pasado sino una civilización viva que ha resistido y se ha adaptado durante siglos, negada sistemáticamente desde la Conquista por una mirada exclusivamente occidental del país. Ese mismo argumento —que hay un 'México profundo' indígena bajo el 'México imaginario' que se cuenta oficialmente— es la idea que organiza cada exposición temporal de este museo, sin salas permanentes que fijen una sola versión de la cultura popular mexicana.",
     "tags": [
       "Tradicional",
       "Familiar"
@@ -118,6 +120,7 @@
       }
     ],
     "description": "Zacatecas 180 lleva más de una década siendo parada obligada para quien toma en serio el café en la Roma Norte. Nació como un proyecto de tueste propio con grano ético de origen mexicano (Oaxaca, entre otros), y ahí sigue: barra de La Marzocco para el espresso y una selección corta de métodos —V60, Chemex, Delter— para quien prefiere ir más despacio. El espacio es minimalista, casi de laboratorio, sin la vibra de cafetería para selfies; se nota que el foco está en la taza. No es lugar para desayuno fuerte ni para quedarse toda la tarde con la laptop: es más bien un alto rápido y bien hecho en medio del recorrido por la colonia.",
+    "descriptionLong": "Almanegra —'alma negra'— nació en 2014, aunque su primer local no fue en la Roma sino en la Narvarte: tres amigos, entre ellos el cofundador Octavio Ruiz, eligieron ese barrio residencial porque era el suyo y porque ahí nadie más había tratado al café como protagonista. La sucursal de Roma Norte llegó después, ya con la idea probada, y hoy la marca también tiene una tostaduría propia en la colonia Moderna que surte a las demás sedes.",
     "tags": [
       "Café de especialidad"
     ],
@@ -163,6 +166,7 @@
       }
     ],
     "description": "Esta terraza vive arriba del Hostel Mundo Joven, justo enfrente del Zócalo, y la vista es la razón de ser del lugar: la Catedral Metropolitana casi a la mano, el Palacio Nacional de fondo. La onda es informal —mesas techadas y otras al aire libre, cerveza fría o un coctel sencillo, algo de botana mexicana o una hamburguesa— y entre semana se llena de viajeros de medio mundo que se conocen ahí mismo. Los fines de semana meten DJs invitados y el ambiente sube de tono hasta la 1 am. No es el lugar para coctelería fina, es para sentarte con amigos, tomar algo accesible y ver la ciudad vieja desde arriba.",
+    "descriptionLong": "Justo enfrente, en el asta de 50 metros del Zócalo, cada mañana a las 6 y cada tarde a las 6 un contingente del Ejército iza y arría una bandera monumental de 230 kilos que mide 25 por 14 metros, con desfile de tambores y trompetas incluido. El programa arrancó en 1999 por decreto del entonces presidente Ernesto Zedillo, y en fechas como el 24 de febrero o el 16 de septiembre la ceremonia se vuelve más solemne todavía — un espectáculo gratuito que se ve mejor que desde ningún otro lado, justo desde esta terraza.",
     "tags": [
       "Vista panorámica",
       "Con amigos"
@@ -234,6 +238,7 @@
       }
     ],
     "description": "El edificio en sí ya es una pieza de colección: Rufino Tamayo convocó a los arquitectos Teodoro González de León y Abraham Zabludovsky para diseñarlo, con una forma piramidal que dialoga con la herencia prehispánica del Bosque de Chapultepec. Abrió en 1981 y ganó el Premio Nacional de Ciencias y Artes al año siguiente. La colección permanente reúne alrededor de 315 obras que Olga y Rufino Tamayo juntaron a lo largo de su vida, representativas del arte de la segunda mitad del siglo XX. La nueva sala amplía ese recorrido con arte contemporáneo mexicano, en un espacio que se siente más íntimo que monumental pese a estar en pleno bosque. Entrada libre los domingos para residentes.",
+    "descriptionLong": "Tamayo, el pintor que da nombre al museo, nació en Oaxaca hijo de padres zapotecas y decidió usar solo el apellido materno como reconocimiento a esa herencia indígena. Entró a la Academia de Bellas Artes en 1917 pero la abandonó a los pocos meses para formarse como autodidacta, y mientras la escena mexicana de su época giraba alrededor del muralismo político de Rivera, Orozco y Siqueiros, él apostó por un arte más íntimo, colorista y sin la carga ideológica revolucionaria — una independencia de criterio que hoy se nota en la colección que él mismo donó para llenar este edificio.",
     "tags": [
       "Familiar",
       "Arte"
@@ -296,6 +301,7 @@
       }
     ],
     "description": "La Cineteca Nacional abrió en 1974 para preservar y difundir el cine mexicano, pero en 1982 un incendio destruyó buena parte del archivo original — se perdieron miles de negativos. Se reconstruyó en Xoco y reabrió en 1984 con apenas cuatro salas; hoy son diez, más un foro al aire libre y un centro de consulta. La programación de cine de autor mezcla clásicos restaurados con lo mejor del cine independiente contemporáneo, casi siempre con funciones entre semana. El ambiente es tranquilo, sin el bullicio de un multiplex de centro comercial, con cafetería y librería alrededor — de los pocos lugares donde ir al cine entre semana se siente un plan en sí mismo, no solo un pretexto para la cita.",
+    "descriptionLong": "La tarde del incendio de 1982, mientras se proyectaba 'La tierra de la gran promesa' del polaco Andrzej Wajda en la sala Fernando de Fuentes —nombrada así en honor a uno de los grandes directores de la época de oro del cine mexicano—, el personal detectó humo en el sótano justo antes de que el fuego llegara a una bóveda de películas en nitrato de plata y provocara una explosión. La reconstrucción que llevó a la Cineteca a Xoco no fue solo un esfuerzo gubernamental: la impulsó el Patronato Pro-reconstrucción y Recuperación de la Cineteca, una organización ciudadana formada específicamente para lograr que el cine mexicano tuviera casa de nuevo.",
     "tags": [
       "Cine de autor",
       "Romántico"
@@ -352,6 +358,7 @@
       }
     ],
     "description": "Abrió en 1993 en la segunda sección de Chapultepec, y durante 30 años su Megapantalla IMAX (primero en formato 70mm, luego en 3D) fue parte central de la experiencia; cerró de manera definitiva en 2023 al terminar el contrato con IMAX, y ese domo hoy funciona como sala digital. El resto del museo conserva seis áreas pensadas para niños de 2 a 12 años — acercamiento a seres vivos, ecosistemas mexicanos, espacio exterior y zonas de trabajo manual — junto con clásicos como la cama de clavos y las burbujas gigantes. Es de los pocos museos de la ciudad realmente diseñado para que los niños toquen y experimenten. En temporada alta conviene reservar horario con anticipación.",
+    "descriptionLong": "El arquitecto Ricardo Legorreta, junto con su hijo Víctor, lo diseñó sobre el terreno donde antes estuvo la Fábrica Nacional de Vidrio, cubriendo el exterior con azulejos azules y amarillos que forman grecas de inspiración mudéjar, muy parecidas a la decoración de los conventos del siglo XVI. Para Legorreta, diseñar el Papalote era 'crear un sueño para despertar la imaginación', así que hasta los murales de paredes y techos los pintaron niños — la premisa desde el inicio fue que el edificio mismo, no solo las exhibiciones de adentro, tenía que sentirse como un juguete gigante.",
     "tags": [
       "Familiar",
       "Interactivo"
@@ -408,6 +415,7 @@
       }
     ],
     "description": "Xochimilco es Patrimonio de la Humanidad por sus canales y chinampas, un sistema que los pueblos originarios empezaron a construir desde el siglo XIV para cultivar sobre el agua. Nuevo Nativitas es uno de los embarcaderos grandes de la zona, con más de doscientas trajineras pintadas de colores y bautizadas con nombres de mujer (la más común, \"Lupita\", por la Virgen de Guadalupe). Ahí rentas la barca por hora, subes con tu grupo, cargas hielera y comida, y navegas entre chinamperos que venden flores, elotes y hasta música desde otras trajineras. Tiene estacionamiento, restaurantes y mercado de artesanías a la entrada. Mejor ir temprano entre semana, evitando el gentío del fin de semana.",
+    "descriptionLong": "Cada trajinera colorida la construye a mano un puñado de astilleros tradicionales, con oyamel y pino traídos de Michoacán para el fondo y los costados, encino —más resistente— para la proa y la popa, y cáscara de coco de Guerrero como sellador entre las juntas, hoy reforzado con fibra de vidrio para que aguanten más. El propio embarcadero es más joven de lo que parece: los embarcaderos turísticos de Xochimilco, con la reforestación del bosque de Nativitas incluida, no se construyeron sino hasta la década de 1910-1920, cuando el techo de tela —hoy de lámina— se volvió necesario por la creciente popularidad de las trajineras entre visitantes.",
     "tags": [
       "Familiar",
       "Grupos grandes"
@@ -451,6 +459,7 @@
       }
     ],
     "description": "Nació en 1924 por iniciativa del biólogo Alfonso L. Herrera, con apenas un puñado de bisontes y cachorros de león; hoy es de los zoológicos más visitados de Latinoamérica y la entrada sigue siendo gratis. Su fama internacional llegó con los pandas: desde que llegaron Ying Ying y Pe Pe en 1975, aquí nacieron los primeros pandas gigantes fuera de China, empezando por Tohuí en 1980. Se dice que la altitud de la ciudad, parecida a la de Sichuan, ayudó a ese éxito reproductivo. Está dentro del Bosque de Chapultepec, así que puedes combinar la visita con el resto del parque. Cierra los lunes; conviene llegar apenas abren para evitar las filas, sobre todo en fin de semana.",
+    "descriptionLong": "Alfonso L. Herrera, el biólogo que fundó el zoológico en 1924, es considerado el padre de la biología en México: dirigió el Museo Nacional de Historia Natural desde 1915, fundó también el Jardín Botánico de Chapultepec y el Acuario de Veracruz, y desarrolló una teoría propia sobre el origen de la vida —la plasmogenia— con más de 4,000 experimentos que buscaban explicar cómo surgió el protoplasma a partir de materia inorgánica. El zoológico fue solo una de las varias instituciones científicas que dejó como legado, no el proyecto central de su carrera.",
     "tags": [
       "Familiar",
       "Gratis"
@@ -494,6 +503,7 @@
       }
     ],
     "description": "Abrió en octubre de 1902 y sigue siendo una de las pulquerías más queridas del Centro. El pulque llega fresco de San Isidro Nanacamilpa, en Tlaxcala, y ahí mismo preparan los curados cada mañana: avena, apio, guayaba y lo que se le ocurra al encargado en turno, casi siempre más de cuarenta sabores rotando. Desde que Arturo Garrido la rescató a mediados de los 2000, las paredes y el techo están cubiertos por un mural de Guillermo Carreño con Mayahuel y simbología prehispánica, así que tomar ahí se siente casi como estar en un museo de barrio. Sin pretensiones, mesas compartidas, música de sonidero: pulque de verdad, como se bebe en esa esquina desde hace más de un siglo.",
+    "descriptionLong": "Esta pulquería tiene casi 105 años y jugó un papel poco conocido en la historia de las mujeres en la ciudad: en 1923 se prohibió oficialmente el acceso de mujeres al área común de las pulquerías, una veda que duró 59 años hasta 1982. Las Duelistas fue de las primeras en abrir su espacio mixto cuando cayó la prohibición, y ese espíritu se nota todavía en la mezcla de gente que se sienta hoy en sus mesas compartidas. El origen del nombre, curiosamente, ni el propio dueño Arturo Garrido lo tiene del todo claro.",
     "tags": [
       "Tradicional",
       "Con amigos"
@@ -537,6 +547,7 @@
       }
     ],
     "description": "Changarro de la colonia San Rafael, abierto desde 1968, que en 2024 se convirtió en la primera taquería del mundo en ganar una estrella Michelin —y la ha mantenido desde entonces. No hay truco ni menú largo: cuatro cortes nada más, bistec, costilla, chuleta y la gaonera, un filete delgado marinado que rinde tributo al torero Rodolfo Gaona, todo a la plancha con sal gruesa, limón y tortillas de maíz hechas a mano al momento. Sin salsas de adorno, sin decoración, sin mesas para sentarse con calma. Es la prueba de que la alta cocina no necesita mantel largo, solo consistencia y años de repetir lo mismo sin bajar la guardia.",
+    "descriptionLong": "La gaonera del nombre rinde tributo a Rodolfo Gaona, torero nacido en León, Guanajuato, en 1888, que llegó a ser tan famoso que lo apodaban 'El Califa de León' —el mismo sobrenombre que hoy lleva esta taquería—. Gaona, de origen humilde y aprendiz de zapatero antes de entrar al toreo, inventó el lance de capote que lleva su nombre y se retiró de los ruedos en 1925 tras dos décadas como una de las figuras más importantes de la tauromaquia mexicana; murió en la Ciudad de México en 1975, medio siglo antes de que su apellido volviera a hacerse famoso, esta vez sobre una plancha de tacos.",
     "tags": [
       "Tacos",
       "Callejero"
@@ -580,6 +591,7 @@
       }
     ],
     "description": "Es el museo más visitado del país, inaugurado en 1964 y diseñado por Pedro Ramírez Vázquez junto con Rafael Mijares y Jorge Campuzano, quienes tomaron como referencia el Cuadrángulo de las Monjas de Uxmal para organizar las salas alrededor de un patio central con el famoso \"paraguas\" de concreto y su fuente. El proyecto ganó la medalla de oro en la Bienal de Arquitectura de São Paulo en 1965. Adentro está la colección arqueológica más importante de las culturas prehispánicas de México, con la Piedra del Sol como pieza estelar en la Sala Mexica — un monolito de 24 toneladas que por sí solo justifica la visita. Hace falta más de una tarde para recorrerlo bien. Entrada libre los domingos para residentes.",
+    "descriptionLong": "La noche del 24 de diciembre de 1985, ladrones se metieron por un ducto de ventilación y se llevaron 140 piezas arqueológicas de las salas Mexica y Oaxaca, en lo que hasta hoy se considera el robo de arte prehispánico más importante de la historia de México. El museo mandó un boletín con fotografías y huellas a 158 países, y la asociación de amigos del museo juntó 50 millones de pesos de recompensa; las piezas no aparecieron hasta 1989, cuando la investigación llegó a los responsables. Ese episodio, más que cualquier vitrina, es el que mejor explica por qué hoy la seguridad del museo es tan estricta.",
     "tags": [
       "Gratis los domingos",
       "Familiar"
@@ -623,6 +635,7 @@
       }
     ],
     "description": "Cada sábado desde el 4 de octubre de 1980, cuando los hermanos Jorge y Toño Pantoja lo armaron dentro del Museo Universitario del Chopo como espacio de trueque de discos de todos los géneros, no solo rock. Con los años se volvió el epicentro de la contracultura, el metal, el punk y el rock mexicano: generaciones de melómanos han comprado ahí vinilos raros, chamarras de piel, fanzines y mercancía que no encuentras en ningún otro lado. En 2023, tras más de cuatro décadas, el gobierno capitalino lo declaró Patrimonio Cultural Inmaterial de la Ciudad. Es gratis, se disfruta mejor caminando sin prisa entre puestos, y el ambiente es tan parte del plan como lo que compras.",
+    "descriptionLong": "El Chopo nació apenas nueve años después de que el rock mexicano viviera su momento más traumático: el Festival de Avándaro de 1971, el 'Woodstock mexicano' con hasta 200,000 asistentes, provocó tal pánico en el gobierno de Luis Echeverría que se censuraron los medios, se detuvo a cientos de jóvenes y se prohibieron de facto los conciertos de rock en el país durante años. Ese vacío —sin foros, sin discos importados fáciles de conseguir, sin espacio para la contracultura— es exactamente lo que los hermanos Pantoja vinieron a llenar cuando armaron el primer tianguis de trueque de discos en 1980, en un país que apenas empezaba a permitir otra vez la música que había reprimido.",
     "tags": [
       "Gratis",
       "Cultura alternativa"
@@ -666,6 +679,7 @@
       }
     ],
     "description": "Zinco vive en el sótano de Motolinia 20, en lo que antes fueron las bóvedas subterráneas de un banco: todavía se ven las puertas de acero y los cerrojos enormes en el pasillo de entrada, que le dan ese aire de club clandestino neoyorquino que buscaban desde que abrió en 2005 (el nombre es un guiño al legendario Zinc de Nueva York). De miércoles a sábado hay jazz en vivo con algunos de los músicos más sólidos de la escena local, en un espacio pequeño e íntimo donde realmente se escucha la música. En 2023, DownBeat lo reconoció como el único club mexicano entre los 106 mejores clubes de jazz del mundo, algo que aquí nadie presume pero que se nota en la calidad del cartel.",
+    "descriptionLong": "El nombre es un homenaje directo al Zinc Bar de Nueva York, un club de Greenwich Village que ocupa el espacio de lo que entre los años treinta y cincuenta fue el Club Cinderella: ahí Thelonious Monk tocaba el piano de planta y Billie Holiday cantaba noche tras noche, con Frank Sinatra entre el público. Zinco en el Centro Histórico busca esa misma atmósfera de club clandestino de otra época, con la diferencia de que aquí el escenario está literalmente dentro de la bóveda de un banco.",
     "tags": [
       "Música en vivo",
       "Romántico"
@@ -712,6 +726,7 @@
       }
     ],
     "description": "Mercado gastronómico de tres niveles construido donde antes estaba el Bar Gran León, con diseño de Rojkind Arquitectos que mezcla líneas futuristas con detalles más clásicos, como los pisos de pasta. Abajo, puestos de comida callejera y de mercado que van de la torta al caviar; arriba, restaurantes más formales; y en la azotea, el Biergarten Roma, una terraza al aire libre que recrea el espíritu de los jardines cerveceros alemanes con cerveza artesanal mexicana. Es de los pocos lugares en la Roma donde un grupo grande puede sentarse junto y cada quien pedir algo distinto, del pozole al sushi, sin que nadie tenga que ceder.",
+    "descriptionLong": "El terreno donde está parado perteneció más de 40 años al Bar Gran León, un salón de rumba y música tropical con el lema 'La Rumba es Cultura' que durante tres décadas reunió a Carlos Monsiváis, Gonzalo Celorio y Arturo Ripstein, y que sirvió de locación para películas como 'El mil usos'. Cuando Mercado Roma abrió en 2014 como el primer mercado gourmet de la ciudad, heredó ese mismo terreno sobre la calle Querétaro — de templo de la rumba a templo gastronómico, sin cambiar de dirección.",
     "tags": [
       "Mercado",
       "Grupos"
@@ -748,6 +763,7 @@
       }
     ],
     "description": "Juan O'Gorman diseñó este conjunto en 1931, uno de los primeros ejemplos de arquitectura funcionalista en América Latina: dos bloques de concreto — uno rojo y blanco para Diego, uno azul para Frida — unidos solo por un puente en la azotea, cada uno con entrada y vida independiente. La pareja se mudó ahí en 1934, y en ese estudio Frida pintó obras como \"Lo que el agua me dio\" antes de irse a la Casa Azul en 1941; Diego, en cambio, trabajó ahí hasta su muerte en 1957. El museo abrió en 1986 y conserva los talleres casi como los dejaron, con caballetes, pinceles y objetos de arte popular que Rivera fue acumulando. Entrada libre los domingos.",
+    "descriptionLong": "En vez de un muro convencional, O'Gorman rodeó el terreno con una barda de órganos, un cactus columnar que delimita la propiedad y al mismo tiempo evoca el paisaje mexicano — un gesto arquitectónico que en su momento resultó provocador en un barrio dominado por el estilo colonial europeo de San Ángel. Esa barda sigue en pie hoy, restaurada recientemente con apoyo del Programa de Desarrollo de Arte y Cultura Citibanamex, y es tan parte del diseño funcionalista original como el puente que conecta las dos casas.",
     "tags": [
       "Arte",
       "Arquitectura"
@@ -791,6 +807,7 @@
       }
     ],
     "description": "Fundado en 1959 por el Instituto de Biología, es el segundo jardín botánico más antiguo del país y alberga la colección de plantas vivas más grande de México: más de 6,900 ejemplares y 1,200 especies mexicanas repartidas en quince colecciones, desde cactáceas, agaves y orquídeas hasta un jardín de plantas medicinales y otro dedicado a la evolución. Está metido dentro de Ciudad Universitaria, sobre terreno de pedregal volcánico, así que además de ver plantas caminas por un pedazo de la reserva ecológica de CU. Entrada gratuita, ideal para una tarde tranquila; eso sí, cierra en los periodos vacacionales de la universidad, conviene checar antes de ir.",
+    "descriptionLong": "Lo fundaron en 1959 los botánicos Faustino Miranda y Manuel Ruíz Oronoz, con el respaldo de Efrén del Pozo, entonces secretario general de la UNAM; Miranda, de origen español, armó un equipo de jóvenes colectores que con los años se volvieron referentes de la botánica mexicana, entre ellos Arturo Gómez-Pompa. Desde el inicio la prioridad fue reunir plantas raras o endémicas de zonas tropicales y áridas del país, un criterio que explica por qué hoy el jardín resguarda una proporción enorme de las especies mexicanas que están amenazadas o en peligro de extinción.",
     "tags": [
       "Familiar",
       "Gratis"
@@ -839,6 +856,7 @@
       }
     ],
     "description": "Desde 1953 este rincón de Cuauhtémoc y Allende es sinónimo de Coyoacán: lo abrieron Bertha Paredes y Gil Romero con un changarro de productos veracruzanos que terminó definiéndose por el café. Más de setenta años después lo siguen llevando los hijos de los fundadores, ya con varias sucursales repartidas por la ciudad, aunque esta original sigue siendo la de peregrinaje obligado. Aquí no hay mesas ni pretensión: pides tu café de olla o capuchino en vaso, tu torta envuelta en papel, y sigues caminando hacia el Jardín Centenario. Es café para tomar de pie o de banqueta, parte del ritual de domingo en el barrio más que una experiencia de cafetería.",
+    "descriptionLong": "El café de olla que sirven aquí en jarrito de barro tiene un origen mucho más reciente de lo que parece: aunque muchos lo asumen prehispánico, el café en sí no llegó a México hasta el siglo XVIII vía Veracruz, y la teoría más aceptada es que la bebida con canela y piloncillo nació durante la Revolución Mexicana, cuando las Adelitas la preparaban en ollas de barro para dar algo caliente a los soldados y suavizarla al paladar con especias. Un siglo después, ese mismo gesto revolucionario de calentar el cuerpo en la calle es, en esencia, lo que sigue pidiendo la gente que hace fila en esta esquina de Coyoacán.",
     "tags": [
       "Tradicional",
       "Para llevar"
@@ -882,6 +900,7 @@
       }
     ],
     "description": "Más que una cafetería, El Péndulo es de esos lugares que uno agenda para pasar la tarde: nació en 1993 con la idea de armar un centro cultural de barrio que mezclara librería, café y programación en vivo, y esta sucursal de Nuevo León es una de las que mejor conserva ese espíritu. Entre anaqueles de literatura, arte y humanidades hay terraza, conciertos ocasionales, presentaciones de libros y un servicio que ya va de desayuno a cena (con barra en algunas sucursales de la cadena). Es el lugar para llegar sin prisa, hojear algo que no pensabas comprar y quedarte más tiempo del planeado con un café con leche grande.",
+    "descriptionLong": "El Péndulo lo fundaron en 1993 Jaime Ades, Alberto Asse y Eduardo Aizenman con una idea concreta: en ese momento las librerías de la ciudad se concentraban en el Centro y el sur, y ellos querían abrir una en las colonias donde habían crecido. La palabra 'cafebrería' la inventaron ellos mismos para nombrar ese híbrido de librería, cafetería y foro cultural que no tenía referente claro en México en ese momento — la primera sucursal, justo esta de Nuevo León en la Condesa, fue la que puso a prueba si la idea funcionaba.",
     "tags": [
       "Café",
       "Librería"
@@ -930,6 +949,7 @@
       }
     ],
     "description": "Cantina desde 1895 en la esquina de 5 de Mayo y Filomeno Mata, con techos dorados, molduras Art Nouveau y una barra de nogal maciza que mandaron traer de Nueva Orleans; todo se conserva casi intacto después de más de un siglo. La historia que todos cuentan —y que ahí siguen señalando en el techo— es la del balazo de Pancho Villa: el 6 de diciembre de 1914, recién entrado a la ciudad con sus tropas, sacó la pistola y disparó al plafón porque sintió que nadie le hacía caso. Fue punto de reunión de políticos e intelectuales durante buena parte del siglo XX y sigue funcionando como cantina de mantel largo, con mesero de corbata, no como bar de banqueta.",
+    "descriptionLong": "Antes de ser cantina, La Ópera nació en 1876 como una pastelería afrancesada en la esquina de San Juan de Letrán y Avenida Juárez, fundada por dos hermanas francesas de apellido Boulangeot que recreaban el ambiente de los cafés parisinos para los asistentes al Teatro Nacional. No fue hasta 1895, ya instalada en su ubicación actual de 5 de Mayo y Filomeno Mata, que dejó la repostería fina para convertirse en la cantina de mantel largo que es hoy — la transición ocurrió justo cuando el gusto porfiriano por lo europeo empezaba a mezclarse con la vida de cantina.",
     "tags": [
       "Tradicional",
       "Histórico"
@@ -978,6 +998,7 @@
       }
     ],
     "description": "Bósforo empezó casi clandestino en el Centro y todavía se siente así: un espacio chico, en penumbra, con una barra y un entrepiso de madera que se llena rápido. La lista no es carta fija sino pizarrón, con los mezcales artesanales que hayan llegado esa semana directo de productores en Oaxaca, Guerrero, Michoacán o Durango —suelen manejar unas cuarenta etiquetas en rotación—. Hay algo de cocina mexicana breve para acompañar, pero el protagonista es el mezcal y la plática. La música va del jazz experimental a ritmos de otras partes del mundo, y el ambiente hipnótico hace que la idea de \"una copa nada más\" rara vez se cumpla.",
+    "descriptionLong": "El nombre no es casualidad: el Bósforo es el estrecho que separa y a la vez conecta Europa y Asia en Estambul, una metáfora que le queda bien a un lugar pensado como punto de encuentro entre el productor de mezcal en la sierra oaxaqueña y quien se sienta aquí a probarlo. Mantiene deliberadamente el aire clandestino con el que empezó, sin letrero ni gran despliegue en la fachada, casi como si todavía hubiera que saber que existe para encontrarlo.",
     "tags": [
       "Mezcal",
       "Con amigos"
@@ -1041,6 +1062,7 @@
       }
     ],
     "description": "Institución del desayuno capitalino, abierta desde 1969 por Oliva Garizurieta y Jesús Briz con la idea de traer a la mesa la cocina de Veracruz y Michoacán. La sucursal de San Ángel, en Av. de la Paz, abrió en 2011 y la inauguró Gabriel García Márquez. La casa mantiene un rancho propio en Zumpango de donde sale la nata, el mole, el chocolate y las mermeladas que sirven, y eso se nota en los chilaquiles veracruzanos, la torta de huevo con flor de maguey y el chocolate caliente acompañado de pan recién horneado. Manteles, meseros de guayabera y ritmo pausado: el lugar perfecto para un desayuno largo de fin de semana.",
+    "descriptionLong": "Gabriel García Márquez, que vivió buena parte de su vida en la Ciudad de México, tenía en El Cardenal uno de sus puntos fijos durante sus paseos por el Centro Histórico — tanto que fue él quien inauguró personalmente esta sucursal de San Ángel en 2011, y adentro todavía hay placas que dan fe de esa visita. Que el autor de 'Cien años de soledad' eligiera justo este lugar para desayunar dice bastante de por qué El Cardenal se volvió cátedra del desayuno capitalino mucho antes de que abriera su sede en San Ángel.",
     "tags": [
       "Tradicional",
       "Desayunos"
@@ -1089,6 +1111,7 @@
       }
     ],
     "description": "La marisquería de Gabriela Cámara lleva abierta en la Roma desde 1998 y sigue siendo de las mesas más disputadas de la ciudad. El pescado a la talla, bañado mitad en salsa roja y mitad en salsa verde de perejil, es el mismo platillo con el que abrió el menú hace más de veinticinco años; las tostadas de atún, con mayonesa de chipotle y poro frito, se volvieron tan icónicas que medio CDMX las copia. Cámara y el restaurante fueron protagonistas del documental de Netflix \"A Tale of Two Kitchens\", y en la guía Michelin México 2025 los reconocieron con un Bib Gourmand, distinción a la buena cocina con precio justo.",
+    "descriptionLong": "Gabriela Cámara no se quedó en la Roma: hoy dirige Grupo Contramar, que además de este restaurante y Entremar incluye Cala en San Francisco, California, uno de los primeros puentes serios entre la cocina mexicana de mercado y el circuito gastronómico estadounidense. Su enfoque de sustentabilidad va de la mano con el trato a la gente detrás de cada ingrediente, una filosofía que aplicó desde que abrió Contramar en 1998 y que hoy exporta a cada nuevo proyecto que abre fuera de México.",
     "tags": [
       "Mariscos",
       "Alta cocina"
@@ -1142,6 +1165,7 @@
       }
     ],
     "description": "Está literal debajo de la Estela de Luz, sobre Reforma, y es de las mejores gangas culturales de la ciudad porque todo es gratis: exposiciones, talleres y hasta los conciertos. La apuesta es puro arte digital y nuevas tecnologías, con un muro interactivo de luz que atrapa a cualquiera que pase caminando. Adentro hay una sala de cine con capacidad para 120 personas donde la Cineteca Nacional proyecta varios días a la semana, además de talleres rotativos de arte sonoro con dispositivos caseros, fotografía y robótica. Abre de martes a domingo. Es un espacio chico pero con una curaduría que se siente más de laboratorio experimental que de museo tradicional.",
+    "descriptionLong": "El centro abrió el 16 de septiembre de 2012, el mismo día en que se conmemoraba el Bicentenario de la Independencia, y desde entonces se define como un espacio físico y virtual dedicado a investigar las implicaciones culturales, sociales y económicas del uso cotidiano de la tecnología digital. Además de exposiciones de arte digital, la explanada bajo la Estela de Luz también sirve para poesía slam, danza y teatro experimental — una vocación de espacio escénico que va más allá de las pantallas y los talleres de robótica que suelen asociarse con el lugar.",
     "tags": [
       "Gratis",
       "Interactivo"
@@ -1185,6 +1209,7 @@
       }
     ],
     "description": "Es el museo nuevo de Chapultepec: abrió en 2026 sobre el terreno donde antes estaba el viejo Museo Tecnológico de la CFE, en la segunda sección del bosque. El proyecto arquitectónico y museográfico se decidió por concurso entre arquitectos mexicanos, y ganó la propuesta de Enrique Norten en colaboración con el estudio de Ralph Appelbaum (el mismo detrás de museos como el del Holocausto en Washington). La idea es un museo de ciencia de nueva generación centrado en energía y tecnología, pensado para despertar vocaciones científicas en los más jóvenes. Como es tan reciente, todavía está en fase de apertura por etapas, así que vale la pena checar antes qué salas están abiertas el día que vayas.",
+    "descriptionLong": "El museo que reemplazó, el MUTEC, fue inaugurado el 20 de noviembre de 1970 y se consideraba el primer museo de ciencia interactivo de toda América Latina; su planetario tenía un domo geodésico de casi 12 metros de diámetro con capacidad para proyectar 118,000 estrellas y planetas más 42,000 galaxias más allá de la Vía Láctea. Cerró en septiembre de 2015 después de 45 años de operación para dar paso al proyecto que hoy es MUNET — más de una generación de chilangos hizo su primera visita a un planetario en ese domo, antes de que existiera este edificio nuevo.",
     "tags": [
       "Familiar",
       "Interactivo"
@@ -1228,6 +1253,7 @@
       }
     ],
     "description": "En esta sucursal de Narvarte (Uxmal 161) nació la idea: cuenta la historia que el dueño, Julio, jugaba en su consola mientras esperaba clientes en un puesto de tacos, hasta que alguien le pidió jugar también. De ahí salió el concepto: consume algo de comer o tomar y el rato de juego —control, consola y más de mil títulos, desde Pac-Man y Street Fighter hasta lanzamientos recientes— va incluido. Es un lugar sencillo, pensado para ir en bola de amigos a jugar Mario Kart o Smash mientras llegan las alitas o las hamburguesas. Nada elegante, pero ambiente muy relajado y gamer de verdad, no de decoración nada más.",
+    "descriptionLong": "Antes de que existieran lugares como Taco Game, la forma de jugar fuera de casa en México eran las 'maquinitas': arcades que explotaron en los años ochenta y noventa, con Zamora, Michoacán —no la Ciudad de México— como la capital no oficial del fenómeno, llegando a tener más de 100 negocios y unas 500 máquinas activas para 1993. Pac-Man y Street Fighter eran los favoritos de esa época, antes de que las consolas domésticas y los videojuegos móviles fueran apagando poco a poco esos arcades a finales de los noventa — el mismo hueco cultural que hoy llenan lugares como este, aunque con consola y control en vez de monedas.",
     "tags": [
       "Gamer",
       "Con amigos"
@@ -1264,6 +1290,7 @@
       }
     ],
     "description": "Fue el primer makerspace del Centro Histórico, metido en un edificio de oficinas justo detrás de la Catedral (Guatemala 10, interior 402). Es un taller colaborativo de fabricación digital: tiene impresoras 3D, cortadoras láser y router CNC, además de herramienta clásica de carpintería y electrónica para quien prefiere hacer las cosas a mano. Funciona por membresías —las máquinas digitales sí tienen límite de horas según el plan que saques— y también da talleres abiertos al público para quien solo quiere probar sin comprometerse. Abre de lunes a viernes de 9 a 8 de la noche y sábados hasta las 6. Ideal si traes una idea o un prototipo y necesitas máquinas que no tienes en casa.",
+    "descriptionLong": "El movimiento maker llegó a México planteando un lema claro: 'democratizar tecnologías', es decir, sacar impresoras 3D, cortadoras láser y herramienta de fabricación digital de universidades y empresas para ponerlas al alcance de cualquiera con una idea. Hoy existen 14 FabLabs registrados en el país, casi todos ligados a universidades; Hacedores, en cambio, nació como espacio independiente y abierto al público general, no como apéndice académico — una rareza dentro del propio movimiento que dice representar.",
     "tags": [
       "Para trabajar",
       "Experiencia"
@@ -1312,6 +1339,7 @@
       }
     ],
     "description": "Es el mercado de tecnología de toda la vida en el Centro: lleva operando desde los años 80 sobre Eje Central, a unos pasos del metro San Juan de Letrán. Adentro hay casi 800 locales apretaditos en varios niveles y pasillos, vendiendo celulares nuevos, usados y reacondicionados de cualquier marca, laptops, componentes para armar tu propia PC y toda clase de accesorios. También es el lugar clásico para reparar celular, computadora o impresora: como hay tantos locales uno junto a otro, puedes comparar precios y garantías caminando unos metros. Entrada libre, y lo mejor es ir con calma para regatear.",
+    "descriptionLong": "Antes de que aquí se vendieran celulares y componentes, esta misma calle se llamaba San Juan de Letrán y, hasta la construcción de los ejes viales en 1979, era corredor de cines, cafés y teatros de la ciudad. La transformación hacia el comercio de tecnología fue gradual: esas mismas salas y locales se fueron convirtiendo, década tras década, en plazas de reparación y venta de electrónica, hasta que Eje Central terminó ganándose fama de ser el 'ombligo del comercio informal' de la capital.",
     "tags": [
       "Compras",
       "Tecnología"
@@ -1348,6 +1376,7 @@
       }
     ],
     "description": "El restaurante de Enrique Olvera abrió en Polanco en el año 2000 y hoy tiene dos estrellas Michelin. Todo gira alrededor del maíz —variedades criollas, tortillas hechas al momento— y de un platillo que se volvió su firma: el Mole Madre, Mole Nuevo, dos moles servidos en círculos concéntricos, uno recién hecho y otro que lleva fermentando y añejándose desde hace más de mil días. Es cocina mexicana llevada a un registro de alta gastronomía, con menú de degustación y trabajo directo con productores y pescadores del país. Uno de los dos únicos restaurantes en México con dos estrellas Michelin, y de los nombres mexicanos más citados en las listas globales de gastronomía.",
+    "descriptionLong": "Olvera no se quedó en Polanco: en octubre de 2014 abrió Cosme en el barrio de Flatiron de Nueva York, un restaurante que combina sabores mexicanos tradicionales con una ejecución sofisticada y que el New York Times premió con tres estrellas casi de inmediato, colocándolo también en la lista de The World's 50 Best Restaurants. Antes de todo eso, cuando abrió Pujol en 2000 con poco presupuesto, fue su esposa quien lo ayudó a pintar las paredes del local — un contraste con la operación internacional en la que se convirtió veinticinco años después.",
     "tags": [
       "Alta cocina",
       "Experiencia"
@@ -1384,6 +1413,7 @@
       }
     ],
     "description": "Cocina de Jorge Vallejo y Alejandra Flores, su esposa y socia, que abrieron el restaurante en 2012 en una casa de Polanco después de que ambos pasaran por la cocina de Pujol. Hoy tiene dos estrellas Michelin y en 2025 apareció en el puesto 3 de The World's 50 Best Restaurants, además de ser nombrado el mejor restaurante de México. Casi todo lo que llega a la mesa —ingredientes, vinos— es mexicano, con el caviar, el pescado y el aceite de oliva como las únicas excepciones declaradas. Cocina de temporada con identidad muy marcada, servida con el tipo de anfitrionía cálida que Flores construyó con años de oficio hotelero.",
+    "descriptionLong": "El nombre del restaurante viene de un quelite: el quintonil, del náhuatl 'quiltonilli', una variedad de amaranto que los mexicanos comen como verdura desde mucho antes de que floreciera la planta. Evidencia arqueológica del Valle de Tehuacán ubica su consumo entre el 5200 y el 3400 a.C., lo que lo vuelve uno de los alimentos más antiguos del país — un nombre pensado para anclar el restaurante a una tradición alimentaria milenaria, no solo a un ingrediente de temporada.",
     "tags": [
       "Alta cocina",
       "Experiencia"
@@ -1420,6 +1450,7 @@
       }
     ],
     "description": "Eduardo García y su esposa Gabriela López abrieron Máximo Bistrot el 30 de noviembre de 2011, después de que García pasara por la cocina de Pujol con Enrique Olvera. Empezó como un bistrot pequeño de muebles de segunda mano en una calle de la Roma, con una filosofía sencilla: cocinar lo que traiga el mercado ese día, con técnica francesa y sin ostentación. La receta funcionó — con los años llegó el reconocimiento con una estrella Michelin y una mención en la lista 50 Best Discovery. El menú cambia constantemente según lo que llega de su red de pequeños productores, pescadores y recolectores, y el ambiente sigue siendo el de un bistrot de barrio, cálido e informal.",
+    "descriptionLong": "La historia de Eduardo García antes de la cocina fue mucho más dura que la de un bistrot de mantel: cruzó la frontera con su familia a los 7 años, entró a trabajar en el campo en Estados Unidos siendo niño, pasó por prisión en 1997 y fue deportado por segunda vez en 2007. Ya de regreso en México se formó tres años en la cocina de Pujol con Enrique Olvera antes de abrir Máximo Bistrot, y hoy, además de cocinar, colabora con Save the Children en programas de apoyo a niños migrantes — su historia terminó documentada en el libro 'El Chef Migrante', de la periodista Laura Tillman.",
     "tags": [
       "Bistrot",
       "De temporada"
@@ -1456,6 +1487,7 @@
       }
     ],
     "description": "Del chef Ricardo Muñoz Zurita, investigador de la cocina mexicana con varios libros publicados, este restaurante ocupa el patio central de un palacio colonial del siglo XVII que perteneció al Conde de Miravalle, hoy parte del hotel Downtown Mexico. Abrió en 2012 y desde entonces sirve cocina mexicana tradicional de distintas regiones del país, con ese cuidado casi de archivo que caracteriza el trabajo de Muñoz Zurita. Comer bajo los arcos del patio, entre cantera y plantas, con el bullicio del Centro Histórico de fondo, es de esas experiencias que combinan historia y mesa sin que ninguna de las dos se sienta impostada.",
+    "descriptionLong": "El Palacio de los Condes de Miravalle, donde hoy come, tiene un linaje que conecta directamente con la realeza mexica: el primer conde descendía de Isabel Moctezuma, hija del propio Moctezuma II, quien tras la Conquista se casó sucesivamente con Cuauhtémoc y luego con varios españoles, quedando viuda cinco veces. El título de Conde de Miravalle se lo otorgó la corona española a sus descendientes, así que comer bajo estos arcos coloniales es, en cierto sentido, sentarse en un edificio que desciende genealógicamente del último gran tlatoani mexica.",
     "tags": [
       "Tradicional",
       "Histórico"
@@ -1499,6 +1531,7 @@
       }
     ],
     "description": "Taquería de banqueta en la calle Bolívar, en pleno Centro Histórico, con más de 50 años sirviendo tacos las 24 horas del día, los 365 días del año. El nombre viene de los cocuyos, esos insectos que brillan de noche, y aquí la parrilla nunca se apaga. La especialidad es el suadero, pero la carta callejera incluye longaniza, campechano y todo tipo de interiores —lengua, ojo, cachete, sesos, tripa— para quien se anime. Se volvió parada obligada internacional después de que Anthony Bourdain la visitara en uno de sus programas, pero sigue siendo, sobre todo, el lugar al que un chilango entra a las tres de la mañana sin pensarlo dos veces.",
+    "descriptionLong": "El nombre viene de una canción de José Alfredo Jiménez —'hemos de quedarnos presos a la luz de los cocuyos'— en honor a esos insectos luminosos que de noche eran lo único que alumbraba la calle Bolívar antes de que llegara el alumbrado público. La taquería original, abierta en 1980, se dividió en dos por un pleito familiar: una parte se quedó en el local original con otro nombre, y la otra se mudó unos metros más allá conservando el nombre 'Los Cocuyos', que es la que sigue operando hoy.",
     "tags": [
       "Tacos",
       "24 horas"
@@ -1542,6 +1575,7 @@
       }
     ],
     "description": "Un local minúsculo en Higuera, con paredes turquesa y una ardilla pintada en la fachada, que lleva desde 2010 haciendo culto silencioso al café de especialidad en Coyoacán. El nombre es un guiño literario: Avellaneda por Laura Avellaneda, personaje de \"La tregua\" de Mario Benedetti. Adentro caben apenas cinco bancos de barra, dos mesas dobles y una banca a la entrada, así que muchas veces se toma de pie o se espera turno. En vez de un menú convencional, te explican la ficha técnica de cada método —Kalita, V60, Chemex— y del origen del grano. Perfecto para quien busca conversación de barista y no ruido de cafetería de cadena.",
+    "descriptionLong": "Laura Avellaneda, el personaje que le da nombre al café, es la joven secretaria de la que se enamora el protagonista viudo de 'La Tregua' (1960), la novela más célebre del uruguayo Mario Benedetti, escrita en formato de diario íntimo. Benedetti vivió después una historia real no muy distinta a la ficción de sus personajes marcados por la política: pasó diez años exiliado en Argentina, Perú, Cuba y España tras la dictadura militar uruguaya de 1973, cuando cerraron el semanario donde trabajaba como periodista — un dato que le da otra capa al nombre de este café diminuto en Higuera.",
     "tags": [
       "Café de especialidad"
     ],
@@ -1577,6 +1611,7 @@
       }
     ],
     "description": "Buna nació en 2012 con una premisa clara: café mexicano, de productores mexicanos, tostado cerca de donde se sirve. En su local de Roma Norte tuestan en un espacio contiguo y trabajan directo con caficultores de distintas regiones del país, con una lógica de sustentabilidad que va más allá del discurso de moda —de ahí que se le mencione junto a las pocas cafeterías con iniciativas zero waste reales en la ciudad. Tiene mesas al aire libre que lo hacen buena opción para sentarse un rato largo, no solo para pedir para llevar. Buen punto medio entre la cafetería de especialidad seria y el lugar donde de verdad se puede pasar la mañana.",
+    "descriptionLong": "El nombre viene del amárico, el idioma de Etiopía, donde 'buna' significa simplemente 'café' y forma parte de un dicho que dice 'buna dabo naw' — el café es nuestro pan. En Etiopía, cuna del café, la ceremonia de prepararlo se sirve tradicionalmente en tres rondas —abol, tona y baraka, la última significa 'bendición'— como gesto de hospitalidad; el nombre de esta cafetería mexicana, aunque trabaja exclusivamente grano nacional, es un guiño directo a ese origen etíope de la bebida.",
     "tags": [
       "Café de especialidad",
       "Sustentable"
@@ -1613,6 +1648,7 @@
       }
     ],
     "description": "Cardinal es de los proyectos que ayudaron a poner a la Roma en el mapa del café de especialidad: lo fundaron Alex Martínez, Paul Torres y Edilberto \"Shak\" Zapata a inicios de la década de 2010, ninguno con background cafetalero pero con la idea clara de recuperar la cafetería como espacio de plática y sobremesa, no de paso rápido. Trabajan grano de origen mexicano —de Chiapas, Guerrero, Nayarit, Oaxaca, Veracruz— con métodos artesanales y buena repostería; el Latte Rex y el croissant de coco tienen fama entre habituales. El ambiente es de casa vieja reconvertida, con ese encanto medio vintage que no se siente impostado.",
+    "descriptionLong": "El nombre y el concepto son deliberados: los tres fundadores querían recuperar la idea de las viejas 'casas de café' o cafés-tertulia, esos espacios de siglos atrás donde políticos, poetas y músicos se sentaban a conversar horas, no a pedir para llevar. La decoración de sala de casa antigua no es solo estética, es la manera de forzar ese ritmo lento entre las mesas de Córdoba 132.",
     "tags": [
       "Café de especialidad",
       "Tostador"
@@ -1649,6 +1685,7 @@
       }
     ],
     "description": "Chiquitito tiene varias sucursales en la ciudad (ésta en Prado Norte, Lomas) y en todas se repite la misma fórmula: ambiente tranquilo, música baja, gente leyendo o trabajando despacio, y baristas que si vas seguido ya te saludan por tu nombre. El pan recién hecho es la seña de identidad —conviene pedirlo con lo que sea que estés tomando— y entre lo más pedido están el flat white, el matcha latte, el chai y el chia pudding para quien busca algo más ligero. No es cafetería para reuniones ruidosas ni trabajo urgente; es más bien el lugar al que llegas cuando quieres que la mañana se estire un poco.",
+    "descriptionLong": "El flat white que pidas aquí carga una disputa que Australia y Nueva Zelanda no han resuelto: ambos países reclaman haberlo inventado en los años ochenta, con el barista australiano Alan Preston mencionado como uno de los primeros en poner el nombre de forma permanente en un menú, en Sídney a mediados de esa década, mientras la versión neozelandesa cuenta que nació en Wellington cuando la leche de un capuchino no espumó como debía. Ambas historias comparten el mismo trasfondo: inmigrantes italianos que tras la Segunda Guerra Mundial llevaron el capuchino y el espresso a Oceanía, sentando las bases de una cultura cafetalera que con el tiempo quiso diferenciarse de la europea.",
     "tags": [
       "Café",
       "Para desayunar"
@@ -1685,6 +1722,7 @@
       }
     ],
     "description": "Detrás de una puerta discreta en Amberes 65, sin letrero, está el bar que en octubre de 2024 se convirtió en el primero de México —y de Latinoamérica— en ser nombrado Mejor Bar del Mundo por The World's 50 Best Bars. Ahí dentro manda Eric Van Beek, que combina coctelería clásica con técnica de laboratorio propio: destilados vintage, procesos poco comunes en la barra promedio y una puesta en escena pensada para sorprender trago a trago. Es coctelería de autor en el sentido más literal, cara y sin prisa, pensada para quien quiere ver de cerca por qué tanto ruido internacional. Reservar con anticipación es casi obligatorio.",
+    "descriptionLong": "El nombre 'Handshake' —apretón de manos— es un guiño directo al origen del concepto speakeasy: durante la Ley Seca estadounidense (1920-1933), solo se podía entrar a esos bares clandestinos si alguien de confianza te vinculaba con el lugar, casi como un saludo secreto. La puerta discreta marcada con el número 13 en Amberes 65 recupera esa misma lógica casi cien años después — la diferencia es que hoy, tras ganar el título de Mejor Bar del Mundo en Madrid en octubre de 2024, ya no hace falta contacto para saber que existe.",
     "tags": [
       "Coctelería",
       "Premiado"
@@ -1742,6 +1780,7 @@
       }
     ],
     "description": "Sobre Álvaro Obregón, en pleno Roma Norte, Limantour abrió en 2011 y fue de los bares que le enseñaron a la Ciudad de México a tomarse la coctelería en serio. Desde entonces ha aparecido año tras año en The World's 50 Best Bars —llegó a estar entre los diez primeros del mundo en 2019 y 2021— sin perder la mano. La Margarita al Pastor, con un toque de taco al pastor en la mezcla, es la que todos piden primero, seguida del Mr. Pink de gin, romero y toronja. El espacio, de dos pisos con aire art déco, mezcla clásicos y creaciones de temporada, y sigue tan lleno entre semana como en fin de semana.",
+    "descriptionLong": "El nombre es un guiño a José Yves Limantour, el secretario de Hacienda que Porfirio Díaz mantuvo en el cargo dieciocho años y al que apodaban 'el mago de las finanzas' por lograr, en 1894, el primer superávit presupuestario de México. Fue uno de los 'Científicos', el grupo de tecnócratas más influyente del Porfiriato — un nombre pensado para un bar que, dentro de su propio giro, también se convirtió en referencia obligada de su gremio en la ciudad.",
     "tags": [
       "Coctelería",
       "Premiado"
@@ -1805,6 +1844,7 @@
       }
     ],
     "description": "Baltra lo abrió parte del mismo equipo de Limantour —Adrián Borgaro entre ellos— así que hereda la solidez de la coctelería pero con otra personalidad: la decoración recuerda el viaje de Darwin a las islas Galápagos, de donde toma el nombre, con guiños marítimos en la barra y las etiquetas. En Iztaccíhuatl, a unas cuadras del parque España, el ambiente es más relajado que el de su hermano mayor, con trato cercano y una carta que cambia según temporada. Buena opción si quieres coctelería con oficio real pero sin la formalidad ni la espera de los bares más premiados de la ciudad.",
+    "descriptionLong": "Baltra, la isla que le da nombre al bar, es real y tiene una historia poco romántica: durante la Segunda Guerra Mundial, Estados Unidos instaló ahí, sin acuerdo formal con Ecuador, la base aérea más grande del Pacífico sureste, apodada 'La Roca' por los marines que la ocupaban, para vigilar el Canal de Panamá de un posible ataque japonés. La base funcionó de 1942 a 1946; hoy la isla solo tiene el aeropuerto que conecta a los turistas con el resto de las Galápagos, muy lejos de la coctelería tranquila que lleva su nombre en la Condesa.",
     "tags": [
       "Coctelería",
       "Relajado"
@@ -1857,6 +1897,7 @@
       }
     ],
     "description": "Estás parado sobre lava: todo este bosque de 253 hectáreas creció sobre el pedregal que dejó la erupción del volcán Xitle hace casi dos mil años. A mediados del siglo XIX aquí operó una fábrica de papel, y fue Alberto Lenz, un inmigrante alemán que llegó en 1890, quien impulsó la reforestación que le dio su cara actual; se abrió al público en 1970 y en 1997 se declaró área natural protegida. Tiene cinco circuitos de distinta dificultad, del más corto y plano al Circuito de la Montaña, de casi seis kilómetros, popular entre corredores de trail. También hay pista de atletismo y zonas de picnic. Entrada gratis, buena opción para desconectarte sin salir de la ciudad.",
+    "descriptionLong": "El bosque combina dos ecosistemas poco comunes juntos: matorral xerófilo y bosque de encino, con cerca de 206 especies de plantas registradas —51 de ellas arbóreas—, incluyendo encinos de más de 150 años, madroños y algunos pinos, todo creciendo sobre suelo volcánico. No sorprende que hoy el 63.5% de quienes visitan el bosque sean corredores: entre el circuito de arcilla plano, la ruta de subidas para entrenar fuerza y el Circuito de la Montaña de casi seis kilómetros, el Bosque de Tlalpan se volvió, casi sin proponérselo, uno de los puntos de entrenamiento de trail running más queridos de la ciudad.",
     "tags": [
       "Gratis",
       "Naturaleza"
@@ -1900,6 +1941,7 @@
       }
     ],
     "description": "Antes de ser parque, este óvalo era la pista del hipódromo del Jockey Club, y cuando la colonia Hipódromo se trazó en 1927 sobre la antigua hacienda de la Condesa de Miravalle, decidieron conservar esa forma elíptica para el parque y las calles de alrededor. Lo diseñaron el arquitecto Leonardo Noriega y el ingeniero Javier Stávoli en art déco, y ahí sigue el Foro Lindbergh, la pérgola serpenteante y la torre-reloj que desde 1927 transmitía radio al vecindario. Es el corazón de la Condesa: gente corriendo, señoras paseando perros, parejas en bancas bajo los árboles. Gratis y pet friendly de verdad, con ambiente relajado casi cualquier hora del día.",
+    "descriptionLong": "El Foro Lindbergh, ese teatro al aire libre con la pérgola serpenteante, no lleva el nombre de un arquitecto sino de un piloto: Charles Lindbergh, que unos meses después de cruzar el Atlántico sin escalas en mayo de 1927 llegó a la Ciudad de México el 14 de diciembre de ese mismo año en un vuelo de buena voluntad, recibido por el embajador estadounidense Dwight Morrow y el presidente Plutarco Elías Calles. El gobierno capitalino decidió bautizar con su nombre el foro recién construido del Parque México, inaugurado justo ese año.",
     "tags": [
       "Gratis",
       "Pet friendly"
@@ -1936,6 +1978,7 @@
       }
     ],
     "description": "Se fundó en enero de 1592, por orden del virrey Luis de Velasco, sobre el terreno de un tianguis indígena; le sembraron mil álamos ese mismo año, de ahí el nombre. Se le considera el primer parque público de América, con más de cuatro siglos viendo pasar la vida social de la ciudad. Hoy tiene doce fuentes, ocho esculturas y el Hemiciclo a Juárez, y está justo a un costado del Palacio de Bellas Artes, así que se presta para combinar ambas visitas. Es un buen respiro verde en pleno Centro Histórico, con bancas bajo árboles centenarios; ve temprano si quieres disfrutarla sin el gentío del mediodía.",
+    "descriptionLong": "A unos metros, en Balderas y Colón, está el Museo Mural Diego Rivera, construido alrededor de una sola pieza: 'Sueño de una tarde dominical en la Alameda Central', que Rivera pintó para el comedor del Hotel del Prado y que sobrevivió por poco al sismo de 1985 —el hotel se derrumbó, pero el mural, ya trasladado antes al vestíbulo, se salvó—. En diciembre de 1986 se movió apenas 50 metros hasta su ubicación actual, un traslado que por la fragilidad de la obra tomó 12 horas y el trabajo de más de 300 personas.",
     "tags": [
       "Gratis",
       "Histórico"
@@ -1972,6 +2015,7 @@
       }
     ],
     "description": "Es el museo de ciencias de la UNAM dentro de Ciudad Universitaria, abierto desde el 12 de diciembre de 1992 con 550 módulos interactivos sobre física, astronomía, matemáticas, biología y ecología. Ya lleva más de tres décadas y sigue renovándose: además de las salas permanentes tiene un planetario y ha traído exposiciones temporales memorables, como Body Worlds (los cuerpos humanos disecados) en 2010 o muestras de dinosaurios gigantes. Abre de miércoles a domingo de 10 a 17 horas y la entrada general cuesta 90 pesos, con descuento para estudiantes, maestros e INAPAM. Es de los mejores planes familiares de la ciudad, y como está en CU, se puede combinar con una caminata por el campus.",
+    "descriptionLong": "Body Worlds, la exposición de cuerpos humanos plastinados que Universum trajo en 2010, nació de una técnica que el anatomista alemán Gunther von Hagens inventó para conservar tejido humano sustituyendo el agua y la grasa por silicona: su debut mundial fue en Tokio en 1995, y desde entonces ha sumado más de 50 millones de visitantes en itinerancias por decenas de países, no sin polémica —autoridades de Berlín y Moscú llegaron a llevarla a tribunales por cuestiones de dignidad humana—. Von Hagens murió en julio de 2026 a los 81 años y, según se reportó, pidió que su propio cuerpo pasara por el mismo proceso de plastinación que él desarrolló.",
     "tags": [
       "Interactivo",
       "Familiar"
@@ -2015,6 +2059,7 @@
       }
     ],
     "description": "La casa la construyó en 1904 Guillermo Kahlo, el papá de Frida, y ahí nació y murió la pintora. Cuando ella vivió aquí con Diego Rivera a partir de 1929, se volvió punto de reunión de intelectuales como Trotsky, André Breton y Pablo Neruda. Se convirtió en museo en 1958, cuatro años después de su muerte, y conserva su recámara, sus corsés ortopédicos, su colección de mariposas, vestidos, la cocina de azulejo amarillo y azul, y objetos de arte popular y prehispánico que ella y Diego fueron juntando. Es de los museos más visitados de la ciudad — conviene comprar boleto con horario en línea con varios días de anticipación o simplemente no entras.",
+    "descriptionLong": "Diego Rivera le pidió a Dolores Olmedo que mantuviera cerrado, tras su muerte, un baño de la casa por 15 años — pero esos 15 años se convirtieron en 50. Cuando por fin se abrió el espacio en 2004, aparecieron miles de documentos, fotografías, libros, juguetes y más de 300 piezas del guardarropa de Frida: faldas, blusas, rebozos, tocados y zapatos que terminaron de revelar cómo usaba la ropa para reflejar su tradición familiar y, al mismo tiempo, esconder su discapacidad física. El museo tuvo que acondicionar un edificio contiguo solo para poder exhibir todo lo que salió de ese cuarto sellado medio siglo.",
     "tags": [
       "Arte",
       "Imperdible"
@@ -2051,6 +2096,7 @@
       }
     ],
     "description": "El gobierno contrató al arquitecto italiano Adamo Boari en 1904 para construirlo, mezclando Art Nouveau por fuera y Art Déco por dentro, con mármol traído de Italia. El edificio empezó a hundirse desde 1907 por el subsuelo blando del centro, y la Revolución detuvo la obra por años — Boari dejó el país en 1916 sin verlo terminado; lo concluyó Federico Mariscal y abrió hasta 1934. Adentro está el telón de cristal hecho por los talleres Tiffany de Nueva York, armado con más de un millón de piezas de vidrio opalescente que forman un paisaje del Valle de México, además de murales de Rivera, Orozco, Siqueiros y Tamayo en los pisos superiores. También hay ópera, danza y exposiciones temporales.",
+    "descriptionLong": "En los pisos superiores cuelga 'El hombre controlador del universo', la versión que Diego Rivera repintó en México en 1934 después de que Nelson Rockefeller mandara destruir el original que le había encargado para el Rockefeller Center de Nueva York, molesto porque Rivera incluyó un retrato de Lenin. Rivera reconstruyó la escena de memoria y con fotografías previas, así que lo que se ve hoy en Bellas Artes es, literalmente, un mural que resucitó de la censura de uno de los hombres más poderosos de Estados Unidos.",
     "tags": [
       "Arte",
       "Arquitectura"
@@ -2087,6 +2133,7 @@
       }
     ],
     "description": "Está en el edificio conocido como \"La Esmeralda\", que a finales del siglo XIX fue una joyería de lujo en la esquina de Isabel la Católica y Madero, en pleno Centro. El museo abrió en 2006 para albergar la colección del cronista Carlos Monsiváis: más de 20,000 piezas entre fotografías, caricaturas, pinturas, documentos, partituras y objetos que él fue acumulando durante décadas por puro amor a la cultura popular mexicana. El nombre viene de los \"estanquillos\", esas tiendas de barrio de antes donde se conseguía de todo. Las exposiciones cambian seguido y suelen cruzar cine, cómics, política y crónica urbana con el ojo irónico que hizo famoso a Monsiváis. Entrada libre los domingos.",
+    "descriptionLong": "El edificio que ocupa, conocido como La Esmeralda, fue la joyería más importante del Porfiriato: lo construyeron entre 1890 y 1892 los arquitectos Eleuterio Méndez y Francisco J. Serrano, y el propio Porfirio Díaz inauguró la tienda en 1892. Fue la primera construcción de estructura de hierro en México, y a lo largo del siglo XX pasó de joyería a oficina de gobierno, a banco y hasta a discoteca —la Opulencia— antes de convertirse, ya en los 2000, en el museo que hoy lleva el nombre que le puso el propio Carlos Monsiváis.",
     "tags": [
       "Arte",
       "Cultura popular"
@@ -2119,6 +2166,7 @@
       }
     ],
     "description": "En el corazón de la Roma Norte, Tláloc es de esos cafés donde llegas a jugar \"nomás una partida\" y terminas ahí toda la tarde. Manejan un catálogo de más de 300 juegos de mesa, de los clásicos de toda la vida a algún título que seguro no conoces, y con el consumo mínimo puedes quedarte las horas que quieras sin que corra un reloj sobre tu cabeza. Abren de martes a domingo, buena opción tanto para un plan entre semana como para el fin de semana con amigos. Perfecto si van en grupo, no traen ningún juego bajo el brazo y quieren que alguien más decida qué se juega esa noche.",
+    "descriptionLong": "El formato de café de juegos de mesa —pagar por el tiempo, no por consumo mínimo obligatorio, y elegir de una pared llena de cajas— se popularizó en Occidente a partir de Snakes & Lattes, que abrió en Toronto en 2010 con apenas 45 lugares y terminó siendo la referencia que copiaron cafés similares en todo el continente, Tláloc incluido. La pareja fundadora, Ben Castanie y Aurelia Peynet, sacó la idea de una tienda de juegos que visitaron en Chicago en 2008 — dos años después ya tenían su propio local.",
     "tags": [
       "Juegos de mesa",
       "Con amigos"
@@ -2151,6 +2199,7 @@
       }
     ],
     "description": "Gameplanet es de esas cadenas que cualquier gamer chilango conoce: además de esta sucursal en Del Valle, tienen tiendas en varios centros comerciales de la ciudad, como Plaza Valle y Santa Fe. Aquí encuentras de todo —videojuegos nuevos y usados, títulos de colección que ya no se consiguen fácil, consolas, accesorios y figuras de tus personajes favoritos—. Es de las opciones más confiables si buscas un juego específico, quieres vender los que ya no usas o simplemente te gusta ir a hojear vitrinas un sábado sin prisa. Entrada libre, así que puedes darte una vuelta nomás por curiosear, sin compromiso de comprar nada.",
+    "descriptionLong": "El modelo de comprar, vender y cambiar videojuegos usados que maneja Gameplanet tiene un antecedente claro en Estados Unidos: GameStop nació en 1984 como Babbage's, una tienda de software en Dallas fundada por dos exalumnos de Harvard que le pusieron el nombre en honor a Charles Babbage, el padre de la informática. En los noventa, ya convertida en tienda de centro comercial especializada en videojuegos, popularizó el sistema de recibir juegos y consolas usadas a cambio de crédito o efectivo — el mismo esquema que hoy hace que valga la pena ir a Gameplanet tanto para comprar como para vaciar la estantería de juegos que ya no usas.",
     "tags": [
       "Videojuegos",
       "Compras"
@@ -2190,6 +2239,7 @@
       }
     ],
     "description": "El Ocho está justo frente al Parque México, y es de los pocos lugares en la Condesa donde el juego no se queda solo en la caja: en las mesas te esperan hojas para jugar gato, timbiriche o basta, y hay un librero enorme con más de 120 juegos de mesa —tomas el que quieras y dejas una identificación de garantía—. El menú también le entra a la broma: hamburguesas con dona en vez de pan, crema de frijol con una partida de gato dibujada encima. Es pet-friendly de a de veras, hasta tienen algo para que tu perro pida lo suyo. Abren desde las 8 de la mañana hasta la medianoche, todos los días.",
+    "descriptionLong": "Lugares como El Ocho se multiplicaron en la ciudad a partir de la pandemia: solo entre abril y mayo de 2020, las compras de juegos de mesa en Mercado Libre Latinoamérica subieron 38%, y México fue el segundo país de la región con mayor crecimiento en la categoría, con un salto del 70%. Esa ola de familias encerradas jugando en casa es, en buena medida, la que después se tradujo en la explosión de cafés de juegos de mesa que hoy compiten con el bar tradicional como plan de tarde-noche en colonias como la Condesa.",
     "tags": [
       "Juegos de mesa",
       "Café"
@@ -2222,6 +2272,7 @@
       }
     ],
     "description": "El Foro Indie Rocks! es de los templos indies más queridos de Roma Norte, montado en una antigua nave industrial sobre Zacatecas. Adentro caben unas 600 personas repartidas en dos escenarios, y si sumas el patio trasero la cifra sube hasta 1,200, que es cuando se pone bueno el ambiente en época de festival. Llevan más de una década metiendo bandas nacionales e internacionales casi todas las semanas, entre rock alternativo, electrónica y pop indie, y desde 2017 organizan el IR Week, cinco días seguidos de shows. Es de esos lugares donde vas sin agenda fija, revisas la cartelera de la semana y seguro hay algo que valga la pena, cerveza en mano y el ambiente de barrio de la Roma alrededor.",
+    "descriptionLong": "El foro nació en 2011 como una extensión física de Indie Rocks!, la revista musical independiente que le da nombre, pensada para que las bandas que la revista cubría en papel tuvieran también un escenario propio en la ciudad. Esa doble identidad —medio de comunicación y venue— es poco común entre los foros de la Roma, y explica por qué la cartelera mezcla tanto talento local emergente con actos internacionales que de otro modo no tendrían por qué tocar en un espacio de este tamaño.",
     "tags": [
       "Música en vivo",
       "Con amigos"
@@ -2254,6 +2305,7 @@
       }
     ],
     "description": "El Lunario es el hermano chico e íntimo del Auditorio Nacional, pegado al edificio grande pero con otra vibra: aquí caben entre 500 personas en formato de mesas, tipo cabaret, y hasta 1,200 de pie, así que hasta un artista grande se siente cerca. El escenario y la acústica están pensados justo para eso, para que no se sienta como estadio. La cartelera brinca de jazz a electrónica, de rock a música romántica, con el bar Eclipse a un lado del escenario para la previa o el intermedio. Si quieres ver a alguien conocido sin perderte entre miles de personas, el Lunario suele ser la apuesta segura en Polanco, con Reforma y el Campo Marte como vecinos.",
+    "descriptionLong": "El nombre rinde tributo a la luna como fuente de inspiración artística, un guiño que también conecta con las Lunas del Auditorio, el premio anual que el recinto entrega a lo más destacado del espectáculo en vivo del país. El espacio que hoy ocupa el Lunario no siempre fue un foro de conciertos: entre 1993 y su remodelación de diciembre de 2003 a marzo de 2004 —a cargo del escenógrafo Alejandro Luna— pasó por tres vidas distintas: el club nocturno Theatron, diseñado por Philippe Starck, el Fashion Café y el restaurante Stage.",
     "tags": [
       "Música en vivo",
       "Experiencia"
@@ -2286,6 +2338,7 @@
       }
     ],
     "description": "El Pepsi Center WTC lleva desde 2012 llenándose de conciertos y eventos grandes justo detrás del World Trade Center, sobre Dakota; ahí debutó el recinto con un concierto de Alejandro Fernández. Es un foro que se adapta: con las gradas movibles se puede armar para 3,000 personas en formato más cerrado o abrir hasta 7,500 cuando el show lo amerita, así que la sensación cambia bastante según quién toque. Por su escenario han pasado desde pop y urbano hasta rock y jazz, y entre concierto y concierto también sirve para exposiciones y eventos deportivos. Si vas, calcula tráfico extra por la zona de Nápoles y el WTC, que se complica cuando hay función.",
+    "descriptionLong": "El recinto lleva más de una década en crecimiento constante: solo en 2023 organizó 88 conciertos, la mitad con boletaje agotado y aforo cercano a las 8,000 personas, lo que sumó 379,000 boletos vendidos en un solo año. Con más de 3,000 lugares de estacionamiento y buen acceso en transporte público, el Pepsi Center se planeó desde 2009 pensando justo en esa capacidad de llenarse una y otra vez sin perder la sensación de recinto manejable que tanto se nota cuando la configuración se cierra a 3,000 asientos en vez de abrirse al máximo.",
     "tags": [
       "Música en vivo",
       "Grupos"
@@ -2318,6 +2371,7 @@
       }
     ],
     "description": "En Tonalá 261, a media Roma Sur, este espacio nació como escuela de actuación y terminó convertido en uno de los puntos más queridos del circuito alternativo capitalino. La decoración es puro carácter: butacas y sillones recuperados de los años 80, ambiente entre cine europeo de autor y cabaret nocturno. La cartelera prioriza documentales, cine independiente y funciones especiales que no vas a encontrar en las cadenas comerciales, y antes o después de la función se puede parar en el bar-restaurante de pizzas al horno de leña. Con $90 la entrada, es de los boletos más accesibles de la ciudad para ver algo distinto a lo comercial.",
+    "descriptionLong": "Cine Tonalá abrió en 2012 como un centro dedicado por completo a la actuación, y solo con los años se fue transformando en el espacio multidisciplinario que es hoy, donde el cine convive con gastronomía, música, stand-up y teatro bajo el mismo techo. El modelo funcionó tan bien que se replicó fuera de México: hoy existen sedes de Cine Tonalá en Bogotá, Tijuana y Querétaro, todas partiendo de la misma idea de que un cine puede ser, además, punto de encuentro para cualquier disciplina creativa.",
     "tags": [
       "Cine independiente",
       "Cultura alternativa"
@@ -2350,6 +2404,7 @@
       }
     ],
     "description": "El edificio sobre Reforma 423 no es un multicine cualquiera: se inauguró en 1962 como Cine Diana, obra del arquitecto Leopoldo Gout, con casi 1,850 butacas y un mural de Manuel Felguérez en el vestíbulo (hoy resguardado en el MUAC). A finales de los 90 lo vendieron y lo dividieron en varias salas para operarlo como Cinépolis, pero conserva ese peso de cine de otra época, justo junto a la Diana Cazadora. Buena opción para estrenos comerciales entre semana, con boletos desde $110. Si vas, vale la pena levantar la vista al llegar: el exterior todavía delata el cine de barrio que fue.",
+    "descriptionLong": "A unos pasos, en la glorieta de Reforma, está la Diana Cazadora, la escultura de bronce que el escultor Juan Fernando Olaguíbel fundió en 1942 usando como modelo a Helvia Martínez, una secretaria de Pemex de apenas 16 años. La desnudez de la figura escandalizó a sectores conservadores, así que un año después Olaguíbel le añadió un taparrabos de bronce; ese taparrabos se quitó en 1968, con motivo de los Juegos Olímpicos, pero el proceso dañó la pieza original y hubo que fundir una nueva con el mismo molde —así que la Diana que hoy ves junto al cine no es, en sentido estricto, la primera que se colocó ahí.",
     "tags": [
       "Cine",
       "Tradicional"
@@ -2382,6 +2437,7 @@
       }
     ],
     "description": "Autocinema sobre Calz. del Hueso, en Coapa: pantalla LED 4K gigante y un estacionamiento amplio donde puedes llevar a tu perro sin problema. El precio, $190, es por auto y no por persona, así que conviene ir entre varios para que salga a cuenta. Hay servicio a la ventanilla con hot dogs, nachos y demás clásicos de dulcería, aunque no dejan entrar comida de fuera. También rentan el lugar para funciones privadas si buscas algo distinto para un cumpleaños o evento. Buena opción para una noche relajada dentro del coche, sobre todo si vas acompañado.",
+    "descriptionLong": "El formato nació el 6 de junio de 1933 en Camden, Nueva Jersey, cuando Richard Hollingshead —gerente de ventas de una marca de lubricantes automotrices— patentó el 'Drive-In Theater' después de experimentar en la entrada de su propia casa, con un proyector de 1928 sobre el cofre de su auto y una manta tendida entre árboles como pantalla. La idea, según cuenta la historia, se le ocurrió porque su madre no se sentía cómoda en las butacas normales de cine; seiscientos espectadores pagaron 25 centavos para ver la función inaugural, y para 1960 ya había más de cuatro mil autocinemas solo en Estados Unidos.",
     "tags": [
       "Autocinema",
       "Pet friendly"
@@ -2414,6 +2470,7 @@
       }
     ],
     "description": "En San Luis Potosí, a unas cuadras del corazón de la Roma Norte, Global Cómics es una de las pocas tiendas de la ciudad enfocada de verdad en cómic europeo —línea clara, autores franco-belgas, ediciones que no vas a encontrar en las cadenas grandes—, además de manga y cómic mexicano independiente. Se anuncian como \"noveno arte\" y tienen una cafetería adentro para hojear tranquilo antes de decidirte. También hacen envíos si buscas algo puntual. Es parada obligada si te gusta el cómic de autor y no solo el superhéroe de Marvel o DC.",
+    "descriptionLong": "La 'línea clara' que domina buena parte del catálogo de la tienda es un estilo que popularizó Hergé, el creador de Tintín, caracterizado por contornos limpios y continuos, sin sombras ni manchas de tinta de por medio. Curiosamente, el propio Hergé tomó esa influencia de las tiras cómicas estadounidenses de principios del siglo XX, como 'Bringing Up Father' de George McManus — así que el cómic franco-belga que hoy se vende como alternativa al superhéroe americano nació, en parte, mirando al otro lado del Atlántico.",
     "tags": [
       "Cómics",
       "Compras"
@@ -2446,6 +2503,7 @@
       }
     ],
     "description": "Sobre avenida Tamaulipas, en pleno Condesa, esta sucursal de The Limited Company es una de las paradas clásicas para coleccionismo geek en la ciudad: figuras de marcas como Hot Toys, Sideshow, Funko, Bandai y Neca conviven en anaqueles con cómics y piezas de edición limitada. Tienen otra sucursal en Coyoacán y tienda en línea, así que si algo se agota en una sucursal, vale la pena preguntar en la otra o revisar el sitio. Es de esas tiendas donde entras \"nada más a ver\" y sales con una figura que no sabías que necesitabas.",
+    "descriptionLong": "Hot Toys y Sideshow, dos de las marcas que más se ven en los anaqueles, empezaron por caminos distintos antes de terminar asociadas: Sideshow nació en 1994 como un colectivo de cuatro amigos que hacían prototipos de juguetes para marcas grandes como Mattel desde el patio trasero de una casa, y con el tiempo se convirtió en el distribuidor de Hot Toys —de origen hongkonés— para todo el continente americano y buena parte de Europa y Asia. Esa alianza es la que explica por qué figuras de escala 1/6 hiperdetalladas de Marvel, DC o Star Wars terminan, casi todas, pasando por las mismas dos compañías antes de llegar a un anaquel como este.",
     "tags": [
       "Cómics",
       "Figuras"
@@ -2478,6 +2536,7 @@
       }
     ],
     "description": "Frikiplaza es un edificio completo de tres pisos sobre Eje Central, con más de 250 locales dedicados a la cultura geek: cómics, figuras, videojuegos, cartas coleccionables, manga, ropa de anime y hasta dulces japoneses, todo mezclado en pasillos angostos donde cada changarro tiene su especialidad. Abrió en 2003 como \"Bazar del Entretenimiento y el Videojuego\" antes de adoptar su nombre actual. Los fines de semana se llena —hasta 5 mil visitantes— y no es raro toparte con cosplayers, torneos de cartas o algún mini concierto entre locales. Si buscas algo muy específico de una franquicia rara, aquí es más probable encontrarlo que en cualquier tienda departamental.",
+    "descriptionLong": "Abrió en 2003 con el nombre oficial de 'Bazar del Entretenimiento y el Videojuego', pero el público empezó a llamarlo 'Frikiplaza' casi de inmediato, en referencia a los 'frikis' que lo visitaban — el apodo se volvió tan popular que terminó reemplazando al nombre original. Hoy los propios locatarios se promocionan como alternativa a la piratería, presumiendo mercancía importada directo de Japón, Europa o Estados Unidos para un público que busca ediciones lo más cercanas posible a las originales asiáticas.",
     "tags": [
       "Compras",
       "Cultura alternativa"
@@ -2510,6 +2569,7 @@
       }
     ],
     "description": "En Atlixco 13, en plena Condesa, este café tiene un patio y jardín donde tu perro puede andar suelto sin correa mientras tú desayunas o abres la laptop. El menú es de comida saludable y vegana, con café de especialidad, jugos y postres, y cada semana tienen un día dedicado a los perrhijos en el que regalan galleta a quien llegue con su mascota. A diferencia de otros lugares pet friendly de la zona, aquí no se trata de tolerar al perro bajo la mesa: hay pasto, sombra y espacio real para que corra y socialice con otros peludos mientras el ambiente se mantiene tranquilo, ideal para trabajar o platicar sin prisa.",
+    "descriptionLong": "El concepto de café con animales sueltos entre las mesas no nació en México ni en un lugar pensado para perros: el primer 'cat café' del mundo, el Kitten Garden, abrió en 1998 en Taipéi, Taiwán, pensado para gente que vivía en departamentos pequeños donde no se permitían mascotas y necesitaba un lugar para convivir con gatos aunque fuera un rato. El formato saltó a Japón en 2004 y de ahí se expandió al resto del mundo — el pariente moderno y canino de esa idea original es justo lo que hoy ofrece Enhorabuena.",
     "tags": [
       "Pet friendly",
       "Café"
@@ -2542,6 +2602,7 @@
       }
     ],
     "description": "En esta cafetería de especialidad de la Condesa el protagonista es tu perro, no el café. Apenas llegas, le dan una camita para que se relaje y una galleta de cortesía; también hay agua fresca sin que tengas que pedirla. El café es orgánico y de comercio justo, y además del menú para humanos manejan una carta pensada para mascotas, con helados y galletas hechas con ingredientes seguros para ellos. Aceptan perros, gatos, conejos y hasta hurones, siempre que se porten bien según las reglas que ponen en el menú. Es de los pocos cafés donde sientes que diseñaron el lugar pensando primero en la mascota y después en ti.",
+    "descriptionLong": "El mismo formato de 'animal café' que popularizó Taiwán en 1998 y que Japón adoptó en 2004 es, en el fondo, el molde detrás de lugares como Latte Pelitos: espacios donde el negocio gira alrededor del animal, no al revés. La diferencia aquí es de especie —perros, gatos, conejos y hurones en vez de solo gatos— y de origen, pensado desde el inicio para el mercado mexicano y no como importación directa del concepto asiático.",
     "tags": [
       "Pet friendly",
       "Café"
@@ -2574,6 +2635,7 @@
       }
     ],
     "description": "Uno de los parques más queridos de Polanco, inaugurado en 1938 por Lázaro Cárdenas. Al centro hay una estatua de Abraham Lincoln rodeada de espejos de agua donde, los domingos, todavía se ven barquitos a control remoto navegando. La Torre del Reloj, que empezó como palomar en los años 30, hoy es una galería de arte y sigue marcando las horas sobre el parque. Del otro lado está el Aviario Abraham Lincoln, un santuario donde reubican aves rescatadas del tráfico de especies: hospeda unas 25 especies distintas y se puede visitar por una cuota simbólica. Es un parque grande, con banquetas anchas y sombra, perfecto para caminar al perro entre semana sin las multitudes del fin de semana.",
+    "descriptionLong": "La estatua de Lincoln que le da nombre al parque —antes llamado Parque de Polanco o Parque del Palomar— llegó hasta acá en 1966 como regalo del gobierno de Lyndon B. Johnson, un gesto de amistad bilateral entre Estados Unidos y México. Es una de las tres fundiciones originales de la escultura 'Standing Lincoln' que Augustus Saint-Gaudens hizo en 1887 para Lincoln Park en Chicago, y fue justo su llegada la que motivó el cambio de nombre oficial del parque ese mismo año.",
     "tags": [
       "Pet friendly",
       "Gratis"
@@ -2606,6 +2668,7 @@
       }
     ],
     "description": "Teotihuacán fue, hace más de 1500 años, una de las ciudades más grandes del mundo antiguo: en su apogeo pudo tener hasta 100,000 habitantes, mucho antes de que llegaran los mexicas (quienes la encontraron ya en ruinas y le dieron el nombre que conocemos, \"el lugar donde los dioses se crearon\"). Camina la Calzada de los Muertos, el eje de cinco kilómetros que conecta la Pirámide del Sol —de casi 65 metros, una de las más grandes de Mesoamérica— con la Pirámide de la Luna. Sube si tus rodillas aguantan la inclinación, y no dejes de asomarte al Palacio de Quetzalpapálotl, con sus columnas talladas. Ve temprano para ganarle al sol y a los grupos grandes; hay quien prefiere verla desde un globo aerostático al amanecer.",
+    "descriptionLong": "En 2015, el arqueólogo Sergio Gómez encontró una cantidad considerable de mercurio líquido en una cámara al final de un túnel sellado casi 1,800 años atrás, bajo la Pirámide de la Serpiente Emplumada. El mercurio era un material poco común en el México antiguo, y los arqueólogos creen que pudo tener un significado casi mágico, asociado al agua, en los rituales de la ciudad; algunos incluso piensan que podría ser una pista hacia la primera tumba real confirmada de un gobernante teotihuacano, un enigma que la arqueología mexicana todavía no termina de resolver.",
     "tags": [
       "Escapada",
       "Arqueología"
@@ -2645,6 +2708,7 @@
       }
     ],
     "description": "Tepoztlán está encajonado entre cerros escarpados que le dan ese aire casi mágico apenas se asoma el pueblo. La subida al Tepozteco —empinada, de escalones de piedra irregulares, como una hora larga si vas a buen paso— vale la pena: arriba te espera una pequeña pirámide prehispánica dedicada a Tepoztécatl, el dios del pulque, con una vista que abarca todo el valle de Morelos. Ya abajo, el mercado de fin de semana es el verdadero corazón del pueblo: itacates, cecina, dulces de amaranto, textiles bordados y puestos de herbolaria se mezclan entre el ruido y el olor a comida recién hecha. El pueblo también tiene fama —merecida o no— de lugar de energías y retiros espirituales, con temazcales por todos lados.",
+    "descriptionLong": "Ese carácter combativo de Tepoztlán no es solo fama new age: en marzo de 1995, más de 2,500 ejidatarios, comuneros y comerciantes de 15 de las 17 comunidades del pueblo se organizaron en asamblea para formar el Comité de la Unidad Tepozteca, destituir a las autoridades locales y bloquear el pueblo entero contra un proyecto de club de golf de 300 hectáreas que una empresa privada quería construir sobre tierra comunal. La resistencia ganó ese round, pero el conflicto por la posesión de esas tierras siguió litigándose en tribunales agrarios durante casi dos décadas más — Tepoztlán como símbolo de defensa comunal, no solo de retiro espiritual.",
     "tags": [
       "Escapada",
       "Pueblo Mágico"
@@ -2677,6 +2741,7 @@
       }
     ],
     "description": "El lago de Valle de Bravo no es natural: es una presa terminada en los años cuarenta como parte del sistema hidroeléctrico Miguel Alemán, pero lleva tanto tiempo ahí que es imposible imaginar el pueblo sin él. Alrededor se acomoda un centro colonial de calles empedradas y casas de teja, mientras en el agua se navega en velero, kayak o lancha. Lo que de verdad pone a Valle de Bravo en el mapa mundial es el parapente: por sus corrientes térmicas se le considera uno de los mejores sitios del planeta para volar, y ver las alas de colores despegar desde el Cerro de la Cruz sobre el lago es un espectáculo en sí mismo. Cerca, en Avándaro, hay cascadas como el Velo de Novia para completar el día.",
+    "descriptionLong": "Ese mismo Avándaro fue, los días 11 y 12 de septiembre de 1971, sede del festival de rock más grande y polémico de la historia de México: entre 150,000 y 200,000 personas asistieron a lo que se conoció como el 'Woodstock mexicano', apenas tres años después de la matanza de Tlatelolco y meses después del Jueves de Corpus, en un clima de fuerte represión hacia la juventud. El festival causó tal alarma en el gobierno de Luis Echeverría que se censuraron notas periodísticas y se detuvo a cientos de asistentes, un episodio que terminó frenando los conciertos de rock en México durante años — todo eso ocurrió a un puñado de kilómetros de las mismas cascadas y el mismo lago que hoy visitan las familias de fin de semana.",
     "tags": [
       "Escapada",
       "Pueblo Mágico"
@@ -2725,6 +2790,7 @@
       }
     ],
     "description": "Lardo es el segundo proyecto de Elena Reygadas en la Condesa, hermano de la panadería Rosetta a unas calles de aquí. Fusiona lo mediterráneo con lo mexicano en un menú que brilla sobre todo en el desayuno y el brunch, con pan horneado en casa y pizzas de masa madre que cambian según la temporada. No aceptan reservación más que en la barra, así que conviene llegar temprano si el plan es de fin de semana.",
+    "descriptionLong": "El nombre del restaurante viene de un ingrediente italiano específico: el lardo es la capa de grasa que está justo debajo de la piel del cerdo, curada durante meses con sal, hierbas y especias en un cuarto fresco y oscuro, una técnica que en Toscana se practica desde la Antigua Roma. El más famoso es el de Colonnata, cerca de las canteras de mármol de Carrara, donde tradicionalmente se cura en tinas de ese mismo mármol — un ingrediente de charcutería italiana que le presta su nombre a un menú que en realidad mezcla el Mediterráneo con México.",
     "tags": ["Brunch", "Mediterráneo"],
     "openingHours": [
       { "day": "Lunes a sábado", "opens": "07:30", "closes": "23:00" },
@@ -2764,6 +2830,7 @@
       }
     ],
     "description": "Del chef Ricardo Muñoz Zurita —el mismo detrás de Azul Histórico, en el Centro— este restaurante en la Condesa trae la misma cocina mexicana de investigación en festivales de temporada dedicados a un ingrediente o región distinta del país. En junio de 2026 recibió la visita de Ronaldinho durante el Mundial, aunque la reputación del lugar viene de antes: menú de degustación en $895 y platos a la carta que rondan entre $600 y $700 por persona.",
+    "descriptionLong": "Esa cocina de investigación detrás de Azul Condesa tiene un respaldo poco común entre chefs: en 2012, Muñoz Zurita publicó el Diccionario Enciclopédico de la Gastronomía Mexicana, 648 páginas con más de 4,000 definiciones e ilustrado con 1,200 imágenes, que le ganó el Gourmand World Cookbook Award al Mejor Libro para Profesionales de la Cocina ese mismo año. La revista Time lo llamó 'el profeta y conservador de la tradición culinaria' ya desde 2001 — antes de ser reconocido como diccionario, el conocimiento que hoy se prueba en cada festival de temporada de Azul Condesa se documentó primero como enciclopedia.",
     "tags": ["Tradicional", "Alta cocina"],
     "openingHours": [
       { "day": "Desayuno: miércoles a domingo", "opens": "09:00", "closes": "12:00" },
@@ -2803,6 +2870,7 @@
       }
     ],
     "description": "Desde 2009, La Clandestina es de los templos clásicos del mezcal en la Condesa: más de 25 etiquetas, casi todas de Oaxaca, servidas por copeo junto con cocina inspirada en la misma región —chalupitas, esquites, quesos fundidos, guacamole con chapulines—. Los cócteles rondan los 200 pesos. Abre de lunes a sábado por la tarde-noche, en un local pequeño que se llena rápido los fines de semana.",
+    "descriptionLong": "El nombre le queda bien a la bebida que sirve: el mezcal pasó buena parte de su historia siendo perseguido. Desde 1585 la corona española prohibió destilar bebidas nativas y destruía los alambiques, y ya en el siglo XX, en 1915, el gobernador de Sonora Plutarco Elías Calles prohibió la fabricación de mezcal y bacanora con castigos de hasta cinco años de cárcel, lo que empujó a muchos productores a la clandestinidad hasta que se legalizó de nuevo en 1919. Ese pasado de bebida perseguida por impuestos y por preferencias políticas hacia licores europeos es justo lo que este bar convirtió en su propio nombre.",
     "tags": ["Mezcal", "Cantina"],
     "openingHours": [
       { "day": "Lunes a miércoles", "opens": "18:30", "closes": "00:00" },
@@ -2842,6 +2910,7 @@
       }
     ],
     "description": "Gin Gin abrió en 2014 especializado en coctelería de ginebra, con más de 30 etiquetas de todo el mundo y música de DJ en vivo que le da ambiente de fiesta más que de bar tranquilo. Es una cadena con varias sucursales en la ciudad, pero esta, sobre Tamaulipas, fue de las primeras. Los cócteles rondan los 300 pesos; abre los siete días de la semana hasta las 2 de la mañana.",
+    "descriptionLong": "La ginebra que da nombre al bar empezó como medicina: el médico holandés Franciscus Sylvius la creó en el siglo XVII como tratamiento para problemas renales, mezclando alcohol de grano con enebro. Los soldados ingleses la conocieron durante la Guerra de los Treinta Años y la apodaron 'Dutch Courage' —coraje holandés—, y cuando el también holandés Guillermo III subió al trono inglés en 1689, la bebida se disparó en popularidad hasta desatar el 'Gin Craze' del siglo XVIII, cuando llegó a ser más barata que la cerveza entre las clases populares de Londres.",
     "tags": ["Coctelería", "Con amigos"],
     "openingHours": [{ "day": "Todos los días", "opens": "13:00", "closes": "02:00" }]
   },
@@ -2878,6 +2947,7 @@
       }
     ],
     "description": "Desde los años ochenta, El Turix sirve cochinita pibil y especialidades yucatecas en un local pequeño y sin pretensiones sobre Emilio Castelar — de las pocas opciones verdaderamente económicas en Polanco. TasteAtlas lo ha señalado entre los mejores lugares de cochinita pibil de la ciudad. Solo aceptan efectivo, y conviene ir con tiempo porque se hace fila en hora pico.",
+    "descriptionLong": "El nombre del platillo viene del maya 'pib', que significa enterrado o cocinado bajo tierra: los mayas prehispánicos cocinaban carne de monte —venado, faisán, pecarí— en hornos subterráneos hechos con piedras calentadas y hojas de plátano, una técnica que también funcionaba como ritual para celebrar cosechas. La carne de cerdo, marinada en achiote, se sumó apenas durante la Colonia, cuando reemplazó a las carnes silvestres originales — así que el 'cochinita' del nombre es, en realidad, la parte más reciente de un platillo con siglos de historia.",
     "tags": ["Tacos", "Yucateca"],
     "openingHours": [{ "day": "Martes a domingo", "opens": "11:00", "closes": "22:00" }]
   },
@@ -2914,6 +2984,7 @@
       }
     ],
     "description": "A unas puertas de El Turix, sobre la misma calle Emilio Castelar y a un costado del Parque Lincoln, Touló es un café-patisserie de inspiración parisina fuerte en desayunos franceses y repostería de casa. No aceptan reservación —todo es por orden de llegada— y la cuenta suele rondar los 250 a 300 pesos por persona.",
+    "descriptionLong": "El croissant que se sirve aquí como símbolo de repostería francesa en realidad no nació en Francia: sus registros más antiguos son del kipferl austriaco, un pan en forma de media luna documentado en Viena desde el siglo XIII. La leyenda de que María Antonieta lo llevó a Francia al casarse con Luis XVI tiene poca evidencia real; la historia documentada apunta más bien a 1839, cuando el empresario austriaco August Zang abrió una panadería vienesa en París que inspiró a los panaderos locales a crear su propia versión — la que, con los años, terminó siendo la que hoy se considera 'francesa' por excelencia.",
     "tags": ["Café de especialidad", "Repostería"]
   },
   {
@@ -2949,6 +3020,7 @@
       }
     ],
     "description": "La segunda sucursal de Limantour, el bar que ayudó a poner a México en el mapa mundial de la coctelería y que ha aparecido año tras año en la lista de los World's 50 Best Bars, está entre Masaryk y el Parque Lincoln, a unos pasos del Pasaje Polanco. Mismo menú de cócteles de autor que la sede original de la Roma, en un espacio propio pensado para esta zona.",
+    "descriptionLong": "Esa presencia constante en los rankings no es casualidad: en la edición 2024 de The World's 50 Best Bars, Limantour se ubicó en el puesto 32 del mundo, y en North America's 50 Best Bars 2025 subió al noveno lugar, donde le entregaron el Rémy Martin Legend of the List Award, un reconocimiento reservado para bares que llevan años apareciendo consistentemente en la lista. Pocas coctelerías mexicanas pueden decir que han estado presentes de forma ininterrumpida en esos rankings globales durante tantas ediciones seguidas.",
     "tags": ["Coctelería", "Premiado"],
     "openingHours": [
       { "day": "Lunes", "opens": "17:00", "closes": "23:00" },
@@ -2991,6 +3063,7 @@
       }
     ],
     "description": "Con mesas al aire libre justo junto al Lago Mayor, en la Segunda Sección del bosque, este bistró de ambiente campestre es de los pocos restaurantes de verdad dentro del parque. El fuerte es el buffet dominical ($494 adulto, $394 niños de 4 a 12 años), aunque también hay opción a la carta —chilaquiles, enchiladas, omelettes, crepas— entre semana. Es pet friendly, así que puedes llevar al perro a la mesa.",
+    "descriptionLong": "El Lago Mayor que se ve desde las mesas es artificial: se excavó a partir de 1901 por órdenes de Porfirio Díaz, que quería que el Bosque de Chapultepec tuviera lagos donde remar al estilo de los parques europeos de la época. Aunque remar ahí fue posible casi desde la inauguración, la renta de lanchas tal como existe hoy —esas lanchitas de pedales que se ven cruzar el agua— se introdujo hasta la década de 1950, así que la postal clásica de Chapultepec con lanchas de colores tiene, en realidad, menos de un siglo.",
     "tags": ["Pet friendly", "Vista al lago"],
     "openingHours": [
       { "day": "Lunes a viernes", "opens": "07:00", "closes": "19:00" },
@@ -3031,6 +3104,7 @@
       }
     ],
     "description": "Dentro del Museo Nacional de Antropología, en una terraza semi-subterránea, Sala Gastronómica sirve cocina mexicana organizada por regiones —Baja California, el norte, el centro, el Pacífico, el sur y la península maya— con festivales de temporada dedicados a un estado distinto. Es un plan que se combina fácil con la visita al museo, aunque la entrada a este último se paga aparte.",
+    "descriptionLong": "Esa lógica de organizar el menú por regiones no es solo una decisión de marketing: en 2010, la UNESCO reconoció a la cocina tradicional mexicana como Patrimonio Cultural Inmaterial de la Humanidad, usando como caso ejemplar la cocina de Michoacán, precisamente por tratarse de un modelo cultural completo —milpa, nixtamalización, metates, prácticas rituales— y no solo de un conjunto de recetas. Comer aquí, dentro del museo de antropología más importante del país, es la manera más literal de conectar esa declaratoria con un plato real en la mesa.",
     "tags": ["Cocina regional", "Dentro de museo"],
     "openingHours": [{ "day": "Martes a domingo", "opens": "09:00", "closes": "18:00" }]
   },
@@ -3067,6 +3141,7 @@
       }
     ],
     "description": "Dentro de Casa del Lago, el centro cultural de la UNAM en la Primera Sección del bosque, esta cafetería acompaña su café y repostería con la programación cultural del recinto —presentaciones, exposiciones, a veces música en vivo—. El ticket promedio es de apenas $50 por persona, de los más accesibles del parque.",
+    "descriptionLong": "Ese centro cultural, oficialmente 'Casa del Lago Juan José Arreola' desde 2002, tomó ese nombre por su primer director: el escritor Juan José Arreola, que en 1959 convirtió el recinto en el primer espacio de difusión cultural de la UNAM fuera de Ciudad Universitaria. Bajo su dirección, mesas redondas, cine-clubes, conciertos y presentaciones de libros se volvieron actividad diaria, al grado de que la generación de artistas que se formó ahí es conocida hasta hoy como 'la Generación de la Casa del Lago' — el café donde te sientas a desayunar ocupa, literalmente, el mismo terreno donde se gestó una de las escenas culturales más influyentes de la ciudad en el siglo XX.",
     "tags": ["Café", "Cultura"],
     "openingHours": [{ "day": "Miércoles a domingo", "opens": "11:00", "closes": "17:00" }]
   },
@@ -3103,6 +3178,7 @@
       }
     ],
     "description": "Sobre el Jardín Centenario, Los Danzantes lleva desde 1995 siendo parada casi obligada de Coyoacán: cocina mexicana contemporánea con fuerte acento oaxaqueño, reconocido en la Guía Michelin. El consumo mínimo es de $500 por persona, así que conviene reservar y llegar con el plan de quedarse un rato en su terraza con vista a la plaza.",
+    "descriptionLong": "Ese acento oaxaqueño no es casualidad: en 1996, buscando una bebida de la casa para el restaurante, sus dueños viajaron a Oaxaca y encontraron el mezcal que terminó definiendo el proyecto. Un año después, el 8 de julio de 1997, compraron un palenque abandonado en Santiago Matatlán y fundaron su propia destilería, Mezcal Los Danzantes, que hoy se exporta a 25 países en los cinco continentes — el restaurante de Coyoacán nació primero, pero terminó siendo la puerta de entrada a toda una red de mezcalerías, tiendas y palenques que lleva el mismo nombre.",
     "tags": ["Oaxaqueña", "Alta cocina"],
     "openingHours": [
       { "day": "Lunes", "opens": "12:30", "closes": "22:00" },
@@ -3145,6 +3221,7 @@
       }
     ],
     "description": "Dentro del Mercado de Coyoacán, este puesto lleva más de sesenta años sirviendo tostadas de tinga, pollo, ceviche y demás guisados clásicos a unos 30 pesos cada una. Es la versión barata y rápida de comer en Coyoacán, de pie o en las bancas del mercado, y contrasta con los restaurantes de la plaza a unos metros.",
+    "descriptionLong": "El mercado que rodea este puesto tiene más historia de la que aparenta: los primeros registros de un tianguis en el sitio son de 1900, y ya como mercado formal se inauguró en 1912 con el nombre de 'Mercado Luis Mondragón', en honor a un expresidente municipal de Coyoacán. Se mudó de la calle Cuauhtémoc a su ubicación actual en Allende en 1956, y no fue hasta la remodelación de 1988 que techaron el área que antes era al aire libre — es decir, este puesto de tostadas lleva sesenta años sirviendo dentro de un mercado que ya llevaba más de medio siglo funcionando antes de que él abriera.",
     "tags": ["Tostadas", "Mercado"],
     "openingHours": [{ "day": "Lunes a domingo", "opens": "11:00", "closes": "18:00" }]
   },
@@ -3181,6 +3258,7 @@
       }
     ],
     "description": "En Higuera 14, en el mismo local que ocupó la histórica Cantina La Guadalupana desde 1928 —punto de reunión frecuente de Frida Kahlo y Diego Rivera—, La Coyoacana mantiene la tradición cantinera del barrio con mariachi en vivo y botana incluida en el consumo de alcohol. El gasto promedio ronda los 300 pesos por persona, con cerveza a 40 pesos.",
+    "descriptionLong": "Ni siquiera la fecha exacta de fundación de aquella Guadalupana original está del todo clara: algunas fuentes la ubican en 1928 y otras en 1932, aunque todas coinciden en que el local, escondido tras una calle empedrada angosta en el Barrio de la Concepción, ya tenía ese aire nostálgico de barra antigua desde entonces. Que dos versiones distintas convivan sobre el origen de una misma cantina centenaria dice bastante de cómo se construye la memoria oral de las cantinas de Coyoacán: más por anécdota repetida que por acta fundacional.",
     "tags": ["Cantina", "Mariachi"],
     "openingHours": [
       { "day": "Lunes", "opens": "13:00", "closes": "23:30" },
@@ -3222,6 +3300,7 @@
       }
     ],
     "description": "Antigua hacienda convertida en restaurante desde 1963, con jardines y arquitectura colonial que explican por qué es lugar favorito de políticos y figuras públicas para comer en la ciudad. La carta mezcla cocina mexicana e internacional —escamoles, chiles en nogada, mole— con una cuenta que suele ir de los 800 a los 1,500 pesos por persona entre alimentos y bebida.",
+    "descriptionLong": "La hacienda que hoy ocupa el restaurante la construyeron en 1692 los carmelitas descalzos con la intención de convertirla en monasterio, un proyecto que nunca se concretó porque la concesión de las tierras terminó en manos del vizconde de San Miguel; en su lugar, se volvió casa de descanso para virreyes y aristócratas. En 1776 la adquirió Ramón Goicoechea, quien le dio el carácter que se conserva hasta hoy y le prestó su apellido —Hacienda Goicoechea—, y no fue sino hasta 1907, ya subdividida la propiedad, que la hotelera Jeanne Roux la convirtió en el hotel San Ángel Inn que le dio nombre a todo el barrio.",
     "tags": ["Histórico", "Alta cocina"],
     "openingHours": [
       { "day": "Lunes a viernes", "opens": "07:00", "closes": "01:00" },
@@ -3262,6 +3341,7 @@
       }
     ],
     "description": "En una esquina de la Plaza San Jacinto, este café es parada clásica de San Ángel para desayunar chilaquiles, molletes o crepas con un café de calidad. Entre semana, de 11 a 4, hay promoción de panini o quiche con agua del día incluida.",
+    "descriptionLong": "En una de las paredes de la plaza donde está este café hay una placa que casi nadie nota: recuerda al Batallón de San Patricio, formado sobre todo por soldados irlandeses que desertaron del ejército estadounidense para pelear del lado mexicano durante la invasión de 1847. La plaza en sí ya era centro del pueblo desde el siglo XVI, cuando frailes dominicos y carmelitas construyeron ahí la capilla que con el tiempo se consagró a San Jacinto — siglos antes de que existiera cualquier café de especialidad en la esquina.",
     "tags": ["Café de especialidad", "Desayunos"],
     "openingHours": [{ "day": "Lunes a domingo", "opens": "09:00", "closes": "21:00" }]
   },
@@ -3298,6 +3378,7 @@
       }
     ],
     "description": "El tercer proyecto de Elena Reygadas en la ciudad —después de Rosetta en la Roma y Lardo en la Condesa— está inspirado en los cafés literarios del siglo veinte, pensado para quedarte horas leyendo, trabajando o platicando. El pan y la repostería vienen de Panadería Rosetta, y el ticket promedio ronda entre 300 y 500 pesos.",
+    "descriptionLong": "El nombre evoca a Anaïs Nin, la escritora franco-estadounidense que alcanzó fama mundial en 1966 al publicar sus diarios de más de 35,000 páginas manuscritas, escritos desde los once años. En el París de entreguerras donde vivió, Nin se movía entre tertulias de escritores y artistas como Henry Miller y Antonin Artaud, en cafés donde se pasaban tardes enteras fumando, tomando y sobreviviendo de la escritura — el mismo ritmo de café-tertulia sin prisa que Café Nin busca replicar en pleno siglo XXI.",
     "tags": ["Café de especialidad", "Brunch"],
     "openingHours": [
       { "day": "Lunes a miércoles", "opens": "07:00", "closes": "21:00" },
@@ -3338,6 +3419,7 @@
       }
     ],
     "description": "El edificio de Tacuba 8 fue sede de la Secretaría de Comunicaciones porfiriana antes de convertirse, en 1982, en el museo que reúne la colección más completa de arte mexicano del siglo XVI al XX: pintura virreinal, paisajistas del XIX y muralistas. Entrada libre los domingos, y también para menores de 13, estudiantes, maestros y adultos mayores con credencial vigente.",
+    "descriptionLong": "Justo enfrente del museo está El Caballito, la estatua ecuestre de Carlos IV que Manuel Tolsá fundió en 1802 y que fue la primera escultura de ese tipo hecha en América. Pasó por el Zócalo, por el patio de la entonces Real Universidad y por la Glorieta del Caballito en Reforma antes de llegar, en 1979, a su ubicación definitiva en la Plaza Tolsá frente al museo — casi dos siglos de mudanzas para una pieza de bronce de varias toneladas.",
     "tags": ["Arte", "Museo"],
     "openingHours": [{ "day": "Martes a domingo", "opens": "10:00", "closes": "18:00" }]
   },
@@ -3374,6 +3456,7 @@
       }
     ],
     "description": "Construido sobre las ruinas del recinto sagrado de Tenochtitlan, descubierto por accidente en 1978 cuando trabajadores de la CFE toparon con el monolito de Coyolxauhqui, el museo exhibe miles de piezas encontradas en las excavaciones junto a la zona arqueológica misma, a un lado de la Catedral. Entrada libre los domingos para nacionales y residentes.",
+    "descriptionLong": "En 2015, a unos metros del museo, arqueólogos que reforzaban un edificio del siglo XIX toparon con el Huei Tzompantli, el gran altar de cráneos que los cronistas del siglo XVI ya habían descrito pero que nadie había logrado ubicar. En dos temporadas de excavación encontraron más de 11 mil fragmentos de cráneo y al menos 650 cráneos completos, de personas sacrificadas entre 1486 y 1502, colocados sobre una plataforma de 35 por 12 metros — el hallazgo arqueológico más importante del Templo Mayor desde el monolito de Coyolxauhqui en 1978.",
     "tags": ["Arqueología", "Histórico"],
     "openingHours": [{ "day": "Martes a domingo", "opens": "09:00", "closes": "17:00" }]
   },
@@ -3410,6 +3493,7 @@
       }
     ],
     "description": "En la Primera Sección del Bosque de Chapultepec, el MAM reúne arte mexicano del siglo XX —Frida Kahlo, Rufino Tamayo, Remedios Varo— en un edificio circular de Pedro Ramírez Vázquez inaugurado en 1964, con jardín escultórico propio. Entrada libre los domingos.",
+    "descriptionLong": "Entre las piezas de Kahlo que resguarda está 'Las dos Fridas', un autorretrato doble de 1939 pintado justo durante su divorcio de Diego Rivera, con dos versiones de ella tomadas de la mano: una vestida de tehuana, la que a Diego le gustaba, y otra con vestido victoriano de encaje, la Frida más europea que a él le gustaba menos. La pintura se exhibió por primera vez en enero de 1940 en la Exposición Internacional del Surrealismo en la Ciudad de México, la compró el INBA en 1947 y llegó a este museo apenas en 1966, dos años después de que abriera sus puertas.",
     "tags": ["Arte", "Museo"],
     "openingHours": [{ "day": "Martes a domingo", "opens": "10:15", "closes": "17:30" }]
   },
@@ -3446,6 +3530,7 @@
       }
     ],
     "description": "El edificio de aluminio con forma de reloj de arena, obra de Fernando Romero, es tan parte de la visita como la colección de más de 66,000 piezas que Carlos Slim ha reunido —incluida la mayor colección de esculturas de Rodin fuera de Francia—. La entrada es gratuita todos los días, sin excepción.",
+    "descriptionLong": "Esa colección de Rodin, cerca de 70 esculturas, es la parte del museo con menos discusión: su autenticidad la avaló directamente el director del Museo Rodin de París, y el investigador John L. Tancock se encargó de catalogarla a fondo para reforzar su credibilidad. El resto de la colección Soumaya, en cambio, ha enfrentado críticas de especialistas sobre autenticidad y calidad de otras piezas a lo largo de los años, algo que la dirección del museo ha tenido que salir a defender públicamente más de una vez — un contraste dentro del mismo edificio entre la sección mejor documentada y el resto del acervo.",
     "tags": ["Arte", "Gratis"],
     "openingHours": [{ "day": "Todos los días", "opens": "10:30", "closes": "18:30" }]
   },
@@ -3482,6 +3567,7 @@
       }
     ],
     "description": "En una hacienda del siglo XVI en La Noria, este museo guarda la colección privada más grande de obra de Frida Kahlo —25 pinturas— además de piezas de Diego Rivera y arte popular mexicano, todo alrededor de jardines con pavorreales y xoloitzcuintles sueltos. Se llega en Tren Ligero, bajando en la estación La Noria.",
+    "descriptionLong": "Dolores Olmedo, la coleccionista que le da nombre al museo, fue la primera mujer empresaria de México y, según se cuenta, la primera del mundo en la industria de la construcción, tras formarse en Filosofía, Derecho, Música e Historia del Arte y luego estudiar Antropología y Museología en París. Conoció a Diego Rivera en 1924, mientras él pintaba los murales de la Secretaría de Educación Pública, y aunque muchos asumen que fueron pareja, la relación que sostuvieron durante más de tres décadas fue de amistad y admiración, no romántica — ella misma posó para varios de sus cuadros antes de que Frida se volviera la modelo más famosa de Rivera.",
     "tags": ["Arte", "Familiar"],
     "openingHours": [{ "day": "Martes a domingo", "opens": "10:00", "closes": "18:00" }]
   },
@@ -3518,6 +3604,7 @@
       }
     ],
     "description": "En la esquina de Agustín González de Cossío y Eugenia, este café se volvió conocido por su arte 3D sobre el café con leche —unos 40 pesos extra sobre el precio de tu bebida— además de un menú de desayuno completo: chilaquiles, molletes, huevos al gusto y avocado toast. Abre desde las 7:30 entre semana, ideal para un desayuno antes de la oficina.",
+    "descriptionLong": "El latte art que hace famoso a este café tiene un origen bastante concreto: lo popularizó David Schomer en Espresso Vivace, Seattle, después de ver a baristas milaneses dibujar formas en la leche durante un viaje a Italia a finales de los ochenta. Para 1989 ya había perfeccionado el diseño de corazón conocido como rosetta, y en 1995 grabó un video instructivo que enseñó la técnica a baristas de todo el mundo — tres décadas después, ese mismo arte con espuma de leche llegó a convertirse, aquí, en un diseño 3D que se cobra 40 pesos extra.",
     "tags": ["Café de especialidad", "Desayunos"],
     "openingHours": [
       { "day": "Lunes a viernes", "opens": "07:30", "closes": "18:00" },
@@ -3557,6 +3644,7 @@
       }
     ],
     "description": "Desde 1985, la familia Nagaoka sirve cocina tradicional japonesa en esta casa-restaurante de Arkansas 38, de las favoritas de la comunidad japonesa en la ciudad. El menú de degustación de cinco tiempos ronda los 300 pesos por persona. Cierra los lunes.",
+    "descriptionLong": "La comunidad japonesa que hace de este restaurante uno de sus favoritos tiene una historia marcada por la reubicación forzada: cuando México declaró la guerra a Japón en 1942, el gobierno obligó a todos los inmigrantes japoneses de la frontera norte y la costa del Pacífico a mudarse a la Ciudad de México o Guadalajara para vigilarlos más de cerca, y casi el 80% de esas familias, la mayoría provenientes de Baja California, terminó asentándose en la capital. Ese reacomodo forzoso de los años cuarenta es, en buena parte, la razón histórica detrás de por qué hoy existen barrios y restaurantes de tradición japonesa como este repartidos por colonias como Nápoles, Roma o Condesa.",
     "tags": ["Japonesa", "Tradicional"],
     "openingHours": [
       { "day": "Martes a sábado", "opens": "13:00", "closes": "22:30" },
@@ -3596,6 +3684,7 @@
       }
     ],
     "description": "Parrilla argentina con toque mexicano en Altadena 59: cortes como rib eye y picaña que van de 340 a más de 1,400 pesos, aunque de lunes a miércoles hay taco libre de carne por 300 pesos fijos. Abre los siete días, con horario más largo de jueves a sábado.",
+    "descriptionLong": "El asado que inspira esta carta nació en el siglo XVIII y XIX como solución práctica de los gauchos, que pasaban largas jornadas cuidando ganado en la pampa argentina y cocinaban grandes piezas de carne directo sobre brasas por falta de utensilios, no como ritual gastronómico. La primera receta formalmente documentada apareció hasta 1890, en el libro 'Cocina Ecléctica' de Juana Manuela Gorriti, y fue ya con la ola de inmigración italiana y española de finales del siglo XIX que el asado ganó el chimichurri y la provoleta que hoy se dan por sentado en cualquier parrilla, incluida esta versión con toque mexicano en la Nápoles.",
     "tags": ["Argentina", "Cortes"],
     "openingHours": [
       { "day": "Lunes", "opens": "13:00", "closes": "20:00" },
@@ -3637,6 +3726,7 @@
       }
     ],
     "description": "En la esquina de Luz Saviñón y Sánchez Azcona, esta cervecería tiene 12 líneas de barril y más de 200 etiquetas nacionales e importadas en refrigerador —de las rutas cerveceras más completas de la Narvarte—. Cierra los lunes; viernes y sábado abre hasta las 2 de la mañana.",
+    "descriptionLong": "Las más de 200 etiquetas que maneja este lugar son parte de un movimiento relativamente joven en México: aunque la primera cervecería del continente se instaló en Amecameca en 1542, la cerveza artesanal tal como se entiende hoy no empezó a tomar fuerza en el país hasta los años noventa, inspirada en el resurgimiento casero que ya llevaba décadas en Estados Unidos. Gustavo González, uno de los pioneros, empezó a producir cerveza artesanal bajo el nombre Cosaco en 1995 — apenas treinta años antes de que refrigeradores como el de esta cervecería pudieran ofrecer semejante variedad nacional.",
     "tags": ["Cerveza artesanal", "Con amigos"],
     "openingHours": [
       { "day": "Martes a jueves y domingo", "opens": "14:00", "closes": "22:00" },
@@ -3676,6 +3766,7 @@
       }
     ],
     "description": "Cevichería y aguachilería en Mitla 71, en el corazón de la Narvarte, con ambiente casual y mariscos frescos que rondan entre 200 y 400 pesos por persona.",
+    "descriptionLong": "El aguachile que da nombre a media carta nació como guiso ranchero en la sierra de Sinaloa y, en su versión original, ni siquiera llevaba mariscos: era una salsa de chile chiltepín molido en molcajete con agua y sal, usada para rehidratar cecina o carne de venado seca. La receta bajó a puertos como Mazatlán a mediados del siglo XX, donde los pescadores cambiaron la carne seca por camarón crudo recién sacado del Golfo de California, y la versión con limón, cilantro y chile serrano que hoy se conoce en toda la ciudad no se popularizó nacionalmente sino hasta los años noventa.",
     "tags": ["Mariscos", "Casual"]
   },
   {
@@ -3711,6 +3802,7 @@
       }
     ],
     "description": "En La Privada Roja, uno de los rincones porfirianos más especiales de la San Rafael, Mimbre es panadería y restaurante a la vez: pan de masa madre horneado en casa, café y desayunos como molletes de cuatro quesos o chilaquiles, en un espacio tranquilo con mucha luz natural. Abre de martes a domingo, con cuenta que ronda entre 150 y 250 pesos.",
+    "descriptionLong": "La masa madre que hornean aquí cada mañana desciende de una técnica que los egipcios descubrieron por accidente hace casi 5,700 años: al dejar fermentar una mezcla de harina y agua con levaduras silvestres y bacterias lácticas, obtenían un pan más ligero y fácil de digerir, y guardaban un trozo de cada hornada para arrancar la siguiente — el primer 'starter' de la historia, aunque ellos no lo llamaran así. Griegos y romanos heredaron la técnica y la profesionalizaron con hornos avanzados y panaderías públicas, la misma lógica de fermentación lenta que hoy separa a un pan de verdad de uno hecho con levadura industrial.",
     "tags": ["Panadería", "Desayunos"],
     "openingHours": [
       { "day": "Martes a sábado", "opens": "09:00", "closes": "20:00" },
@@ -3750,6 +3842,7 @@
       }
     ],
     "description": "El noveno restaurante del grupo Ikigai —de ahí su nombre, \"nueve\" en griego— trae cocina mediterránea y del Egeo a un local pequeño y sobrio de Lomas de Chapultepec. La decoración discreta y las mesas limitadas hacen que convenga reservar. El ticket promedio ronda entre 800 y 1,200 pesos por persona.",
+    "descriptionLong": "Grupo Ikigai, la casa detrás de Ennea, la fundaron los hermanos Juan José y José María Xacur y hoy maneja 12 conceptos distintos por la ciudad —cinco japoneses, cuatro italianos y este mediterráneo entre ellos—, todos con el mismo cuidado por la arquitectura y el diseño del espacio, no solo por el menú. Que un grupo especializado en cocina japonesa haya llegado hasta el número nueve con un restaurante griego y del Egeo dice bastante de la ambición de diversificar sabores sin perder consistencia entre un concepto y otro.",
     "tags": ["Mediterránea", "Alta cocina"],
     "openingHours": [
       { "day": "Lunes a sábado", "opens": "09:00", "closes": "22:30" },
@@ -3789,6 +3882,7 @@
       }
     ],
     "description": "Construida en 1837 en la esquina de Calzada de Tlalpan y Allende, esta hacienda es uno de los restaurantes más prestigiados y longevos de la ciudad, con jardines coloniales y cocina mexicana e internacional. Es la joya gastronómica del Tlalpan histórico, a pasos de la plaza del pueblo.",
+    "descriptionLong": "La hacienda perteneció desde 1876 al general Manuel del Refugio González, conocido como 'El Manco' González por haber perdido el brazo derecho en la Batalla de Puebla, amigo cercano de Porfirio Díaz y presidente de México entre 1880 y 1884. La usaba como casa de fin de semana para alejarse de la política, y en 1904 fue sede de una reunión decisiva: ahí el Círculo Nacional Porfirista se reunió para nominar a Porfirio Díaz para un quinto periodo presidencial consecutivo, un episodio que todavía recuerda una placa conmemorativa fechada el 2 de abril de ese año.",
     "tags": ["Histórico", "Jardines"],
     "openingHours": [
       { "day": "Lunes a sábado", "opens": "12:00", "closes": "01:00" },
@@ -3828,6 +3922,7 @@
       }
     ],
     "description": "Sobre Avenida Cuauhtémoc, este jardín abierto las 24 horas tiene una explanada canina donde caben hasta 35 perros al mismo tiempo, con piso de arcilla, bebederos y un túnel recreativo. De lunes a viernes de 9 a 3 de la tarde, además, hay una clínica veterinaria gratuita instalada ahí mismo. Entrada libre, todo el día.",
+    "descriptionLong": "El jardín no siempre se llamó Pushkin: originalmente era el Jardín Jesús Urueta, y cambió de nombre en los años cincuenta, cuando la entonces Unión Soviética donó al gobierno mexicano un busto del poeta ruso Alexander Pushkin, uno de los fundadores de la literatura rusa moderna, que se colocó junto a la fuente central. Décadas después, una remodelación de 51 millones de pesos rehabilitó sus 19,600 metros cuadrados, aunque el busto de un poeta del romanticismo ruso sigue siendo el dato que menos esperarías encontrar en un parque para perros.",
     "tags": ["Pet friendly", "Gratis"],
     "openingHours": [{ "day": "Todos los días", "opens": "00:00", "closes": "23:59" }]
   },
@@ -3864,6 +3959,7 @@
       }
     ],
     "description": "Restaurante ítalo-americano en Tabasco 189 que se volvió viral por sus porciones gigantes —la milanesa de pollo, pensada para compartir entre 2 o 3 personas, cuesta 550 pesos— y por la visita de Tyler, The Creator en marzo de 2026. Es pet friendly y siempre está lleno, así que hay que reservar.",
+    "descriptionLong": "La cocina ítalo-americana que sirve Bartola no es italiana propiamente, sino la que inventaron los inmigrantes de Nápoles y Sicilia que llegaron a Nueva York a finales del siglo XIX: platos pensados para evocar la comida que dejaron atrás, no para reproducirla con exactitud, adaptados a los ingredientes y las porciones que encontraron en Estados Unidos. Esa lógica de la salsa roja abundante y las porciones para compartir —la misma detrás de la milanesa gigante de Bartola— nació de la nostalgia de un inmigrante, no de una receta de la vieja Italia.",
     "tags": ["Italiana", "Pet friendly"],
     "openingHours": [
       { "day": "Martes a sábado", "opens": "12:00", "closes": "00:00" },
@@ -3903,6 +3999,7 @@
       }
     ],
     "description": "Con 50 pesos por persona y sin límite de tiempo, La Caravana da acceso a más de 700 juegos de mesa, de los clásicos a los más complejos —comida y bebida se cobran aparte, pero no es obligatorio consumir—. Es de los pocos planes de la ciudad que abre desde el lunes, con otra sucursal frente al Metrobús División del Norte.",
+    "descriptionLong": "Entre esos más de 700 títulos casi seguro está Catan, el juego que en 1995 diseñó el dentista alemán Klaus Teuber y que se considera el punto de partida de los llamados 'eurogames' o juegos de mesa modernos, con mecánicas de gestión de recursos y negociación en vez de solo dados y suerte. Ganó el Spiel des Jahres —el 'Oscar' de los juegos de mesa— ese mismo año y ha vendido más de 40 millones de copias en más de 40 idiomas, convirtiéndose en la puerta de entrada de toda una generación al tipo de juegos que hoy llenan libreros como el de La Caravana.",
     "tags": ["Juegos de mesa", "Con amigos"],
     "openingHours": [
       { "day": "Lunes a jueves", "opens": "15:00", "closes": "22:00" },
@@ -3944,6 +4041,7 @@
       }
     ],
     "description": "El Museo Nacional del Virreinato ocupa el antiguo Colegio de San Francisco Javier, de los jesuitas, en Tepotzotlán —el Pueblo Mágico más cercano a la ciudad, a unos 40 km por la autopista México-Querétaro—. Guarda más de 34,000 piezas de arte virreinal de los siglos XVI al XIX, y a unos pasos está el acueducto del pueblo, de 43 arcos. Domingos gratis para mexicanos. Se llega en Tren Suburbano desde Buenavista hasta Cuautitlán, y de ahí un tramo corto a la plaza.",
+    "descriptionLong": "El colegio existe como museo gracias a un episodio que interrumpió a los propios jesuitas: en 1767, el rey Carlos III ordenó su expulsión de todos los dominios españoles, siguiendo el ejemplo reciente de Portugal y Francia. En Nueva España, la orden se ejecutó de madrugada el 25 de junio de ese año, cuando tropas armadas se presentaron sin previo aviso en cada colegio jesuita del virreinato —Tepotzotlán incluido— y notificaron que debían salir hacia España de inmediato, con solo el breviario, la ropa puesta y su propio dinero. El edificio quedó vacío de sus fundadores originales, y ese vacío es, en buena parte, lo que permitió que siglos después se convirtiera en el museo de arte virreinal que existe hoy.",
     "tags": ["Arte virreinal", "Escapada"],
     "openingHours": [{ "day": "Martes a domingo", "opens": "09:00", "closes": "18:00" }]
   },
@@ -3980,6 +4078,7 @@
       }
     ],
     "description": "A un costado de la antigua estación de ferrocarriles de Buenavista, esta es la biblioteca más grande de México: diseño de Alberto Kalach con estanterías suspendidas que parecen flotar, más de 600,000 ejemplares, ludoteca infantil y una colección de instrumentos musicales que se pueden tocar ahí mismo. Entrada y todas las actividades son gratuitas, los siete días de la semana.",
+    "descriptionLong": "José Vasconcelos, el filósofo oaxaqueño que le da nombre a la biblioteca, fundó en 1909 el Ateneo de la Juventud junto con Alfonso Reyes y Pedro Henríquez Ureña, en rebeldía contra la educación porfirista de Justo Sierra; más de una década después, como secretario de Educación Pública entre 1921 y 1924, construyó escuelas rurales, impulsó el movimiento muralista y multiplicó las bibliotecas del país. En 1925 publicó su libro más influyente, 'La raza cósmica', donde imaginaba una futura 'quinta raza' mestiza que uniera a toda la humanidad sin importar el color — la misma ambición universalista que, décadas después, se tradujo en una biblioteca pensada para ser la más grande y gratuita del país.",
     "tags": ["Gratis", "Arquitectura"],
     "openingHours": [{ "day": "Todos los días", "opens": "08:30", "closes": "19:30" }]
   },
@@ -4016,6 +4115,7 @@
       }
     ],
     "description": "El tour por el Estadio Azteca recorre el campo de juego, los vestidores, la sala de prensa y los palcos del coloso de Santa Úrsula Coapa, sede de dos finales de Copa del Mundo. Se compra directo en taquilla, entrando por la Puerta 1.",
+    "descriptionLong": "En este mismo campo, el 17 de junio de 1970, Italia le ganó 4-3 a Alemania en el llamado 'Partido del Siglo' de semifinales. Pero el momento que de verdad marcó al estadio llegó el 22 de junio de 1986, en cuartos de final contra Inglaterra, cuando Diego Maradona anotó primero la 'Mano de Dios' —un gol ilegal con la mano que ningún árbitro vio— y minutos después el 'Gol del Siglo', una carrera en solitario desde su propia cancha. Maradona resumió el primero con una frase que se volvió parte del folclor futbolero: lo hizo, dijo, 'un poco con la cabeza de Maradona y otro poco con la mano de Dios'.",
     "tags": ["Histórico", "Deportes"],
     "openingHours": [
       { "day": "Lunes a viernes", "opens": "10:00", "closes": "17:00" },
@@ -4055,6 +4155,7 @@
       }
     ],
     "description": "Desde 1994, Cinemanía en Plaza Loreto exhibe cine de arte, clásicos mexicanos y cine de género en sus cuatro salas digitales —boleto general en 65 pesos, o pase de permanencia voluntaria por 90 pesos para ver todas las funciones que quieras en un día.",
+    "descriptionLong": "El centro comercial donde está este cine ocupa un terreno que fue de Hernán Cortés, heredado luego por su hijo Martín, y que a finales del siglo XVIII pasó de ser molino de trigo a molino de papel. De 1825 a 1929 funcionó ahí la Fábrica de Papel Loreto, la primera del México independiente, que sobrevivió disparos de villistas y zapatistas durante la Revolución antes de fusionarse con la Fábrica Peña Pobre; Grupo Carso compró el predio en 1984 y lo convirtió en plaza comercial en 1992. Ver una película de cine de arte hoy, en el mismo lugar donde se fabricaba el papel de todo un país, es una capa de historia que pocos cinéfilos conocen al comprar su boleto.",
     "tags": ["Cine de arte", "Independiente"],
     "openingHours": [{ "day": "Todos los días", "opens": "12:00", "closes": "21:45" }]
   },
@@ -4091,6 +4192,7 @@
       }
     ],
     "description": "La sucursal de Coyoacán de The Limited Company, sobre Miguel Ángel de Quevedo, tiene el mismo catálogo de figuras de colección —Hot Toys, Sideshow, Funko, Bandai, Neca— que la sucursal de Condesa. Entrada libre para ir nomás a ver.",
+    "descriptionLong": "Funko, una de las marcas que más se ve en el anaquel, no empezó haciendo las figuras cabezonas que la hicieron famosa: en 1998, en un pueblo de Washington, su fundador Mike Becker fabricó primero un bobblehead de Big Boy, la mascota de una cadena de hamburguesas, inspirado en los dispensadores de dulces Pez que vio en un aparador. La línea Funko Pop tal como se conoce hoy no llegó sino hasta 2010, presentada en la Comic-Con de San Diego — doce años de bobbleheads nostálgicos antes de convertirse en el producto que hoy domina buena parte de esta tienda.",
     "tags": ["Cómics", "Figuras"]
   }
 ]
