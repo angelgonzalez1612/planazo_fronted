@@ -108,11 +108,15 @@ export interface WeekendInfo {
 export interface EventItem extends PlanBase {
   kind: "evento";
   dateLabel: string;
-  /** ISO 8601 — cuándo empieza, para poder ordenar por fecha (dateLabel es solo texto). */
+  /** ISO 8601 — cuándo empieza, para poder ordenar por fecha (dateLabel es solo texto). Fallback si no hay recurringDays; el JSON-LD calcula la próxima ocurrencia real. */
   startDate: string;
   weekend?: WeekendInfo;
   /** Días de la semana en que se repite (0 = domingo ... 6 = sábado), para la página /hoy. */
   recurringDays?: number[];
+  /** Entidad organizadora real (nunca inventada) — omitir si no hay una identificable. */
+  organizer?: string;
+  /** Persona o grupo que se presenta, solo cuando es verificable (p. ej. una compañía fija, no un acto que rota cada semana). */
+  performer?: string;
 }
 
 export type Plan = Place | EventItem;

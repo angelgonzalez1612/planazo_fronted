@@ -1,6 +1,8 @@
 import { siteConfig } from "@planazo/config";
 import type { CategoryId, Plan } from "@/data/types";
 import { resolvePhoto } from "@/lib/data/photo";
+import { mexicoCityNow } from "@/lib/date";
+import { nextEventOccurrence } from "@/lib/event-schedule";
 
 // Maps our categories to the closest schema.org type Google actually keys
 // rich results off of for "dónde comer / tomar algo" style local searches.
@@ -61,6 +63,10 @@ export function buildPlaceJsonLd(plan: Extract<Plan, { kind: "lugar" }>) {
 export function buildEventJsonLd(plan: Extract<Plan, { kind: "evento" }>) {
   const cover = resolvePhoto(plan.cover);
   const url = `${siteConfig.url}/eventos/${plan.slug}`;
+  // Recurring events (weekly markets, danzón, lucha libre) would otherwise ship
+  // a hardcoded startDate that goes stale within days — this recomputes the
+  // next real occurrence on every request instead.
+  const { startDate, endDate } = nextEventOccurrence(plan, mexicoCityNow());
 
   return {
     "@context": "https://schema.org",
@@ -69,7 +75,8 @@ export function buildEventJsonLd(plan: Extract<Plan, { kind: "evento" }>) {
     description: plan.description,
     image: cover.url,
     url,
-    startDate: plan.startDate,
+    startDate,
+    ...(endDate && { endDate }),
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     eventStatus: "https://schema.org/EventScheduled",
     location: {
@@ -83,12 +90,27 @@ export function buildEventJsonLd(plan: Extract<Plan, { kind: "evento" }>) {
         addressCountry: "MX",
       },
     },
+    ...(plan.organizer && {
+      organizer: {
+        "@type": "Organization",
+        name: plan.organizer,
+      },
+    }),
+    ...(plan.performer && {
+      performer: {
+        "@type": "PerformingGroup",
+        name: plan.performer,
+      },
+    }),
     offers: {
       "@type": "Offer",
       price: plan.price ?? 0,
       priceCurrency: "MXN",
       url,
       availability: "https://schema.org/InStock",
+      // Walk-up/ongoing offers with no fixed sale-start date — "valid as of now" is
+      // the honest value rather than fabricating a ticket sale date we don't have.
+      validFrom: new Date().toISOString(),
     },
   };
 }

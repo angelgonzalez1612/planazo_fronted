@@ -34,7 +34,8 @@
     ],
     "recurringDays": [
       6
-    ]
+    ],
+    "organizer": "Bazar Sábado"
   },
   {
     "kind": "evento",
@@ -72,7 +73,8 @@
     "recurringDays": [
       2,
       0
-    ]
+    ],
+    "organizer": "Salón Los Ángeles"
   },
   {
     "kind": "evento",
@@ -105,7 +107,8 @@
     ],
     "recurringDays": [
       0
-    ]
+    ],
+    "organizer": "INDEPORTE"
   },
   {
     "kind": "evento",
@@ -142,7 +145,8 @@
     ],
     "recurringDays": [
       0
-    ]
+    ],
+    "organizer": "Mercado El 100"
   },
   {
     "kind": "evento",
@@ -181,7 +185,9 @@
       2,
       5,
       0
-    ]
+    ],
+    "organizer": "CMLL",
+    "performer": "CMLL"
   },
   {
     "kind": "evento",
@@ -282,7 +288,8 @@
     ],
     "description": "Los jueves, el escenario chico de Foro Shakespeare se abre para micrófono abierto de stand-up: comediantes en formación —y algunos ya conocidos probando material nuevo— se turnan frente a un público que solo paga su consumo. Es la puerta de entrada más accesible a la escena de comedia en vivo de la Condesa, sin el boletaje de los shows de fin de semana del mismo foro.",
     "tags": ["Gratis", "Comedia"],
-    "recurringDays": [4]
+    "recurringDays": [4],
+    "organizer": "Foro Shakespeare"
   },
   {
     "kind": "evento",
@@ -318,6 +325,7 @@
     ],
     "description": "En un bar de ambiente vintage sobre Mérida, en la Roma Norte, Casa Franca mete músicos en vivo de martes a sábado a las 9:30 de la noche, con cover de 100 pesos los martes y 150 el resto de la semana —después de medianoche no se cobra entrada—. La terraza tampoco tiene cover. Es de las apuestas más consistentes de la ciudad para encontrar jazz en vivo casi cualquier noche entre semana.",
     "tags": ["Música en vivo", "Jazz"],
-    "recurringDays": [2, 3, 4, 5, 6]
+    "recurringDays": [2, 3, 4, 5, 6],
+    "organizer": "Casa Franca"
   }
 ]
